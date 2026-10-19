@@ -18,7 +18,8 @@ from build import make_outputs, load_data, label_texts  # noqa: E402
 from validate import review_record_errors  # noqa: E402
 
 FIX = ROOT / 'tests' / 'fixtures' / 'bilingual'
-CUTOFF = dt.date(2026, 10, 11)
+AS_OF = json.loads((ROOT / 'project.json').read_text(encoding='utf-8'))['as_of']
+CUTOFF = dt.date.fromisoformat(AS_OF)
 
 
 def fixture_catalogues():
@@ -75,7 +76,7 @@ class BilingualRenderingTests(unittest.TestCase):
         self.assertIn('## വർഷം സാക്ഷ്യപ്പെടുത്തിയിരിക്കുന്നു; ദിവസം ഏകീകരിച്ചിട്ടില്ല / Year attested; day not normalized', y)
         self.assertIn('[വർഷസൂചിക / Year index](../README.md)', y)
         last = out['years/CE/2026.md']
-        self.assertIn('2026-10-11-ൽ അവസാനിക്കുന്നു', last)
+        self.assertIn(f'{AS_OF}-ൽ അവസാനിക്കുന്നു', last)
         self.assertLess(last.index('ഭാഗിക വർഷം'), last.index('Partial year'))
 
     def test_table_header_joined_cell_by_cell(self):
@@ -194,8 +195,8 @@ class FreshnessAndContractTests(unittest.TestCase):
         # human-readable date.calendar strings (3 distinct values), which are translatable here.
         data = load_data()
         keys = [k for k, _ in bilingual.iter_translatable(data)]
-        self.assertEqual(len(keys), 827)
-        self.assertEqual(len(set(keys)), 827)
+        self.assertEqual(len(keys), 845)  # 827 plus title, inspection_note and rights for S043-S048
+        self.assertEqual(len(set(keys)), 845)
         self.assertEqual(sum('.date.calendar' in k for k in keys), 23)
 
     def test_english_hash_scheme(self):

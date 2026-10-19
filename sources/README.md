@@ -5,23 +5,23 @@
 Inspection depth is not a quality score. A primary document can be biased; a catalogue can only establish what was actually inspected. All independent human review is pending.
 
 - [S001 — Age of the Earth](S001.md) — `relevant_passage`
-- [S002 — Geochronology of the khondalite belt of Trivandrum Block, Southern India: Electron probe ages and implications for Gondwana tectonics](S002.md) — `abstract_and_catalogue`
+- [S002 — Geochronology of the khondalite belt of Trivandrum Block, Southern India: Electron probe ages and implications for Gondwana tectonics](S002.md) — `abstract_and_preview`
 - [S003 — Erratum to the Trivandrum Block geochronology paper](S003.md) — `metadata_only`
 - [S004 — Tectono-magmatic evolution of the west coast of India](S004.md) — `abstract_only`
 - [S005 — Sedimentation record in the Konkan–Kerala Basin: implications for the evolution of the Western Ghats and the Western Indian passive margin](S005.md) — `abstract_and_metadata`
 - [S006 — Oldest rocks from Peninsular India: Evidence for Hadean to Neoarchean crustal evolution](S006.md) — `abstract_and_catalogue`
 - [S007 — Sr isotope numerical depositional age of Miocene marine strata (Quilon Formation), Kerala–Konkan Basin, India](S007.md) — `abstract_and_metadata`
 - [S008 — New perspectives on late Tethyan Neogene biodiversity development of fishes based on Miocene (~17 Ma) otoliths from southwestern India](S008.md) — `abstract_and_metadata`
-- [S009 — Archaeological Discoveries of Pre- and Proto-historic Cultures from North Kerala, South India](S009.md) — `abstract_and_catalogue`
+- [S009 — Archaeological Discoveries of Pre- and Proto-historic Cultures from North Kerala, South India](S009.md) — `full_text`
 - [S010 — Mesolithic Cultures of India](S010.md) — `relevant_passages`
 - [S011 — Edakkal Caves](S011.md) — `relevant_passage`
 - [S012 — The Edakkal Rock Engravings: Morphology and Meanings](S012.md) — `relevant_passages`
 - [S013 — The Evolution of Archaeology in Kerala](S013.md) — `full_page`
 - [S014 — The Edicts of King Asoka](S014.md) — `relevant_passages`
-- [S015 — Inscriptions of Asoka: New Edition](S015.md) — `metadata_only`
+- [S015 — Inscriptions of Asoka: New Edition](S015.md) — `relevant_passages_ocr_text`
 - [S016 — The Voyage around the Erythraean Sea](S016.md) — `relevant_passages`
-- [S017 — Locating the ancient port of Muziris: fresh findings from Pattanam](S017.md) — `metadata_and_abstract`
-- [S018 — The external connections of Early Historic Pattanam, India: the ceramic evidence](S018.md) — `relevant_passages`
+- [S017 — Locating the ancient port of Muziris: fresh findings from Pattanam](S017.md) — `metadata_only`
+- [S018 — The external connections of Early Historic Pattanam, India: the ceramic evidence](S018.md) — `full_text`
 - [S019 — Pattanam Excavations: Seventh Season handbook](S019.md) — `selected_pages_and_images`
 - [S020 — A Persian church in the land of pepper](S020.md) — `proposal_and_final_outcomes`
 - [S021 — Journal of the first voyage of Vasco da Gama to India, 1497–1499](S021.md) — `full_page`
@@ -46,3 +46,9 @@ Inspection depth is not a quality score. A primary document can be biased; a cat
 - [S040 — A Journal of the First Voyage of Vasco da Gama 1497–1499: ebook catalogue](S040.md) — `full_catalogue_page`
 - [S041 — Ptolemy’s Geography](S041.md) — `institutional_description`
 - [S042 — International Chronostratigraphic Chart](S042.md) — `access_failed`
+- [S043 — Notes on the rock carvings in the Edakal Cave, Wynaad](S043.md) — `relevant_passages_ocr_text`
+- [S044 — Decoding the meaning and beliefs associated with petroglyphs in Edakkal rock shelter, Kerala, India](S044.md) — `full_text`
+- [S045 — Edakkal caves (Kerala Tourism destination page)](S045.md) — `full_page`
+- [S046 — The Natural History, book 6, chapter 26](S046.md) — `relevant_passages_translation`
+- [S047 — Ancient India as described by Ptolemy](S047.md) — `relevant_passages_ocr_text`
+- [S048 — The States Reorganisation Act, 1956: sections 4 and 5 (consolidated text)](S048.md) — `relevant_passages_secondary_copy`

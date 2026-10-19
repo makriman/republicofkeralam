@@ -61,7 +61,12 @@
         "selected_pages_and_images",
         "selected_sections_and_images",
         "proposal_and_final_outcomes",
-        "full_page"
+        "full_page",
+        "abstract_and_preview",
+        "relevant_passages_translation",
+        "relevant_passages_ocr_text",
+        "relevant_passages_secondary_copy",
+        "full_text"
       ]
     },
     "inspected_locator": {

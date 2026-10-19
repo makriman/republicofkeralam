@@ -183,7 +183,7 @@
         "locator": "Abstract"
       }
     ],
-    "caveat": "The preferred range is not presented here as a statistical confidence interval or an age for the whole coastline.",
+    "caveat": "The preferred range is not presented here as a statistical confidence interval or an age for the whole coastline. Sampled sections, sample count, reference curve and uncertainty were not seen; the full text is closed access. S008 shares authors and is not independent confirmation.",
     "periods": [
       "E06"
     ],
@@ -203,12 +203,12 @@
     "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
     "rights": "Original summary only; source materials retain their own rights.",
     "created": "2026-10-11",
-    "updated": "2026-10-11"
+    "updated": "2026-10-18"
   },
   {
     "id": "R006",
     "title": "Reported Lower Palaeolithic evidence in northern Kerala",
-    "claim": "The accessible abstract of Ramesh N. K.’s 2016 study suggests occupation of northern Kerala from the Lower Palaeolithic.",
+    "claim": "Ramesh N. K.'s 2016 article attributes surface-collected stone tools from river terraces in northern Kerala to the Lower Palaeolithic on typological grounds.",
     "date": {
       "kind": "undated",
       "precision": "relative_attribution",
@@ -222,10 +222,10 @@
     "support": [
       {
         "source": "S009",
-        "locator": "NDLI abstract; Heritage 4, 627–636"
+        "locator": "pp. 628–631 and conclusion p. 634"
       }
     ],
-    "caveat": "Full report and dating context not inspected. Tool typology does not establish a species or exact first-arrival year.",
+    "caveat": "Surface finds without excavation, stratigraphy or absolute dating; terrace finds may have been moved by the river. Tool typology does not establish a species or an exact first-arrival year.",
     "periods": [
       "E08"
     ],
@@ -242,7 +242,7 @@
     "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
     "rights": "Original summary only; source materials retain their own rights.",
     "created": "2026-10-11",
-    "updated": "2026-10-11"
+    "updated": "2026-10-18"
   },
   {
     "id": "R007",
@@ -305,9 +305,21 @@
       {
         "source": "S012",
         "locator": "Opening archaeological-context discussion"
+      },
+      {
+        "source": "S044",
+        "locator": "'Date of the engravings', p. 340"
+      },
+      {
+        "source": "S043",
+        "locator": "Indian Antiquary 30 (1901), p. 412 (OCR)"
+      },
+      {
+        "source": "S045",
+        "locator": "Summary line; shares the S011 claim chain"
       }
     ],
-    "caveat": "This does not prove every proposed early date false. Figures may represent different episodes; dating and meaning require panel-level evidence.",
+    "caveat": "This does not prove every proposed early date false, and figures may represent different episodes. The 6000 BCE figure appears only on tourism pages that share wording and cite no evidence. Inspected scholarship proposes relative dates: Gurukkal a tentative late first millennium BCE for the gallery; Ajit Kumar a megalithic or early historic date, using the earliest inscriptions as a later limit. Fawcett's 1901 trench found no habitation deposit. No absolute date for the engravings has been inspected.",
     "periods": [
       "E10"
     ],
@@ -319,7 +331,7 @@
     "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
     "rights": "Original summary only; source materials retain their own rights.",
     "created": "2026-10-11",
-    "updated": "2026-10-11"
+    "updated": "2026-10-18"
   },
   {
     "id": "R009",
@@ -379,9 +391,13 @@
       {
         "source": "S014",
         "locator": "Major Rock Edict II; notes 2–3"
+      },
+      {
+        "source": "S015",
+        "locator": "Girnar II l. 2, p. 3 nn. 7–8; introduction pp. xxxv–xxxix"
       }
     ],
-    "caveat": "The edict is not an inscription found inside present Kerala. Its claims do not independently prove local medical installations. Critical-edition comparison remains pending.",
+    "caveat": "The edict is not an inscription found inside present Kerala and states no regnal year. Dhammika dates the Girnar text to 257 BCE; Hultzsch's chronology (coronation about 264 BCE) gives about 252 BCE for the twelfth regnal year. Neither year is adopted. Its claims do not independently prove local medical installations.",
     "periods": [
       "P01"
     ],
@@ -401,7 +417,7 @@
     "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
     "rights": "Original summary only; source materials retain their own rights.",
     "created": "2026-10-11",
-    "updated": "2026-10-11"
+    "updated": "2026-10-18"
   },
   {
     "id": "R011",
@@ -427,7 +443,7 @@
         "locator": "Editorial introduction; sections 53–56"
       }
     ],
-    "caveat": "Do not equate every ancient place name with a modern coordinate or infer the ethnicity of all residents from trade.",
+    "caveat": "Do not equate every ancient place name with a modern coordinate or infer the ethnicity of all residents from trade. Pliny (Natural History 6.26) describes Muziris as not very rich in merchandise, which differs from the Periplus account; the difference is unresolved.",
     "periods": [
       "P02"
     ],
@@ -448,7 +464,7 @@
     "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
     "rights": "Original summary only; source materials retain their own rights.",
     "created": "2026-10-11",
-    "updated": "2026-10-11"
+    "updated": "2026-10-18"
   },
   {
     "id": "R012",
@@ -510,7 +526,7 @@
         "locator": "Final project outcomes, not the proposal abstract"
       }
     ],
-    "caveat": "The critical inscription edition and date conversion must still be reviewed. The same page’s proposal uses an earlier interpretation.",
+    "caveat": "The critical inscription edition and date conversion must still be reviewed. The same page’s proposal uses an earlier interpretation. The project was funded from December 2011 to November 2013; the proposal described two Tamil grants and Devanagari among the scripts, which the final outcomes revise.",
     "periods": [
       "P03"
     ],
@@ -530,7 +546,7 @@
     "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
     "rights": "Original summary only; source materials retain their own rights.",
     "created": "2026-10-11",
-    "updated": "2026-10-11"
+    "updated": "2026-10-18"
   },
   {
     "id": "R014",
@@ -781,7 +797,7 @@
         "locator": "Edakkal paragraph"
       }
     ],
-    "caveat": "Do not call this the first human discovery; local prior knowledge is not erased.",
+    "caveat": "Do not call this the first human discovery; local prior knowledge is not erased, and Fawcett wrote that residents had known the cave for at least 12 or 15 years. Sources disagree on the year: 1894 (S012; Ajit Kumar 2013), 1895 (S011 and the state tourism page), and about the beginning of 1896 (a report quoted in Fawcett 1901, p. 412). 1894 is retained as an attributed year, not a settled one.",
     "periods": [
       "P05",
       "E10"
@@ -799,7 +815,7 @@
     "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
     "rights": "Original summary only; source materials retain their own rights.",
     "created": "2026-10-11",
-    "updated": "2026-10-11"
+    "updated": "2026-10-18"
   },
   {
     "id": "R020",

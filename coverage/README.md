@@ -6,7 +6,7 @@
 >
 > Malayalam first, English second. The Malayalam on this page is AI-assisted and human language review is pending. The English text remains the canonical data.
 
-As of 2026-10-11. These are repository counts, not estimates of the total historical record.
+As of 2026-10-18. These are repository counts, not estimates of the total historical record.
 
 | Measure | This release |
 |---|---:|
@@ -14,7 +14,7 @@ As of 2026-10-11. These are repository counts, not estimates of the total histor
 | Annual pages with at least one year-specific seed link | 18 |
 | Annual pages without a year-specific seed | 2,308 |
 | Canonical evidence records | 31 |
-| Source cards, including catalogues and leads | 42 |
+| Source cards, including catalogues and leads | 48 |
 | Deep-time / prehistory dossiers | 12 |
 | Documentary-period dossiers | 7 |
 | Independent human-reviewed records | 0 |
@@ -34,11 +34,11 @@ No percentage for coverage of the entire internet is calculated. No source corpu
 | കുറഞ്ഞത് ഒരു വർഷക്കണ്ണിയുള്ള തെളിവുരേഖകൾ / Evidence records with at least one year link | 20 |
 | പഴയ സംഭവത്തിന്റെ തീയതിയിലേക്ക് കണ്ണിയുള്ള വാർഷിക പേജുകൾ / Annual pages that link a past-event date | 4 |
 | ഗവേഷണം, പ്രസിദ്ധീകരണം, ലഭ്യത എന്നിവയുടെ ചരിത്രത്തിലേക്ക് മാത്രം കണ്ണിയുള്ള വാർഷിക പേജുകൾ / Annual pages that link only research, publication or access history | 14 |
-| കുറഞ്ഞത് ഒരു തെളിവുരേഖയെങ്കിലും ഉദ്ധരിക്കുന്ന സ്രോതസ്സ് കാർഡുകൾ / Source cards cited by at least one evidence record | 24 |
-| പ്രസക്തഭാഗമോ പൂർണപാഠമോ പരിശോധിച്ച സ്രോതസ്സ് കാർഡുകൾ / Source cards inspected at passage or full-text depth | 17 |
+| കുറഞ്ഞത് ഒരു തെളിവുരേഖയെങ്കിലും ഉദ്ധരിക്കുന്ന സ്രോതസ്സ് കാർഡുകൾ / Source cards cited by at least one evidence record | 28 |
+| പ്രസക്തഭാഗമോ പൂർണപാഠമോ പരിശോധിച്ച സ്രോതസ്സ് കാർഡുകൾ / Source cards inspected at passage or full-text depth | 25 |
 | മെറ്റാഡാറ്റ മാത്രം കണ്ടതോ ലഭ്യമാകാത്തതോ ആയ സ്രോതസ്സ് കാർഡുകൾ / Source cards seen only as metadata, or not accessed | 9 |
 | സ്വതന്ത്ര മനുഷ്യപരിശോധന നടന്ന സ്രോതസ്സ് കാർഡുകൾ / Source cards with independent human review | 0 |
-| നിലവിലുള്ള മലയാളപരിഭാഷയുള്ള അടിസ്ഥാന ഡാറ്റയിലെ പാഠഫീൽഡുകൾ / Canonical-data text fields with a current Malayalam translation | 827-ൽ 0 / 0 of 827 |
+| നിലവിലുള്ള മലയാളപരിഭാഷയുള്ള അടിസ്ഥാന ഡാറ്റയിലെ പാഠഫീൽഡുകൾ / Canonical-data text fields with a current Malayalam translation | 845-ൽ 0 / 0 of 845 |
 | നിലവിലുള്ള മലയാളപരിഭാഷയുള്ള generator ലേബലുകൾ / Generator labels with a current Malayalam translation | 139-ൽ 14 / 14 of 139 |
 | മനുഷ്യ ഭാഷാപരിശോധന രേഖപ്പെടുത്തിയ മലയാളപരിഭാഷകൾ / Malayalam translations with a recorded human language review | 0 |
 

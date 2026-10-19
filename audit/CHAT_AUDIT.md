@@ -88,7 +88,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Earlier claim or implication:** Keralaputra / Kedalaputo are interchangeable exact transcriptions.
 
-**Treatment:** Preserve witness-specific spellings and scripts. Compare critical editions before normalizing all forms.
+**Treatment:** Preserve witness-specific spellings and scripts. Hultzsch 1925 reads Girnar Ketalaputo, Kalsi Ke[lala]puto, Shahbazgarhi Keradaputro and Mansehra Keralaputra. The form Kedalaputo was not found in Hultzsch and needs its edition identified. Compare later critical editions before normalizing.
 
 **Evidence route:** [S014](../sources/S014.md), [S015](../sources/S015.md)
 
@@ -96,7 +96,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Earlier claim or implication:** Keralaputras are generally associated with Cheras.
 
-**Treatment:** Do not translate this conventional identification into proof of exact territory, dynasty chronology or modern identity. The full identification literature has not been audited.
+**Treatment:** Do not translate this conventional identification into proof of exact territory, dynasty chronology or modern identity. The full identification literature has not been audited. Rock Edict XIII names Chodas, Pandyas and Tamraparni but not the Keralaputras (S014; S015 p. xxxix); record this absence without drawing an inference.
 
 **Evidence route:** [S014](../sources/S014.md), [S015](../sources/S015.md)
 
@@ -106,7 +106,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Treatment:** The inspected Edict II translation names these peoples beyond the ruler’s borders; do not infer annexation.
 
-**Evidence route:** [S014](../sources/S014.md)
+**Evidence route:** [S014](../sources/S014.md), [S015](../sources/S015.md)
 
 ## A014 — research agenda valid
 
@@ -132,21 +132,21 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S016](../sources/S016.md)
 
-## A017 — primary passage pending
+## A017 — primary passage inspected in translation
 
 **Earlier claim or implication:** Pliny gives relevant Kerala-coast evidence.
 
-**Treatment:** A relevant Natural History VI.26 lead was located, but the primary passage was not inspected. Do not mark this subclaim fully verified.
+**Treatment:** Natural History 6.26 read in the 1855 Bostock and Riley translation: Muziris as the nearest mart of India, pirates near Nitrias, a distant anchorage, king Caelobothras. The Latin text and a modern translation remain to be checked. Muziris stays a textual name.
 
-**Evidence route:** No historical source claim; research task only.
+**Evidence route:** [S046](../sources/S046.md)
 
 ## A018 — partly verified
 
 **Earlier claim or implication:** Ptolemy’s work is relevant to the second-century record.
 
-**Treatment:** The research institution supports the second-century date of the Geography; local passages and geographical identifications remain unverified.
+**Treatment:** The research institution supports the second-century date of the Geography; local passages and geographical identifications remain unverified. Geography 7.1.8 (Mouziris, an emporium) and 7.1.86 (Karoura, royal seat of Kerobothros) were read in McCrindle's 1885 translation. McCrindle, following Yule, identified Mouziris with Kodungallur and Karoura with Karur in Tamil Nadu; these are attributed identifications, and Ptolemy's coordinates are not modern positions.
 
-**Evidence route:** [S041](../sources/S041.md)
+**Evidence route:** [S041](../sources/S041.md), [S047](../sources/S047.md)
 
 ## A019 — supported with limits
 

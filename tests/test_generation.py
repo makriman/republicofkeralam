@@ -107,7 +107,7 @@ class CoverageCountTests(unittest.TestCase):
 
     def test_translation_is_a_separate_measure(self):
         t = self.stats['translation']['ml']
-        self.assertEqual(t['data_fields_total'], 827)
+        self.assertEqual(t['data_fields_total'], 845)  # 827 plus 3 fields for each of S043-S048
         self.assertEqual(t['data_fields_human_reviewed'], 0)
         self.assertNotIn('percent', json.dumps(self.stats))
         self.assertEqual(self.stats['whole_web_completeness'], 'not_claimed')

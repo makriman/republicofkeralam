@@ -49,6 +49,11 @@ INSPECTION_DEPTH = {
     'relevant_passage': 'passage', 'relevant_passages': 'passage', 'selected_pages_and_images': 'passage',
     'selected_sections_and_images': 'passage', 'proposal_and_final_outcomes': 'passage',
     'full_page': 'full_text',
+    # Evidence-review vocabulary (notes/evidence-review/claim-reviews.json, PR #4).
+    'abstract_and_preview': 'abstract_or_description',
+    'relevant_passages_translation': 'passage', 'relevant_passages_ocr_text': 'passage',
+    'relevant_passages_secondary_copy': 'passage',
+    'full_text': 'full_text',
 }
 DEPTH_ORDER = ('not_accessed', 'metadata', 'abstract_or_description', 'passage', 'full_text')
 
