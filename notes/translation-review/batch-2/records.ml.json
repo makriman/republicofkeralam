@@ -53,7 +53,7 @@
   {
    "key": "data/records.json#R002.title",
    "en": "Ancient southern-basement study requires its erratum",
-   "ml": "തെക്കൻ അടിസ്ഥാനശിലയെക്കുറിച്ചുള്ള പ്രാചീനപഠനത്തിന് അതിന്റെ erratum ആവശ്യമാണ്",
+   "ml": "തെക്കൻ പ്രദേശത്തെ പ്രാചീന അടിസ്ഥാനശിലയെക്കുറിച്ചുള്ള പഠനത്തിന് അതിന്റെ erratum ആവശ്യമാണ്",
    "en_sha256": "a4e8f118f4536d3e"
   },
   {
@@ -131,7 +131,7 @@
   {
    "key": "data/records.json#R004.claim",
    "en": "The west-coast tectono-magmatic study and the offshore-sedimentation study investigate different processes in margin development; neither is used here as a single date for the birth of the Ghats or coast.",
-   "ml": "പടിഞ്ഞാറൻ തീരത്തെ ടെക്റ്റോണിക്-മാഗ്മാ പഠനവും കടലിലെ അവസാദനിക്ഷേപ പഠനവും അരികിന്റെ വികാസത്തിലെ വ്യത്യസ്ത പ്രക്രിയകളാണ് അന്വേഷിക്കുന്നത്; ഘട്ടങ്ങളുടെയോ തീരത്തിന്റെയോ ജനനത്തിനുള്ള ഒരൊറ്റ തീയതിയായി ഇവിടെ രണ്ടിനെയും ഉപയോഗിക്കുന്നില്ല.",
+   "ml": "പടിഞ്ഞാറൻ തീരത്തെ ടെക്റ്റോണിക്-മാഗ്മാ പഠനവും കടലിലെ അവസാദനിക്ഷേപ പഠനവും അരികിന്റെ വികാസത്തിലെ വ്യത്യസ്ത പ്രക്രിയകളാണ് അന്വേഷിക്കുന്നത്; പശ്ചിമഘട്ട പർവതനിരയുടെയോ തീരത്തിന്റെയോ രൂപീകരണത്തിനുള്ള ഒരൊറ്റ തീയതിയായി ഇവിടെ രണ്ടിനെയും ഉപയോഗിക്കുന്നില്ല.",
    "en_sha256": "b326d18c0c4f95eb"
   },
   {

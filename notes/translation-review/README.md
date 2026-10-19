@@ -21,6 +21,8 @@ Proposed Malayalam-first translations and review notes for the archive's reader-
 ```bash
 python notes/translation-review/tools/inventory.py
 python notes/translation-review/tools/check_staging.py
+python notes/translation-review/tools/check_staging.py --target-revision HEAD
+python -m unittest discover -s notes/translation-review/tools -p 'test_*.py'
 ```
 
 ## നിലകൾ / Status values
@@ -31,3 +33,5 @@ python notes/translation-review/tools/check_staging.py
 - `stale`: മൂലപാഠം മാറിയതിനാൽ പുതുക്കേണ്ടത്. Source changed after translation.
 
 ഒരു മനുഷ്യപരിശോധകൻ യഥാർത്ഥത്തിൽ പരിശോധിച്ച് പേര്/ID, പരിശോധിച്ച കാര്യങ്ങൾ, revision എന്നിവ രേഖപ്പെടുത്തുമ്പോൾ മാത്രമേ `human_language_review` മാറ്റാവൂ. Change `human_language_review` only when a real reviewer records their identifier, what they checked and the revision.
+
+The default checker validates pinned snapshots only. The optional target check conservatively compares complete source files against an explicit revision, failing on any difference or missing revision/path. It does not automatically update source revisions or approve translations.
