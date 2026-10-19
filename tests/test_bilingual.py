@@ -174,6 +174,39 @@ class FreshnessAndContractTests(unittest.TestCase):
         out, _ = make_outputs(catalogues=cats)
         self.assertNotIn('യാത്രാഡയറി ഉദ്ധരണി', out['records/R014.md'])
 
+    def test_specialist_rejection_is_not_rendered_or_counted_current(self):
+        cats = fixture_catalogues()
+        key = 'data/records.json#R014.claim'
+        e = entry(cats, key)
+        e['specialist_review'] = 'rejected'
+        e['reviewers'] = [{'reviewer': 'specialist-1', 'reviewer_type': 'human',
+                           'checked': 'historical terminology', 'date': '2026-10-11'}]
+        self.assertEqual(errors_for(cats), [])
+        out, _ = make_outputs(catalogues=cats)
+        self.assertNotIn(e['ml'], out['records/R014.md'])
+        data = load_data()
+        coverage = bilingual.coverage(data, cats, label_texts(data))
+        self.assertEqual(coverage['data_fields_rejected'], 1)
+        self.assertEqual(coverage['data_fields_current'], 5)
+        self.assertIn(key, bilingual.missing_fields(data, cats, label_texts(data)))
+
+    def test_complete_format_syntax_checked_and_unsafe_labels_not_rendered(self):
+        key = 'scripts/build.py#year.partial'
+        for suffix in ('{UNKNOWN}', '{', '}', '{}', '{0}', '{as_of.bad}',
+                       '{as_of[bad]}', '{as_of!q}', '{as_of:bad}',
+                       '{as_of:{UNKNOWN}}', '{as_of:{'):
+            with self.subTest(suffix=suffix):
+                cats = fixture_catalogues()
+                e = entry(cats, key)
+                e['ml'] += suffix
+                self.assertTrue(any('year.partial' in x and ('format' in x or 'placeholder' in x)
+                                    for x in errors_for(cats)))
+                # Direct builds also fall back safely when validation is skipped.
+                out, _ = make_outputs(catalogues=cats)
+                self.assertNotIn(e['ml'], out['years/CE/2026.md'])
+        self.assertEqual(bilingual._format_errors('{value}', '{{literal}} {value}'), [])
+        self.assertEqual(bilingual._format_errors('{first} {second}', '{second} {first}'), [])
+
     def test_catalogue_schema_enforced(self):
         cats = fixture_catalogues()
         del entry(cats, 'data/records.json#R014.title')['ai_assisted']

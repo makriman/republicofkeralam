@@ -59,6 +59,19 @@ def _is_date(v: str) -> bool:
         return False
 
 
+def json_equal(a, b) -> bool:
+    """JSON equality distinguishes booleans from numbers, including containers."""
+    if isinstance(a, bool) or isinstance(b, bool):
+        return type(a) is type(b) and a == b
+    if isinstance(a, dict) and isinstance(b, dict):
+        return a.keys() == b.keys() and all(json_equal(a[k], b[k]) for k in a)
+    if isinstance(a, list) and isinstance(b, list):
+        return len(a) == len(b) and all(json_equal(x, y) for x, y in zip(a, b))
+    if TYPES['number'](a) and TYPES['number'](b):
+        return a == b
+    return type(a) is type(b) and a == b
+
+
 class Validator:
     def __init__(self, schema: dict):
         self.root = schema
@@ -90,9 +103,9 @@ class Validator:
             if not any(TYPES[n](value) for n in names):
                 out.append(f'{_fmt(path)}: expected {" or ".join(names)}, got {type(value).__name__} {json.dumps(value, ensure_ascii=False)[:60]}')
                 return out  # further keywords would only add noise
-        if 'enum' in schema and value not in schema['enum']:
+        if 'enum' in schema and not any(json_equal(value, option) for option in schema['enum']):
             out.append(f'{_fmt(path)}: {json.dumps(value, ensure_ascii=False)} is not one of {schema["enum"]}')
-        if 'const' in schema and value != schema['const']:
+        if 'const' in schema and not json_equal(value, schema['const']):
             out.append(f'{_fmt(path)}: must equal {json.dumps(schema["const"])}')
         if isinstance(value, str):
             if 'minLength' in schema and len(value) < schema['minLength']:

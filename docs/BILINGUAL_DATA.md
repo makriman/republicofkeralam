@@ -30,6 +30,8 @@
 
 ഇംഗ്ലീഷ് മാറിയാൽ `en_sha256` പൊരുത്തപ്പെടില്ല. അപ്പോൾ `validate.py` പിശക് നൽകും; generator ആ ഫീൽഡിന് ഇംഗ്ലീഷ് മാത്രം കാണിക്കും. വീണ്ടും പരിഭാഷപ്പെടുത്തി hash പുതുക്കുക, അല്ലെങ്കിൽ entry നീക്കുക. ഇല്ലാത്ത പരിഭാഷകൾ എണ്ണി പട്ടികപ്പെടുത്തും; പൂർത്തിയായതായി കണക്കാക്കില്ല. `python scripts/validate.py --require-translation ml` ഏതെങ്കിലും ഫീൽഡിന് നിലവിലുള്ള പരിഭാഷ ഇല്ലെങ്കിൽ പരാജയപ്പെടും.
 
+Template validation parses Python format syntax, including braces, uppercase and positional fields, attribute/index access, conversions and format specifications. Every replacement field must match its English counterpart exactly (reordering is allowed). Malformed syntax or a changed field fails validation; direct builds also fall back to English instead of formatting the unsafe label. Escaped literal braces remain allowed.
+
 ### Rendering
 
 മലയാളം ആദ്യം, തുടർന്ന് ഇംഗ്ലീഷ്. തലക്കെട്ടുകളും ചെറിയ ലേബലുകളും `മലയാളം / English` എന്ന രൂപത്തിൽ; ഖണ്ഡികകൾ മലയാള ഖണ്ഡിക, തുടർന്ന് ഇംഗ്ലീഷ് ഖണ്ഡിക. പട്ടികയുടെ തലവരി ഓരോ കള്ളിയിലും ചേർക്കും. മലയാളം ഉപയോഗിക്കുന്ന ഓരോ പേജിലും AI സഹായവും പരിശോധനാനിലയും പറയുന്ന ഒരു അറിയിപ്പും front matter-ൽ `translation_ml`-ഉം ഉണ്ടാകും. പ്രസിദ്ധീകരിച്ച സ്രോതസ്സ് തലക്കെട്ട് മാറ്റില്ല; മലയാളം "വിശദീകരണ പരിഭാഷ, ഔദ്യോഗിക തലക്കെട്ടല്ല" എന്ന വരിയായി മാത്രം വരും.
@@ -108,7 +110,9 @@ Entries for IDs, enums, URLs, DOIs, locators, dates, source lists or tags are re
 
 `scripts/validate.py` checks every catalogue: schema; one entry per key; the key resolves to an existing item and a translatable field; `en_sha256` (and `en`, if present) matches the current English; the Malayalam contains Malayalam script, keeps every number from the English, contains no em dash, and for labels keeps the same `{placeholders}`, link targets and heading, bold, bracket or table form; review records follow the shared rule.
 
-A stale entry fails validation and is not rendered. A rejected entry is not rendered. Missing translations are counted and listed, never treated as complete. `python scripts/validate.py --require-translation ml` fails while any field or label lacks a current translation; the default run only reports the counts.
+A stale entry fails validation and is not rendered. An entry rejected by either human language review or specialist review is not rendered and is counted as rejected, even if the other review is approved. Missing translations are counted and listed, never treated as complete. `python scripts/validate.py --require-translation ml` fails while any field or label lacks a current translation; the default run only reports the counts.
+
+Template validation parses Python format syntax, including braces, uppercase and positional fields, attribute/index access, conversions and format specifications. Every replacement field must match its English counterpart exactly (reordering is allowed). Malformed syntax or a changed field fails validation; direct builds also fall back to English instead of formatting the unsafe label. Escaped literal braces remain allowed.
 
 ### Rendering
 

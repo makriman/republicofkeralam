@@ -27,6 +27,8 @@ Mahe’s district administration is under Puducherry [S024](../sources/S024.md).
 
 Obtain a current boundary dataset with creator, date, coordinate reference system, scale/resolution, legal/administrative basis, stated license and checksum. Check enclaves, islands, inland waters, coast treatment and later boundary changes. Preserve the original and any transformation log where reuse permits. A GIS layer is a representation with a date and resolution, not an automatically authoritative legal instrument.
 
+When spatial filtering is enabled, validation requires `geometry_file` to name an existing readable regular file relative to the repository root. Absolute paths and paths or symlinks escaping the checkout are rejected. The actual file bytes must match `geometry_sha256`. These checks establish file presence and integrity only; they do not establish polygon validity, licensing sufficiency or legal boundary correctness. The acquisition and human cross-check requirements above still apply.
+
 Record geometry version in every automated spatial decision. Keep unresolved locations in a review queue rather than excluding them with a false point-in-polygon result. A boundary name change without a territorial change should not reset the history dataset.
 
 ## Temporal gazetteer

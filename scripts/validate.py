@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import hashlib
 import re
 import sys
 from pathlib import Path
@@ -61,7 +62,7 @@ def review_record_errors(tag,item,cutoff):
     revs=revs or []
     for i,r in enumerate(revs):
         ok=(isinstance(r,dict) and isinstance(r.get('reviewer'),str) and r['reviewer'].strip()
-            and r.get('reviewer_type') in {'human','model'} and isinstance(r.get('checked'),str) and r['checked'].strip()
+            and isinstance(r.get('reviewer_type'),str) and r['reviewer_type'] in {'human','model'} and isinstance(r.get('checked'),str) and r['checked'].strip()
             and isinstance(r.get('date'),str))
         if not ok:
             errors.append(f'{tag}: reviewers[{i}] is not a valid review record (needs reviewer, reviewer_type human|model, checked, date)')
@@ -71,7 +72,7 @@ def review_record_errors(tag,item,cutoff):
                 errors.append(f'{tag}: reviewers[{i}] dated after release cutoff')
         except ValueError:
             errors.append(f'{tag}: reviewers[{i}] has an invalid date')
-    if state in {'approved','rejected'}:
+    if isinstance(state,str) and state in {'approved','rejected'}:
         humans=[r for r in revs if isinstance(r,dict) and r.get('reviewer_type')=='human' and isinstance(r.get('reviewer'),str)
                 and r['reviewer'].strip() and isinstance(r.get('checked'),str) and r['checked'].strip()]
         if not revs:
@@ -79,6 +80,29 @@ def review_record_errors(tag,item,cutoff):
         elif not humans:
             errors.append(f'{tag}: {state} without a valid human review record; a model check cannot approve or reject')
     return errors
+
+
+def geometry_errors(scope):
+    """Check materialized bytes, not only a claim that a boundary is verified.
+
+    Paths are repository-relative and may not escape the checkout, including
+    through symlinks. This is an integrity check, not a legal or GIS review.
+    """
+    if not scope['spatial_filtering_enabled']:
+        return []
+    try:
+        relative=Path(scope['geometry_file'])
+        path=(ROOT / relative).resolve()
+        if relative.is_absolute() or not path.is_relative_to(ROOT.resolve()):
+            return ['scope: geometry_file must stay inside the repository']
+        if not path.is_file():
+            return ['scope: geometry_file must name an existing regular file']
+        checksum=hashlib.sha256(path.read_bytes()).hexdigest()
+    except (OSError, ValueError, RuntimeError) as exc:
+        return [f'scope: geometry_file cannot be read ({exc})']
+    if checksum != scope['geometry_sha256']:
+        return ['scope: geometry_sha256 does not match geometry_file bytes']
+    return []
 
 
 def validate_data(cfg,ss,pp,rr,aa,corpora=None,scope=None,crosswalk=None,translations=None):
@@ -99,7 +123,8 @@ def validate_data(cfg,ss,pp,rr,aa,corpora=None,scope=None,crosswalk=None,transla
     good={}; ids={}
     for name,schema in COLLECTIONS:
         items=given[name]
-        if items is None:
+        ids[name]=set()
+        if items is None and name in {'corpora','crosswalk'}:
             good[name]=[]; continue
         if not isinstance(items,list):
             errors.append(f'{name}: expected a JSON array'); good[name]=[]; continue
@@ -113,13 +138,14 @@ def validate_data(cfg,ss,pp,rr,aa,corpora=None,scope=None,crosswalk=None,transla
         seen=[x.get(key) for x in items if isinstance(x,dict) and isinstance(x.get(key),(str,int))]
         dup=sorted({str(v) for v in seen if seen.count(v)>1})
         require(not dup,f'Duplicate ID in {name}: {", ".join(dup)}')
-        ids[name]={x.get(key) for x in items if isinstance(x,dict)}
+        ids[name]={x[key] for x in ok}
     if scope is not None:
         if isinstance(scope,dict):
             errs=schema_errors(scope,'scope.schema.json')
             errors.extend(f'scope: {e}' for e in errs)
             if not errs:
                 require(all(s in ids['sources'] for s in scope['sources']),'scope: unknown source')
+                errors.extend(geometry_errors(scope))
         else:
             errors.append('scope: geography/scope.json must be a JSON object')
     sid=ids.get('sources',set()); pid=ids.get('periods',set())
@@ -129,7 +155,13 @@ def validate_data(cfg,ss,pp,rr,aa,corpora=None,scope=None,crosswalk=None,transla
     require(cfg['annual_end']<=cutoff.year,'Annual range extends beyond release year')
     for s in good['sources']:
         tag=s['id']
-        require(urlparse(s['url']).scheme in {'https','http'},f'{tag}: bad source URL')
+        try:
+            parsed=urlparse(s['url'])
+            valid_url=parsed.scheme in {'https','http'} and bool(parsed.hostname)
+            parsed.port  # reject malformed and out-of-range ports as well
+        except ValueError:
+            valid_url=False
+        require(valid_url,f'{tag}: bad source URL')
         require(bool(s['inspection']) and bool(s['inspected_locator']),f'{tag}: missing inspection provenance')
         require(s['inspection'] in INSPECTION_DEPTH,f'{tag}: inspection {s["inspection"]!r} has no inspection-depth tier')
         require(bool(s['rights']),f'{tag}: missing rights statement')
@@ -204,7 +236,7 @@ def validate_data(cfg,ss,pp,rr,aa,corpora=None,scope=None,crosswalk=None,transla
     for c in good['crosswalk']:
         bad=[x.strip() for x in re.split(r'[;,]',c['dossiers']) if re.fullmatch(r'\s*[EP][0-9]{2,}\s*',x) and x.strip() not in pid]
         require(not bad,f'crosswalk {c["chapter"]}: unknown dossier {", ".join(bad)}')
-    if translations is not None:
+    if translations is not None and not errors:
         data={'project':cfg,'sources':ss,'periods':pp,'records':rr,'audit':aa,'corpora':corpora or [],'crosswalk':crosswalk or [],'scope':scope or {}}
         errors.extend(bilingual.catalogue_errors(translations,data,label_texts(data),cutoff,review_record_errors))
     return errors
