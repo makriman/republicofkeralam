@@ -64,10 +64,10 @@
       "data_fields_missing": 827,
       "data_fields_human_reviewed": 0,
       "generator_labels_total": 139,
-      "generator_labels_current": 0,
+      "generator_labels_current": 14,
       "generator_labels_stale": 0,
       "generator_labels_rejected": 0,
-      "generator_labels_missing": 139,
+      "generator_labels_missing": 125,
       "generator_labels_human_reviewed": 0,
       "note": "Translation coverage only. It is not source inspection or scholarly review. Missing translations stay listed as missing."
     }

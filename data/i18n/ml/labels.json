@@ -1,0 +1,148 @@
+{
+  "catalogue": "translation-catalogue/1",
+  "language": "ml",
+  "source_path": "scripts/build.py",
+  "note": "Malayalam for the generator labels added with the separate coverage counts. AI-assisted draft; human Malayalam-language review pending. Other generator labels and all canonical-data prose are staged for review in notes/translation-review and are not integrated here.",
+  "entries": [
+    {
+      "key": "scripts/build.py#coverage.h_separate",
+      "ml": "## വേറിട്ട അളവുകൾ",
+      "en": "## Separate measures",
+      "en_sha256": "964c9a32df54ef44",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    },
+    {
+      "key": "scripts/build.py#coverage.year_links",
+      "ml": "തെളിവുരേഖകളിൽനിന്നുള്ള വർഷക്കണ്ണികൾ",
+      "en": "Year links from evidence records",
+      "en_sha256": "7d0096639c5720f1",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    },
+    {
+      "key": "scripts/build.py#coverage.records_with_links",
+      "ml": "കുറഞ്ഞത് ഒരു വർഷക്കണ്ണിയുള്ള തെളിവുരേഖകൾ",
+      "en": "Evidence records with at least one year link",
+      "en_sha256": "832dad2a2a8d8d6e",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    },
+    {
+      "key": "scripts/build.py#coverage.past_event_pages",
+      "ml": "പഴയ സംഭവത്തിന്റെ തീയതിയിലേക്ക് കണ്ണിയുള്ള വാർഷിക പേജുകൾ",
+      "en": "Annual pages that link a past-event date",
+      "en_sha256": "7fcd0a9b0427564d",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    },
+    {
+      "key": "scripts/build.py#coverage.research_only_pages",
+      "ml": "ഗവേഷണം, പ്രസിദ്ധീകരണം, ലഭ്യത എന്നിവയുടെ ചരിത്രത്തിലേക്ക് മാത്രം കണ്ണിയുള്ള വാർഷിക പേജുകൾ",
+      "en": "Annual pages that link only research, publication or access history",
+      "en_sha256": "733d8608bf929eb6",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    },
+    {
+      "key": "scripts/build.py#coverage.sources_cited",
+      "ml": "കുറഞ്ഞത് ഒരു തെളിവുരേഖയെങ്കിലും ഉദ്ധരിക്കുന്ന സ്രോതസ്സ് കാർഡുകൾ",
+      "en": "Source cards cited by at least one evidence record",
+      "en_sha256": "70432bc98e952fa0",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    },
+    {
+      "key": "scripts/build.py#coverage.sources_passage",
+      "ml": "പ്രസക്തഭാഗമോ പൂർണപാഠമോ പരിശോധിച്ച സ്രോതസ്സ് കാർഡുകൾ",
+      "en": "Source cards inspected at passage or full-text depth",
+      "en_sha256": "c5ed5d882f7db0c2",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    },
+    {
+      "key": "scripts/build.py#coverage.sources_shallow",
+      "ml": "മെറ്റാഡാറ്റ മാത്രം കണ്ടതോ ലഭ്യമാകാത്തതോ ആയ സ്രോതസ്സ് കാർഡുകൾ",
+      "en": "Source cards seen only as metadata, or not accessed",
+      "en_sha256": "2d0e97be8a5b0838",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    },
+    {
+      "key": "scripts/build.py#coverage.sources_reviewed",
+      "ml": "സ്വതന്ത്ര മനുഷ്യപരിശോധന നടന്ന സ്രോതസ്സ് കാർഡുകൾ",
+      "en": "Source cards with independent human review",
+      "en_sha256": "1d5b82341fe53928",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    },
+    {
+      "key": "scripts/build.py#coverage.ml_fields",
+      "ml": "നിലവിലുള്ള മലയാളപരിഭാഷയുള്ള അടിസ്ഥാന ഡാറ്റയിലെ പാഠഫീൽഡുകൾ",
+      "en": "Canonical-data text fields with a current Malayalam translation",
+      "en_sha256": "d0ecc47f41399f2a",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    },
+    {
+      "key": "scripts/build.py#coverage.ml_labels",
+      "ml": "നിലവിലുള്ള മലയാളപരിഭാഷയുള്ള generator ലേബലുകൾ",
+      "en": "Generator labels with a current Malayalam translation",
+      "en_sha256": "83c20c27b9ae3ec5",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    },
+    {
+      "key": "scripts/build.py#coverage.ml_reviewed",
+      "ml": "മനുഷ്യ ഭാഷാപരിശോധന രേഖപ്പെടുത്തിയ മലയാളപരിഭാഷകൾ",
+      "en": "Malayalam translations with a recorded human language review",
+      "en_sha256": "4281463a8c1212e9",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    },
+    {
+      "key": "scripts/build.py#coverage.of",
+      "ml": "{total}-ൽ {n}",
+      "en": "{n} of {total}",
+      "en_sha256": "3612e1cd7501afab",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    },
+    {
+      "key": "scripts/build.py#coverage.p_separate",
+      "ml": "വർഷക്കണ്ണികൾ, തെളിവുരേഖകൾ, സ്രോതസ്സ് കാർഡുകൾ, പരിശോധിച്ച സ്രോതസ്സുകൾ എന്നിവ വെവ്വേറെയാണ് എണ്ണുന്നത്. പരിഭാഷയുടെ വ്യാപ്തി, സ്രോതസ്സുപരിശോധന, പണ്ഡിതപരിശോധന എന്നിവ വ്യത്യസ്ത അളവുകളാണ്: ഒരു അവകാശവാദത്തിന് മലയാളപരിഭാഷയുണ്ട് എന്നതിന് അത് പരിശോധിച്ചു എന്നർത്ഥമില്ല; ഒരു സ്രോതസ്സ് കാർഡ് പരിശോധിച്ചു എന്നതിന് അതിന്റെ പൂർണപാഠം വായിച്ചു എന്നും അർത്ഥമില്ല.",
+      "en": "Year links, records, source cards and inspected sources are counted separately. Translation coverage, source inspection and scholarly review are different measures: a Malayalam translation does not mean a claim was checked, and an inspected source card does not mean the full text was read.",
+      "en_sha256": "cbb391ef912f01cb",
+      "source_revision": "13b23e7e48f6aaa46f93e3c2096e3de3d7aafff3",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "not_required"
+    }
+  ]
+}

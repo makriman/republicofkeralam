@@ -2,6 +2,10 @@
 
 # Coverage — version 0.1.0-research-foundation
 
+> മലയാളം ആദ്യം, ഇംഗ്ലീഷ് തുടർന്ന്. ഈ പേജിലെ മലയാളം AI സഹായത്തോടെ തയ്യാറാക്കിയതാണ്; മനുഷ്യ ഭാഷാപരിശോധന ബാക്കിയാണ്. ഇംഗ്ലീഷ് പാഠമാണ് അടിസ്ഥാന ഡാറ്റ.
+>
+> Malayalam first, English second. The Malayalam on this page is AI-assisted and human language review is pending. The English text remains the canonical data.
+
 As of 2026-10-11. These are repository counts, not estimates of the total historical record.
 
 | Measure | This release |
@@ -22,21 +26,23 @@ The seed entries include research and publication milestones. They must not be r
 
 No percentage for coverage of the entire internet is calculated. No source corpus has been completely inventoried. [Collection plan](../docs/CORPUS_PLAN.md) defines what an auditable completeness claim would require.
 
-## Separate measures
+## വേറിട്ട അളവുകൾ / Separate measures
 
 | Measure | This release |
 |---|---:|
-| Year links from evidence records | 20 |
-| Evidence records with at least one year link | 20 |
-| Annual pages that link a past-event date | 4 |
-| Annual pages that link only research, publication or access history | 14 |
-| Source cards cited by at least one evidence record | 24 |
-| Source cards inspected at passage or full-text depth | 17 |
-| Source cards seen only as metadata, or not accessed | 9 |
-| Source cards with independent human review | 0 |
-| Canonical-data text fields with a current Malayalam translation | 0 of 827 |
-| Generator labels with a current Malayalam translation | 0 of 139 |
-| Malayalam translations with a recorded human language review | 0 |
+| തെളിവുരേഖകളിൽനിന്നുള്ള വർഷക്കണ്ണികൾ / Year links from evidence records | 20 |
+| കുറഞ്ഞത് ഒരു വർഷക്കണ്ണിയുള്ള തെളിവുരേഖകൾ / Evidence records with at least one year link | 20 |
+| പഴയ സംഭവത്തിന്റെ തീയതിയിലേക്ക് കണ്ണിയുള്ള വാർഷിക പേജുകൾ / Annual pages that link a past-event date | 4 |
+| ഗവേഷണം, പ്രസിദ്ധീകരണം, ലഭ്യത എന്നിവയുടെ ചരിത്രത്തിലേക്ക് മാത്രം കണ്ണിയുള്ള വാർഷിക പേജുകൾ / Annual pages that link only research, publication or access history | 14 |
+| കുറഞ്ഞത് ഒരു തെളിവുരേഖയെങ്കിലും ഉദ്ധരിക്കുന്ന സ്രോതസ്സ് കാർഡുകൾ / Source cards cited by at least one evidence record | 24 |
+| പ്രസക്തഭാഗമോ പൂർണപാഠമോ പരിശോധിച്ച സ്രോതസ്സ് കാർഡുകൾ / Source cards inspected at passage or full-text depth | 17 |
+| മെറ്റാഡാറ്റ മാത്രം കണ്ടതോ ലഭ്യമാകാത്തതോ ആയ സ്രോതസ്സ് കാർഡുകൾ / Source cards seen only as metadata, or not accessed | 9 |
+| സ്വതന്ത്ര മനുഷ്യപരിശോധന നടന്ന സ്രോതസ്സ് കാർഡുകൾ / Source cards with independent human review | 0 |
+| നിലവിലുള്ള മലയാളപരിഭാഷയുള്ള അടിസ്ഥാന ഡാറ്റയിലെ പാഠഫീൽഡുകൾ / Canonical-data text fields with a current Malayalam translation | 827-ൽ 0 / 0 of 827 |
+| നിലവിലുള്ള മലയാളപരിഭാഷയുള്ള generator ലേബലുകൾ / Generator labels with a current Malayalam translation | 139-ൽ 14 / 14 of 139 |
+| മനുഷ്യ ഭാഷാപരിശോധന രേഖപ്പെടുത്തിയ മലയാളപരിഭാഷകൾ / Malayalam translations with a recorded human language review | 0 |
+
+വർഷക്കണ്ണികൾ, തെളിവുരേഖകൾ, സ്രോതസ്സ് കാർഡുകൾ, പരിശോധിച്ച സ്രോതസ്സുകൾ എന്നിവ വെവ്വേറെയാണ് എണ്ണുന്നത്. പരിഭാഷയുടെ വ്യാപ്തി, സ്രോതസ്സുപരിശോധന, പണ്ഡിതപരിശോധന എന്നിവ വ്യത്യസ്ത അളവുകളാണ്: ഒരു അവകാശവാദത്തിന് മലയാളപരിഭാഷയുണ്ട് എന്നതിന് അത് പരിശോധിച്ചു എന്നർത്ഥമില്ല; ഒരു സ്രോതസ്സ് കാർഡ് പരിശോധിച്ചു എന്നതിന് അതിന്റെ പൂർണപാഠം വായിച്ചു എന്നും അർത്ഥമില്ല.
 
 Year links, records, source cards and inspected sources are counted separately. Translation coverage, source inspection and scholarly review are different measures: a Malayalam translation does not mean a claim was checked, and an inspected source card does not mean the full text was read.
 
