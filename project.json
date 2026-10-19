@@ -1,0 +1,14 @@
+{
+  "title": "History of the present-day Kerala territory",
+  "slug": "kerala-territory-history",
+  "version": "0.1.0-research-foundation",
+  "as_of": "2026-10-11",
+  "annual_start": -300,
+  "annual_end": 2026,
+  "year_zero": false,
+  "primary_language": "en",
+  "geographic_basis": "Modern administrative territory as a proposed fixed study frame, not identity or historical sovereignty",
+  "geometry_status": "pending_licensed_current_polygon",
+  "human_review": "pending",
+  "all_web_completeness": "not_claimed"
+}

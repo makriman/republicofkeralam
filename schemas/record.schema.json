@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Territory history evidence record, starter subset",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "claim",
+    "date",
+    "scope_relation",
+    "support",
+    "caveat",
+    "periods",
+    "year_links",
+    "human_review"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^R[0-9]{3,}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim": {
+      "type": "string",
+      "minLength": 1
+    },
+    "caveat": {
+      "type": "string",
+      "minLength": 1
+    },
+    "date": {
+      "type": "object",
+      "required": [
+        "kind",
+        "precision",
+        "original_expression"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "historical",
+            "geological",
+            "undated"
+          ]
+        },
+        "precision": {
+          "type": "string"
+        },
+        "original_expression": {
+          "type": "string"
+        }
+      }
+    },
+    "support": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "locator"
+        ],
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "periods": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "year_links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "year",
+          "role"
+        ],
+        "properties": {
+          "year": {
+            "type": "integer",
+            "not": {
+              "const": 0
+            }
+          },
+          "role": {
+            "enum": [
+              "exact_date",
+              "year_attested",
+              "conventional_date",
+              "proposed_date",
+              "research_history"
+            ]
+          }
+        }
+      }
+    },
+    "human_review": {
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ]
+    }
+  }
+}
