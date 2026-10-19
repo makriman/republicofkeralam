@@ -222,7 +222,7 @@
     "support": [
       {
         "source": "S009",
-        "locator": "pp. 628–631 and conclusion p. 634"
+        "locator": "pp. 628–631 and conclusion p. 635"
       }
     ],
     "caveat": "Surface finds without excavation, stratigraphy or absolute dating; terrace finds may have been moved by the river. Tool typology does not establish a species or an exact first-arrival year.",
@@ -242,7 +242,7 @@
     "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
     "rights": "Original summary only; source materials retain their own rights.",
     "created": "2026-10-11",
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
   {
     "id": "R007",
@@ -397,7 +397,7 @@
         "locator": "Girnar II l. 2, p. 3 nn. 7–8; introduction pp. xxxv–xxxix"
       }
     ],
-    "caveat": "The edict is not an inscription found inside present Kerala and states no regnal year. Dhammika dates the Girnar text to 257 BCE; Hultzsch's chronology (coronation about 264 BCE) gives about 252 BCE for the twelfth regnal year. Neither year is adopted. Its claims do not independently prove local medical installations.",
+    "caveat": "The edict is not an inscription found inside present Kerala and states no regnal year. Dhammika dates the Girnar text to 257 BCE; this is an attributed editorial date, not an adopted exact year. Hultzsch pp. xxxv–xxxvi does not establish a 252 BCE date for Edict II. Its claims do not independently prove local medical installations.",
     "periods": [
       "P01"
     ],
@@ -417,7 +417,7 @@
     "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
     "rights": "Original summary only; source materials retain their own rights.",
     "created": "2026-10-11",
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
   {
     "id": "R011",
@@ -772,14 +772,14 @@
   },
   {
     "id": "R019",
-    "title": "Edakkal scholarly documentation milestone, 1894",
-    "claim": "The sources inspected place Fawcett’s encounter with Edakkal’s engravings in 1894 within the history of archaeological documentation.",
+    "title": "Edakkal scholarly documentation milestone, conflicting reports (1894–1896)",
+    "claim": "Sahapedia and Kumar attribute Fawcett’s encounter with Edakkal’s engravings to 1894; tourism accounts give 1895, while a report quoted in Fawcett 1901 gives about the beginning of 1896. The encounter year remains unsettled.",
     "date": {
       "kind": "historical",
       "start_year": 1894,
-      "end_year": 1894,
-      "precision": "year",
-      "original_expression": "1894 CE",
+      "end_year": 1896,
+      "precision": "interval",
+      "original_expression": "1894 (S012; Kumar 2013), 1895 (S011; state tourism), about the beginning of 1896 (report quoted in Fawcett 1901, p. 412); conflicting reports",
       "calendar": "BCE/CE indexing; original calendar retained where known"
     },
     "scope_relation": "core",
@@ -795,19 +795,26 @@
       {
         "source": "S013",
         "locator": "Edakkal paragraph"
+      },
+      {
+        "source": "S043",
+        "locator": "p. 412, report quoted by Fawcett; OCR only"
+      },
+      {
+        "source": "S044",
+        "locator": "discussion of Fawcett’s visit"
+      },
+      {
+        "source": "S045",
+        "locator": "Edakkal discovery paragraph; tourism claim"
       }
     ],
-    "caveat": "Do not call this the first human discovery; local prior knowledge is not erased, and Fawcett wrote that residents had known the cave for at least 12 or 15 years. Sources disagree on the year: 1894 (S012; Ajit Kumar 2013), 1895 (S011 and the state tourism page), and about the beginning of 1896 (a report quoted in Fawcett 1901, p. 412). 1894 is retained as an attributed year, not a settled one.",
+    "caveat": "Do not call this the first human discovery; local prior knowledge is not erased, and Fawcett wrote that residents had known the cave for at least 12 or 15 years. Sources disagree on the year: 1894 (S012; Ajit Kumar 2013), 1895 (S011 and the state tourism page), and about the beginning of 1896 (a report quoted in Fawcett 1901, p. 412). The 1894–1896 interval bounds the conflicting reports; it does not assert visits in every intervening year.",
     "periods": [
       "P05",
       "E10"
     ],
-    "year_links": [
-      {
-        "year": 1894,
-        "role": "research_history"
-      }
-    ],
+    "year_links": [],
     "other_dates": [],
     "tags": [],
     "status": "seed_source_checked_not_human_reviewed",
@@ -815,7 +822,7 @@
     "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
     "rights": "Original summary only; source materials retain their own rights.",
     "created": "2026-10-11",
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
   {
     "id": "R020",

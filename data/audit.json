@@ -159,7 +159,7 @@
     "id": "A018",
     "earlier_claim": "Ptolemy’s work is relevant to the second-century record.",
     "verdict": "partly_verified",
-    "corrected_treatment": "The research institution supports the second-century date of the Geography; local passages and geographical identifications remain unverified. Geography 7.1.8 (Mouziris, an emporium) and 7.1.86 (Karoura, royal seat of Kerobothros) were read in McCrindle's 1885 translation. McCrindle, following Yule, identified Mouziris with Kodungallur and Karoura with Karur in Tamil Nadu; these are attributed identifications, and Ptolemy's coordinates are not modern positions.",
+    "corrected_treatment": "The research institution supports the second-century date of the Geography. Geography 7.1.8 (Mouziris, an emporium) and 7.1.86 (Karoura, royal seat of Kerobothros) were inspected in OCR of McCrindle’s 1885 English translation and commentary. McCrindle, following Yule, identified Mouziris with Kodungallur and Karoura with Karur in Tamil Nadu. These remain attributed identifications; original Greek, scan images and a modern critical edition were not verified. Ptolemy’s coordinates are not modern positions.",
     "sources": [
       "S041",
       "S047"
