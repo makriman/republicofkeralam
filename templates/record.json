@@ -1,0 +1,42 @@
+{
+  "id": "R999",
+  "title": "Replace with a bounded claim title",
+  "claim": "Replace with an original, supported, attributed statement.",
+  "date": {
+    "kind": "historical",
+    "start_year": 1000,
+    "end_year": 1000,
+    "precision": "conventional_year",
+    "original_expression": "Replace with source expression",
+    "calendar": "State original calendar and conversion or leave unnormalized"
+  },
+  "scope_relation": "core",
+  "places": [
+    "Replace with source-supported place"
+  ],
+  "evidence_type": "Replace with evidence type",
+  "support": [
+    {
+      "source": "S999",
+      "locator": "Replace with exact page/section/line/witness locator"
+    }
+  ],
+  "caveat": "State what this does not establish.",
+  "periods": [
+    "P03"
+  ],
+  "year_links": [
+    {
+      "year": 1000,
+      "role": "conventional_date"
+    }
+  ],
+  "other_dates": [],
+  "tags": [],
+  "status": "seed_source_checked_not_human_reviewed",
+  "human_review": "pending",
+  "authoring": "Supply extraction and authorship provenance.",
+  "rights": "Original summary; third-party rights unchanged.",
+  "created": "2026-10-11",
+  "updated": "2026-10-11"
+}

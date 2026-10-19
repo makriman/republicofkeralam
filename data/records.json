@@ -1,0 +1,1351 @@
+[
+  {
+    "id": "R001",
+    "title": "Planetary age as context",
+    "claim": "USGS gives an Earth-age estimate of approximately 4.54 billion years. This is global context for the land’s material history, not the age of a Kerala rock.",
+    "date": {
+      "kind": "geological",
+      "older_ma": 4540,
+      "younger_ma": 4540,
+      "precision": "reported_estimate",
+      "original_expression": "Approximately 4.54 billion years; USGS states uncertainty below 1%",
+      "datum": "Ma: million years ago; not radiocarbon BP"
+    },
+    "scope_relation": "global_context",
+    "places": [],
+    "evidence_type": "scientific_estimate",
+    "support": [
+      {
+        "source": "S001",
+        "locator": "Earth-age paragraph"
+      }
+    ],
+    "caveat": "The scalar is rounded. Older-rock rankings elsewhere on this older page are not adopted.",
+    "periods": [
+      "E01"
+    ],
+    "year_links": [],
+    "other_dates": [],
+    "tags": [
+      "geology",
+      "global-context"
+    ],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R002",
+    "title": "Ancient southern-basement study requires its erratum",
+    "claim": "The 2006 Trivandrum Block study reports mineral-age evidence relevant to southern basement history. Its numerical results are withheld from this seed pending inspection of its erratum.",
+    "date": {
+      "kind": "undated",
+      "precision": "undetermined",
+      "original_expression": "Precambrian–Cambrian mineral histories; numerical adoption blocked pending erratum"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Trivandrum Block, southern Kerala"
+    ],
+    "evidence_type": "research_article_claim",
+    "support": [
+      {
+        "source": "S002",
+        "locator": "Author abstract and bibliographic record"
+      },
+      {
+        "source": "S003",
+        "locator": "Erratum bibliographic record"
+      }
+    ],
+    "caveat": "An inherited mineral age is not the age of the whole present landmass. The effect of the erratum is not yet known.",
+    "periods": [
+      "E02",
+      "E03"
+    ],
+    "year_links": [],
+    "other_dates": [
+      {
+        "role": "publication",
+        "year": 2006
+      }
+    ],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R003",
+    "title": "Peninsular ancient-crust paper is an unresolved dating lead",
+    "claim": "The 2016 paper on Hadean-to-Neoarchean crustal evolution is relevant to investigating the oldest local material, but the full sample and age-interpretation evidence has not been reviewed.",
+    "date": {
+      "kind": "undated",
+      "precision": "undetermined",
+      "original_expression": "Hadean to Neoarchean crustal-evolution claim; sample-level evaluation pending"
+    },
+    "scope_relation": "regional_context",
+    "places": [
+      "Peninsular India; in-scope sample relation to be established"
+    ],
+    "evidence_type": "research_lead",
+    "support": [
+      {
+        "source": "S006",
+        "locator": "Abstract and GSJ catalogue"
+      }
+    ],
+    "caveat": "No oldest-rock age or ranking is asserted here.",
+    "periods": [
+      "E02"
+    ],
+    "year_links": [],
+    "other_dates": [
+      {
+        "role": "publication",
+        "year": 2016
+      }
+    ],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R004",
+    "title": "A multistage west-margin research model",
+    "claim": "The west-coast tectono-magmatic study and the offshore-sedimentation study investigate different processes in margin development; neither is used here as a single date for the birth of the Ghats or coast.",
+    "date": {
+      "kind": "undated",
+      "precision": "undetermined",
+      "original_expression": "Multistage margin development"
+    },
+    "scope_relation": "regional_context",
+    "places": [
+      "Western Indian continental margin",
+      "Konkan–Kerala Basin"
+    ],
+    "evidence_type": "research_synthesis",
+    "support": [
+      {
+        "source": "S004",
+        "locator": "Abstract"
+      },
+      {
+        "source": "S005",
+        "locator": "Abstract"
+      }
+    ],
+    "caveat": "Local transfer of basin-wide interpretations requires evidence.",
+    "periods": [
+      "E04",
+      "E05"
+    ],
+    "year_links": [],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R005",
+    "title": "Quilon Formation depositional estimate",
+    "claim": "Carolin, Vadlamani and Bajpai report a preferred depositional estimate of 17.08–17.13 Ma for sampled Quilon Formation material, based on strontium-isotope work on molluscan shells.",
+    "date": {
+      "kind": "geological",
+      "older_ma": 17.13,
+      "younger_ma": 17.08,
+      "precision": "reported_estimate",
+      "original_expression": "Preferred depositional age 17.08–17.13 Ma",
+      "datum": "Ma: million years ago; not radiocarbon BP"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Quilon Formation; sample coordinates pending full-text review"
+    ],
+    "evidence_type": "research_article_claim",
+    "support": [
+      {
+        "source": "S007",
+        "locator": "Abstract"
+      }
+    ],
+    "caveat": "The preferred range is not presented here as a statistical confidence interval or an age for the whole coastline.",
+    "periods": [
+      "E06"
+    ],
+    "year_links": [],
+    "other_dates": [
+      {
+        "role": "publication",
+        "date": "2022-06-27"
+      }
+    ],
+    "tags": [
+      "geology",
+      "palaeontology"
+    ],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R006",
+    "title": "Reported Lower Palaeolithic evidence in northern Kerala",
+    "claim": "The accessible abstract of Ramesh N. K.’s 2016 study suggests occupation of northern Kerala from the Lower Palaeolithic.",
+    "date": {
+      "kind": "undated",
+      "precision": "relative_attribution",
+      "original_expression": "Lower Palaeolithic attribution; no adopted absolute date"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Northern Kerala; individual sites awaiting report review"
+    ],
+    "evidence_type": "archaeological_claim",
+    "support": [
+      {
+        "source": "S009",
+        "locator": "NDLI abstract; Heritage 4, 627–636"
+      }
+    ],
+    "caveat": "Full report and dating context not inspected. Tool typology does not establish a species or exact first-arrival year.",
+    "periods": [
+      "E08"
+    ],
+    "year_links": [],
+    "other_dates": [
+      {
+        "role": "publication",
+        "year": 2016
+      }
+    ],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R007",
+    "title": "Thenmala and Ankode are archaeological research leads",
+    "claim": "The INFLIBNET overview identifies Thenmala/Tenmala and Ankode shelter deposits and points to earlier field research.",
+    "date": {
+      "kind": "undated",
+      "precision": "relative_attribution",
+      "original_expression": "Mesolithic attribution; quoted charcoal age not normalized"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Thenmala / Tenmala",
+      "Ankode"
+    ],
+    "evidence_type": "secondary_route_to_primary_reports",
+    "support": [
+      {
+        "source": "S010",
+        "locator": "Kerala subsection"
+      },
+      {
+        "source": "S025",
+        "locator": "Radiocarbon calibration guidance"
+      }
+    ],
+    "caveat": "The overview’s 5210-years-ago value lacks enough metadata for conversion into a precise calendar year. Its description should not be replaced with an assumed microlithic toolkit.",
+    "periods": [
+      "E09"
+    ],
+    "year_links": [],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R008",
+    "title": "Edakkal engravings: a date claim, not a fixed year",
+    "claim": "The district tourism page assigns Edakkal engravings to 6000 BCE; the scholarly discussion inspected does not establish that as a secure absolute date for the panels.",
+    "date": {
+      "kind": "undated",
+      "precision": "undetermined",
+      "original_expression": "6000 BCE is a tourism attribution, not an adopted event date"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Edakkal, Wayanad"
+    ],
+    "evidence_type": "claim_audit",
+    "support": [
+      {
+        "source": "S011",
+        "locator": "Tourism description"
+      },
+      {
+        "source": "S012",
+        "locator": "Opening archaeological-context discussion"
+      }
+    ],
+    "caveat": "This does not prove every proposed early date false. Figures may represent different episodes; dating and meaning require panel-level evidence.",
+    "periods": [
+      "E10"
+    ],
+    "year_links": [],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R009",
+    "title": "Pattanam’s reported Iron Age phase",
+    "claim": "The KCHR seventh-season handbook gives Pattanam an approximate Iron Age phase of 1000–500 BCE.",
+    "date": {
+      "kind": "historical",
+      "start_year": -1000,
+      "end_year": -500,
+      "precision": "interval",
+      "original_expression": "1000–500 BCE, approximate archaeological phase",
+      "calendar": "BCE/CE indexing; not exact event endpoints"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Pattanam"
+    ],
+    "evidence_type": "excavation_report_phase",
+    "support": [
+      {
+        "source": "S019",
+        "locator": "Printed p. 7; cultural chronology table"
+      }
+    ],
+    "caveat": "This is one site’s phase as reported in 2013, not all Kerala’s chronology or proof of uninterrupted occupation.",
+    "periods": [
+      "E12"
+    ],
+    "year_links": [],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R010",
+    "title": "Keralaputras in Rock Edict II",
+    "claim": "The inspected translation of Major Rock Edict II names Keralaputras among peoples beyond the ruler’s borders. The association with the southwestern region is a historical-geographic interpretation, not a modern boundary description.",
+    "date": {
+      "kind": "historical",
+      "start_year": -300,
+      "end_year": -201,
+      "precision": "interval",
+      "original_expression": "Third century BCE; editor separately proposes 257 BCE",
+      "calendar": "BCE/CE indexing; not exact event endpoints"
+    },
+    "scope_relation": "external_reference",
+    "places": [
+      "Girnar inscription witness; southwestern polity identification"
+    ],
+    "evidence_type": "primary_text_in_translation",
+    "support": [
+      {
+        "source": "S014",
+        "locator": "Major Rock Edict II; notes 2–3"
+      }
+    ],
+    "caveat": "The edict is not an inscription found inside present Kerala. Its claims do not independently prove local medical installations. Critical-edition comparison remains pending.",
+    "periods": [
+      "P01"
+    ],
+    "year_links": [
+      {
+        "year": -257,
+        "role": "proposed_date"
+      }
+    ],
+    "other_dates": [],
+    "tags": [
+      "epigraphy",
+      "political-geography"
+    ],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R011",
+    "title": "First-century Periplus port descriptions",
+    "claim": "The Periplus describes Muziris and neighbouring ports, rulers and maritime exchange in sections 53–56. The inspected edition places the ancient composition in the first century CE.",
+    "date": {
+      "kind": "historical",
+      "start_year": 1,
+      "end_year": 100,
+      "precision": "interval",
+      "original_expression": "First century CE; exact composition year not adopted",
+      "calendar": "BCE/CE indexing; not exact event endpoints"
+    },
+    "scope_relation": "external_reference",
+    "places": [
+      "Muziris: precise modern location disputed",
+      "Southwestern Indian ports"
+    ],
+    "evidence_type": "primary_text_in_translation",
+    "support": [
+      {
+        "source": "S016",
+        "locator": "Editorial introduction; sections 53–56"
+      }
+    ],
+    "caveat": "Do not equate every ancient place name with a modern coordinate or infer the ethnicity of all residents from trade.",
+    "periods": [
+      "P02"
+    ],
+    "year_links": [],
+    "other_dates": [
+      {
+        "role": "translation_publication",
+        "year": 1912
+      },
+      {
+        "role": "web_edition",
+        "year": 2004
+      }
+    ],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R012",
+    "title": "Early Historic Pattanam phase",
+    "claim": "The KCHR handbook groups a Pattanam Early Historic phase approximately within 300 BCE–500 CE.",
+    "date": {
+      "kind": "historical",
+      "start_year": -300,
+      "end_year": 500,
+      "precision": "interval",
+      "original_expression": "300 BCE–500 CE; approximate site phase",
+      "calendar": "BCE/CE indexing; not exact event endpoints"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Pattanam"
+    ],
+    "evidence_type": "excavation_report_phase",
+    "support": [
+      {
+        "source": "S019",
+        "locator": "Printed p. 7; cultural chronology table"
+      }
+    ],
+    "caveat": "A site phase spans many events; it must not be copied as a separately dated event into every year.",
+    "periods": [
+      "P02"
+    ],
+    "year_links": [],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R013",
+    "title": "Kollam copper plates: attributed 849 CE dating",
+    "claim": "The final outcomes of the AHRC research project describe the Kollam plates as a single document dated to 849 CE.",
+    "date": {
+      "kind": "historical",
+      "start_year": 849,
+      "end_year": 849,
+      "precision": "conventional_year",
+      "original_expression": "849 CE in project outcomes; original calendrical reasoning not yet inspected",
+      "calendar": "BCE/CE indexing; original calendar retained where known"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Kollam"
+    ],
+    "evidence_type": "research_project_finding",
+    "support": [
+      {
+        "source": "S020",
+        "locator": "Final project outcomes, not the proposal abstract"
+      }
+    ],
+    "caveat": "The critical inscription edition and date conversion must still be reviewed. The same page’s proposal uses an earlier interpretation.",
+    "periods": [
+      "P03"
+    ],
+    "year_links": [
+      {
+        "year": 849,
+        "role": "conventional_date"
+      }
+    ],
+    "other_dates": [],
+    "tags": [
+      "epigraphy",
+      "Indian-Ocean"
+    ],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R014",
+    "title": "Voyage journal places arrival at Calicut in 1498",
+    "claim": "The voyage-journal extract describes anchoring near Calicut in its 1498 section.",
+    "date": {
+      "kind": "historical",
+      "start_year": 1498,
+      "end_year": 1498,
+      "precision": "year",
+      "original_expression": "1498 CE",
+      "calendar": "BCE/CE indexing; original calendar retained where known"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Calicut / Kozhikode vicinity"
+    ],
+    "evidence_type": "primary_text_in_translation",
+    "support": [
+      {
+        "source": "S022",
+        "locator": "PDF p. 3: 1498 Calicut arrival"
+      },
+      {
+        "source": "S021",
+        "locator": "Manuscript-register description"
+      }
+    ],
+    "caveat": "Year retained, exact day not normalized. The extract contains a May 20/May 22 sequencing issue; the full critical edition is required. This is not the beginning of maritime contact.",
+    "periods": [
+      "P04"
+    ],
+    "year_links": [
+      {
+        "year": 1498,
+        "role": "year_attested"
+      }
+    ],
+    "other_dates": [],
+    "tags": [
+      "maritime",
+      "Portuguese"
+    ],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R015",
+    "title": "States Reorganisation Act dated 31 August 1956",
+    "claim": "The official copy of Act 37 of 1956 is dated 31 August 1956 and sets out the reorganization of states.",
+    "date": {
+      "kind": "historical",
+      "start_year": 1956,
+      "end_year": 1956,
+      "precision": "day",
+      "original_expression": "31 August 1956",
+      "calendar": "BCE/CE indexing; original calendar retained where known",
+      "date": "1956-08-31"
+    },
+    "scope_relation": "external_action_affecting_core",
+    "places": [
+      "India; territories reorganized under the Act"
+    ],
+    "evidence_type": "primary_legislation",
+    "support": [
+      {
+        "source": "S023",
+        "locator": "Act heading"
+      }
+    ],
+    "caveat": "The date on the Act is not the commencement date for the new state.",
+    "periods": [
+      "P06"
+    ],
+    "year_links": [
+      {
+        "year": 1956,
+        "role": "exact_date"
+      }
+    ],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R016",
+    "title": "State formation takes effect on 1 November 1956",
+    "claim": "Sections 2(a) and 5 make 1 November 1956 the appointed day for formation of the new state. Section 5 combines specified territories and contains explicit exclusions.",
+    "date": {
+      "kind": "historical",
+      "start_year": 1956,
+      "end_year": 1956,
+      "precision": "day",
+      "original_expression": "1 November 1956",
+      "calendar": "BCE/CE indexing; original calendar retained where known",
+      "date": "1956-11-01"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Territories specified in section 5"
+    ],
+    "evidence_type": "primary_legislation",
+    "support": [
+      {
+        "source": "S023",
+        "locator": "Sections 2(a), 4, 5 and 6"
+      }
+    ],
+    "caveat": "Read the Act for all transfers: this is not all historic Malabar or all historic Travancore. The original Act does not by itself establish the current polygon.",
+    "periods": [
+      "P06"
+    ],
+    "year_links": [
+      {
+        "year": 1956,
+        "role": "exact_date"
+      }
+    ],
+    "other_dates": [],
+    "tags": [
+      "administration",
+      "boundaries"
+    ],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R017",
+    "title": "Babington excavation recorded for 1819",
+    "claim": "The state Archaeology Department’s retrospective dates Babington’s excavation at Puthiyangadi to 1819.",
+    "date": {
+      "kind": "historical",
+      "start_year": 1819,
+      "end_year": 1819,
+      "precision": "year",
+      "original_expression": "1819 CE",
+      "calendar": "BCE/CE indexing; original calendar retained where known"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Puthiyangadi, Malabar"
+    ],
+    "evidence_type": "institutional_research_history",
+    "support": [
+      {
+        "source": "S013",
+        "locator": "Opening Babington paragraph"
+      }
+    ],
+    "caveat": "The original publication has not been inspected; this dates research activity, not the construction of the burial.",
+    "periods": [
+      "P05"
+    ],
+    "year_links": [
+      {
+        "year": 1819,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R018",
+    "title": "Malabar Manual publication, 1887",
+    "claim": "The official archaeology retrospective identifies 1887 as the publication year of the first part of Logan’s Malabar Manual.",
+    "date": {
+      "kind": "historical",
+      "start_year": 1887,
+      "end_year": 1887,
+      "precision": "year",
+      "original_expression": "1887 CE",
+      "calendar": "BCE/CE indexing; original calendar retained where known"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Malabar; historical administrative coverage"
+    ],
+    "evidence_type": "publication_history",
+    "support": [
+      {
+        "source": "S013",
+        "locator": "Logan / Malabar Manual paragraph"
+      }
+    ],
+    "caveat": "A publication year does not date every custom or claim described in the manual. Full edition and territorial crosswalk still required.",
+    "periods": [
+      "P05"
+    ],
+    "year_links": [
+      {
+        "year": 1887,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R019",
+    "title": "Edakkal scholarly documentation milestone, 1894",
+    "claim": "The sources inspected place Fawcett’s encounter with Edakkal’s engravings in 1894 within the history of archaeological documentation.",
+    "date": {
+      "kind": "historical",
+      "start_year": 1894,
+      "end_year": 1894,
+      "precision": "year",
+      "original_expression": "1894 CE",
+      "calendar": "BCE/CE indexing; original calendar retained where known"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Edakkal, Wayanad"
+    ],
+    "evidence_type": "research_history",
+    "support": [
+      {
+        "source": "S012",
+        "locator": "Opening account of Fawcett"
+      },
+      {
+        "source": "S013",
+        "locator": "Edakkal paragraph"
+      }
+    ],
+    "caveat": "Do not call this the first human discovery; local prior knowledge is not erased.",
+    "periods": [
+      "P05",
+      "E10"
+    ],
+    "year_links": [
+      {
+        "year": 1894,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R020",
+    "title": "Fawcett’s Edakkal article, 1901",
+    "claim": "The department retrospective identifies an illustrated Edakkal article in Indian Antiquary volume 30, published in 1901.",
+    "date": {
+      "kind": "historical",
+      "start_year": 1901,
+      "end_year": 1901,
+      "precision": "year",
+      "original_expression": "1901 CE",
+      "calendar": "BCE/CE indexing; original calendar retained where known"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Edakkal, Wayanad"
+    ],
+    "evidence_type": "publication_history",
+    "support": [
+      {
+        "source": "S013",
+        "locator": "Fawcett article paragraph"
+      }
+    ],
+    "caveat": "The article itself and its figures have not been critically checked.",
+    "periods": [
+      "P05",
+      "E10"
+    ],
+    "year_links": [
+      {
+        "year": 1901,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R021",
+    "title": "Pattanam–Muziris identification argued in a 2004 article",
+    "claim": "Shajan and colleagues published an argument concerning Pattanam and Muziris in Journal of Roman Archaeology volume 17 (2004).",
+    "date": {
+      "kind": "historical",
+      "start_year": 2004,
+      "end_year": 2004,
+      "precision": "year",
+      "original_expression": "2004 CE",
+      "calendar": "BCE/CE indexing; original calendar retained where known"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Pattanam",
+      "Muziris identification"
+    ],
+    "evidence_type": "publication_history",
+    "support": [
+      {
+        "source": "S017",
+        "locator": "Publisher bibliographic metadata"
+      }
+    ],
+    "caveat": "The 2015 online-hosting date is not the original publication year; the proposed identity remains an attributed argument.",
+    "periods": [
+      "P02",
+      "P07"
+    ],
+    "year_links": [
+      {
+        "year": 2004,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [
+      {
+        "role": "publisher_online_date",
+        "date": "2015-02-16"
+      }
+    ],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R022",
+    "title": "KCHR first Pattanam excavation season, 2007",
+    "claim": "The seventh-season handbook’s research timeline lists KCHR’s first Pattanam excavation season in 2007.",
+    "date": {
+      "kind": "historical",
+      "start_year": 2007,
+      "end_year": 2007,
+      "precision": "year",
+      "original_expression": "2007 CE",
+      "calendar": "BCE/CE indexing; original calendar retained where known"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Pattanam"
+    ],
+    "evidence_type": "excavation_history",
+    "support": [
+      {
+        "source": "S019",
+        "locator": "Printed p. 13; research timeline"
+      }
+    ],
+    "caveat": "Earlier survey and trial work must not be erased by this institutional first-season label.",
+    "periods": [
+      "P07"
+    ],
+    "year_links": [
+      {
+        "year": 2007,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R023",
+    "title": "Ceramics and the Pattanam identification argument, 2008",
+    "claim": "The 2008 ceramic report discusses external connections and treats equivalence with Muziris as an argument supported by the finds.",
+    "date": {
+      "kind": "historical",
+      "start_year": 2008,
+      "end_year": 2008,
+      "precision": "year",
+      "original_expression": "2008 CE",
+      "calendar": "BCE/CE indexing; original calendar retained where known"
+    },
+    "scope_relation": "core",
+    "places": [
+      "Pattanam"
+    ],
+    "evidence_type": "publication_history",
+    "support": [
+      {
+        "source": "S018",
+        "locator": "Concluding interpretation"
+      }
+    ],
+    "caveat": "Imported objects support exchange; they do not alone settle place identity or individual origins.",
+    "periods": [
+      "P02",
+      "P07"
+    ],
+    "year_links": [
+      {
+        "year": 2008,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R024",
+    "title": "The voyage journal enters UNESCO’s register in 2013",
+    "claim": "UNESCO’s entry records the voyage journal’s Memory of the World registration in 2013.",
+    "date": {
+      "kind": "historical",
+      "start_year": 2013,
+      "end_year": 2013,
+      "precision": "year",
+      "original_expression": "2013 CE",
+      "calendar": "BCE/CE indexing; original calendar retained where known"
+    },
+    "scope_relation": "external_custody_or_research",
+    "places": [
+      "Porto manuscript custody; Calicut-related content"
+    ],
+    "evidence_type": "heritage_registration",
+    "support": [
+      {
+        "source": "S021",
+        "locator": "Registration Year"
+      }
+    ],
+    "caveat": "Registration, surviving-copy date and narrated events are separate dates.",
+    "periods": [
+      "P07"
+    ],
+    "year_links": [
+      {
+        "year": 2013,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R025",
+    "title": "Quilon strontium-isotope study published in 2022",
+    "claim": "The publisher dates the Quilon depositional-age study to 27 June 2022.",
+    "date": {
+      "kind": "historical",
+      "start_year": 2022,
+      "end_year": 2022,
+      "precision": "day",
+      "original_expression": "27 June 2022",
+      "calendar": "BCE/CE indexing; original calendar retained where known",
+      "date": "2022-06-27"
+    },
+    "scope_relation": "external_custody_or_research",
+    "places": [
+      "Quilon Formation research"
+    ],
+    "evidence_type": "publication_history",
+    "support": [
+      {
+        "source": "S007",
+        "locator": "Publication metadata"
+      }
+    ],
+    "caveat": "The publication date is not a geological event in 2022.",
+    "periods": [
+      "P07",
+      "E06"
+    ],
+    "year_links": [
+      {
+        "year": 2022,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R026",
+    "title": "Fish-otolith study: first online date",
+    "claim": "The publisher records 31 May 2022 as the online publication date of the study of Miocene fish otoliths from southwestern India.",
+    "date": {
+      "kind": "historical",
+      "start_year": 2022,
+      "end_year": 2022,
+      "precision": "day",
+      "original_expression": "31 May 2022",
+      "calendar": "BCE/CE indexing; original calendar retained where known",
+      "date": "2022-05-31"
+    },
+    "scope_relation": "external_custody_or_research",
+    "places": [
+      "Southwestern Indian Miocene fauna"
+    ],
+    "evidence_type": "publication_history",
+    "support": [
+      {
+        "source": "S008",
+        "locator": "Publication history"
+      }
+    ],
+    "caveat": "The volume is dated 2023. Keep both dates, and neither is the age of the fossils.",
+    "periods": [
+      "P07",
+      "E06"
+    ],
+    "year_links": [
+      {
+        "year": 2022,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [
+      {
+        "role": "volume_publication",
+        "year": 2023
+      }
+    ],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R027",
+    "title": "Fish-otolith study: volume publication",
+    "claim": "The fish-otolith study appears in PalZ volume 97 (2023), pages 43–80.",
+    "date": {
+      "kind": "historical",
+      "start_year": 2023,
+      "end_year": 2023,
+      "precision": "year",
+      "original_expression": "2023 CE",
+      "calendar": "BCE/CE indexing; original calendar retained where known"
+    },
+    "scope_relation": "external_custody_or_research",
+    "places": [
+      "Southwestern Indian Miocene fauna"
+    ],
+    "evidence_type": "publication_history",
+    "support": [
+      {
+        "source": "S008",
+        "locator": "Volume and page metadata"
+      }
+    ],
+    "caveat": "This is a second publication milestone for the same study, not a second fossil discovery.",
+    "periods": [
+      "P07",
+      "E06"
+    ],
+    "year_links": [
+      {
+        "year": 2023,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [
+      {
+        "role": "first_online",
+        "date": "2022-05-31"
+      }
+    ],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R028",
+    "title": "Rappal manuscript collection announcement, 2025",
+    "claim": "HMML announced access to a 92-manuscript Rappal collection on 23 June 2025.",
+    "date": {
+      "kind": "historical",
+      "start_year": 2025,
+      "end_year": 2025,
+      "precision": "day",
+      "original_expression": "23 June 2025",
+      "calendar": "BCE/CE indexing; original calendar retained where known",
+      "date": "2025-06-23"
+    },
+    "scope_relation": "external_custody_or_research",
+    "places": [
+      "Rappal, Thrissur; digital access through HMML"
+    ],
+    "evidence_type": "digitization_announcement",
+    "support": [
+      {
+        "source": "S036",
+        "locator": "Announcement date and collection description"
+      }
+    ],
+    "caveat": "The announcement was inspected, not every manuscript. This is an access-history event, not the manuscripts’ original production date.",
+    "periods": [
+      "P07"
+    ],
+    "year_links": [
+      {
+        "year": 2025,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [],
+    "tags": [
+      "manuscripts",
+      "digital-access"
+    ],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R029",
+    "title": "North-Kerala archaeology paper published in 2016",
+    "claim": "The NDLI and journal records identify the north-Kerala pre- and protohistoric study as a 2016 publication.",
+    "date": {
+      "kind": "historical",
+      "start_year": 2016,
+      "end_year": 2016,
+      "precision": "year",
+      "original_expression": "2016 CE",
+      "calendar": "BCE/CE indexing; original calendar retained where known"
+    },
+    "scope_relation": "external_custody_or_research",
+    "places": [
+      "Northern Kerala research"
+    ],
+    "evidence_type": "publication_history",
+    "support": [
+      {
+        "source": "S009",
+        "locator": "Heritage volume and NDLI metadata"
+      }
+    ],
+    "caveat": "No ancient find is thereby dated to 2016; the report’s full evidence remains unreviewed.",
+    "periods": [
+      "P07",
+      "E08"
+    ],
+    "year_links": [
+      {
+        "year": 2016,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R030",
+    "title": "Trivandrum geochronology paper and erratum, 2006",
+    "claim": "The Trivandrum Block paper and a separately identified erratum both have 2006 publication records.",
+    "date": {
+      "kind": "historical",
+      "start_year": 2006,
+      "end_year": 2006,
+      "precision": "year",
+      "original_expression": "2006 CE",
+      "calendar": "BCE/CE indexing; original calendar retained where known"
+    },
+    "scope_relation": "external_custody_or_research",
+    "places": [
+      "Southern Kerala geological research"
+    ],
+    "evidence_type": "publication_history",
+    "support": [
+      {
+        "source": "S002",
+        "locator": "Article metadata"
+      },
+      {
+        "source": "S003",
+        "locator": "Erratum metadata"
+      }
+    ],
+    "caveat": "Erratum existence is checked, but its text is not. Do not infer that the correction is minor or invalidates the whole paper.",
+    "periods": [
+      "P07",
+      "E02"
+    ],
+    "year_links": [
+      {
+        "year": 2006,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [],
+    "tags": [],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  },
+  {
+    "id": "R031",
+    "title": "Cambridge hosting date for the 2008 Pattanam ceramics report",
+    "claim": "The current publisher page records online publication on 22 April 2026 while identifying the original volume as March 2008.",
+    "date": {
+      "kind": "historical",
+      "start_year": 2026,
+      "end_year": 2026,
+      "precision": "day",
+      "original_expression": "22 April 2026",
+      "calendar": "Gregorian",
+      "date": "2026-04-22"
+    },
+    "scope_relation": "external_custody_or_research",
+    "places": [
+      "Pattanam research; Cambridge digital hosting"
+    ],
+    "evidence_type": "digital_publication_metadata",
+    "support": [
+      {
+        "source": "S018",
+        "locator": "Published online metadata; Information: volume 82, issue 315, March 2008"
+      }
+    ],
+    "caveat": "This is a hosting/publication metadata event, not a new excavation in 2026. The historical argument belongs to the 2008 report.",
+    "periods": [
+      "P07"
+    ],
+    "year_links": [
+      {
+        "year": 2026,
+        "role": "research_history"
+      }
+    ],
+    "other_dates": [
+      {
+        "role": "original_volume_publication",
+        "year": 2008
+      }
+    ],
+    "tags": [
+      "digital-access",
+      "source-versioning"
+    ],
+    "status": "seed_source_checked_not_human_reviewed",
+    "human_review": "pending",
+    "authoring": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+    "rights": "Original summary only; source materials retain their own rights.",
+    "created": "2026-10-11",
+    "updated": "2026-10-11"
+  }
+]

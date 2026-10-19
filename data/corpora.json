@@ -1,0 +1,462 @@
+[
+  {
+    "id": "C001",
+    "name": "Local basement geochronology",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S006"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Retrieve correction and sample tables; build sample-level age interpretation records.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C002",
+    "name": "Western margin and geomorphology",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Inventory primary studies and distinguish process ages.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C003",
+    "name": "Quilon Formation and palaeontology",
+    "source_ids": [
+      "S007",
+      "S008"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Read full papers, specimen catalogues and dated sections.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C004",
+    "name": "Northern Kerala prehistory",
+    "source_ids": [
+      "S009"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Obtain full report and cited field/dating sources.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C005",
+    "name": "Thenmala and Ankode primary reports",
+    "source_ids": [
+      "S010"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Resolve original references and laboratory metadata.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C006",
+    "name": "Edakkal panels and scholarship",
+    "source_ids": [
+      "S011",
+      "S012",
+      "S013"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Inventory panels, inscriptions and dating claims separately.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C007",
+    "name": "Ashokan critical editions",
+    "source_ids": [
+      "S014",
+      "S015"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Compare witnesses, translations and dating arguments.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C008",
+    "name": "Early maritime textual witnesses",
+    "source_ids": [
+      "S016",
+      "S041"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Retrieve Pliny and Ptolemy passages and critical editions.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C009",
+    "name": "Pattanam excavation and specialist reports",
+    "source_ids": [
+      "S017",
+      "S018",
+      "S019"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Enumerate seasons, reports, samples and competing identifications.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C010",
+    "name": "Kollam plates research corpus",
+    "source_ids": [
+      "S020"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Find images, full revised edition and calendar justification.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C011",
+    "name": "First-voyage journal witnesses and editions",
+    "source_ids": [
+      "S021",
+      "S022",
+      "S040"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Compare critical edition, source manuscript and date sequence.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C012",
+    "name": "Administrative reorganization legislation",
+    "source_ids": [
+      "S023"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Trace original provisions, subsequent adjustments and current frame.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C013",
+    "name": "Kerala State Archives record holdings",
+    "source_ids": [
+      "S028",
+      "S029"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Enumerate fonds and series; distinguish catalogued from digitized.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C014",
+    "name": "Kerala State Archives library serials",
+    "source_ids": [
+      "S030"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Inventory titles, years, volumes and missing items.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C015",
+    "name": "Legislative records",
+    "source_ids": [
+      "S031"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Enumerate sessions, bills, debates and reports by institution.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C016",
+    "name": "University of Calicut historical archive",
+    "source_ids": [
+      "S032"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "List item identifiers, dates, languages, access and rights.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C017",
+    "name": "Gundert Portal",
+    "source_ids": [
+      "S033"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Inventory relevant manuscript/print items with geographical relationships.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C018",
+    "name": "DiPiKA and HMML collections",
+    "source_ids": [
+      "S034",
+      "S035",
+      "S036"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Enumerate collection manifests and do not equate announcements with item review.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C019",
+    "name": "British Library EAP1320/1",
+    "source_ids": [
+      "S037"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Verify catalogue structure, images, access and item-level dates.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C020",
+    "name": "Kerala Media Archives",
+    "source_ids": [
+      "S038"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Enumerate audiovisual and published objects with distinct date roles.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C021",
+    "name": "Heritage archaeology journal",
+    "source_ids": [
+      "S039"
+    ],
+    "status": "located_not_inventoried",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Inventory relevant articles, corrections and cited primary reports.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C022",
+    "name": "Sangam editions and manuscript witnesses",
+    "source_ids": [],
+    "status": "survey_queue_not_yet_located_at_item_level",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Enumerate poems, witnesses and critical editions; do not assign a single corpus date.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C023",
+    "name": "Epigraphical and archaeological government series",
+    "source_ids": [],
+    "status": "survey_queue_not_yet_located_at_item_level",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Identify relevant volumes, plates, appendices and original impressions.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C024",
+    "name": "Colonial administrative, revenue, census and gazette series",
+    "source_ids": [],
+    "status": "survey_queue_not_yet_located_at_item_level",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Inventory by exact historical territory, department, volume and year.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C025",
+    "name": "Portuguese, Dutch, French and British external archives",
+    "source_ids": [],
+    "status": "survey_queue_not_yet_located_at_item_level",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Search historical place aliases and record series, not only the modern state name.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C026",
+    "name": "Arabic, Persian, Hebrew, Syriac and Chinese sources",
+    "source_ids": [],
+    "status": "survey_queue_not_yet_located_at_item_level",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Identify competent-language editions and local referents with uncertainty.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C027",
+    "name": "Newspapers, periodicals and audiovisual collections",
+    "source_ids": [],
+    "status": "survey_queue_not_yet_located_at_item_level",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Record issue-level coverage, access conditions, OCR quality and corrections.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C028",
+    "name": "Community and oral-history archives",
+    "source_ids": [],
+    "status": "survey_queue_not_yet_located_at_item_level",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Establish consent, custody, ethical limits and recording/subject dates.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C029",
+    "name": "Modern statistics, elections, environment and public institutions",
+    "source_ids": [],
+    "status": "survey_queue_not_yet_located_at_item_level",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Verify definitions, territories, revision history and current access.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C030",
+    "name": "University theses and other research repositories",
+    "source_ids": [],
+    "status": "survey_queue_not_yet_located_at_item_level",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Deduplicate dissertation/paper versions and follow citations to primary evidence.",
+    "complete_inventory": false
+  },
+  {
+    "id": "C031",
+    "name": "Museums, numismatics and object catalogues",
+    "source_ids": [],
+    "status": "survey_queue_not_yet_located_at_item_level",
+    "snapshot_date": "2026-10-11",
+    "catalogue_items_total": null,
+    "items_enumerated": null,
+    "items_content_reviewed": null,
+    "rights_cleared_assets": null,
+    "next_task": "Keep object production, findspot, acquisition and current custody separate.",
+    "complete_inventory": false
+  }
+]

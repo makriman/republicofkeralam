@@ -1,0 +1,278 @@
+[
+  {
+    "chapter": 1,
+    "title": "The birth of the Earth",
+    "dossiers": "E01",
+    "assessment": "Planetary context supported; not a local rock date."
+  },
+  {
+    "chapter": 2,
+    "title": "The ancient geological foundation of southern India",
+    "dossiers": "E02",
+    "assessment": "Relevant research found; sample dates and erratum pending."
+  },
+  {
+    "chapter": 3,
+    "title": "When southern India was part of Gondwana",
+    "dossiers": "E03",
+    "assessment": "Assembly model relevant; exact local reconstruction not fully reviewed."
+  },
+  {
+    "chapter": 4,
+    "title": "The breakup of Gondwana",
+    "dossiers": "E04",
+    "assessment": "Research agenda; process chronology needs specialist sources."
+  },
+  {
+    "chapter": 5,
+    "title": "The making of the Western Ghats",
+    "dossiers": "E05",
+    "assessment": "Multistage framework; no single birthday."
+  },
+  {
+    "chapter": 6,
+    "title": "The birth of the Kerala coast",
+    "dossiers": "E07",
+    "assessment": "Rename to changing coasts; local core chronology still open."
+  },
+  {
+    "chapter": 7,
+    "title": "Kerala’s rivers, forests and ecosystems",
+    "dossiers": "E05, E07",
+    "assessment": "Research agenda, not a completed environmental history."
+  },
+  {
+    "chapter": 8,
+    "title": "The first inhabitants",
+    "dossiers": "E08",
+    "assessment": "Reported evidence; first absolute date unresolved."
+  },
+  {
+    "chapter": 9,
+    "title": "The Mesolithic and changing ways of life",
+    "dossiers": "E09",
+    "assessment": "Named site leads checked; primary dates pending."
+  },
+  {
+    "chapter": 10,
+    "title": "The Neolithic and early communities",
+    "dossiers": "E11",
+    "assessment": "Do not impose one farming sequence."
+  },
+  {
+    "chapter": 11,
+    "title": "Edakkal and prehistoric expressions",
+    "dossiers": "E10",
+    "assessment": "6000 BCE certainty withdrawn."
+  },
+  {
+    "chapter": 12,
+    "title": "Megalithic cultures and burial practices",
+    "dossiers": "E12",
+    "assessment": "Local site chronology and monument inventory needed."
+  },
+  {
+    "chapter": 13,
+    "title": "Iron, agriculture and settlement",
+    "dossiers": "E11, E12",
+    "assessment": "Research questions; no unified sequence verified."
+  },
+  {
+    "chapter": 14,
+    "title": "Before Kerala had a written history of its own",
+    "dossiers": "E12, P01",
+    "assessment": "Writing found locally and external reference must be distinguished."
+  },
+  {
+    "chapter": 15,
+    "title": "The earliest references to the Keralaputras",
+    "dossiers": "P01",
+    "assessment": "Third-century witness checked in translation; exact first year not established."
+  },
+  {
+    "chapter": 16,
+    "title": "The Cheras and the Sangam world",
+    "dossiers": "P02",
+    "assessment": "Poem-level and epigraphic research queue."
+  },
+  {
+    "chapter": 17,
+    "title": "Early ports and maritime exchange",
+    "dossiers": "P02",
+    "assessment": "Periplus and Pattanam seeds; site identities remain attributed."
+  },
+  {
+    "chapter": 18,
+    "title": "Society after the early Cheras",
+    "dossiers": "P03",
+    "assessment": "Open research, not a continuous filled narrative."
+  },
+  {
+    "chapter": 19,
+    "title": "The development of Malayalam",
+    "dossiers": "P03",
+    "assessment": "No exact language birth or earliest-inscription ranking established."
+  },
+  {
+    "chapter": 20,
+    "title": "Religion and religious communities",
+    "dossiers": "P03",
+    "assessment": "Separate traditions, earliest witnesses and corroborated developments."
+  },
+  {
+    "chapter": 21,
+    "title": "Land, agriculture and social organisation",
+    "dossiers": "P03",
+    "assessment": "Source-dependent research agenda."
+  },
+  {
+    "chapter": 22,
+    "title": "The later Cheras and regional powers",
+    "dossiers": "P03",
+    "assessment": "Dynastic/regnal chronology requires epigraphic audit."
+  },
+  {
+    "chapter": 23,
+    "title": "The Zamorin, Venad and other powers",
+    "dossiers": "P03",
+    "assessment": "Territorial and chronological variations require individual records."
+  },
+  {
+    "chapter": 24,
+    "title": "The spice trade and overseas connections",
+    "dossiers": "P02, P03, P04",
+    "assessment": "Multilingual source inventory required."
+  },
+  {
+    "chapter": 25,
+    "title": "Communities and everyday life",
+    "dossiers": "P03",
+    "assessment": "Integrate throughout all periods."
+  },
+  {
+    "chapter": 26,
+    "title": "The arrival of the Portuguese",
+    "dossiers": "P04",
+    "assessment": "1498 year supported in a journal extract."
+  },
+  {
+    "chapter": 27,
+    "title": "The Dutch, Mysore and changing power",
+    "dossiers": "P04, P05",
+    "assessment": "Named themes not yet event-audited."
+  },
+  {
+    "chapter": 28,
+    "title": "British rule and the princely states",
+    "dossiers": "P05",
+    "assessment": "Distinguish institutional record series."
+  },
+  {
+    "chapter": 29,
+    "title": "Society under colonialism",
+    "dossiers": "P05",
+    "assessment": "Economic, social and community sources still to inventory."
+  },
+  {
+    "chapter": 30,
+    "title": "Resistance, reform and mobilisation",
+    "dossiers": "P05",
+    "assessment": "Dates and disputed interpretations not yet checked comprehensively."
+  },
+  {
+    "chapter": 31,
+    "title": "Independence and integration",
+    "dossiers": "P06",
+    "assessment": "Individual instruments need verification beyond the 1956 Act."
+  },
+  {
+    "chapter": 32,
+    "title": "The Aikya Kerala movement",
+    "dossiers": "P06",
+    "assessment": "Research agenda; boundary choices need contemporary sources."
+  },
+  {
+    "chapter": 33,
+    "title": "The formation of Kerala in 1956",
+    "dossiers": "P06",
+    "assessment": "Primary statute checked, including exclusions."
+  },
+  {
+    "chapter": 34,
+    "title": "Politics and democracy",
+    "dossiers": "P07",
+    "assessment": "Contemporary research programme, not audited findings."
+  },
+  {
+    "chapter": 35,
+    "title": "Land reform, education and health",
+    "dossiers": "P07",
+    "assessment": "Legislation, implementation and outcomes require distinct records."
+  },
+  {
+    "chapter": 36,
+    "title": "Migration and the Gulf connection",
+    "dossiers": "P07",
+    "assessment": "Survey definitions, movements and remittances need source-specific dates."
+  },
+  {
+    "chapter": 37,
+    "title": "Economic transformation",
+    "dossiers": "P07",
+    "assessment": "Statistical series and definitions not yet audited."
+  },
+  {
+    "chapter": 38,
+    "title": "Contemporary Kerala",
+    "dossiers": "P07",
+    "assessment": "Partial current year; claims must be updated and ethically reviewed."
+  },
+  {
+    "chapter": 39,
+    "title": "How landscape shaped history",
+    "dossiers": "E05, E07",
+    "assessment": "Test causal explanations; avoid geographical determinism."
+  },
+  {
+    "chapter": 40,
+    "title": "The changing coastline",
+    "dossiers": "E07",
+    "assessment": "Independent sedimentary and documentary evidence required."
+  },
+  {
+    "chapter": 41,
+    "title": "Food, plants and animals",
+    "dossiers": "E06, E11, P07",
+    "assessment": "Make palaeontology and ecological history visible."
+  },
+  {
+    "chapter": 42,
+    "title": "Disease and public health",
+    "dossiers": "P05, P07",
+    "assessment": "Integrate records, definitions and uncertainty; no medical advice here."
+  },
+  {
+    "chapter": 43,
+    "title": "The history of ordinary people",
+    "dossiers": "P02, P03, P04, P05, P07",
+    "assessment": "Core coverage requirement, not a final optional appendix."
+  },
+  {
+    "chapter": 44,
+    "title": "Lost settlements and landscapes",
+    "dossiers": "E07, P02",
+    "assessment": "Keep site-identification hypotheses separate from findings."
+  },
+  {
+    "chapter": 45,
+    "title": "Legends, oral traditions and evidence",
+    "dossiers": "E10, P03",
+    "assessment": "Date witnesses and reception; do not turn narratives into physical events."
+  },
+  {
+    "chapter": 46,
+    "title": "Unanswered questions",
+    "dossiers": "all",
+    "assessment": "Maintain an explicit gap and disagreement register."
+  }
+]

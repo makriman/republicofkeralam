@@ -1,0 +1,20 @@
+{
+  "scope_id": "modern-territory-provisional-2026-10-11",
+  "reference_date": "2026-10-11",
+  "boundary_status": "not_yet_materialized_or_legally_crosschecked",
+  "geometry_file": null,
+  "geometry_license": null,
+  "geometry_sha256": null,
+  "inclusion_rule": "Present-day administrative territory, including its land and inland-water relationships; state name and language are not eligibility tests.",
+  "offshore_rule": "Offshore sediments and historical maritime routes are context unless separately defined in a future version.",
+  "exclusions_and_context": [
+    "Mahe administrative territory belongs to Puducherry; include relevant connections as context.",
+    "Historical Malabar and Travancore-Cochin were not spatially identical to this frame.",
+    "Kasaragod inclusion must not be lost by relying on a Travancore-centred narrative."
+  ],
+  "sources": [
+    "S023",
+    "S024"
+  ],
+  "spatial_filtering_enabled": false
+}

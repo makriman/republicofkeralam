@@ -1,0 +1,418 @@
+[
+  {
+    "id": "E01",
+    "title": "Planetary prelude: before there was a local landmass",
+    "display_window": "Earth formation, approximately 4.54 billion years ago",
+    "central_question": "What is the earliest meaningful starting point for a history of this material territory?",
+    "established_in_this_pass": "The Earth-age estimate supplies a planetary frame, not a dated local surface. Keep any origin-of-the-universe prelude optional: the local evidential chain begins with the material and geological history of the planet.",
+    "limitations": "No rock from the present territory has been shown in this pass to be as old as Earth. Neither current latitude/longitude nor the present coast can be projected unchanged into planetary formation.",
+    "research_tasks": [
+      "Explain measurement versus reconstruction and distinguish global context from local evidence.",
+      "Document source edition and uncertainty of the Earth-age estimate.",
+      "Link the next dossier to actual samples within the scope, rather than describing all world geology as local history."
+    ],
+    "sources": [
+      "S001"
+    ],
+    "annual_span": null,
+    "kind": "prehistory_and_deep_time"
+  },
+  {
+    "id": "E02",
+    "title": "Ancient crust: sample histories, not the age of a state",
+    "display_window": "Precambrian; local numerical boundaries pending specialist review",
+    "central_question": "Which minerals and rocks now within the territory preserve the earliest dated processes?",
+    "established_in_this_pass": "The Trivandrum Block paper and the later peninsular-crust paper are relevant starting points. They require sample-by-sample interpretation; the 2006 paper has an erratum whose contents remain unread.",
+    "limitations": "An inherited zircon core, a crystallization age, a metamorphic overgrowth and a model crust-extraction age answer different questions. None alone dates a continuously exposed geographical landmass. Do not publish an oldest-rock ranking from an article title.",
+    "research_tasks": [
+      "Retrieve S002 together with S003 and register every correction.",
+      "Build a sample table: locality, coordinates with access restrictions, mineral, analytical spot, method, uncertainty, interpretation and laboratory provenance.",
+      "Check S006 full text and later responses; distinguish Hadean ancestry claims from intact-rock formation.",
+      "Keep samples outside the scope as geological context, not local finds."
+    ],
+    "sources": [
+      "S002",
+      "S003",
+      "S006"
+    ],
+    "annual_span": null,
+    "kind": "prehistory_and_deep_time"
+  },
+  {
+    "id": "E03",
+    "title": "Metamorphism and the assembly of Gondwana",
+    "display_window": "Late Precambrian–early Palaeozoic research frame; not a local calendar",
+    "central_question": "How did the blocks that now underlie the territory become connected and transformed?",
+    "established_in_this_pass": "The studied southern block preserves evidence interpreted in relation to Gondwana assembly. The record concerns high-temperature processes and mineral histories, not the current coastline.",
+    "limitations": "Assembly and breakup are separate episodes. Do not make one age apply to every block, and do not adopt apparent ages from the 2006 abstract before checking its erratum.",
+    "research_tasks": [
+      "Map terranes, shear zones and sample relations using attributable geological mapping.",
+      "Compare competing reconstructions and identify the measurement supporting each linkage.",
+      "Separate dated metamorphism from inferred plate configuration.",
+      "Record reconstruction model version and uncertainty; a moving-rock reconstruction is not a fixed present-day polygon."
+    ],
+    "sources": [
+      "S002",
+      "S003",
+      "S006"
+    ],
+    "annual_span": null,
+    "kind": "prehistory_and_deep_time"
+  },
+  {
+    "id": "E04",
+    "title": "Continental separation and the western margin",
+    "display_window": "Mesozoic–early Cenozoic research frame; chronology to be resolved by process",
+    "central_question": "Which rifting, separation and magmatic episodes affected the ancestors of today’s territory?",
+    "established_in_this_pass": "The west-coast tectono-magmatic paper is relevant to a multi-stage margin history. It does not justify treating the western margin, Ghats and present beach as one simultaneous creation.",
+    "limitations": "The earlier outline’s 250-million-year division was editorial, not a dated local event. Exact India–Madagascar separation and later spreading ages have not been verified in this seed.",
+    "research_tasks": [
+      "Retrieve regional plate-kinematic and geochronological studies.",
+      "Record separate dates for rift initiation, final separation, seafloor spreading, volcanism and later deformation.",
+      "Mark adjacent offshore observations as explanatory context.",
+      "Avoid assigning modern continental outlines to all palaeogeographic maps."
+    ],
+    "sources": [
+      "S004",
+      "S005"
+    ],
+    "annual_span": null,
+    "kind": "prehistory_and_deep_time"
+  },
+  {
+    "id": "E05",
+    "title": "Western Ghats: uplift, erosion and drainage",
+    "display_window": "Long-duration, overlapping geological processes",
+    "central_question": "How did relief and drainage evolve, and which observations discriminate among explanations?",
+    "established_in_this_pass": "Offshore sedimentation has been used to investigate erosion and the development of the western Indian margin. The cited Basin Research article is a 2008 publication.",
+    "limitations": "No single mountain-range birthday is established. Rock age, surface age, uplift, incision and exhumation cannot be interchanged. A basin-wide inference is not automatically evidence for every local river.",
+    "research_tasks": [
+      "Review thermochronology, erosion histories, geomorphology and dated sediment provenance together.",
+      "Create separate records for measurements and the authors’ interpretations.",
+      "Map evidence density by watershed; retain disagreements between models.",
+      "Build a palaeoclimate and monsoon source list before asserting a detailed climatic chronology."
+    ],
+    "sources": [
+      "S004",
+      "S005"
+    ],
+    "annual_span": null,
+    "kind": "prehistory_and_deep_time"
+  },
+  {
+    "id": "E06",
+    "title": "Cenozoic sediments and past life",
+    "display_window": "Cenozoic; a checked local example is approximately 17 million years ago",
+    "central_question": "What organisms and environments are preserved in the sedimentary record of the territory?",
+    "established_in_this_pass": "A study of Quilon Formation molluscan material reports a preferred depositional estimate of 17.08–17.13 Ma. A separate fish-otolith study provides a route into palaeobiological evidence.",
+    "limitations": "The reported range is not labelled here as a confidence interval. It dates sampled strata as interpreted by the authors, not the entire coastal plain. The otolith paper has different online and volume publication years.",
+    "research_tasks": [
+      "Obtain sample tables, fossil localities, analytical methods and stratigraphic logs.",
+      "Track taxonomic revisions with stable specimen identifiers and museum repositories.",
+      "Distinguish fossil occurrence, depositional environment and inferred climate.",
+      "Keep scientific publication dates in the history-of-research index, not the deep-time column."
+    ],
+    "sources": [
+      "S007",
+      "S008"
+    ],
+    "annual_span": null,
+    "kind": "prehistory_and_deep_time"
+  },
+  {
+    "id": "E07",
+    "title": "Quaternary landscapes, sea levels and environments",
+    "display_window": "Quaternary–Holocene; modern processes continue",
+    "central_question": "How did shorelines, wetlands, rivers and habitats change before and during human occupation?",
+    "established_in_this_pass": "The repository has not yet assembled a critically reviewed local sea-level or palaeoenvironmental series. This is an explicitly open dossier, not a filled gap.",
+    "limitations": "The present beach, backwaters and river mouths must not be treated as stationary. A single flood story is not a complete coastal history. Do not give unsourced dates to the birth of a lagoon or the destruction of a port.",
+    "research_tasks": [
+      "Inventory dated cores, pollen, charcoal, sedimentary facies and geomorphological studies.",
+      "Separate global sea-level context from measured local relative sea level.",
+      "Record reservoir corrections, sediment reworking and age-depth model uncertainty.",
+      "Retrieve a versioned chronostratigraphic chart before importing formal numerical boundaries.",
+      "Cross-link later flood accounts to independent sedimentary evidence without presuming agreement."
+    ],
+    "sources": [
+      "S025",
+      "S042"
+    ],
+    "annual_span": null,
+    "kind": "prehistory_and_deep_time"
+  },
+  {
+    "id": "E08",
+    "title": "Earliest reported hominin presence",
+    "display_window": "Lower Palaeolithic attribution reported; absolute local onset unresolved",
+    "central_question": "What is the earliest securely contextualized evidence for hominin activity inside the scope?",
+    "established_in_this_pass": "The 2016 north-Kerala study’s accessible abstract suggests occupation from the Lower Palaeolithic. It is a research lead beyond the Edakkal rock-art discussion.",
+    "limitations": "The full report and a secure earliest absolute date were not obtained. Typological classification is not a calendar date. The presence of stone tools does not on its own identify their makers as Homo sapiens.",
+    "research_tasks": [
+      "Retrieve the complete report and all cited earlier field studies.",
+      "Distinguish excavated stratified finds from surface and redeposited finds.",
+      "Record raw material, typology, depositional context, geochronology and site condition.",
+      "Maintain separate claims for artefact identification, cultural attribution, dating and species assignment."
+    ],
+    "sources": [
+      "S009",
+      "S013"
+    ],
+    "annual_span": null,
+    "kind": "prehistory_and_deep_time"
+  },
+  {
+    "id": "E09",
+    "title": "Later stone-tool communities and shelters",
+    "display_window": "Mesolithic labels and local transitions; dates require individual evaluation",
+    "central_question": "What do shelter deposits and tool assemblages reveal without forcing a pan-regional sequence?",
+    "established_in_this_pass": "The teaching overview identifies Thenmala/Tenmala and Ankode as relevant stratified shelter contexts and points to earlier research.",
+    "limitations": "The overview’s 5210-years-ago statement cannot be converted into a precise BCE year without the original measurement and calibration. Its description is not a warrant to label every Kerala Mesolithic assemblage microlithic.",
+    "research_tasks": [
+      "Retrieve the cited Rajendran reports and identify laboratory numbers.",
+      "Preserve original BP values, uncertainty, calibration curve, material and context.",
+      "Compare flake technologies and microliths rather than assuming one diagnostic toolkit.",
+      "Document food remains, seasonality and mobility only where deposits support them."
+    ],
+    "sources": [
+      "S010",
+      "S025"
+    ],
+    "annual_span": null,
+    "kind": "prehistory_and_deep_time"
+  },
+  {
+    "id": "E10",
+    "title": "Edakkal and other rock art",
+    "display_window": "Undated or broadly attributed panels; do not assign all figures to 6000 BCE",
+    "central_question": "Which marks belong to which phases, and how can their ages be constrained?",
+    "established_in_this_pass": "A tourism page makes the 6000 BCE claim. The scholarly discussion inspected does not establish that date as a secure absolute date for the engravings.",
+    "limitations": "This is not proof that a particular proposed early date is false. Nearby celts, later inscriptions, stylistic parallels and superimposition provide different types of information. Interpretations of figures and beliefs must remain attributed.",
+    "research_tasks": [
+      "Create panel- and motif-level records with survey provenance.",
+      "Separate engravings from inscriptions and document their physical relationships.",
+      "Review direct dating claims and associated-context dating critically.",
+      "Record local knowledge and later documentation history without declaring colonial documentation the first awareness of the site."
+    ],
+    "sources": [
+      "S011",
+      "S012",
+      "S013"
+    ],
+    "annual_span": null,
+    "kind": "prehistory_and_deep_time"
+  },
+  {
+    "id": "E11",
+    "title": "Food production, settlement and changing livelihoods",
+    "display_window": "Site-specific later-prehistoric transitions; no uniform onset assigned",
+    "central_question": "When and where are cultivation, domestication or more sedentary residence actually evidenced?",
+    "established_in_this_pass": "This pass has not established a dated, territory-wide Neolithic or farming transition. The earlier chapter was a research proposal, not a demonstrated chronology.",
+    "limitations": "A polished stone implement does not by itself establish a farming village or domesticated crop. Evidence from neighbouring regions is context until a local connection is demonstrated.",
+    "research_tasks": [
+      "Inventory archaeobotanical, zooarchaeological, residue and settlement evidence.",
+      "Distinguish wild use, cultivation and domestication.",
+      "Check intrusive material and directly dated specimens.",
+      "Retain different livelihood combinations and regional chronologies rather than narrating an inevitable progression."
+    ],
+    "sources": [
+      "S009",
+      "S010"
+    ],
+    "annual_span": null,
+    "kind": "prehistory_and_deep_time"
+  },
+  {
+    "id": "E12",
+    "title": "Iron Age, burials and early settlement",
+    "display_window": "Local later-prehistoric and early-historic sequences overlap",
+    "central_question": "How do burial assemblages, iron use, habitation and exchange relate in specific places?",
+    "established_in_this_pass": "The KCHR handbook assigns an approximate 1000–500 BCE Iron Age phase to Pattanam. The official archaeological retrospective is a route to early studies of burial monuments.",
+    "limitations": "One site’s phase is not a date for all megaliths. Monument type is not a direct ethnic label; iron in a burial does not date the first introduction of iron to the whole territory.",
+    "research_tasks": [
+      "Inventory excavated graves and habitation sites separately.",
+      "Capture stratigraphy, sample dates, assemblages, disturbance and excavation season.",
+      "Connect metallurgy, agriculture and social interpretations only with stated evidence.",
+      "Retain burial terminology from the source alongside a normalized typology."
+    ],
+    "sources": [
+      "S019",
+      "S013"
+    ],
+    "annual_span": null,
+    "kind": "prehistory_and_deep_time"
+  },
+  {
+    "id": "P01",
+    "title": "First documentary horizon: references to southwestern polities",
+    "display_window": "Third century BCE; initial annual navigation begins at 300 BCE",
+    "central_question": "What does each early textual witness actually attest, and how is its geography identified?",
+    "established_in_this_pass": "Rock Edict II names Keralaputras in the inspected translation. Its editorial note proposes 257 BCE; the present index conservatively preserves a third-century horizon and the proposed year separately.",
+    "limitations": "300 BCE is an indexing boundary, not a claim of an event or the beginning of literacy. An external reference is not an inscription found within the scope, and a named polity is not an exact modern boundary.",
+    "research_tasks": [
+      "Inspect Hultzsch and later critical editions, scripts, readings and inscription locations.",
+      "Compare earlier textual candidates without treating traditional narrative dates as composition dates.",
+      "Document arguments connecting Keralaputras with Cheras and map the uncertainty.",
+      "Extend annual navigation earlier when warranted; do not enforce a fixed earliest-history dogma."
+    ],
+    "sources": [
+      "S014",
+      "S015"
+    ],
+    "annual_span": [
+      -300,
+      -201
+    ],
+    "kind": "documentary_period"
+  },
+  {
+    "id": "P02",
+    "title": "Early historic communities and Indian Ocean connections",
+    "display_window": "Approximately 300 BCE–500 CE as an editorial research window",
+    "central_question": "How do texts, settlements, imports and local production illuminate distinct communities?",
+    "established_in_this_pass": "The Periplus describes ports and trade; Pattanam provides archaeological evidence to compare with textual geography. Each has its own dating and interpretative constraints.",
+    "limitations": "Approximate composition, excavation phases and specimen dates must remain distinct. Do not equate Pattanam and Muziris as a settled identity or assign Sangam poems a single exact year.",
+    "research_tasks": [
+      "Build poem-level Sangam witnesses and a critical-translation registry.",
+      "Retrieve Pliny and Ptolemy passages with exact book/section locators.",
+      "Add numismatics, inscriptions, archaeobotany and settlement reports.",
+      "Separate imported objects from assumptions about the ethnicity or nationality of residents."
+    ],
+    "sources": [
+      "S016",
+      "S017",
+      "S018",
+      "S019",
+      "S041"
+    ],
+    "annual_span": [
+      -300,
+      500
+    ],
+    "kind": "documentary_period"
+  },
+  {
+    "id": "P03",
+    "title": "Regional institutions, languages and networks",
+    "display_window": "Approximately 501–1497 CE; editorial window, not one social stage",
+    "central_question": "How did locally varied political, agrarian, linguistic and religious institutions change?",
+    "established_in_this_pass": "The Kollam-plates research project demonstrates why proposal text, final interpretation and critical edition must be distinguished. It provides one carefully qualified medieval seed, not a complete chronology.",
+    "limitations": "No single birth year for a language or a whole religious community is established. Genealogies, retrospective legends and regnal calculations require individual review.",
+    "research_tasks": [
+      "Prioritize copper plates and stone inscriptions with photographs, editions and calendrical reasoning.",
+      "Cover Chera Perumals, Venad, Kolathunadu, Kozhikode, Kochi and smaller local authorities without imposing a unified kingdom.",
+      "Investigate land relations, labour, caste, gender, worship and scholarship together.",
+      "Use Arab, Persian, Chinese, Jewish and Christian records with provenance and translation review."
+    ],
+    "sources": [
+      "S020",
+      "S032",
+      "S033"
+    ],
+    "annual_span": [
+      501,
+      1497
+    ],
+    "kind": "documentary_period"
+  },
+  {
+    "id": "P04",
+    "title": "Early modern encounters and competing sovereignties",
+    "display_window": "1498–1791 CE; editorial window",
+    "central_question": "How did overseas powers interact with existing local institutions and maritime networks?",
+    "established_in_this_pass": "The voyage journal excerpt places the Portuguese arrival account at Calicut in 1498. The prior Periplus evidence demonstrates that maritime exchange long predates that arrival.",
+    "limitations": "The year does not mark the discovery of an unknown or uninhabited coast. Accounts by travellers are situated testimony, including misidentification, rhetoric and hostility.",
+    "research_tasks": [
+      "Compare Portuguese records with local, Arabic and other accounts.",
+      "Inventory Dutch, French and Mysorean source series and local consequences.",
+      "Keep Mahe as external administrative context, linked to relevant in-scope activity.",
+      "Treat violence, trade, everyday livelihoods and religious change as intersecting histories, not a simple succession of European powers."
+    ],
+    "sources": [
+      "S021",
+      "S022",
+      "S016",
+      "S024"
+    ],
+    "annual_span": [
+      1498,
+      1791
+    ],
+    "kind": "documentary_period"
+  },
+  {
+    "id": "P05",
+    "title": "Colonial administration, princely institutions and public life",
+    "display_window": "1792–1946 CE; editorial window needing local refinements",
+    "central_question": "Which administrations and communities generated records for different parts of the modern territory?",
+    "established_in_this_pass": "Archive portals, manuals and later archaeological histories provide source routes. No claim is made that this starter has audited a complete colonial series.",
+    "limitations": "The chosen window is an organizational convention, not a uniformly verified regime boundary. Gazetteer descriptions and censuses reflect administrative categories and do not speak for every community.",
+    "research_tasks": [
+      "Inventory district manuals, revenue proceedings, censuses, gazettes, court records and newspapers by volume and year.",
+      "Separate British-administered Malabar from Travancore and Cochin institutions.",
+      "Study reform, labour, slavery, caste, gender and resistance with multiple independent source traditions.",
+      "Do not restrict inclusion to people described as Malayali or records written in Malayalam."
+    ],
+    "sources": [
+      "S013",
+      "S028",
+      "S029",
+      "S030",
+      "S031",
+      "S033"
+    ],
+    "annual_span": [
+      1792,
+      1946
+    ],
+    "kind": "documentary_period"
+  },
+  {
+    "id": "P06",
+    "title": "Integration and the present-state frame",
+    "display_window": "1947–1956 CE; precise legal events require individual dates",
+    "central_question": "How did administrative reorganization affect the land inside the modern study frame?",
+    "established_in_this_pass": "The 1956 statute provides a precise appointed day and defines transferred territories. It must be read with its exclusions rather than summarized as all Malabar plus all Travancore-Cochin.",
+    "limitations": "State formation did not create the land, its inhabitants or all cultural identities. The 1956 Act is not itself a verified current boundary dataset.",
+    "research_tasks": [
+      "Read integration instruments, successive acts and boundary adjustments.",
+      "Trace village/taluk-level inclusion and exclusion rather than assuming old and current districts match.",
+      "Separate passage, assent, publication and commencement dates.",
+      "Record viewpoints and movements behind reorganization using contemporary records."
+    ],
+    "sources": [
+      "S023",
+      "S031"
+    ],
+    "annual_span": [
+      1947,
+      1956
+    ],
+    "kind": "documentary_period"
+  },
+  {
+    "id": "P07",
+    "title": "Contemporary territory, environment and society",
+    "display_window": "1957–2026 CE; current-year cutoff 11 October 2026",
+    "central_question": "How can a living public record be indexed without mistaking availability for completeness?",
+    "established_in_this_pass": "The verified 2025 manuscript-collection announcement demonstrates that the accessible corpus itself continues to change. It belongs to research and access history, not to the manuscripts’ original production years.",
+    "limitations": "This seed does not claim a verified contemporary political or economic chronology. Living-person data, allegations, sacred knowledge and sensitive site locations require explicit safeguards.",
+    "research_tasks": [
+      "Inventory official statistical, electoral, environmental and legislative series at item level.",
+      "Preserve definitions, territorial coverage and revisions before comparing statistics over time.",
+      "Balance public institutions with fisheries, farming, forests, migration, labour, science, culture, gender and marginalized communities.",
+      "Track corrections, retractions and access changes; treat 2026 as a partial year."
+    ],
+    "sources": [
+      "S031",
+      "S034",
+      "S035",
+      "S036",
+      "S038"
+    ],
+    "annual_span": [
+      1957,
+      2026
+    ],
+    "kind": "documentary_period"
+  }
+]
