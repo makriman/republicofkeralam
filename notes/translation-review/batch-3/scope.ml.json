@@ -1,0 +1,42 @@
+{
+ "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+ "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+ "human_language_review": "pending",
+ "specialist_review": "pending",
+ "model_review": "AI model self-check of numbers, citations, qualifiers and Malayalam-first rendering; not human approval.",
+ "status": "draft_translation",
+ "source_path": "geography/scope.json",
+ "entries": [
+  {
+   "key": "geography/scope.json#scope.inclusion_rule",
+   "en": "Present-day administrative territory, including its land and inland-water relationships; state name and language are not eligibility tests.",
+   "ml": "ഇന്നത്തെ ഭരണപ്രദേശം, അതിന്റെ കര, ഉൾനാടൻ ജലബന്ധങ്ങൾ ഉൾപ്പെടെ; സംസ്ഥാനനാമവും ഭാഷയും യോഗ്യതാപരിശോധനകളല്ല.",
+   "en_sha256": "2d936ddb19a76673"
+  },
+  {
+   "key": "geography/scope.json#scope.offshore_rule",
+   "en": "Offshore sediments and historical maritime routes are context unless separately defined in a future version.",
+   "ml": "ഭാവിപതിപ്പിൽ വേറിട്ട് നിർവചിക്കാത്തിടത്തോളം കടലിലെ അവസാദങ്ങളും ചരിത്രപരമായ സമുദ്രപാതകളും പശ്ചാത്തലമാണ്.",
+   "en_sha256": "91e57d61c52602e8"
+  },
+  {
+   "key": "geography/scope.json#scope.exclusions_and_context[0]",
+   "en": "Mahe administrative territory belongs to Puducherry; include relevant connections as context.",
+   "ml": "മാഹി ഭരണപ്രദേശം പുതുച്ചേരിയുടേതാണ്; പ്രസക്തമായ ബന്ധങ്ങൾ പശ്ചാത്തലമായി ഉൾപ്പെടുത്തുക.",
+   "en_sha256": "2cd9cd257673db5b"
+  },
+  {
+   "key": "geography/scope.json#scope.exclusions_and_context[1]",
+   "en": "Historical Malabar and Travancore-Cochin were not spatially identical to this frame.",
+   "ml": "ചരിത്രപരമായ മലബാറും തിരുവിതാംകൂർ-കൊച്ചിയും ഈ ചട്ടക്കൂടുമായി സ്ഥലപരമായി ഒന്നല്ലായിരുന്നു.",
+   "en_sha256": "ef04e8aaf8fa1312"
+  },
+  {
+   "key": "geography/scope.json#scope.exclusions_and_context[2]",
+   "en": "Kasaragod inclusion must not be lost by relying on a Travancore-centred narrative.",
+   "ml": "തിരുവിതാംകൂർ കേന്ദ്രീകൃതമായ ആഖ്യാനത്തെ ആശ്രയിക്കുന്നതിലൂടെ കാസർകോടിന്റെ ഉൾപ്പെടുത്തൽ നഷ്ടപ്പെടരുത്.",
+   "en_sha256": "ef73e72885a16de8"
+  }
+ ],
+ "id_field": "scope (single object)"
+}
