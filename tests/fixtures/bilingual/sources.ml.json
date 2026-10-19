@@ -1,0 +1,26 @@
+{
+  "catalogue": "translation-catalogue/1",
+  "language": "ml",
+  "source_path": "data/sources.json",
+  "note": "Test fixture only. The title gloss was written for this test (AI-assisted, review pending); it is an explanatory translation, not the source title.",
+  "entries": [
+    {
+      "key": "data/sources.json#S001.title",
+      "ml": "ഭൂമിയുടെ പ്രായം",
+      "en_sha256": "fbc820a688eb18c9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S001.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    }
+  ]
+}

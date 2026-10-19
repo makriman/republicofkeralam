@@ -1,0 +1,45 @@
+{
+  "catalogue": "translation-catalogue/1",
+  "language": "ml",
+  "source_path": "data/records.json",
+  "note": "Test fixture only. Malayalam copied from the AI-assisted draft staged in notes/translation-review (batch 2 and 3, revision 457d8f6e47627854161b64d1db6c82b069b55e2b). Human language review pending. Not canonical data.",
+  "entries": [
+    {
+      "key": "data/records.json#R014.title",
+      "ml": "യാത്രാഡയറി 1498-ൽ Calicut-ലെ വരവ് രേഖപ്പെടുത്തുന്നു",
+      "en_sha256": "a55081ccf8ab5174",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R014.claim",
+      "ml": "യാത്രാഡയറി ഉദ്ധരണി അതിന്റെ 1498 ഭാഗത്ത് Calicut-ന് (കോഴിക്കോട്) സമീപം നങ്കൂരമിട്ടതിനെ വിവരിക്കുന്നു.",
+      "en_sha256": "8a48f174e994c033",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending",
+      "en": "The voyage-journal extract describes anchoring near Calicut in its 1498 section."
+    },
+    {
+      "key": "data/records.json#R014.caveat",
+      "ml": "വർഷം നിലനിർത്തിയിരിക്കുന്നു; കൃത്യമായ ദിവസം ഏകീകരിച്ചിട്ടില്ല. ഉദ്ധരണിയിൽ മേയ് 20/മേയ് 22 ക്രമപ്രശ്നമുണ്ട്; പൂർണ വിമർശനാത്മക പതിപ്പ് ആവശ്യമാണ്. ഇത് സമുദ്രസമ്പർക്കത്തിന്റെ തുടക്കമല്ല.",
+      "en_sha256": "a64a97de5d18d27a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R014.date.original_expression",
+      "ml": "ക്രി.വ. 1498",
+      "en_sha256": "ab906b6bd9de1f14",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    }
+  ]
+}
