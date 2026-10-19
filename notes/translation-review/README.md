@@ -11,6 +11,9 @@ Proposed Malayalam-first translations and review notes for the archive's reader-
 - [GLOSSARY.md](GLOSSARY.md): പദാവലിയും തുറന്ന പദപ്രശ്നങ്ങളും. Terminology and open questions.
 - [INTEGRATION_NOTES.md](INTEGRATION_NOTES.md): Project B-യ്ക്കുള്ള നിർദേശങ്ങൾ. Proposals for the integration owner.
 - [batch-1/](batch-1/TOP_LEVEL_REVIEW.md): മുകൾത്തല രേഖാപരിശോധനയും സംഭാവന/ഗവേഷണനയ രേഖകളുടെ പരിഭാഷയും. Top-level review and contributor/research-policy translations.
+- [batch-2/](batch-2/README.md): കാലഘട്ടങ്ങൾ, തെളിവുരേഖകൾ, സ്രോതസ്സുകുറിപ്പുകൾ. Periods, records and source notes keyed by ID.
+- [batch-3/](batch-3/README.md): ഓഡിറ്റ്, കോർപ്പസുകൾ, താരതമ്യപട്ടിക, പരിധി, generator ലേബലുകൾ. Audit, corpora, crosswalk, scope and generator labels.
+- [GAP_INVENTORY.md](GAP_INVENTORY.md): ഇനിയും ബാക്കിയുള്ളവ. What is still untranslated or unreviewed.
 - `tools/`: staging ഫയലുകൾ നിർമ്മിക്കാനും പരിശോധിക്കാനുമുള്ള ചെറിയ scripts (standard library മാത്രം). Small helper scripts; read-only outside this folder.
 
 ## പരിശോധന / Checks

@@ -26976,7 +26976,7 @@
    "em_dashes": 0,
    "batch": 3,
    "staging": [
-    "untranslated"
+    "draft_translation"
    ]
   },
   {
@@ -26987,7 +26987,7 @@
    "em_dashes": 0,
    "batch": 3,
    "staging": [
-    "untranslated"
+    "draft_translation"
    ]
   },
   {
@@ -27009,7 +27009,7 @@
    "em_dashes": 0,
    "batch": 3,
    "staging": [
-    "untranslated"
+    "draft_translation"
    ]
   },
   {
@@ -27042,7 +27042,7 @@
    "em_dashes": 0,
    "batch": 3,
    "staging": [
-    "untranslated"
+    "draft_translation"
    ]
   },
   {
@@ -27292,7 +27292,7 @@
    "strings": 80,
    "words": 741,
    "batch": 3,
-   "staged": 0
+   "staged": 80
   },
   {
    "path": "data/audit.json",
@@ -27301,7 +27301,7 @@
    "strings": 80,
    "words": 1184,
    "batch": 3,
-   "staged": 0
+   "staged": 80
   },
   {
    "path": "data/corpora.json",
@@ -27310,7 +27310,7 @@
    "strings": 31,
    "words": 137,
    "batch": 3,
-   "staged": 0
+   "staged": 31
   },
   {
    "path": "data/corpora.json",
@@ -27319,7 +27319,7 @@
    "strings": 31,
    "words": 258,
    "batch": 3,
-   "staged": 0
+   "staged": 31
   },
   {
    "path": "data/prior_chapter_crosswalk.json",
@@ -27328,7 +27328,7 @@
    "strings": 46,
    "words": 219,
    "batch": 3,
-   "staged": 0
+   "staged": 46
   },
   {
    "path": "data/prior_chapter_crosswalk.json",
@@ -27337,14 +27337,14 @@
    "strings": 46,
    "words": 315,
    "batch": 3,
-   "staged": 0
+   "staged": 46
   },
   {
    "path": "geography/scope.json",
    "field": "inclusion_rule, offshore_rule, exclusions_and_context",
    "records": 1,
    "strings": 5,
-   "staged": 0,
+   "staged": 5,
    "words": 66,
    "batch": 3
   }

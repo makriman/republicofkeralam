@@ -1,0 +1,565 @@
+{
+ "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+ "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+ "human_language_review": "pending",
+ "specialist_review": "pending",
+ "model_review": "AI model self-check of numbers, citations, qualifiers and Malayalam-first rendering; not human approval.",
+ "status": "draft_translation",
+ "source_path": "data/prior_chapter_crosswalk.json",
+ "entries": [
+  {
+   "key": "data/prior_chapter_crosswalk.json#1.title",
+   "en": "The birth of the Earth",
+   "ml": "ഭൂമിയുടെ ജനനം",
+   "en_sha256": "9cce67f5693ed0a6"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#1.assessment",
+   "en": "Planetary context supported; not a local rock date.",
+   "ml": "ഗ്രഹതല പശ്ചാത്തലം പിന്തുണയ്ക്കപ്പെടുന്നു; പ്രാദേശിക പാറയുടെ തീയതിയല്ല.",
+   "en_sha256": "10b87cc4265f6c12"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#2.title",
+   "en": "The ancient geological foundation of southern India",
+   "ml": "ദക്ഷിണേന്ത്യയുടെ പ്രാചീന ഭൂവിജ്ഞാനീയ അടിത്തറ",
+   "en_sha256": "7e1e716eb966f28f"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#2.assessment",
+   "en": "Relevant research found; sample dates and erratum pending.",
+   "ml": "പ്രസക്തമായ ഗവേഷണം കണ്ടെത്തി; സാമ്പിൾതീയതികളും erratum-ഉം ബാക്കി.",
+   "en_sha256": "299bfc53f491b5de"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#3.title",
+   "en": "When southern India was part of Gondwana",
+   "ml": "ദക്ഷിണേന്ത്യ ഗോണ്ട്വാനയുടെ ഭാഗമായിരുന്നപ്പോൾ",
+   "en_sha256": "c4fc8d8dc5e75d90"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#3.assessment",
+   "en": "Assembly model relevant; exact local reconstruction not fully reviewed.",
+   "ml": "രൂപപ്പെടൽ മാതൃക പ്രസക്തം; കൃത്യമായ പ്രാദേശിക പുനർനിർമ്മിതി പൂർണമായി അവലോകനം ചെയ്തിട്ടില്ല.",
+   "en_sha256": "26cb697ce0eff8a8"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#4.title",
+   "en": "The breakup of Gondwana",
+   "ml": "ഗോണ്ട്വാനയുടെ പിളരൽ",
+   "en_sha256": "cfa1c845ce2c780a"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#4.assessment",
+   "en": "Research agenda; process chronology needs specialist sources.",
+   "ml": "ഗവേഷണ അജണ്ട; പ്രക്രിയാ കാലക്രമത്തിന് വിദഗ്ധ സ്രോതസ്സുകൾ വേണം.",
+   "en_sha256": "5c6e84412feef46c"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#5.title",
+   "en": "The making of the Western Ghats",
+   "ml": "പശ്ചിമഘട്ടത്തിന്റെ രൂപപ്പെടൽ",
+   "en_sha256": "19ce9ad255590480"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#5.assessment",
+   "en": "Multistage framework; no single birthday.",
+   "ml": "ബഹുഘട്ട ചട്ടക്കൂട്; ഒരൊറ്റ ജന്മദിനമില്ല.",
+   "en_sha256": "06074a8b8355d908"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#6.title",
+   "en": "The birth of the Kerala coast",
+   "ml": "കേരളതീരത്തിന്റെ ജനനം",
+   "en_sha256": "8d54ebc9cef58964"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#6.assessment",
+   "en": "Rename to changing coasts; local core chronology still open.",
+   "ml": "“മാറുന്ന തീരങ്ങൾ” എന്ന് പുനർനാമകരണം ചെയ്യുക; പ്രാദേശിക core കാലക്രമം ഇനിയും തുറന്നത്.",
+   "en_sha256": "bc8eaf7d511bba78"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#7.title",
+   "en": "Kerala’s rivers, forests and ecosystems",
+   "ml": "കേരളത്തിലെ നദികൾ, വനങ്ങൾ, ആവാസവ്യവസ്ഥകൾ",
+   "en_sha256": "bd230226f27a32ea"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#7.assessment",
+   "en": "Research agenda, not a completed environmental history.",
+   "ml": "ഗവേഷണ അജണ്ട; പൂർത്തിയായ പരിസ്ഥിതിചരിത്രമല്ല.",
+   "en_sha256": "96bd9568221002f0"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#8.title",
+   "en": "The first inhabitants",
+   "ml": "ആദ്യ നിവാസികൾ",
+   "en_sha256": "ece80cbb4bebd25c"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#8.assessment",
+   "en": "Reported evidence; first absolute date unresolved.",
+   "ml": "റിപ്പോർട്ട് ചെയ്യപ്പെട്ട തെളിവ്; ആദ്യ കേവലതീയതി തീർപ്പായിട്ടില്ല.",
+   "en_sha256": "3d684df962d497b5"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#9.title",
+   "en": "The Mesolithic and changing ways of life",
+   "ml": "മധ്യശിലായുഗവും മാറുന്ന ജീവിതരീതികളും",
+   "en_sha256": "78a5fedda1884d7d"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#9.assessment",
+   "en": "Named site leads checked; primary dates pending.",
+   "ml": "പേരെടുത്ത സ്ഥലസൂചനകൾ പരിശോധിച്ചു; പ്രാഥമിക തീയതികൾ ബാക്കി.",
+   "en_sha256": "6c0d5b248c10446c"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#10.title",
+   "en": "The Neolithic and early communities",
+   "ml": "നവീനശിലായുഗവും ആദ്യകാല സമൂഹങ്ങളും",
+   "en_sha256": "2fc2baf3911e502c"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#10.assessment",
+   "en": "Do not impose one farming sequence.",
+   "ml": "ഒരൊറ്റ കാർഷികക്രമം അടിച്ചേൽപ്പിക്കരുത്.",
+   "en_sha256": "c28ecb9cb26786cc"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#11.title",
+   "en": "Edakkal and prehistoric expressions",
+   "ml": "എടക്കലും ചരിത്രാതീത ആവിഷ്കാരങ്ങളും",
+   "en_sha256": "d8570bfa4b2d6f14"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#11.assessment",
+   "en": "6000 BCE certainty withdrawn.",
+   "ml": "ക്രി.മു. 6000 എന്ന ഉറപ്പ് പിൻവലിച്ചു.",
+   "en_sha256": "caab7e95ab800e7e"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#12.title",
+   "en": "Megalithic cultures and burial practices",
+   "ml": "മഹാശിലാസംസ്കാരങ്ങളും ശവസംസ്കാരരീതികളും",
+   "en_sha256": "6e9b0a378d184e97"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#12.assessment",
+   "en": "Local site chronology and monument inventory needed.",
+   "ml": "പ്രാദേശിക സ്ഥലകാലക്രമവും സ്മാരകപ്പട്ടികയും വേണം.",
+   "en_sha256": "bfc6667ec51cc9cc"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#13.title",
+   "en": "Iron, agriculture and settlement",
+   "ml": "ഇരുമ്പ്, കൃഷി, വാസസ്ഥലങ്ങൾ",
+   "en_sha256": "e7813d254821e960"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#13.assessment",
+   "en": "Research questions; no unified sequence verified.",
+   "ml": "ഗവേഷണചോദ്യങ്ങൾ; ഏകീകൃത ക്രമം സ്ഥിരീകരിച്ചിട്ടില്ല.",
+   "en_sha256": "eb873270cf34edae"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#14.title",
+   "en": "Before Kerala had a written history of its own",
+   "ml": "കേരളത്തിന് സ്വന്തമായി ലിഖിതചരിത്രം ഉണ്ടാകുന്നതിനുമുമ്പ്",
+   "en_sha256": "3b4413a3eb208527"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#14.assessment",
+   "en": "Writing found locally and external reference must be distinguished.",
+   "ml": "പ്രാദേശികമായി കണ്ടെത്തിയ എഴുത്തും ബാഹ്യപരാമർശവും വേർതിരിക്കണം.",
+   "en_sha256": "d83f4793ea7ff95c"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#15.title",
+   "en": "The earliest references to the Keralaputras",
+   "ml": "Keralaputras-നെക്കുറിച്ചുള്ള ആദ്യ പരാമർശങ്ങൾ",
+   "en_sha256": "c6b619fa2c751d7b"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#15.assessment",
+   "en": "Third-century witness checked in translation; exact first year not established.",
+   "ml": "മൂന്നാം നൂറ്റാണ്ടിലെ സാക്ഷ്യം പരിഭാഷയിൽ പരിശോധിച്ചു; കൃത്യമായ ആദ്യവർഷം സ്ഥാപിച്ചിട്ടില്ല.",
+   "en_sha256": "e82e88e5b41c6c8f"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#16.title",
+   "en": "The Cheras and the Sangam world",
+   "ml": "ചേരരും സംഘലോകവും",
+   "en_sha256": "846612f36feeb1c7"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#16.assessment",
+   "en": "Poem-level and epigraphic research queue.",
+   "ml": "കവിതാതല, ലിഖിതതല ഗവേഷണപ്പട്ടിക.",
+   "en_sha256": "46f1b1802146803a"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#17.title",
+   "en": "Early ports and maritime exchange",
+   "ml": "ആദ്യകാല തുറമുഖങ്ങളും സമുദ്രവിനിമയവും",
+   "en_sha256": "42b5f830c99ae0e8"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#17.assessment",
+   "en": "Periplus and Pattanam seeds; site identities remain attributed.",
+   "ml": "Periplus, പട്ടണം പ്രാരംഭരേഖകൾ; സ്ഥലങ്ങളുടെ ഏകത്വം ആരോപിതമായി തുടരുന്നു.",
+   "en_sha256": "4e1cd9aa3ac29dfd"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#18.title",
+   "en": "Society after the early Cheras",
+   "ml": "ആദ്യകാല ചേരർക്കുശേഷമുള്ള സമൂഹം",
+   "en_sha256": "8d5748d663c3daf3"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#18.assessment",
+   "en": "Open research, not a continuous filled narrative.",
+   "ml": "തുറന്ന ഗവേഷണം; തുടർച്ചയായി നിറച്ച ആഖ്യാനമല്ല.",
+   "en_sha256": "8f6d0bf9eb2abeb9"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#19.title",
+   "en": "The development of Malayalam",
+   "ml": "മലയാളത്തിന്റെ വികാസം",
+   "en_sha256": "78f1291864247981"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#19.assessment",
+   "en": "No exact language birth or earliest-inscription ranking established.",
+   "ml": "ഭാഷയുടെ കൃത്യമായ ജനനമോ ഏറ്റവും ആദ്യത്തെ ലിഖിതത്തിന്റെ സ്ഥാനനിർണയമോ സ്ഥാപിച്ചിട്ടില്ല.",
+   "en_sha256": "96545020949c3fa9"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#20.title",
+   "en": "Religion and religious communities",
+   "ml": "മതവും മതസമൂഹങ്ങളും",
+   "en_sha256": "d81d4270877e7c98"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#20.assessment",
+   "en": "Separate traditions, earliest witnesses and corroborated developments.",
+   "ml": "പാരമ്പര്യങ്ങൾ, ഏറ്റവും ആദ്യത്തെ സാക്ഷ്യപ്രതികൾ, സ്ഥിരീകരിച്ച വികാസങ്ങൾ എന്നിവ വേർതിരിക്കുക.",
+   "en_sha256": "2fe9b3ad4bbcdad1"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#21.title",
+   "en": "Land, agriculture and social organisation",
+   "ml": "ഭൂമി, കൃഷി, സാമൂഹിക സംഘാടനം",
+   "en_sha256": "f990020ab1017ec3"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#21.assessment",
+   "en": "Source-dependent research agenda.",
+   "ml": "സ്രോതസ്സിനെ ആശ്രയിക്കുന്ന ഗവേഷണ അജണ്ട.",
+   "en_sha256": "311a164ac685e18e"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#22.title",
+   "en": "The later Cheras and regional powers",
+   "ml": "പിൽക്കാല ചേരരും പ്രാദേശിക ശക്തികളും",
+   "en_sha256": "2290cc9018dcfc7c"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#22.assessment",
+   "en": "Dynastic/regnal chronology requires epigraphic audit.",
+   "ml": "രാജവംശ/ഭരണവർഷ കാലക്രമത്തിന് ലിഖിതപരിശോധന വേണം.",
+   "en_sha256": "b93ff32b77f5afb5"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#23.title",
+   "en": "The Zamorin, Venad and other powers",
+   "ml": "സാമൂതിരി, വേണാട്, മറ്റ് ശക്തികൾ",
+   "en_sha256": "efe35d54fcdcb5d2"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#23.assessment",
+   "en": "Territorial and chronological variations require individual records.",
+   "ml": "പ്രദേശപരവും കാലക്രമപരവുമായ വ്യതിയാനങ്ങൾക്ക് വേറിട്ട രേഖകൾ വേണം.",
+   "en_sha256": "b3b533f342617bc3"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#24.title",
+   "en": "The spice trade and overseas connections",
+   "ml": "സുഗന്ധവ്യഞ്ജന വ്യാപാരവും വിദേശബന്ധങ്ങളും",
+   "en_sha256": "8c0f0b45afbdad19"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#24.assessment",
+   "en": "Multilingual source inventory required.",
+   "ml": "ബഹുഭാഷാ സ്രോതസ്സുപട്ടിക ആവശ്യമാണ്.",
+   "en_sha256": "2330c3e86a3e72c3"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#25.title",
+   "en": "Communities and everyday life",
+   "ml": "സമൂഹങ്ങളും ദൈനംദിന ജീവിതവും",
+   "en_sha256": "1add2c9c4f5e7bc9"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#25.assessment",
+   "en": "Integrate throughout all periods.",
+   "ml": "എല്ലാ കാലഘട്ടങ്ങളിലും ഉൾച്ചേർക്കുക.",
+   "en_sha256": "289d2670a6feb6ea"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#26.title",
+   "en": "The arrival of the Portuguese",
+   "ml": "പോർച്ചുഗീസുകാരുടെ വരവ്",
+   "en_sha256": "1cbeae3510163cc2"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#26.assessment",
+   "en": "1498 year supported in a journal extract.",
+   "ml": "1498 എന്ന വർഷം ഒരു യാത്രാഡയറി ഉദ്ധരണി പിന്തുണയ്ക്കുന്നു.",
+   "en_sha256": "ef3719e7463dfe09"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#27.title",
+   "en": "The Dutch, Mysore and changing power",
+   "ml": "ഡച്ചുകാർ, മൈസൂർ, മാറുന്ന അധികാരം",
+   "en_sha256": "2cf74bad42aa105e"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#27.assessment",
+   "en": "Named themes not yet event-audited.",
+   "ml": "പേരെടുത്ത വിഷയങ്ങൾ ഇനിയും സംഭവതലത്തിൽ പരിശോധിച്ചിട്ടില്ല.",
+   "en_sha256": "54feef9b988fcbe8"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#28.title",
+   "en": "British rule and the princely states",
+   "ml": "ബ്രിട്ടീഷ് ഭരണവും നാട്ടുരാജ്യങ്ങളും",
+   "en_sha256": "cbbb6ce87640d824"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#28.assessment",
+   "en": "Distinguish institutional record series.",
+   "ml": "സ്ഥാപനപരമായ രേഖാപരമ്പരകൾ വേർതിരിക്കുക.",
+   "en_sha256": "cde8f24ea901d341"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#29.title",
+   "en": "Society under colonialism",
+   "ml": "കൊളോണിയലിസത്തിനു കീഴിലെ സമൂഹം",
+   "en_sha256": "f9dbca32007fd1b0"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#29.assessment",
+   "en": "Economic, social and community sources still to inventory.",
+   "ml": "സാമ്പത്തിക, സാമൂഹിക, സമൂഹ സ്രോതസ്സുകൾ ഇനിയും പട്ടികപ്പെടുത്തണം.",
+   "en_sha256": "c53878be6cbb7f08"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#30.title",
+   "en": "Resistance, reform and mobilisation",
+   "ml": "ചെറുത്തുനിൽപ്പ്, പരിഷ്കരണം, സംഘടിക്കൽ",
+   "en_sha256": "34e03ce8015be3cb"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#30.assessment",
+   "en": "Dates and disputed interpretations not yet checked comprehensively.",
+   "ml": "തീയതികളും തർക്കമുള്ള വ്യാഖ്യാനങ്ങളും ഇനിയും സമഗ്രമായി പരിശോധിച്ചിട്ടില്ല.",
+   "en_sha256": "1d6ea39fe25670e2"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#31.title",
+   "en": "Independence and integration",
+   "ml": "സ്വാതന്ത്ര്യവും സംയോജനവും",
+   "en_sha256": "b51158bda3666257"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#31.assessment",
+   "en": "Individual instruments need verification beyond the 1956 Act.",
+   "ml": "1956-ലെ നിയമത്തിനപ്പുറം ഓരോ ഉടമ്പടിയും സ്ഥിരീകരിക്കണം.",
+   "en_sha256": "c9684c150d62d945"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#32.title",
+   "en": "The Aikya Kerala movement",
+   "ml": "ഐക്യകേരള പ്രസ്ഥാനം",
+   "en_sha256": "dec649a005543184"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#32.assessment",
+   "en": "Research agenda; boundary choices need contemporary sources.",
+   "ml": "ഗവേഷണ അജണ്ട; അതിർത്തി തിരഞ്ഞെടുപ്പുകൾക്ക് സമകാലിക സ്രോതസ്സുകൾ വേണം.",
+   "en_sha256": "9ecf5c848a62f094"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#33.title",
+   "en": "The formation of Kerala in 1956",
+   "ml": "1956-ലെ കേരളരൂപീകരണം",
+   "en_sha256": "ed282a12942a5607"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#33.assessment",
+   "en": "Primary statute checked, including exclusions.",
+   "ml": "ഒഴിവാക്കലുകൾ ഉൾപ്പെടെ പ്രാഥമിക നിയമം പരിശോധിച്ചു.",
+   "en_sha256": "f4e1f9b1ddd19a96"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#34.title",
+   "en": "Politics and democracy",
+   "ml": "രാഷ്ട്രീയവും ജനാധിപത്യവും",
+   "en_sha256": "29b41934b07d14f2"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#34.assessment",
+   "en": "Contemporary research programme, not audited findings.",
+   "ml": "സമകാലിക ഗവേഷണപരിപാടി; പരിശോധിച്ച കണ്ടെത്തലുകളല്ല.",
+   "en_sha256": "82361fb32fa68150"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#35.title",
+   "en": "Land reform, education and health",
+   "ml": "ഭൂപരിഷ്കരണം, വിദ്യാഭ്യാസം, ആരോഗ്യം",
+   "en_sha256": "7d3bfee68cc08691"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#35.assessment",
+   "en": "Legislation, implementation and outcomes require distinct records.",
+   "ml": "നിയമനിർമ്മാണം, നടപ്പാക്കൽ, ഫലങ്ങൾ എന്നിവയ്ക്ക് വേറിട്ട രേഖകൾ വേണം.",
+   "en_sha256": "fccf170aac4cf683"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#36.title",
+   "en": "Migration and the Gulf connection",
+   "ml": "കുടിയേറ്റവും ഗൾഫ് ബന്ധവും",
+   "en_sha256": "86a72e96c2e8236d"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#36.assessment",
+   "en": "Survey definitions, movements and remittances need source-specific dates.",
+   "ml": "സർവേ നിർവചനങ്ങൾ, സഞ്ചാരങ്ങൾ, പണമയയ്ക്കൽ എന്നിവയ്ക്ക് സ്രോതസ്സുനിർദിഷ്ട തീയതികൾ വേണം.",
+   "en_sha256": "f7a46e947de2d69a"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#37.title",
+   "en": "Economic transformation",
+   "ml": "സാമ്പത്തിക പരിവർത്തനം",
+   "en_sha256": "40a378e65c66c7f1"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#37.assessment",
+   "en": "Statistical series and definitions not yet audited.",
+   "ml": "സ്ഥിതിവിവര പരമ്പരകളും നിർവചനങ്ങളും ഇനിയും പരിശോധിച്ചിട്ടില്ല.",
+   "en_sha256": "72878c701e30548a"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#38.title",
+   "en": "Contemporary Kerala",
+   "ml": "സമകാലിക കേരളം",
+   "en_sha256": "06512b8fb378fb40"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#38.assessment",
+   "en": "Partial current year; claims must be updated and ethically reviewed.",
+   "ml": "നടപ്പുവർഷം ഭാഗികം; അവകാശവാദങ്ങൾ പുതുക്കുകയും നൈതികമായി അവലോകനം ചെയ്യുകയും വേണം.",
+   "en_sha256": "56f4aff0e6db75e9"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#39.title",
+   "en": "How landscape shaped history",
+   "ml": "ഭൂപ്രകൃതി ചരിത്രത്തെ രൂപപ്പെടുത്തിയ വിധം",
+   "en_sha256": "498e54325eef428b"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#39.assessment",
+   "en": "Test causal explanations; avoid geographical determinism.",
+   "ml": "കാര്യകാരണ വിശദീകരണങ്ങൾ പരിശോധിക്കുക; ഭൂമിശാസ്ത്ര നിയതിവാദം ഒഴിവാക്കുക.",
+   "en_sha256": "c9cf0ce6d73364d8"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#40.title",
+   "en": "The changing coastline",
+   "ml": "മാറുന്ന തീരരേഖ",
+   "en_sha256": "10fecd1c3cd35b0d"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#40.assessment",
+   "en": "Independent sedimentary and documentary evidence required.",
+   "ml": "സ്വതന്ത്രമായ അവസാദ, രേഖാ തെളിവുകൾ ആവശ്യമാണ്.",
+   "en_sha256": "9604dd890157eedb"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#41.title",
+   "en": "Food, plants and animals",
+   "ml": "ഭക്ഷണം, സസ്യങ്ങൾ, മൃഗങ്ങൾ",
+   "en_sha256": "db20eff1052013ad"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#41.assessment",
+   "en": "Make palaeontology and ecological history visible.",
+   "ml": "പുരാജീവശാസ്ത്രവും പരിസ്ഥിതിചരിത്രവും ദൃശ്യമാക്കുക.",
+   "en_sha256": "3822b2c3bf663f1b"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#42.title",
+   "en": "Disease and public health",
+   "ml": "രോഗവും പൊതുജനാരോഗ്യവും",
+   "en_sha256": "f497fd32d8554172"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#42.assessment",
+   "en": "Integrate records, definitions and uncertainty; no medical advice here.",
+   "ml": "രേഖകൾ, നിർവചനങ്ങൾ, അനിശ്ചിതത്വം എന്നിവ ഉൾച്ചേർക്കുക; ഇവിടെ ചികിത്സാ ഉപദേശമില്ല.",
+   "en_sha256": "49ccf827c9d45fba"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#43.title",
+   "en": "The history of ordinary people",
+   "ml": "സാധാരണക്കാരുടെ ചരിത്രം",
+   "en_sha256": "108c804b0d6551e3"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#43.assessment",
+   "en": "Core coverage requirement, not a final optional appendix.",
+   "ml": "കേന്ദ്ര വ്യാപ്തി ആവശ്യകത; അവസാനത്തെ ഐച്ഛിക അനുബന്ധമല്ല.",
+   "en_sha256": "f35ae7c170d104a1"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#44.title",
+   "en": "Lost settlements and landscapes",
+   "ml": "നഷ്ടപ്പെട്ട വാസസ്ഥലങ്ങളും ഭൂദൃശ്യങ്ങളും",
+   "en_sha256": "be73224320f2cd33"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#44.assessment",
+   "en": "Keep site-identification hypotheses separate from findings.",
+   "ml": "സ്ഥലനിർണയ പരികല്പനകളെ കണ്ടെത്തലുകളിൽനിന്ന് വേർതിരിച്ച് സൂക്ഷിക്കുക.",
+   "en_sha256": "0537edcbd301f885"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#45.title",
+   "en": "Legends, oral traditions and evidence",
+   "ml": "ഐതിഹ്യങ്ങൾ, വാമൊഴിപാരമ്പര്യങ്ങൾ, തെളിവുകൾ",
+   "en_sha256": "c92873f654997498"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#45.assessment",
+   "en": "Date witnesses and reception; do not turn narratives into physical events.",
+   "ml": "സാക്ഷ്യപ്രതികളുടെയും സ്വീകരണത്തിന്റെയും തീയതി നിർണയിക്കുക; ആഖ്യാനങ്ങളെ ഭൗതികസംഭവങ്ങളാക്കരുത്.",
+   "en_sha256": "34128d359ac9b7b5"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#46.title",
+   "en": "Unanswered questions",
+   "ml": "ഉത്തരം കിട്ടാത്ത ചോദ്യങ്ങൾ",
+   "en_sha256": "b859e6409f71d9b9"
+  },
+  {
+   "key": "data/prior_chapter_crosswalk.json#46.assessment",
+   "en": "Maintain an explicit gap and disagreement register.",
+   "ml": "വിടവുകളുടെയും അഭിപ്രായഭിന്നതകളുടെയും വ്യക്തമായ രജിസ്റ്റർ നിലനിർത്തുക.",
+   "en_sha256": "a7c724b809aea07b"
+  }
+ ],
+ "id_field": "chapter",
+ "not_translated": "chapter, dossiers"
+}

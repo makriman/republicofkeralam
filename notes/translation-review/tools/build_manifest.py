@@ -52,7 +52,7 @@ for f in sorted(glob.glob("notes/translation-review/batch-*/*.ml.json")):
         if rid not in ids: ids.append(rid)
     for rid in ids:
         fields = [e["key"].split("#")[1].split(".", 1)[1] for e in doc["entries"] if e["key"].split("#")[1].split(".")[0] == rid]
-        e = entry(f"TR-B{batch}-{rid}", doc["source_path"], "data_prose", f.replace("notes/translation-review/", ""), doc["status"],
+        e = entry(f"TR-B{batch}-{rid}", doc["source_path"], ("generator_label" if doc["source_path"].endswith(".py") else "data_prose"), f.replace("notes/translation-review/", ""), doc["status"],
                   doc.get("terminology_questions", {}).get(rid, []), rev=doc["source_revision"])
         e["source_id"] = rid
         e["fields"] = fields

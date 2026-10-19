@@ -16,6 +16,10 @@ LABELS = {
  "date.original_expression": ("തീയതി (സ്രോതസ്സുപ്രയോഗത്തിന്റെ വിശദീകരണം)", "Date (original expression)"),
  "date.datum": ("ആധാരം", "Datum"), "authoring": ("രചനാരീതി", "Authoring"), "rights": ("അവകാശങ്ങൾ", "Rights"),
  "inspection_note": ("പരിശോധനാക്കുറിപ്പ്", "Inspection note"),
+ "earlier_claim": ("മുൻ അവകാശവാദം", "Earlier claim"), "corrected_treatment": ("തിരുത്തിയ സമീപനം", "Corrected treatment"),
+ "name": ("പേര്", "Name"), "next_task": ("അടുത്ത ജോലി", "Next task"), "assessment": ("വിലയിരുത്തൽ", "Assessment"),
+ "inclusion_rule": ("ഉൾപ്പെടുത്തൽ നിയമം", "Inclusion rule"), "offshore_rule": ("കടൽമേഖലാ നിയമം", "Offshore rule"),
+ "exclusions_and_context": ("ഒഴിവാക്കലുകളും പശ്ചാത്തലവും", "Exclusions and context"),
 }
 for path in sys.argv[1:]:
     doc = json.loads(Path(path).read_text(encoding="utf-8"))

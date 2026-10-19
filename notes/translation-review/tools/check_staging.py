@@ -47,8 +47,21 @@ for f in sorted(STAGE.rglob("*")):
 
 for f in sorted(STAGE.rglob("*.ml.json")):
     doc = json.loads(f.read_text(encoding="utf-8"))
-    src = json.loads(subprocess.check_output(["git", "show", f"{doc['source_revision']}:{doc['source_path']}"], text=True))
-    byid = {r["id"]: r for r in src}
+    raw = subprocess.check_output(["git", "show", f"{doc['source_revision']}:{doc['source_path']}"], text=True)
+    if doc["source_path"].endswith(".py"):
+        for e in doc["entries"]:
+            if e["key"].split("#")[1].startswith("verdict."):
+                k = e["key"].split("verdict.")[1]
+                if e["en"] != k.replace("_", " "): fail(f"{f}: {e['key']} label mismatch")
+            else:
+                frags = [x for x in re.split(r"\{\w+\}", e["en"]) if x.strip()]
+                if any(x not in raw for x in frags): fail(f"{f}: {e['key']} English literal not found in generator (stale)")
+            if not ML.search(e["ml"]): fail(f"{f}: {e['key']} has no Malayalam")
+            if "\u2014" in e["ml"] or "\u2014" in e.get("proposed_en", ""): fail(f"{f}: {e['key']} em dash")
+        continue
+    src = json.loads(raw)
+    if isinstance(src, dict): src = [dict(src, id="scope")]
+    byid = {str(r.get("id", r.get("chapter"))): r for r in src}
     for e in doc["entries"]:
         m = re.match(r"(.+?)#(\w+)\.([\w.]+?)(?:\[(\d+)\])?$", e["key"])
         v = byid[m.group(2)]

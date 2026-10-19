@@ -100,7 +100,7 @@ for fl in fields:
 out["data_prose_fields"] = fields
 scope = json.loads(show("geography/scope.json"))
 out["data_prose_fields"].append({"path": "geography/scope.json", "field": "inclusion_rule, offshore_rule, exclusions_and_context", "records": 1,
-    "strings": 2 + len(scope["exclusions_and_context"]), "staged": 0, "words": sum(len(x.split()) for x in [scope["inclusion_rule"], scope["offshore_rule"], *scope["exclusions_and_context"]]), "batch": 3})
+    "strings": 2 + len(scope["exclusions_and_context"]), "staged": sum(1 for k in staged_keys if k.startswith("geography/scope.json#")), "words": sum(len(x.split()) for x in [scope["inclusion_rule"], scope["offshore_rule"], *scope["exclusions_and_context"]]), "batch": 3})
 
 # Staging status join.
 for group in ("hand_maintained", "generated", "data_prose"):
@@ -151,7 +151,9 @@ for k in sorted(groups):
     b = 2 if k in ("periods", "records", "sources") else 3
     sts = sorted({s for x in v for s in x["staging"]})
     if k in ("periods", "records", "sources") and any(kk.startswith(f"data/{k}.json#") for kk in staged_keys):
-        sts = ["data prose staged (batch 2)", "generator labels untranslated"]
+        sts = ["data prose staged (batch 2)", "generator labels staged (batch 3), needs generator support"]
+    elif k == "audit": sts = ["data prose staged (batch 3)", "generator labels staged (batch 3), needs generator support"]
+    elif any(kk.startswith("scripts/build.py#") for kk in staged_keys): sts = ["generator labels staged (batch 3), needs generator support; record/period titles staged (batch 2)"]
     L.append(f"| `{k}` | {len(v)} | {sum(x['words'] for x in v)} | {sum(x['em_dashes'] for x in v)} | {SRC.get(k, '')} | {b} | {', '.join(sts)} |")
 L.append("\n## 3. Prose supplied by canonical data\n")
 L.append("Keys, IDs, enums, URLs, DOIs, locators and dates stay untranslated. Source titles stay in their original form.\n")
@@ -164,7 +166,7 @@ L.append(f"\nData prose strings staged: **{stg} of {tot}** (source titles counte
 L.append("\n## 4. Generator-supplied labels\n")
 gen_src = show("scripts/build.py")
 labels = sorted(set(re.findall(r"'(#+ [^'\\]{3,}|\*\*[A-Z][^'*]{3,}\*\*[^'\\]*)", gen_src)))
-L.append(f"`scripts/build.py` contains fixed reader-facing headings and sentences (about {len(labels)} heading/bold-label literals found by pattern, plus register introductions and coverage table labels). Batch 3 stages Malayalam strings for them in a key/value list; rendering requires generator support (see [INTEGRATION_NOTES.md](INTEGRATION_NOTES.md)).\n")
+L.append(f"`scripts/build.py` contains fixed reader-facing headings and sentences (about {len(labels)} heading/bold-label literals found by pattern, plus register introductions and coverage table labels). Batch 3 stages Malayalam for them in [batch-3/generator-labels.ml.json](batch-3/generator-labels.ml.json) ("+str(sum(1 for k in staged_keys if k.startswith('scripts/build.py#')))+" keys including verdict display labels); rendering requires generator support (see [INTEGRATION_NOTES.md](INTEGRATION_NOTES.md)).\n")
 L.append("## 5. Excluded from translation\n")
 for i in out["excluded"]:
     L.append(f"- `{i['path']}`: {i['reason']}")

@@ -131,3 +131,14 @@ Status: AI-assisted draft. Human Malayalam-language review pending. Specialist r
 | Q24 | inherited zircon core, overgrowth, model age | പാരമ്പര്യമായി ലഭിച്ച zircon കാമ്പ്, പുറംവളർച്ച, മാതൃകാപ്രായം | വിഷയവിദഗ്ധപരിശോധന ആവശ്യം. |
 | Q25 | celt | celt (മിനുക്കിയ ശിലാമഴു) | |
 | Q26 | date.original_expression | സ്രോതസ്സുപ്രയോഗത്തിന്റെ വിശദീകരണം | ഈ ഫീൽഡ് മിക്കപ്പോഴും സമ്പാദകീയ ചുരുക്കമാണ്, നേരിട്ടുള്ള ഉദ്ധരണിയല്ല. Integration-ൽ മലയാളം വിശദീകരണമായി മാത്രം കാണിക്കണം; മൂലപ്രയോഗം ഇംഗ്ലീഷിൽ നിലനിൽക്കും. |
+
+## ബാച്ച് 3-ൽ ഉയർന്ന ചോദ്യങ്ങൾ / Questions raised in batch 3
+
+| # | English | ഉപയോഗിച്ചത് / Used | ചോദ്യം / Question |
+|---|---|---|---|
+| Q27 | verdict (audit) | വിധി / തീർപ്പ് | Audit verdict labels-ൽ “പിന്തുണയുണ്ട്” ആവർത്തിക്കുന്നു. ചെറിയ ലേബലുകൾ വേണോ? ഉദാ. “ഭാഗിക പിന്തുണ”. |
+| Q28 | qualify / qualified | നിബന്ധന ചേർക്കുക | “വ്യവസ്ഥ”, “പരിമിതി”, “നിബന്ധന” ഇവയിൽ ഏതാണ് സമ്പാദകീയ അർത്ഥത്തിന് ചേർന്നത്? |
+| Q29 | corpus / corpora | കോർപ്പസ് / ശേഖരം | “ശേഖരം” വളരെ പൊതുവാണ്. സാങ്കേതികപദമായി “കോർപ്പസ്” നിലനിർത്തണോ? |
+| Q30 | crosswalk | താരതമ്യപട്ടിക (crosswalk) | |
+| Q31 | offshore | കടൽമേഖല | നിയമപരമായ “territorial waters” (സമുദ്രാതിർത്തി) എന്നതുമായി വേർതിരിക്കണം. |
+| Q32 | Generator separator ` — ` | `ID: title` എന്ന് നിർദ്ദേശിച്ചു | INTEGRATION_NOTES I3 കാണുക. Project B തീരുമാനിക്കണം. |

@@ -1,0 +1,854 @@
+{
+ "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+ "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+ "human_language_review": "pending",
+ "specialist_review": "pending",
+ "model_review": "AI model self-check of numbers, citations, qualifiers and Malayalam-first rendering; not human approval.",
+ "status": "draft_translation",
+ "source_path": "scripts/build.py",
+ "entries": [
+  {
+   "key": "scripts/build.py#roles.exact_date",
+   "en": "Day explicitly dated in the inspected source",
+   "ml": "പരിശോധിച്ച സ്രോതസ്സിൽ ദിവസം വ്യക്തമായി രേഖപ്പെടുത്തിയിരിക്കുന്നു",
+   "en_sha256": "c4da8bacaba23b3c",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#roles.year_attested",
+   "en": "Year attested; day not normalized",
+   "ml": "വർഷം സാക്ഷ്യപ്പെടുത്തിയിരിക്കുന്നു; ദിവസം ഏകീകരിച്ചിട്ടില്ല",
+   "en_sha256": "9368374425879e91",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#roles.conventional_date",
+   "en": "Conventional or reconstructed year; review pending",
+   "ml": "കീഴ്‌വഴക്കപ്രകാരമുള്ളതോ പുനർനിർമ്മിച്ചതോ ആയ വർഷം; പരിശോധന ബാക്കി",
+   "en_sha256": "072fbb7fd4933f0f",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#roles.proposed_date",
+   "en": "Proposed date, not an established exact-year event",
+   "ml": "നിർദേശിച്ച തീയതി; സ്ഥാപിതമായ കൃത്യവർഷ സംഭവമല്ല",
+   "en_sha256": "d358a5a887c7657f",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#roles.research_history",
+   "en": "Research, publication, registration or digital-access history",
+   "ml": "ഗവേഷണം, പ്രസിദ്ധീകരണം, രജിസ്ട്രേഷൻ, ഡിജിറ്റൽ ലഭ്യത എന്നിവയുടെ ചരിത്രം",
+   "en_sha256": "fe45c708f2d32fba",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#source_refs.none",
+   "en": "No historical source claim; research task only.",
+   "ml": "ചരിത്രസ്രോതസ്സ് അവകാശവാദമില്ല; ഗവേഷണജോലി മാത്രം.",
+   "en_sha256": "a37a05e2924cab58",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#source.creator",
+   "en": "**Creator:**",
+   "ml": "**രചയിതാവ്/സ്ഥാപനം:**",
+   "en_sha256": "e64f113d82c2b30f",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#source.type",
+   "en": "**Type:**",
+   "ml": "**തരം:**",
+   "en_sha256": "85c72e60f08a6a92",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#source.inspection",
+   "en": "**Inspection:**",
+   "ml": "**പരിശോധന:**",
+   "en_sha256": "0115a7d35666d4f7",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#source.accessed",
+   "en": "**Accessed:**",
+   "ml": "**പ്രവേശിച്ച തീയതി:**",
+   "en_sha256": "333e9fba8a170623",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#source.link",
+   "en": "[Source / catalogue]",
+   "ml": "[സ്രോതസ്സ് / കാറ്റലോഗ്]",
+   "en_sha256": "bd209dfd85c3a143",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#source.pubyear",
+   "en": "**Registered publication year:** {year}; consult the note for version distinctions.",
+   "ml": "**രേഖപ്പെടുത്തിയ പ്രസിദ്ധീകരണവർഷം:** {year}; പതിപ്പുകൾ തമ്മിലുള്ള വ്യത്യാസങ്ങൾക്ക് കുറിപ്പ് കാണുക.",
+   "en_sha256": "2071effdc05fee71",
+   "template": true
+  },
+  {
+   "key": "scripts/build.py#source.h_inspected",
+   "en": "## What was inspected",
+   "ml": "## പരിശോധിച്ചത് എന്ത്",
+   "en_sha256": "84d55f78e145ea71",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#source.h_rights",
+   "en": "## Rights and copies",
+   "ml": "## അവകാശങ്ങളും പകർപ്പുകളും",
+   "en_sha256": "6d38cc922a2eba09",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#source.no_bundle",
+   "en": "No third-party full text or image is bundled. A null checksum means no local source file was preserved; it is not an integrity check.",
+   "ml": "മൂന്നാംകക്ഷി പൂർണപാഠമോ ചിത്രമോ ഉൾപ്പെടുത്തിയിട്ടില്ല. null checksum എന്നാൽ പ്രാദേശിക സ്രോതസ്സുഫയൽ സൂക്ഷിച്ചിട്ടില്ല എന്നാണ്; അത് സമഗ്രതാപരിശോധനയല്ല.",
+   "en_sha256": "e005c18e8b6e89d8",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#source.h_alt",
+   "en": "## Alternate discovery or metadata routes",
+   "ml": "## കണ്ടെത്തലിനോ വിവരണരേഖയ്ക്കോ ഉള്ള മറ്റ് വഴികൾ",
+   "en_sha256": "976338f30086882d",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#source.alt_n",
+   "en": "Alternative {n}",
+   "ml": "മറ്റൊരു വഴി {n}",
+   "en_sha256": "09bf96428c3d33d3",
+   "template": true
+  },
+  {
+   "key": "scripts/build.py#source.h_linked",
+   "en": "## Linked evidence records",
+   "ml": "## ബന്ധിപ്പിച്ച തെളിവുരേഖകൾ",
+   "en_sha256": "b7b5528663a5b044",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#source.no_linked",
+   "en": "No seed evidence record uses this source yet; it may be a methodology source or collection lead.",
+   "ml": "ഒരു പ്രാരംഭ തെളിവുരേഖയും ഈ സ്രോതസ്സ് ഇനിയും ഉപയോഗിക്കുന്നില്ല; ഇത് ഒരു രീതിശാസ്ത്ര സ്രോതസ്സോ ശേഖരസൂചനയോ ആകാം.",
+   "en_sha256": "5f1456250bfb113d",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#sources_readme.title",
+   "en": "# Source register",
+   "ml": "# സ്രോതസ്സ് രജിസ്റ്റർ",
+   "en_sha256": "c9f0f862837c7f0f",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#sources_readme.intro",
+   "en": "Inspection depth is not a quality score. A primary document can be biased; a catalogue can only establish what was actually inspected. All independent human review is pending.",
+   "ml": "പരിശോധനയുടെ ആഴം ഗുണനിലവാര സ്കോറല്ല. ഒരു പ്രാഥമിക രേഖ പക്ഷപാതപരമാകാം; യഥാർത്ഥത്തിൽ പരിശോധിച്ചത് എന്തെന്ന് മാത്രമേ ഒരു കാറ്റലോഗിന് സ്ഥാപിക്കാനാകൂ. എല്ലാ സ്വതന്ത്ര മനുഷ്യപരിശോധനയും ബാക്കിയാണ്.",
+   "en_sha256": "70b3c2b474a917f1",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#record.evidence_type",
+   "en": "**Evidence type:**",
+   "ml": "**തെളിവിന്റെ തരം:**",
+   "en_sha256": "f4e8b440f7bed636",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#record.geo_relation",
+   "en": "**Geographic relation:**",
+   "ml": "**ഭൂമിശാസ്ത്രബന്ധം:**",
+   "en_sha256": "cf2e4d0359cc6f77",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#record.places",
+   "en": "**Places:**",
+   "ml": "**സ്ഥലങ്ങൾ:**",
+   "en_sha256": "81da218d68ae5d88",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#record.global",
+   "en": "Global context, not a local site",
+   "ml": "ആഗോള പശ്ചാത്തലം; പ്രാദേശിക സ്ഥലമല്ല",
+   "en_sha256": "653a1904782bfe82",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#record.h_date",
+   "en": "## Date as represented",
+   "ml": "## രേഖപ്പെടുത്തിയ രൂപത്തിലുള്ള തീയതി",
+   "en_sha256": "2a1e26456f988847",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#record.other_dates",
+   "en": "Other, separately typed dates:",
+   "ml": "വേറിട്ട് തരംതിരിച്ച മറ്റ് തീയതികൾ:",
+   "en_sha256": "3e1bd1d8253865dc",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#record.h_limitations",
+   "en": "## Limitations",
+   "ml": "## പരിമിതികൾ",
+   "en_sha256": "639d5ea4c0ebc26c",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#record.h_evidence",
+   "en": "## Evidence and locators",
+   "ml": "## തെളിവുകളും സ്ഥാനസൂചനകളും",
+   "en_sha256": "7af85639002077ae",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#record.inspection",
+   "en": "Inspection:",
+   "ml": "പരിശോധന:",
+   "en_sha256": "e999bc6df8f568b9",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#record.h_nav",
+   "en": "## Navigation",
+   "ml": "## വഴികാട്ടൽ",
+   "en_sha256": "44ffd1d0a732b897",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#record.h_review",
+   "en": "## Review and authorship",
+   "ml": "## പരിശോധനയും രചനയും",
+   "en_sha256": "560f590a54f6b7cd",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#record.human_review",
+   "en": "**Independent human review:**",
+   "ml": "**സ്വതന്ത്ര മനുഷ്യപരിശോധന:**",
+   "en_sha256": "3de29d62f0822b5c",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#record.created_updated",
+   "en": "**Created / updated:**",
+   "ml": "**സൃഷ്ടിച്ചത് / പുതുക്കിയത്:**",
+   "en_sha256": "d8a1b3123b448d7d",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#records_readme.title",
+   "en": "# Evidence records",
+   "ml": "# തെളിവുരേഖകൾ",
+   "en_sha256": "05835e097398a1b6",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#records_readme.intro",
+   "en": "These are attributed, limited seed records. A research publication is not the historical event it discusses.",
+   "ml": "ഇവ ആരുടേതെന്ന് വ്യക്തമാക്കിയ, പരിമിതമായ പ്രാരംഭരേഖകളാണ്. ഒരു ഗവേഷണപ്രസിദ്ധീകരണം അത് ചർച്ച ചെയ്യുന്ന ചരിത്രസംഭവമല്ല.",
+   "en_sha256": "0bf4e9254f12a652",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#period.window",
+   "en": "**Window:**",
+   "ml": "**കാലജാലകം:**",
+   "en_sha256": "fdc88732e411d6a2",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#period.question",
+   "en": "**Question:**",
+   "ml": "**ചോദ്യം:**",
+   "en_sha256": "d2d634e00e977ded",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#period.h_evidence",
+   "en": "## Evidence presently available in this seed",
+   "ml": "## ഈ പ്രാരംഭശേഖരത്തിൽ ഇപ്പോൾ ലഭ്യമായ തെളിവ്",
+   "en_sha256": "d3b7cf95c317c9ec",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#period.source_routes",
+   "en": "Source routes:",
+   "ml": "സ്രോതസ്സുവഴികൾ:",
+   "en_sha256": "31229c792f833214",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#period.h_not",
+   "en": "## What this does not establish",
+   "ml": "## ഇത് സ്ഥാപിക്കാത്തത്",
+   "en_sha256": "943831e95e800f51",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#period.h_tasks",
+   "en": "## Research tasks",
+   "ml": "## ഗവേഷണജോലികൾ",
+   "en_sha256": "b9ccced66a778203",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#period.h_records",
+   "en": "## Canonical seed records",
+   "ml": "## അടിസ്ഥാന പ്രാരംഭരേഖകൾ",
+   "en_sha256": "fc80aaff3f2a56af",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#period.no_records",
+   "en": "No canonical evidence record has been entered for this dossier yet.",
+   "ml": "ഈ പഠനരേഖയ്ക്കായി ഒരു അടിസ്ഥാന തെളിവുരേഖയും ഇനിയും ചേർത്തിട്ടില്ല.",
+   "en_sha256": "188cf7f8946989c5",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#period.h_coverage",
+   "en": "## Coverage note",
+   "ml": "## വ്യാപ്തിക്കുറിപ്പ്",
+   "en_sha256": "bd8f874ceccc405a",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#period.coverage",
+   "en": "This is an open research dossier, not an exhaustive era narrative. Its window is an editorial retrieval aid and can overlap other dossiers. Primary evidence, source dates and interpretative disputes remain explicit. Human specialist review is pending.",
+   "ml": "ഇത് തുറന്ന ഗവേഷണ പഠനരേഖയാണ്; ഒരു കാലഘട്ടത്തിന്റെ സമഗ്രാഖ്യാനമല്ല. ഇതിന്റെ കാലജാലകം സമ്പാദകീയമായ ഒരു തിരച്ചിൽസഹായമാണ്; മറ്റ് പഠനരേഖകളുമായി ഇടകലരാം. പ്രാഥമിക തെളിവും സ്രോതസ്സുതീയതികളും വ്യാഖ്യാനത്തർക്കങ്ങളും വ്യക്തമായി നിലനിൽക്കുന്നു. മനുഷ്യവിദഗ്ധപരിശോധന ബാക്കിയാണ്.",
+   "en_sha256": "2e40725ae6fbe8bd",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#periods_readme.title",
+   "en": "# Era and period dossiers",
+   "ml": "# യുഗ, കാലഘട്ട പഠനരേഖകൾ",
+   "en_sha256": "bdeaa836bd8cd4df",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#periods_readme.intro",
+   "en": "The first twelve dossiers organize deep time and prehistory. Seven overlapping editorial windows connect the documentary periods to annual navigation. These are not a claim that all districts followed the same sequence.",
+   "ml": "ആദ്യത്തെ പന്ത്രണ്ട് പഠനരേഖകൾ ദീർഘ ഭൂകാലത്തെയും ചരിത്രാതീതകാലത്തെയും ക്രമീകരിക്കുന്നു. പരസ്പരം ഇടകലരുന്ന ഏഴ് സമ്പാദകീയ ജാലകങ്ങൾ രേഖാകാലഘട്ടങ്ങളെ വാർഷിക വഴികാട്ടലുമായി ബന്ധിപ്പിക്കുന്നു. എല്ലാ ജില്ലകളും ഒരേ ക്രമം പിന്തുടർന്നുവെന്ന അവകാശവാദമല്ല ഇവ.",
+   "en_sha256": "56a4286f1e6d3b5e",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#year.index",
+   "en": "[Year index](../README.md)",
+   "ml": "[വർഷസൂചിക](../README.md)",
+   "en_sha256": "2b036267f812acee",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#year.coverage",
+   "en": "**Coverage:**",
+   "ml": "**വ്യാപ്തി:**",
+   "en_sha256": "b1e018d3c99d7b9a",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#year.coverage_seed",
+   "en": "A small number of source-linked seeds; not a completed year history.",
+   "ml": "സ്രോതസ്സുമായി ബന്ധിപ്പിച്ച ചുരുക്കം പ്രാരംഭരേഖകൾ; പൂർത്തിയായ വർഷചരിത്രമല്ല.",
+   "en_sha256": "df72ce5d28e2a7a0",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#year.coverage_none",
+   "en": "No year-specific seed has been entered. This year has not been exhaustively researched.",
+   "ml": "വർഷനിർദിഷ്ട പ്രാരംഭരേഖ ഒന്നും ചേർത്തിട്ടില്ല. ഈ വർഷം സമഗ്രമായി ഗവേഷണം ചെയ്തിട്ടില്ല.",
+   "en_sha256": "fbee6824b7c9675d",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#year.partial",
+   "en": "**Partial year:** this release stops at {as_of}. No later event is implied.",
+   "ml": "**ഭാഗികവർഷം:** ഈ പതിപ്പ് {as_of}-ൽ നിർത്തുന്നു. പിന്നീടുള്ള ഒരു സംഭവവും സൂചിപ്പിക്കുന്നില്ല.",
+   "en_sha256": "08c8fb8ea89024b2",
+   "template": true
+  },
+  {
+   "key": "scripts/build.py#year.h_wider",
+   "en": "## Wider-period evidence — not an event assigned to this year",
+   "ml": "## വിശാലകാല തെളിവ്: ഈ വർഷത്തിന് നൽകിയ സംഭവമല്ല",
+   "en_sha256": "62c81b65c6e04b7f",
+   "proposed_en": "## Wider-period evidence: not an event assigned to this year",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#year.period_index",
+   "en": "Consult the [period index](../../periods/README.md).",
+   "ml": "[കാലഘട്ടസൂചിക](../../periods/README.md) കാണുക.",
+   "en_sha256": "9e7cdb829b5919f7",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#year.h_interp",
+   "en": "## Interpretation",
+   "ml": "## വ്യാഖ്യാനം",
+   "en_sha256": "4fb671009db7aa2a",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#year.interp1",
+   "en": "An empty section is not proof that nothing happened or that no records survive. Century-dated and undated material stays in its period dossier; publication and discovery dates are separate from the events studied.",
+   "ml": "ഒരു ഭാഗം ശൂന്യമാണെന്നത് ഒന്നും നടന്നില്ലെന്നോ ഒരു രേഖയും നിലനിൽക്കുന്നില്ലെന്നോ ഉള്ളതിന്റെ തെളിവല്ല. നൂറ്റാണ്ടുതല തീയതിയുള്ളതും തീയതിയില്ലാത്തതുമായ വസ്തുക്കൾ അതത് കാലഘട്ടപഠനരേഖയിൽ തുടരും; പ്രസിദ്ധീകരണ, കണ്ടെത്തൽ തീയതികൾ പഠിക്കുന്ന സംഭവങ്ങളിൽനിന്ന് വേറിട്ടതാണ്.",
+   "en_sha256": "b9c3578775c6a76b",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#year.interp2",
+   "en": "Add a canonical record in `data/records.json`, cite a source with a locator, and rebuild. Hand-authored research notes belong in `notes/`, not this generated page.",
+   "ml": "`data/records.json`-ൽ ഒരു അടിസ്ഥാനരേഖ ചേർക്കുക, സ്ഥാനസൂചന സഹിതം സ്രോതസ്സ് ഉദ്ധരിക്കുക, പേജുകൾ വീണ്ടും നിർമ്മിക്കുക. കൈയെഴുത്ത് ഗവേഷണക്കുറിപ്പുകൾ `notes/`-ലാണ് വേണ്ടത്; ഈ generated പേജിലല്ല.",
+   "en_sha256": "e47a8c4d10132e53",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#era_index.title",
+   "en": "# {era} annual index",
+   "ml": "# {era} വാർഷിക സൂചിക",
+   "en_sha256": "770b1a7c873c33af",
+   "template": true
+  },
+  {
+   "key": "scripts/build.py#era_index.intro",
+   "en": "Generated navigation, not a measure of historical coverage.",
+   "ml": "സ്വയമേവ നിർമ്മിച്ച വഴികാട്ടൽ; ചരിത്രവ്യാപ്തിയുടെ അളവല്ല.",
+   "en_sha256": "6f9677efd38a8514",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#era_index.range",
+   "en": "## {start} through {end}",
+   "ml": "## {start} മുതൽ {end} വരെ",
+   "en_sha256": "0aa8b84a774fed8d",
+   "template": true
+  },
+  {
+   "key": "scripts/build.py#years_readme.title",
+   "en": "# Annual navigation",
+   "ml": "# വാർഷിക വഴികാട്ടൽ",
+   "en_sha256": "017ba892cd4a4b56",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#years_readme.p1",
+   "en": "This release creates **{n} annual Markdown files**, from {start} through {end}, with no year zero. The starting boundary is editorial, not proof that writing began in 300 BCE.",
+   "ml": "ഈ പതിപ്പ് {start} മുതൽ {end} വരെ, പൂജ്യം വർഷമില്ലാതെ, **{n} വാർഷിക Markdown ഫയലുകൾ** നിർമ്മിക്കുന്നു. ആരംഭാതിർത്തി സമ്പാദകീയമാണ്; എഴുത്ത് ക്രി.മു. 300-ൽ തുടങ്ങി എന്നതിന്റെ തെളിവല്ല.",
+   "en_sha256": "d15d8986974261be",
+   "template": true
+  },
+  {
+   "key": "scripts/build.py#years_readme.nav",
+   "en": "[Browse BCE](BCE/README.md) · [Browse CE](CE/README.md) · [Era and period dossiers](../periods/README.md)",
+   "ml": "[ക്രി.മു. കാണുക](BCE/README.md) · [ക്രി.വ. കാണുക](CE/README.md) · [യുഗ, കാലഘട്ട പഠനരേഖകൾ](../periods/README.md)",
+   "en_sha256": "64e5a1665bd8ff04",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#years_readme.p2",
+   "en": "Most annual pages are unresearched navigation placeholders. A period link is not a year-specific event. See [coverage](../coverage/README.md).",
+   "ml": "മിക്ക വാർഷിക പേജുകളും ഗവേഷണം നടത്താത്ത വഴികാട്ടൽ ഇടങ്ങളാണ്. ഒരു കാലഘട്ടക്കണ്ണി വർഷനിർദിഷ്ട സംഭവമല്ല. [വ്യാപ്തി](../coverage/README.md) കാണുക.",
+   "en_sha256": "a3b63a524532cd9c",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#audit.title",
+   "en": "# Audit of the earlier conversation",
+   "ml": "# മുൻ സംഭാഷണത്തിന്റെ പരിശോധന",
+   "en_sha256": "e5ec1a6c698b65c7",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#audit.intro",
+   "en": "This register separates factual claims, misleading implications, omissions, and proposed research topics. It is not a declaration that every topic is now fully verified. Repeated claims are consolidated; the 46-chapter crosswalk below preserves the full outline. \"Pending\" means the necessary primary evidence has not been inspected.",
+   "ml": "ഈ രജിസ്റ്റർ വസ്തുതാ അവകാശവാദങ്ങൾ, തെറ്റിദ്ധരിപ്പിക്കുന്ന സൂചനകൾ, ഒഴിവാക്കലുകൾ, നിർദേശിത ഗവേഷണവിഷയങ്ങൾ എന്നിവ വേർതിരിക്കുന്നു. എല്ലാ വിഷയങ്ങളും ഇപ്പോൾ പൂർണമായി സ്ഥിരീകരിച്ചുവെന്ന പ്രഖ്യാപനമല്ല ഇത്. ആവർത്തിച്ച അവകാശവാദങ്ങൾ ഏകീകരിച്ചിരിക്കുന്നു; താഴെയുള്ള 46 അധ്യായ ഒത്തുനോക്കൽപ്പട്ടിക പൂർണ രൂപരേഖ നിലനിർത്തുന്നു. \"Pending\" (ബാക്കി) എന്നാൽ ആവശ്യമായ പ്രാഥമിക തെളിവ് പരിശോധിച്ചിട്ടില്ല എന്നാണ്.",
+   "en_sha256": "95e4e92d74cb68b6",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#audit.earlier",
+   "en": "**Earlier claim or implication:**",
+   "ml": "**മുൻ അവകാശവാദമോ സൂചനയോ:**",
+   "en_sha256": "09621bbe8877ec6c",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#audit.treatment",
+   "en": "**Treatment:**",
+   "ml": "**സമീപനം:**",
+   "en_sha256": "2405c0f1984e3979",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#audit.route",
+   "en": "**Evidence route:**",
+   "ml": "**തെളിവുവഴി:**",
+   "en_sha256": "cd74b17ff3f29796",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#audit.h_crosswalk",
+   "en": "## Crosswalk of every chapter in the earlier 46-chapter proposal",
+   "ml": "## മുൻ 46 അധ്യായ നിർദേശത്തിലെ ഓരോ അധ്യായത്തിന്റെയും ഒത്തുനോക്കൽപ്പട്ടിക",
+   "en_sha256": "4e8a4e7ae728790f",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#audit.table_head",
+   "en": "| Chapter | Proposed subject | Dossier(s) | Audit status |",
+   "ml": "| അധ്യായം | നിർദേശിച്ച വിഷയം | പഠനരേഖ(കൾ) | പരിശോധനാനില |",
+   "en_sha256": "d9ad3314fb996e6d",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.title",
+   "en": "# Coverage — version {version}",
+   "ml": "# വ്യാപ്തി: പതിപ്പ് {version}",
+   "en_sha256": "cfd19ddc15e9e55c",
+   "proposed_en": "# Coverage: version {version}",
+   "template": true
+  },
+  {
+   "key": "scripts/build.py#coverage.asof",
+   "en": "As of {as_of}. These are repository counts, not estimates of the total historical record.",
+   "ml": "{as_of} പ്രകാരം. ഇവ ശേഖരത്തിലെ എണ്ണങ്ങളാണ്; ആകെ ചരിത്രരേഖയുടെ കണക്കുകളല്ല.",
+   "en_sha256": "a57605b9ef065c91",
+   "template": true
+  },
+  {
+   "key": "scripts/build.py#coverage.th",
+   "en": "| Measure | This release |",
+   "ml": "| അളവ് | ഈ പതിപ്പ് |",
+   "en_sha256": "3d25a86d8396677f",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.r1",
+   "en": "Annual Markdown files",
+   "ml": "വാർഷിക Markdown ഫയലുകൾ",
+   "en_sha256": "3c69a222f6ca5192",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.r2",
+   "en": "Annual pages with at least one year-specific seed link",
+   "ml": "കുറഞ്ഞത് ഒരു വർഷനിർദിഷ്ട പ്രാരംഭക്കണ്ണിയുള്ള വാർഷിക പേജുകൾ",
+   "en_sha256": "9a686f2b7f349836",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.r3",
+   "en": "Annual pages without a year-specific seed",
+   "ml": "വർഷനിർദിഷ്ട പ്രാരംഭരേഖയില്ലാത്ത വാർഷിക പേജുകൾ",
+   "en_sha256": "16f509bfb555f19e",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.r4",
+   "en": "Canonical evidence records",
+   "ml": "അടിസ്ഥാന തെളിവുരേഖകൾ",
+   "en_sha256": "a332deb31fb49e03",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.r5",
+   "en": "Source cards, including catalogues and leads",
+   "ml": "കാറ്റലോഗുകളും സൂചനകളും ഉൾപ്പെടെ സ്രോതസ്സ് കാർഡുകൾ",
+   "en_sha256": "5eeeca14c12c25b6",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.r6",
+   "en": "Deep-time / prehistory dossiers",
+   "ml": "ദീർഘ ഭൂകാല / ചരിത്രാതീത പഠനരേഖകൾ",
+   "en_sha256": "f3992bea468e39b1",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.r7",
+   "en": "Documentary-period dossiers",
+   "ml": "രേഖാകാലഘട്ട പഠനരേഖകൾ",
+   "en_sha256": "af9b808b125f8878",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.r8",
+   "en": "Independent human-reviewed records",
+   "ml": "സ്വതന്ത്ര മനുഷ്യപരിശോധന കഴിഞ്ഞ രേഖകൾ",
+   "en_sha256": "ad823cbbb4b154a1",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.r9",
+   "en": "Completed collection inventories",
+   "ml": "പൂർത്തിയായ ശേഖരപ്പട്ടികകൾ",
+   "en_sha256": "10313e5798255e4e",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.r10",
+   "en": "Third-party full texts or images bundled",
+   "ml": "ഉൾപ്പെടുത്തിയ മൂന്നാംകക്ഷി പൂർണപാഠങ്ങളോ ചിത്രങ്ങളോ",
+   "en_sha256": "513f4ce57ac300d2",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.r11",
+   "en": "Verified current boundary polygons",
+   "ml": "സ്ഥിരീകരിച്ച നിലവിലെ അതിർത്തിബഹുഭുജങ്ങൾ",
+   "en_sha256": "4b17bd9523168b24",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.p1",
+   "en": "The seed entries include research and publication milestones. They must not be reported as that many unique past events in the territory. Sources inspected only as abstracts or catalogues are clearly labelled. Empty years are unresearched, not historically empty.",
+   "ml": "പ്രാരംഭരേഖകളിൽ ഗവേഷണ, പ്രസിദ്ധീകരണ നാഴികക്കല്ലുകളും ഉൾപ്പെടുന്നു. അവയെ ഭൂഭാഗത്തിലെ അത്രയും അനന്യമായ പഴയ സംഭവങ്ങളായി റിപ്പോർട്ട് ചെയ്യരുത്. സാരാംശമോ കാറ്റലോഗോ മാത്രമായി പരിശോധിച്ച സ്രോതസ്സുകൾ വ്യക്തമായി അടയാളപ്പെടുത്തിയിട്ടുണ്ട്. ശൂന്യമായ വർഷങ്ങൾ ഗവേഷണം നടത്താത്തവയാണ്; ചരിത്രപരമായി ശൂന്യമല്ല.",
+   "en_sha256": "4966438cde994d1d",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.p2",
+   "en": "No percentage for coverage of the entire internet is calculated. No source corpus has been completely inventoried. [Collection plan](../docs/CORPUS_PLAN.md) defines what an auditable completeness claim would require.",
+   "ml": "ഇന്റർനെറ്റ് മുഴുവന്റെയും വ്യാപ്തിക്ക് ശതമാനം കണക്കാക്കുന്നില്ല. ഒരു സ്രോതസ്സുസമുച്ചയവും പൂർണമായി പട്ടികപ്പെടുത്തിയിട്ടില്ല. പരിശോധിക്കാവുന്ന സമ്പൂർണതാ അവകാശവാദത്തിന് എന്തെല്ലാം വേണമെന്ന് [ശേഖരണ പദ്ധതി](../docs/CORPUS_PLAN.md) നിർവചിക്കുന്നു.",
+   "en_sha256": "decd8879147c6163",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#coverage.links",
+   "en": "[Machine-readable statistics](stats.json) · [Year-by-year status](year-status.csv)",
+   "ml": "[യന്ത്രവായനയ്ക്കുള്ള സ്ഥിതിവിവരക്കണക്കുകൾ](stats.json) · [വർഷംതോറുമുള്ള നില](year-status.csv)",
+   "en_sha256": "96339cf20621bd9b",
+   "template": false
+  },
+  {
+   "key": "scripts/build.py#verdict.correction_required",
+   "en": "correction required",
+   "ml": "തിരുത്തൽ ആവശ്യം",
+   "en_sha256": "6658a4537504103a"
+  },
+  {
+   "key": "scripts/build.py#verdict.coverage_claim_not_supported",
+   "en": "coverage claim not supported",
+   "ml": "വ്യാപ്തി അവകാശവാദത്തിന് പിന്തുണയില്ല",
+   "en_sha256": "1020047380535d61"
+  },
+  {
+   "key": "scripts/build.py#verdict.critical_edition_pending",
+   "en": "critical edition pending",
+   "ml": "വിമർശനാത്മക പതിപ്പ് പരിശോധന ബാക്കി",
+   "en_sha256": "190033e5f9224df5"
+  },
+  {
+   "key": "scripts/build.py#verdict.editorial_correction",
+   "en": "editorial correction",
+   "ml": "സമ്പാദകീയ തിരുത്തൽ",
+   "en_sha256": "d747277703962252"
+  },
+  {
+   "key": "scripts/build.py#verdict.editorial_only",
+   "en": "editorial only",
+   "ml": "സമ്പാദകീയം മാത്രം",
+   "en_sha256": "85fffcd9016fa552"
+  },
+  {
+   "key": "scripts/build.py#verdict.further_epigraphic_review",
+   "en": "further epigraphic review",
+   "ml": "കൂടുതൽ ലിഖിതശാസ്ത്ര പരിശോധന വേണം",
+   "en_sha256": "c448dd4de0d6c94a"
+  },
+  {
+   "key": "scripts/build.py#verdict.incorrect",
+   "en": "incorrect",
+   "ml": "തെറ്റ്",
+   "en_sha256": "203d3536bd62ad33"
+  },
+  {
+   "key": "scripts/build.py#verdict.incorrect_generalization",
+   "en": "incorrect generalization",
+   "ml": "തെറ്റായ സാമാന്യവൽക്കരണം",
+   "en_sha256": "ee13760cbb4b4b86"
+  },
+  {
+   "key": "scripts/build.py#verdict.incorrect_if_unqualified",
+   "en": "incorrect if unqualified",
+   "ml": "നിബന്ധനയില്ലെങ്കിൽ തെറ്റ്",
+   "en_sha256": "e0f58f052da1d312"
+  },
+  {
+   "key": "scripts/build.py#verdict.incorrect_impression",
+   "en": "incorrect impression",
+   "ml": "തെറ്റായ ധാരണ",
+   "en_sha256": "a89b42d8bf713bf3"
+  },
+  {
+   "key": "scripts/build.py#verdict.incorrect_method",
+   "en": "incorrect method",
+   "ml": "തെറ്റായ രീതി",
+   "en_sha256": "93d5bc6682f41d4d"
+  },
+  {
+   "key": "scripts/build.py#verdict.misleading_framing",
+   "en": "misleading framing",
+   "ml": "തെറ്റിദ്ധരിപ്പിക്കുന്ന അവതരണം",
+   "en_sha256": "b0a99476f0e237d4"
+  },
+  {
+   "key": "scripts/build.py#verdict.misleading_ranking",
+   "en": "misleading ranking",
+   "ml": "തെറ്റിദ്ധരിപ്പിക്കുന്ന സ്ഥാനനിർണയം",
+   "en_sha256": "1c5e4abd25964b5e"
+  },
+  {
+   "key": "scripts/build.py#verdict.not_claimed_but_guardrail",
+   "en": "not claimed but guardrail",
+   "ml": "അവകാശപ്പെട്ടിട്ടില്ല; മുൻകരുതൽ",
+   "en_sha256": "68c335124706fe62"
+  },
+  {
+   "key": "scripts/build.py#verdict.not_established",
+   "en": "not established",
+   "ml": "സ്ഥാപിച്ചിട്ടില്ല",
+   "en_sha256": "318f1526ba2b8920"
+  },
+  {
+   "key": "scripts/build.py#verdict.omission_to_repair",
+   "en": "omission to repair",
+   "ml": "പരിഹരിക്കേണ്ട ഒഴിവാക്കൽ",
+   "en_sha256": "647d09ac3d714275"
+  },
+  {
+   "key": "scripts/build.py#verdict.overprecise_withdraw",
+   "en": "overprecise withdraw",
+   "ml": "അമിതകൃത്യത; പിൻവലിക്കുക",
+   "en_sha256": "961c801be1b05a21"
+  },
+  {
+   "key": "scripts/build.py#verdict.partly_supported",
+   "en": "partly supported",
+   "ml": "ഭാഗികമായി പിന്തുണയുണ്ട്",
+   "en_sha256": "2a94ca733d3260c2"
+  },
+  {
+   "key": "scripts/build.py#verdict.partly_verified",
+   "en": "partly verified",
+   "ml": "ഭാഗികമായി സ്ഥിരീകരിച്ചു",
+   "en_sha256": "3f2ce2ed3b334201"
+  },
+  {
+   "key": "scripts/build.py#verdict.plausible_but_local_sequence_pending",
+   "en": "plausible but local sequence pending",
+   "ml": "സാധ്യതയുള്ളത്; പ്രാദേശിക ക്രമം ബാക്കി",
+   "en_sha256": "0595e9f290409fa3"
+  },
+  {
+   "key": "scripts/build.py#verdict.primary_passage_pending",
+   "en": "primary passage pending",
+   "ml": "പ്രാഥമികഭാഗം പരിശോധന ബാക്കി",
+   "en_sha256": "ff2f317677b85de6"
+  },
+  {
+   "key": "scripts/build.py#verdict.qualify",
+   "en": "qualify",
+   "ml": "നിബന്ധന ചേർക്കുക",
+   "en_sha256": "e48cfe4f6f37ec01"
+  },
+  {
+   "key": "scripts/build.py#verdict.qualify_reported_claim",
+   "en": "qualify reported claim",
+   "ml": "റിപ്പോർട്ട് ചെയ്ത അവകാശവാദത്തിന് നിബന്ധന ചേർക്കുക",
+   "en_sha256": "36ee655e0c639a8f"
+  },
+  {
+   "key": "scripts/build.py#verdict.research_agenda_only",
+   "en": "research agenda only",
+   "ml": "ഗവേഷണ അജണ്ട മാത്രം",
+   "en_sha256": "da8462b5220e083b"
+  },
+  {
+   "key": "scripts/build.py#verdict.research_agenda_valid",
+   "en": "research agenda valid",
+   "ml": "ഗവേഷണ അജണ്ട സാധുവാണ്",
+   "en_sha256": "63c2987d4a416b0b"
+  },
+  {
+   "key": "scripts/build.py#verdict.supported",
+   "en": "supported",
+   "ml": "പിന്തുണയുണ്ട്",
+   "en_sha256": "37b322c559d476e5"
+  },
+  {
+   "key": "scripts/build.py#verdict.supported_as_research_direction",
+   "en": "supported as research direction",
+   "ml": "ഗവേഷണദിശയായി പിന്തുണയുണ്ട്",
+   "en_sha256": "cbf6d696909d6079"
+  },
+  {
+   "key": "scripts/build.py#verdict.supported_as_source_leads",
+   "en": "supported as source leads",
+   "ml": "സ്രോതസ്സുസൂചനകളായി പിന്തുണയുണ്ട്",
+   "en_sha256": "93d689e75616847d"
+  },
+  {
+   "key": "scripts/build.py#verdict.supported_at_abstract_level",
+   "en": "supported at abstract level",
+   "ml": "സാരാംശതലത്തിൽ പിന്തുണയുണ്ട്",
+   "en_sha256": "778ed057d7e7435a"
+  },
+  {
+   "key": "scripts/build.py#verdict.supported_broadly",
+   "en": "supported broadly",
+   "ml": "പൊതുവായി പിന്തുണയുണ്ട്",
+   "en_sha256": "95b7f0eefca3e263"
+  },
+  {
+   "key": "scripts/build.py#verdict.supported_but_dates_qualified",
+   "en": "supported but dates qualified",
+   "ml": "പിന്തുണയുണ്ട്; തീയതികൾക്ക് നിബന്ധന",
+   "en_sha256": "893af63da003a31f"
+  },
+  {
+   "key": "scripts/build.py#verdict.supported_methodological_qualification",
+   "en": "supported methodological qualification",
+   "ml": "രീതിശാസ്ത്രപരമായ നിബന്ധനയോടെ പിന്തുണയുണ്ട്",
+   "en_sha256": "ea68d4f7569faf85"
+  },
+  {
+   "key": "scripts/build.py#verdict.supported_primary",
+   "en": "supported primary",
+   "ml": "പ്രാഥമിക സ്രോതസ്സിന്റെ പിന്തുണയുണ്ട്",
+   "en_sha256": "6d3e4c37d2dcd8e4"
+  },
+  {
+   "key": "scripts/build.py#verdict.supported_primary_translation",
+   "en": "supported primary translation",
+   "ml": "പ്രാഥമിക സ്രോതസ്സിന്റെ പരിഭാഷയുടെ പിന്തുണയുണ്ട്",
+   "en_sha256": "774b673a48737073"
+  },
+  {
+   "key": "scripts/build.py#verdict.supported_with_limits",
+   "en": "supported with limits",
+   "ml": "പരിമിതികളോടെ പിന്തുണയുണ്ട്",
+   "en_sha256": "0235b13be5696740"
+  },
+  {
+   "key": "scripts/build.py#verdict.supported_with_scope_limit",
+   "en": "supported with scope limit",
+   "ml": "പരിധിനിബന്ധനയോടെ പിന്തുണയുണ്ട്",
+   "en_sha256": "6520f9725c183a61"
+  }
+ ],
+ "note": "Reader-facing literals in the generator. {placeholders} mark values the generator inserts; literals containing them are templates and are matched by their fixed fragments. Verdict labels are display text for enum values in data/audit.json; the enum values themselves are unchanged.",
+ "separator_note": "Generator joins IDs and titles with ' — ' (em dash) in headings and lists. Proposed: 'ID: title' in both languages."
+}
