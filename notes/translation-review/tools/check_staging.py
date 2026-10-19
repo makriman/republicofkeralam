@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+"""Checks for staged translation files. Run from repo root. Exit 1 on failure.
+
+UTF-8 decode; relative Markdown links resolve; manifest source revisions exist
+and source paths exist at that revision; staged *.ml-en.md files put Malayalam
+before English; every digit run and S### citation in the retained English also
+appears in the Malayalam section; no em dash in Malayalam sections or in
+staging prose; changed files limited to notes/translation-review/ (plus the
+existing assignment document).
+"""
+import json, re, subprocess, sys
+from pathlib import Path
+
+STAGE = Path("notes/translation-review")
+ML = re.compile(r"[\u0D00-\u0D7F]")
+fails = []
+def fail(m): fails.append(m)
+
+for f in sorted(STAGE.rglob("*")):
+    if not f.is_file(): continue
+    try:
+        text = f.read_text(encoding="utf-8")
+    except UnicodeDecodeError:
+        fail(f"{f}: not UTF-8"); continue
+    if f.suffix == ".md":
+        for target in re.findall(r"\]\(([^)\s]+)\)", text):
+            if re.match(r"^[a-z]+:|^#", target): continue
+            if not (f.parent / target.split("#")[0]).resolve().exists():
+                fail(f"{f}: broken link {target}")
+        body = re.sub(r"```.*?```|`[^`\n]*`", "", text, flags=re.S)
+        if "\u2014" in body:
+            fail(f"{f}: em dash outside retained source text or code") if ".ml-en." not in f.name else None
+    if f.name.endswith(".ml-en.md"):
+        ml_part, sep, en_part = text.partition("\n---\n")
+        if not sep: fail(f"{f}: missing ML/EN separator"); continue
+        h1 = re.search(r"^# (.+)$", ml_part, re.M)
+        if not h1 or not ML.search(h1.group(1)): fail(f"{f}: first heading is not Malayalam")
+        if ML.search(en_part): fail(f"{f}: Malayalam found in English section")
+        if "\u2014" in ml_part: fail(f"{f}: em dash in Malayalam section")
+        strip = lambda s: re.sub(r"<!--.*?-->|`[0-9a-f]{7,40}`|\]\([^)]*\)", "", s, flags=re.S)
+        en_nums = set(re.findall(r"\d+(?:[.,]\d+)*", strip(en_part)))
+        ml_nums = set(re.findall(r"\d+(?:[.,]\d+)*", strip(ml_part)))
+        missing = sorted(en_nums - ml_nums)
+        if missing: fail(f"{f}: numbers missing in Malayalam: {missing}")
+        en_cites = set(re.findall(r"S\d{3}", en_part)); ml_cites = set(re.findall(r"S\d{3}", ml_part))
+        if en_cites - ml_cites: fail(f"{f}: citations missing in Malayalam: {sorted(en_cites - ml_cites)}")
+
+man = json.loads((STAGE / "manifest.json").read_text(encoding="utf-8"))
+for e in man["entries"]:
+    rev = e["source_revision"]
+    if subprocess.run(["git", "cat-file", "-e", f"{rev}:{e['source_path']}"], capture_output=True).returncode:
+        fail(f"manifest {e['id']}: {e['source_path']} not found at {rev}")
+    if e.get("staged_file") and not (STAGE / e["staged_file"]).exists():
+        fail(f"manifest {e['id']}: staged file missing")
+    if e["human_language_review"] != "pending" and not e.get("reviewer"):
+        fail(f"manifest {e['id']}: human review marked without reviewer")
+    for field in ("source_path", "source_revision", "ai_assistance", "status", "terminology_questions", "human_language_review"):
+        if field not in e: fail(f"manifest {e['id']}: missing {field}")
+    if e.get("staged_file") and e["staged_file"].endswith(".ml-en.md"):
+        head = (STAGE / e["staged_file"]).read_text(encoding="utf-8")[:600]
+        if f"source_revision: {rev}" not in head or f"source_path: {e['source_path']}" not in head:
+            fail(f"manifest {e['id']}: staged header does not match manifest")
+
+changed = subprocess.check_output(["git", "diff", "--name-only", "origin/main...HEAD"], text=True).split()
+changed += subprocess.check_output(["git", "diff", "--cached", "--name-only"], text=True).split()
+changed += subprocess.check_output(["git", "ls-files", "--others", "--exclude-standard"], text=True).split()
+allowed = ("notes/translation-review/", "docs/work-packages/translation.md")
+outside = sorted({c for c in changed if not c.startswith(allowed)})
+if outside: fail(f"changes outside ownership: {outside}")
+
+print("\n".join(fails) if fails else f"PASS: {len(man['entries'])} manifest entries; staging files UTF-8, links, revisions, Malayalam-first order, numbers/citations, ownership.")
+sys.exit(1 if fails else 0)

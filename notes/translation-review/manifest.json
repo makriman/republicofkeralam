@@ -1,0 +1,495 @@
+{
+ "schema": "translation-staging-manifest/0.1",
+ "note": "Staging only. Nothing here is integrated into canonical data or generated pages. Human Malayalam review: none performed.",
+ "base_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+ "entries": [
+  {
+   "id": "TR-B1-001",
+   "source_path": "README.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": "batch-1/TOP_LEVEL_REVIEW.md",
+   "malayalam": "staged_file: Malayalam section first",
+   "retained_english": "staged_file: English section second, verbatim",
+   "ai_assistance": "Existing bilingual text is an AI-assisted draft (stated in README). This entry adds model review notes only.",
+   "status": "already_bilingual_reviewed_by_model",
+   "terminology_questions": [
+    "R1 cutoff wording",
+    "R2 ഭൂമിശാസ്ത്രം vs ഭൂവിജ്ഞാനീയം",
+    "R3 citation sentence"
+   ],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null
+  },
+  {
+   "id": "TR-B1-002",
+   "source_path": "CONTRIBUTING.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": "batch-1/TOP_LEVEL_REVIEW.md",
+   "malayalam": "staged_file: Malayalam section first",
+   "retained_english": "staged_file: English section second, verbatim",
+   "ai_assistance": "Existing bilingual text is an AI-assisted draft (stated in CONTRIBUTING). Model review notes only.",
+   "status": "already_bilingual_reviewed_by_model",
+   "terminology_questions": [
+    "C1 ജീവനുള്ള vs ജീവിച്ചിരിക്കുന്ന"
+   ],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null
+  },
+  {
+   "id": "TR-B1-003",
+   "source_path": "docs/work-packages/translation.md",
+   "source_id": null,
+   "source_revision": "1e8d0ef3e16b5b1032d02cb0caf6931fa2309895",
+   "kind": "hand_maintained",
+   "staged_file": "batch-1/TOP_LEVEL_REVIEW.md",
+   "malayalam": "staged_file: Malayalam section first",
+   "retained_english": "staged_file: English section second, verbatim",
+   "ai_assistance": "Existing bilingual assignment document. Model review notes only.",
+   "status": "already_bilingual_reviewed_by_model",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null
+  },
+  {
+   "id": "TR-B1-004",
+   "source_path": "docs/DATA_MODEL.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": "batch-1/docs/DATA_MODEL.ml-en.md",
+   "malayalam": "staged_file: Malayalam section first",
+   "retained_english": "staged_file: English section second, verbatim",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model). No human translator. English retained verbatim from source except staging-relative link paths.",
+   "status": "draft_translation",
+   "terminology_questions": [
+    "Q1 generated",
+    "manifestation/edition terms (Q5)",
+    "knowledge-graph left in English"
+   ],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null
+  },
+  {
+   "id": "TR-B1-005",
+   "source_path": "docs/EVIDENCE_POLICY.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": "batch-1/docs/EVIDENCE_POLICY.ml-en.md",
+   "malayalam": "staged_file: Malayalam section first",
+   "retained_english": "staged_file: English section second, verbatim",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model). No human translator. English retained verbatim from source except staging-relative link paths.",
+   "status": "draft_translation",
+   "terminology_questions": [
+    "Q4 ആരോപിത",
+    "Q9 Kollam plates",
+    "errata/corrigenda left in English"
+   ],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null
+  },
+  {
+   "id": "TR-B1-006",
+   "source_path": "docs/RIGHTS_AND_ETHICS.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": "batch-1/docs/RIGHTS_AND_ETHICS.ml-en.md",
+   "malayalam": "staged_file: Malayalam section first",
+   "retained_english": "staged_file: English section second, verbatim",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model). No human translator. English retained verbatim from source except staging-relative link paths.",
+   "status": "draft_translation",
+   "terminology_questions": [
+    "license laundering idiom rendered as ലൈസൻസ് “വെളുപ്പിക്കൽ”; confirm register",
+    "paywall/rate limit left in English with gloss"
+   ],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null
+  },
+  {
+   "id": "TR-B1-007",
+   "source_path": "docs/CHRONOLOGY.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": "batch-1/docs/CHRONOLOGY.ml-en.md",
+   "malayalam": "staged_file: Malayalam section first",
+   "retained_english": "staged_file: English section second, verbatim",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model). No human translator. English retained verbatim from source except staging-relative link paths.",
+   "status": "draft_translation",
+   "terminology_questions": [
+    "Q6 ക്രി.വ./പൊ.യു.",
+    "Q7 calibration",
+    "Q8 stratigraphic",
+    "Q11 detrital",
+    "Q12 chronostratigraphic"
+   ],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null
+  },
+  {
+   "id": "TR-B1-008",
+   "source_path": "notes/README.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": "batch-1/notes/README.ml-en.md",
+   "malayalam": "staged_file: Malayalam section first",
+   "retained_english": "staged_file: English section second, verbatim",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model). No human translator. English retained verbatim from source except staging-relative link paths.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null
+  },
+  {
+   "id": "TR-B1-009",
+   "source_path": "templates/research-note.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": "batch-1/templates/research-note.ml-en.md",
+   "malayalam": "staged_file: Malayalam section first",
+   "retained_english": "staged_file: English section second, verbatim",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model). No human translator. English retained verbatim from source except staging-relative link paths.",
+   "status": "draft_translation",
+   "terminology_questions": [
+    "'pending' placeholder rendered ബാക്കി (pending); confirm"
+   ],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null
+  },
+  {
+   "id": "TR-B1-010",
+   "source_path": ".github/ISSUE_TEMPLATE/correction.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": "batch-1/github/ISSUE_TEMPLATE/correction.ml-en.md",
+   "malayalam": "staged_file: Malayalam section first",
+   "retained_english": "staged_file: English section second, verbatim",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model). No human translator. English retained verbatim from source except staging-relative link paths.",
+   "status": "draft_translation",
+   "terminology_questions": [
+    "front-matter name/about change needs owner decision"
+   ],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null
+  },
+  {
+   "id": "TR-B1-011",
+   "source_path": ".github/ISSUE_TEMPLATE/source.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": "batch-1/github/ISSUE_TEMPLATE/source.ml-en.md",
+   "malayalam": "staged_file: Malayalam section first",
+   "retained_english": "staged_file: English section second, verbatim",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model). No human translator. English retained verbatim from source except staging-relative link paths.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null
+  },
+  {
+   "id": "TR-B1-012",
+   "source_path": ".github/PULL_REQUEST_TEMPLATE.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": "batch-1/github/PULL_REQUEST_TEMPLATE.ml-en.md",
+   "malayalam": "staged_file: Malayalam section first",
+   "retained_english": "staged_file: English section second, verbatim",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model). No human translator. English retained verbatim from source except staging-relative link paths.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null
+  },
+  {
+   "id": "TR-B1-013",
+   "source_path": "NOTICE.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": null,
+   "malayalam": null,
+   "retained_english": null,
+   "ai_assistance": null,
+   "status": "untranslated_reviewed_for_staleness",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model",
+    "checked": [
+     "staleness",
+     "em dashes"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "notes": "See batch-1/TOP_LEVEL_REVIEW.md; translation deferred to batch 3."
+  },
+  {
+   "id": "TR-B1-014",
+   "source_path": "RELEASE_NOTES.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": null,
+   "malayalam": null,
+   "retained_english": null,
+   "ai_assistance": null,
+   "status": "untranslated_reviewed_for_staleness",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model",
+    "checked": [
+     "staleness",
+     "em dashes"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "notes": "See batch-1/TOP_LEVEL_REVIEW.md; translation deferred to batch 3."
+  },
+  {
+   "id": "TR-B1-015",
+   "source_path": "IMPORT_PROVENANCE.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": null,
+   "malayalam": null,
+   "retained_english": null,
+   "ai_assistance": null,
+   "status": "untranslated_reviewed_for_staleness",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model",
+    "checked": [
+     "staleness",
+     "em dashes"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "notes": "See batch-1/TOP_LEVEL_REVIEW.md; translation deferred to batch 3."
+  },
+  {
+   "id": "TR-B1-016",
+   "source_path": "VALIDATION.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": null,
+   "malayalam": null,
+   "retained_english": null,
+   "ai_assistance": null,
+   "status": "untranslated_reviewed_for_staleness",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model",
+    "checked": [
+     "staleness",
+     "em dashes"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "notes": "See batch-1/TOP_LEVEL_REVIEW.md; translation deferred to batch 3."
+  },
+  {
+   "id": "TR-B1-017",
+   "source_path": "LICENSE.md",
+   "source_id": null,
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "hand_maintained",
+   "staged_file": null,
+   "malayalam": null,
+   "retained_english": null,
+   "ai_assistance": null,
+   "status": "untranslated_reviewed_for_staleness",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model",
+    "checked": [
+     "staleness",
+     "em dashes"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "notes": "See batch-1/TOP_LEVEL_REVIEW.md; translation deferred to batch 3."
+  }
+ ]
+}
