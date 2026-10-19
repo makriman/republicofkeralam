@@ -62,16 +62,16 @@
   "translation": {
     "ml": {
       "data_fields_total": 845,
-      "data_fields_current": 0,
+      "data_fields_current": 797,
       "data_fields_stale": 0,
       "data_fields_rejected": 0,
-      "data_fields_missing": 845,
+      "data_fields_missing": 48,
       "data_fields_human_reviewed": 0,
       "generator_labels_total": 139,
-      "generator_labels_current": 14,
+      "generator_labels_current": 139,
       "generator_labels_stale": 0,
       "generator_labels_rejected": 0,
-      "generator_labels_missing": 125,
+      "generator_labels_missing": 0,
       "generator_labels_human_reviewed": 0,
       "note": "Translation coverage only. It is not source inspection or scholarly review. Missing translations stay listed as missing."
     }

@@ -1,0 +1,1718 @@
+{
+  "catalogue": "translation-catalogue/1",
+  "language": "ml",
+  "source_path": "data/periods.json",
+  "entries": [
+    {
+      "key": "data/periods.json#E01.central_question",
+      "ml": "ഈ ഭൗതിക ഭൂഭാഗത്തിന്റെ ചരിത്രത്തിന് അർത്ഥവത്തായ ഏറ്റവും ആദ്യത്തെ ആരംഭബിന്ദു ഏതാണ്?",
+      "en": "What is the earliest meaningful starting point for a history of this material territory?",
+      "en_sha256": "73c412701aa8498f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E01.display_window",
+      "ml": "ഭൂമിയുടെ രൂപീകരണം, ഏകദേശം 4.54 നൂറുകോടി വർഷം മുമ്പ്",
+      "en": "Earth formation, approximately 4.54 billion years ago",
+      "en_sha256": "54d76de920937e9d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E01.established_in_this_pass",
+      "ml": "ഭൂമിയുടെ പ്രായത്തെക്കുറിച്ചുള്ള കണക്ക് ഗ്രഹതലത്തിലുള്ള ഒരു ചട്ടക്കൂട് നൽകുന്നു; കാലനിർണയം നടത്തിയ ഒരു പ്രാദേശിക പ്രതലമല്ല. പ്രപഞ്ചോൽപ്പത്തിയെക്കുറിച്ചുള്ള ആമുഖം ഐച്ഛികമായി മാത്രം നിലനിർത്തുക: പ്രാദേശിക തെളിവുശൃംഖല ആരംഭിക്കുന്നത് ഗ്രഹത്തിന്റെ ഭൗതികവും ഭൂവിജ്ഞാനീയവുമായ ചരിത്രത്തിൽനിന്നാണ്.",
+      "en": "The Earth-age estimate supplies a planetary frame, not a dated local surface. Keep any origin-of-the-universe prelude optional: the local evidential chain begins with the material and geological history of the planet.",
+      "en_sha256": "42ec9e6b8ed88123",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E01.limitations",
+      "ml": "ഇന്നത്തെ ഭൂഭാഗത്തിലെ ഒരു പാറയ്ക്കും ഭൂമിയോളം പഴക്കമുണ്ടെന്ന് ഈ ഘട്ടത്തിൽ കാണിച്ചിട്ടില്ല. ഇന്നത്തെ അക്ഷാംശ/രേഖാംശങ്ങളോ ഇന്നത്തെ തീരമോ മാറ്റമില്ലാതെ ഗ്രഹരൂപീകരണകാലത്തേക്ക് പ്രക്ഷേപിക്കാനാവില്ല.",
+      "en": "No rock from the present territory has been shown in this pass to be as old as Earth. Neither current latitude/longitude nor the present coast can be projected unchanged into planetary formation.",
+      "en_sha256": "6517901da4fa2515",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E01.research_tasks[0]",
+      "ml": "അളവും പുനർനിർമ്മിതിയും തമ്മിലുള്ള വ്യത്യാസം വിശദീകരിക്കുക; ആഗോള പശ്ചാത്തലത്തെ പ്രാദേശിക തെളിവിൽനിന്ന് വേർതിരിക്കുക.",
+      "en": "Explain measurement versus reconstruction and distinguish global context from local evidence.",
+      "en_sha256": "a0fd2a81809737e3",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E01.research_tasks[1]",
+      "ml": "ഭൂമിയുടെ പ്രായക്കണക്കിന്റെ സ്രോതസ്സുപതിപ്പും അനിശ്ചിതത്വവും രേഖപ്പെടുത്തുക.",
+      "en": "Document source edition and uncertainty of the Earth-age estimate.",
+      "en_sha256": "91421ddc95d3a211",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E01.research_tasks[2]",
+      "ml": "ലോകത്തിലെ മുഴുവൻ ഭൂവിജ്ഞാനീയത്തെയും പ്രാദേശിക ചരിത്രമായി വിവരിക്കുന്നതിനുപകരം, അടുത്ത പഠനരേഖയെ പരിധിക്കുള്ളിലെ യഥാർത്ഥ സാമ്പിളുകളുമായി ബന്ധിപ്പിക്കുക.",
+      "en": "Link the next dossier to actual samples within the scope, rather than describing all world geology as local history.",
+      "en_sha256": "b5a857dd52843862",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E01.title",
+      "ml": "ഗ്രഹതലത്തിലെ ആമുഖം: പ്രാദേശിക ഭൂഭാഗം ഉണ്ടാകുന്നതിനുമുമ്പ്",
+      "en": "Planetary prelude: before there was a local landmass",
+      "en_sha256": "17b844633723a390",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E02.central_question",
+      "ml": "ഇന്ന് ഈ ഭൂഭാഗത്തിനുള്ളിലുള്ള ഏത് ധാതുക്കളും പാറകളുമാണ് കാലനിർണയം നടത്തിയ ഏറ്റവും പഴയ പ്രക്രിയകൾ സൂക്ഷിക്കുന്നത്?",
+      "en": "Which minerals and rocks now within the territory preserve the earliest dated processes?",
+      "en_sha256": "1870c71a9248a2ca",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E02.display_window",
+      "ml": "പ്രീകാംബ്രിയൻ; പ്രാദേശിക സംഖ്യാതിരുകൾ വിഷയവിദഗ്ധപരിശോധന കാത്തിരിക്കുന്നു",
+      "en": "Precambrian; local numerical boundaries pending specialist review",
+      "en_sha256": "a91a3c87652b8030",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E02.established_in_this_pass",
+      "ml": "Trivandrum Block (തിരുവനന്തപുരം ഖണ്ഡം) സംബന്ധിച്ച പ്രബന്ധവും ഉപദ്വീപീയ ഭൂവൽക്കത്തെക്കുറിച്ചുള്ള പിൽക്കാല പ്രബന്ധവും പ്രസക്തമായ ആരംഭബിന്ദുക്കളാണ്. അവയ്ക്ക് ഓരോ സാമ്പിളും വേറിട്ട് വ്യാഖ്യാനിക്കേണ്ടതുണ്ട്; 2006-ലെ പ്രബന്ധത്തിന് ഒരു erratum ഉണ്ട്, അതിലെ ഉള്ളടക്കം ഇനിയും വായിച്ചിട്ടില്ല.",
+      "en": "The Trivandrum Block paper and the later peninsular-crust paper are relevant starting points. They require sample-by-sample interpretation; the 2006 paper has an erratum whose contents remain unread.",
+      "en_sha256": "64837fa4e0b3fb9b",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E02.limitations",
+      "ml": "പാരമ്പര്യമായി ലഭിച്ച zircon കാമ്പ്, പരലീകരണപ്രായം, കായാന്തരിത പുറംവളർച്ച, ഭൂവൽക്ക വേർതിരിയലിന്റെ മാതൃകാപ്രായം എന്നിവ വ്യത്യസ്ത ചോദ്യങ്ങൾക്കാണ് ഉത്തരം നൽകുന്നത്. ഇവയിൽ ഒന്നുമാത്രം തുടർച്ചയായി തുറന്നുകിടന്ന ഒരു ഭൂമിശാസ്ത്രപരമായ കരഭാഗത്തിന്റെ കാലം നിർണയിക്കുന്നില്ല. ഒരു ലേഖനത്തിന്റെ ശീർഷകത്തെ ആധാരമാക്കി “ഏറ്റവും പഴയ പാറ” എന്ന സ്ഥാനനിർണയം പ്രസിദ്ധീകരിക്കരുത്.",
+      "en": "An inherited zircon core, a crystallization age, a metamorphic overgrowth and a model crust-extraction age answer different questions. None alone dates a continuously exposed geographical landmass. Do not publish an oldest-rock ranking from an article title.",
+      "en_sha256": "0046df89cb0245ed",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E02.research_tasks[0]",
+      "ml": "S002-ഉം S003-ഉം ഒരുമിച്ച് കണ്ടെടുത്ത് ഓരോ തിരുത്തലും രജിസ്റ്റർ ചെയ്യുക.",
+      "en": "Retrieve S002 together with S003 and register every correction.",
+      "en_sha256": "ed7cca66835382b3",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E02.research_tasks[1]",
+      "ml": "ഒരു സാമ്പിൾപട്ടിക തയ്യാറാക്കുക: സ്ഥലം, ലഭ്യതാനിയന്ത്രണങ്ങളോടെയുള്ള നിർദേശാങ്കങ്ങൾ, ധാതു, വിശകലനബിന്ദു, രീതി, അനിശ്ചിതത്വം, വ്യാഖ്യാനം, പരീക്ഷണശാലയുടെ ഉദ്ഭവവിവരം.",
+      "en": "Build a sample table: locality, coordinates with access restrictions, mineral, analytical spot, method, uncertainty, interpretation and laboratory provenance.",
+      "en_sha256": "847124dfe0878ba3",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E02.research_tasks[2]",
+      "ml": "S006-ന്റെ പൂർണപാഠവും പിൽക്കാല പ്രതികരണങ്ങളും പരിശോധിക്കുക; Hadean (ഹേഡിയൻ) പൂർവികത്വ അവകാശവാദങ്ങളെ കേടുകൂടാത്ത പാറയുടെ രൂപീകരണത്തിൽനിന്ന് വേർതിരിക്കുക.",
+      "en": "Check S006 full text and later responses; distinguish Hadean ancestry claims from intact-rock formation.",
+      "en_sha256": "f4e87521f4d4ce14",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E02.research_tasks[3]",
+      "ml": "പരിധിക്കുപുറത്തുള്ള സാമ്പിളുകളെ ഭൂവിജ്ഞാനീയ പശ്ചാത്തലമായി നിലനിർത്തുക; പ്രാദേശിക കണ്ടെത്തലുകളായല്ല.",
+      "en": "Keep samples outside the scope as geological context, not local finds.",
+      "en_sha256": "e62491d569a9829c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E02.title",
+      "ml": "പ്രാചീന ഭൂവൽക്കം: സാമ്പിളുകളുടെ ചരിത്രങ്ങൾ, ഒരു സംസ്ഥാനത്തിന്റെ പ്രായമല്ല",
+      "en": "Ancient crust: sample histories, not the age of a state",
+      "en_sha256": "d51675f7c026a0ee",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E03.central_question",
+      "ml": "ഇന്ന് ഈ ഭൂഭാഗത്തിന് അടിയിലുള്ള ഖണ്ഡങ്ങൾ എങ്ങനെ പരസ്പരം ബന്ധിക്കപ്പെടുകയും രൂപാന്തരപ്പെടുകയും ചെയ്തു?",
+      "en": "How did the blocks that now underlie the territory become connected and transformed?",
+      "en_sha256": "71480438f7d42dc2",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E03.display_window",
+      "ml": "പ്രീകാംബ്രിയന്റെ അന്ത്യം മുതൽ പാലിയോസോയിക്കിന്റെ ആരംഭം വരെയുള്ള ഗവേഷണചട്ടക്കൂട്; പ്രാദേശിക കലണ്ടറല്ല",
+      "en": "Late Precambrian–early Palaeozoic research frame; not a local calendar",
+      "en_sha256": "dd49b93b54f912c7",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E03.established_in_this_pass",
+      "ml": "പഠിച്ച തെക്കൻ ഖണ്ഡം ഗോണ്ട്വാനയുടെ രൂപപ്പെടലുമായി ബന്ധപ്പെടുത്തി വ്യാഖ്യാനിക്കപ്പെടുന്ന തെളിവുകൾ സൂക്ഷിക്കുന്നു. ഈ രേഖ ഉയർന്ന താപനിലയിലുള്ള പ്രക്രിയകളെയും ധാതുക്കളുടെ ചരിത്രത്തെയും കുറിച്ചുള്ളതാണ്; ഇന്നത്തെ തീരരേഖയെക്കുറിച്ചല്ല.",
+      "en": "The studied southern block preserves evidence interpreted in relation to Gondwana assembly. The record concerns high-temperature processes and mineral histories, not the current coastline.",
+      "en_sha256": "ca36422904eb061c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E03.limitations",
+      "ml": "രൂപപ്പെടലും പിളരലും വേറിട്ട ഘട്ടങ്ങളാണ്. ഒരു പ്രായം എല്ലാ ഖണ്ഡങ്ങൾക്കും ബാധകമാക്കരുത്; 2006-ലെ സാരാംശത്തിലെ പ്രകടമായ പ്രായങ്ങൾ അതിന്റെ erratum പരിശോധിക്കുന്നതിനുമുമ്പ് സ്വീകരിക്കരുത്.",
+      "en": "Assembly and breakup are separate episodes. Do not make one age apply to every block, and do not adopt apparent ages from the 2006 abstract before checking its erratum.",
+      "en_sha256": "c3f2243dfb464420",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E03.research_tasks[0]",
+      "ml": "ആരുടേതെന്ന് വ്യക്തമാക്കാവുന്ന ഭൂവിജ്ഞാനീയ ഭൂപടനിർമ്മാണം ഉപയോഗിച്ച് terrane-കൾ, shear zone-കൾ, സാമ്പിൾബന്ധങ്ങൾ എന്നിവ ഭൂപടത്തിലാക്കുക.",
+      "en": "Map terranes, shear zones and sample relations using attributable geological mapping.",
+      "en_sha256": "798cb6e0b594979c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E03.research_tasks[1]",
+      "ml": "മത്സരിക്കുന്ന പുനർനിർമ്മിതികൾ താരതമ്യം ചെയ്ത് ഓരോ ബന്ധത്തെയും പിന്തുണയ്ക്കുന്ന അളവ് തിരിച്ചറിയുക.",
+      "en": "Compare competing reconstructions and identify the measurement supporting each linkage.",
+      "en_sha256": "93fb9ed14fe2eac7",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E03.research_tasks[2]",
+      "ml": "കാലനിർണയം നടത്തിയ കായാന്തരീകരണത്തെ അനുമാനിച്ച ഫലകവിന്യാസത്തിൽനിന്ന് വേർതിരിക്കുക.",
+      "en": "Separate dated metamorphism from inferred plate configuration.",
+      "en_sha256": "9f9fb490c38a28f3",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E03.research_tasks[3]",
+      "ml": "പുനർനിർമ്മിതി മാതൃകയുടെ പതിപ്പും അനിശ്ചിതത്വവും രേഖപ്പെടുത്തുക; ചലിക്കുന്ന പാറകളുടെ പുനർനിർമ്മിതി ഇന്നത്തെ സ്ഥിരമായ ഒരു ബഹുഭുജമല്ല (polygon).",
+      "en": "Record reconstruction model version and uncertainty; a moving-rock reconstruction is not a fixed present-day polygon.",
+      "en_sha256": "4446230bc6b79902",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E03.title",
+      "ml": "കായാന്തരീകരണവും ഗോണ്ട്വാനയുടെ രൂപപ്പെടലും",
+      "en": "Metamorphism and the assembly of Gondwana",
+      "en_sha256": "8480552df6da42f2",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E04.central_question",
+      "ml": "ഏത് പിളരൽ, വേർപിരിയൽ, മാഗ്മാ ഘട്ടങ്ങളാണ് ഇന്നത്തെ ഭൂഭാഗത്തിന്റെ പൂർവരൂപങ്ങളെ ബാധിച്ചത്?",
+      "en": "Which rifting, separation and magmatic episodes affected the ancestors of today’s territory?",
+      "en_sha256": "75da257a0d675f7e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E04.display_window",
+      "ml": "മീസോസോയിക് മുതൽ സീനോസോയിക്കിന്റെ ആരംഭം വരെയുള്ള ഗവേഷണചട്ടക്കൂട്; കാലക്രമം ഓരോ പ്രക്രിയയ്ക്കും വേറിട്ട് നിർണയിക്കണം",
+      "en": "Mesozoic–early Cenozoic research frame; chronology to be resolved by process",
+      "en_sha256": "af2061a13f080bb0",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E04.established_in_this_pass",
+      "ml": "പടിഞ്ഞാറൻ തീരത്തെ ടെക്റ്റോണിക്-മാഗ്മാ പ്രബന്ധം പല ഘട്ടങ്ങളുള്ള അരികുചരിത്രത്തിന് പ്രസക്തമാണ്. പടിഞ്ഞാറൻ അരിക്, ഘട്ടങ്ങൾ (Ghats), ഇന്നത്തെ കടൽത്തീരം എന്നിവയെ ഒരേസമയം ഉണ്ടായ ഒരൊറ്റ സൃഷ്ടിയായി കാണുന്നതിനെ അത് ന്യായീകരിക്കുന്നില്ല.",
+      "en": "The west-coast tectono-magmatic paper is relevant to a multi-stage margin history. It does not justify treating the western margin, Ghats and present beach as one simultaneous creation.",
+      "en_sha256": "839b181e0037e0f3",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E04.limitations",
+      "ml": "മുൻ രൂപരേഖയിലെ 250 ദശലക്ഷം (25 കോടി) വർഷത്തെ വിഭജനം സമ്പാദകീയമായിരുന്നു; കാലനിർണയം നടത്തിയ പ്രാദേശിക സംഭവമല്ല. ഇന്ത്യ–മഡഗാസ്കർ വേർപിരിയലിന്റെയും പിൽക്കാല സമുദ്രതട വ്യാപനത്തിന്റെയും കൃത്യമായ പ്രായങ്ങൾ ഈ പ്രാരംഭശേഖരത്തിൽ സ്ഥിരീകരിച്ചിട്ടില്ല.",
+      "en": "The earlier outline’s 250-million-year division was editorial, not a dated local event. Exact India–Madagascar separation and later spreading ages have not been verified in this seed.",
+      "en_sha256": "978cdf4e73073317",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E04.research_tasks[0]",
+      "ml": "പ്രാദേശിക ഫലകചലന (plate-kinematic) പഠനങ്ങളും ഭൂകാലനിർണയ പഠനങ്ങളും കണ്ടെടുക്കുക.",
+      "en": "Retrieve regional plate-kinematic and geochronological studies.",
+      "en_sha256": "58bf2efc92135ebc",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E04.research_tasks[1]",
+      "ml": "പിളരലിന്റെ ആരംഭം, അന്തിമ വേർപിരിയൽ, സമുദ്രതട വ്യാപനം, അഗ്നിപർവത പ്രവർത്തനം, പിൽക്കാല രൂപഭേദം എന്നിവയ്ക്ക് വേറിട്ട തീയതികൾ രേഖപ്പെടുത്തുക.",
+      "en": "Record separate dates for rift initiation, final separation, seafloor spreading, volcanism and later deformation.",
+      "en_sha256": "8c9173e23b954840",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E04.research_tasks[2]",
+      "ml": "സമീപത്തെ കടൽനിരീക്ഷണങ്ങളെ വിശദീകരണ പശ്ചാത്തലമായി അടയാളപ്പെടുത്തുക.",
+      "en": "Mark adjacent offshore observations as explanatory context.",
+      "en_sha256": "518c7b26c51d883a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E04.research_tasks[3]",
+      "ml": "എല്ലാ പുരാഭൂമിശാസ്ത്ര (palaeogeographic) ഭൂപടങ്ങളിലും ആധുനിക ഭൂഖണ്ഡരൂപരേഖകൾ നൽകുന്നത് ഒഴിവാക്കുക.",
+      "en": "Avoid assigning modern continental outlines to all palaeogeographic maps.",
+      "en_sha256": "c361113eb987b29b",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E04.title",
+      "ml": "ഭൂഖണ്ഡവിഭജനവും പടിഞ്ഞാറൻ അരികും",
+      "en": "Continental separation and the western margin",
+      "en_sha256": "3650923818f20ce4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E05.central_question",
+      "ml": "ഭൂപ്രകൃതിയും നീർവാർച്ചയും എങ്ങനെ രൂപപ്പെട്ടു, ഏത് നിരീക്ഷണങ്ങളാണ് വിശദീകരണങ്ങൾക്കിടയിൽ വേർതിരിവ് സാധ്യമാക്കുന്നത്?",
+      "en": "How did relief and drainage evolve, and which observations discriminate among explanations?",
+      "en_sha256": "9eed4ab9bb8227da",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E05.display_window",
+      "ml": "ദീർഘകാലം നീണ്ടുനിൽക്കുന്ന, പരസ്പരം ഇടകലരുന്ന ഭൂവിജ്ഞാനീയ പ്രക്രിയകൾ",
+      "en": "Long-duration, overlapping geological processes",
+      "en_sha256": "e4c07de9b55286f9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E05.established_in_this_pass",
+      "ml": "അപരദനവും പടിഞ്ഞാറൻ ഇന്ത്യൻ അരികിന്റെ വികാസവും അന്വേഷിക്കാൻ കടലിലെ അവസാദനിക്ഷേപം ഉപയോഗിച്ചിട്ടുണ്ട്. ഉദ്ധരിച്ച Basin Research ലേഖനം 2008-ലെ പ്രസിദ്ധീകരണമാണ്.",
+      "en": "Offshore sedimentation has been used to investigate erosion and the development of the western Indian margin. The cited Basin Research article is a 2008 publication.",
+      "en_sha256": "59e131425a82dea3",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E05.limitations",
+      "ml": "ഒരു പർവതനിരയ്ക്ക് ഒരൊറ്റ “ജന്മദിനം” സ്ഥാപിച്ചിട്ടില്ല. പാറയുടെ പ്രായം, പ്രതലത്തിന്റെ പ്രായം, ഉയർച്ച, ആഴ്ന്നിറങ്ങൽ (incision), പുറത്തെത്തൽ (exhumation) എന്നിവ പരസ്പരം പകരം വയ്ക്കാനാവില്ല. തടം മുഴുവനുമായുള്ള ഒരു അനുമാനം ഓരോ പ്രാദേശിക നദിക്കും സ്വയമേവ തെളിവാകുന്നില്ല.",
+      "en": "No single mountain-range birthday is established. Rock age, surface age, uplift, incision and exhumation cannot be interchanged. A basin-wide inference is not automatically evidence for every local river.",
+      "en_sha256": "6982940b0c01b290",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E05.research_tasks[0]",
+      "ml": "താപകാലനിർണയം (thermochronology), അപരദനചരിത്രങ്ങൾ, ഭൂരൂപവിജ്ഞാനം, കാലനിർണയം നടത്തിയ അവസാദ-ഉദ്ഭവം എന്നിവ ഒരുമിച്ച് അവലോകനം ചെയ്യുക.",
+      "en": "Review thermochronology, erosion histories, geomorphology and dated sediment provenance together.",
+      "en_sha256": "c151d6ca5f652afa",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E05.research_tasks[1]",
+      "ml": "അളവുകൾക്കും രചയിതാക്കളുടെ വ്യാഖ്യാനങ്ങൾക്കും വേറിട്ട രേഖകൾ തയ്യാറാക്കുക.",
+      "en": "Create separate records for measurements and the authors’ interpretations.",
+      "en_sha256": "a5eb780ed5d2be61",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E05.research_tasks[2]",
+      "ml": "നീർത്തടം അനുസരിച്ച് തെളിവുസാന്ദ്രത ഭൂപടത്തിലാക്കുക; മാതൃകകൾ തമ്മിലുള്ള അഭിപ്രായഭിന്നതകൾ നിലനിർത്തുക.",
+      "en": "Map evidence density by watershed; retain disagreements between models.",
+      "en_sha256": "15dd73ed4d2676dd",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E05.research_tasks[3]",
+      "ml": "വിശദമായ കാലാവസ്ഥാ കാലക്രമം ഉറപ്പിച്ചുപറയുന്നതിനുമുമ്പ് പുരാകാലാവസ്ഥയുടെയും മൺസൂണിന്റെയും സ്രോതസ്സുപട്ടിക തയ്യാറാക്കുക.",
+      "en": "Build a palaeoclimate and monsoon source list before asserting a detailed climatic chronology.",
+      "en_sha256": "8228d786467a2281",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E05.title",
+      "ml": "പശ്ചിമഘട്ടം: ഉയർച്ച, അപരദനം, നീർവാർച്ച",
+      "en": "Western Ghats: uplift, erosion and drainage",
+      "en_sha256": "21eebfbad5331962",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E06.central_question",
+      "ml": "ഈ ഭൂഭാഗത്തിന്റെ അവസാദരേഖയിൽ ഏതെല്ലാം ജീവികളും പരിസ്ഥിതികളുമാണ് സൂക്ഷിക്കപ്പെട്ടിരിക്കുന്നത്?",
+      "en": "What organisms and environments are preserved in the sedimentary record of the territory?",
+      "en_sha256": "23b9d16594441a97",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E06.display_window",
+      "ml": "സീനോസോയിക്; പരിശോധിച്ച ഒരു പ്രാദേശിക ഉദാഹരണം ഏകദേശം 1.7 കോടി (17 ദശലക്ഷം) വർഷം മുമ്പുള്ളത്",
+      "en": "Cenozoic; a checked local example is approximately 17 million years ago",
+      "en_sha256": "bb9a9aaf1469e8a6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E06.established_in_this_pass",
+      "ml": "Quilon Formation-ലെ മൊളസ്ക് (ചിപ്പി/ഒച്ച് വർഗം) വസ്തുക്കളെക്കുറിച്ചുള്ള ഒരു പഠനം 17.08–17.13 Ma എന്ന മുൻഗണനയുള്ള നിക്ഷേപക്കണക്ക് റിപ്പോർട്ട് ചെയ്യുന്നു. മത്സ്യ otolith (ചെവിക്കല്ല്) സംബന്ധിച്ച വേറൊരു പഠനം പുരാജീവശാസ്ത്ര തെളിവുകളിലേക്കുള്ള വഴി നൽകുന്നു.",
+      "en": "A study of Quilon Formation molluscan material reports a preferred depositional estimate of 17.08–17.13 Ma. A separate fish-otolith study provides a route into palaeobiological evidence.",
+      "en_sha256": "aff4b1582d22f3ee",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E06.limitations",
+      "ml": "റിപ്പോർട്ട് ചെയ്ത പരിധിയെ ഇവിടെ confidence interval (വിശ്വാസ്യതാപരിധി) എന്ന് അടയാളപ്പെടുത്തുന്നില്ല. രചയിതാക്കൾ വ്യാഖ്യാനിച്ചതുപോലെ, സാമ്പിൾ എടുത്ത അടുക്കുകളുടെ കാലമാണ് അത് നിർണയിക്കുന്നത്; തീരസമതലം മുഴുവന്റെയുമല്ല. Otolith പ്രബന്ധത്തിന് ഓൺലൈൻ പ്രസിദ്ധീകരണത്തിനും വാല്യപ്രസിദ്ധീകരണത്തിനും വ്യത്യസ്ത വർഷങ്ങളുണ്ട്.",
+      "en": "The reported range is not labelled here as a confidence interval. It dates sampled strata as interpreted by the authors, not the entire coastal plain. The otolith paper has different online and volume publication years.",
+      "en_sha256": "495f28da1d18aa77",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E06.research_tasks[0]",
+      "ml": "സാമ്പിൾപട്ടികകൾ, ഫോസിൽസ്ഥലങ്ങൾ, വിശകലനരീതികൾ, അടുക്കുക്രമരേഖകൾ (stratigraphic logs) എന്നിവ ശേഖരിക്കുക.",
+      "en": "Obtain sample tables, fossil localities, analytical methods and stratigraphic logs.",
+      "en_sha256": "1454c62eda3228ce",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E06.research_tasks[1]",
+      "ml": "സ്ഥിരമായ മാതൃകാ-തിരിച്ചറിയലുകളും മ്യൂസിയം സൂക്ഷിപ്പുകേന്ദ്രങ്ങളും ഉപയോഗിച്ച് വർഗീകരണപരിഷ്കാരങ്ങൾ പിന്തുടരുക.",
+      "en": "Track taxonomic revisions with stable specimen identifiers and museum repositories.",
+      "en_sha256": "e941ea1b06a52d2d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E06.research_tasks[2]",
+      "ml": "ഫോസിൽ സാന്നിധ്യം, നിക്ഷേപപരിസ്ഥിതി, അനുമാനിച്ച കാലാവസ്ഥ എന്നിവ വേർതിരിക്കുക.",
+      "en": "Distinguish fossil occurrence, depositional environment and inferred climate.",
+      "en_sha256": "d626f27e55bd4428",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E06.research_tasks[3]",
+      "ml": "ശാസ്ത്രീയ പ്രസിദ്ധീകരണതീയതികൾ ദീർഘ ഭൂകാല നിരയിലല്ല, ഗവേഷണചരിത്ര സൂചികയിൽ സൂക്ഷിക്കുക.",
+      "en": "Keep scientific publication dates in the history-of-research index, not the deep-time column.",
+      "en_sha256": "0708687413afbb95",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E06.title",
+      "ml": "സീനോസോയിക് അവസാദങ്ങളും പഴയകാല ജീവനും",
+      "en": "Cenozoic sediments and past life",
+      "en_sha256": "717a72ece77ffa46",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E07.central_question",
+      "ml": "മനുഷ്യവാസത്തിനുമുമ്പും അതിനിടയിലും തീരരേഖകളും തണ്ണീർത്തടങ്ങളും നദികളും ആവാസവ്യവസ്ഥകളും എങ്ങനെ മാറി?",
+      "en": "How did shorelines, wetlands, rivers and habitats change before and during human occupation?",
+      "en_sha256": "dcfdd178f7cb71b9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E07.display_window",
+      "ml": "ക്വാട്ടേണറി മുതൽ ഹോളോസീൻ വരെ; ആധുനിക പ്രക്രിയകൾ തുടരുന്നു",
+      "en": "Quaternary–Holocene; modern processes continue",
+      "en_sha256": "5db77dce98a4061c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E07.established_in_this_pass",
+      "ml": "വിമർശനാത്മകമായി അവലോകനം ചെയ്ത പ്രാദേശിക സമുദ്രനിരപ്പ് പരമ്പരയോ പുരാപരിസ്ഥിതി പരമ്പരയോ ശേഖരം ഇനിയും തയ്യാറാക്കിയിട്ടില്ല. ഇത് വ്യക്തമായി തുറന്നിട്ട ഒരു പഠനരേഖയാണ്; നികത്തിയ വിടവല്ല.",
+      "en": "The repository has not yet assembled a critically reviewed local sea-level or palaeoenvironmental series. This is an explicitly open dossier, not a filled gap.",
+      "en_sha256": "124cb690b29b5dd8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E07.limitations",
+      "ml": "ഇന്നത്തെ കടൽത്തീരം, കായലുകൾ, അഴിമുഖങ്ങൾ എന്നിവയെ നിശ്ചലമായി കാണരുത്. ഒരൊറ്റ വെള്ളപ്പൊക്കകഥ സമ്പൂർണ തീരചരിത്രമല്ല. ഒരു കായലിന്റെ ഉദ്ഭവത്തിനോ ഒരു തുറമുഖത്തിന്റെ നാശത്തിനോ സ്രോതസ്സില്ലാത്ത തീയതികൾ നൽകരുത്.",
+      "en": "The present beach, backwaters and river mouths must not be treated as stationary. A single flood story is not a complete coastal history. Do not give unsourced dates to the birth of a lagoon or the destruction of a port.",
+      "en_sha256": "caa927662a894233",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E07.research_tasks[0]",
+      "ml": "കാലനിർണയം നടത്തിയ core-കൾ, പരാഗം, കരി, അവസാദ facies, ഭൂരൂപവിജ്ഞാന പഠനങ്ങൾ എന്നിവയുടെ പട്ടിക തയ്യാറാക്കുക.",
+      "en": "Inventory dated cores, pollen, charcoal, sedimentary facies and geomorphological studies.",
+      "en_sha256": "e8fd23a7a6a1296b",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E07.research_tasks[1]",
+      "ml": "ആഗോള സമുദ്രനിരപ്പ് പശ്ചാത്തലത്തെ അളന്ന പ്രാദേശിക ആപേക്ഷിക സമുദ്രനിരപ്പിൽനിന്ന് വേർതിരിക്കുക.",
+      "en": "Separate global sea-level context from measured local relative sea level.",
+      "en_sha256": "f6fc5137f8da2991",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E07.research_tasks[2]",
+      "ml": "Reservoir തിരുത്തലുകൾ, അവസാദങ്ങളുടെ പുനഃക്രമീകരണം, പ്രായ-ആഴ മാതൃകയുടെ അനിശ്ചിതത്വം എന്നിവ രേഖപ്പെടുത്തുക.",
+      "en": "Record reservoir corrections, sediment reworking and age-depth model uncertainty.",
+      "en_sha256": "a067b6a4aca03868",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E07.research_tasks[3]",
+      "ml": "ഔപചാരിക സംഖ്യാതിരുകൾ ചേർക്കുന്നതിനുമുമ്പ് പതിപ്പ് രേഖപ്പെടുത്തിയ chronostratigraphic ചാർട്ട് കണ്ടെടുക്കുക.",
+      "en": "Retrieve a versioned chronostratigraphic chart before importing formal numerical boundaries.",
+      "en_sha256": "5d57af5c467e6ee0",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E07.research_tasks[4]",
+      "ml": "പിൽക്കാല വെള്ളപ്പൊക്കവിവരണങ്ങളെ, യോജിപ്പ് മുൻകൂട്ടി അനുമാനിക്കാതെ, സ്വതന്ത്ര അവസാദതെളിവുകളുമായി ബന്ധിപ്പിക്കുക.",
+      "en": "Cross-link later flood accounts to independent sedimentary evidence without presuming agreement.",
+      "en_sha256": "0f10e08fcc5e853e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E07.title",
+      "ml": "ക്വാട്ടേണറി ഭൂദൃശ്യങ്ങൾ, സമുദ്രനിരപ്പുകൾ, പരിസ്ഥിതികൾ",
+      "en": "Quaternary landscapes, sea levels and environments",
+      "en_sha256": "a7e1b407fb27f58f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E08.central_question",
+      "ml": "പരിധിക്കുള്ളിൽ hominin പ്രവർത്തനത്തിന് സുരക്ഷിതമായി സന്ദർഭവൽക്കരിച്ച ഏറ്റവും ആദ്യത്തെ തെളിവ് ഏതാണ്?",
+      "en": "What is the earliest securely contextualized evidence for hominin activity inside the scope?",
+      "en_sha256": "5ad0cb715e4da8a6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E08.display_window",
+      "ml": "Lower Palaeolithic (പ്രാചീന ശിലായുഗത്തിന്റെ ആദ്യഘട്ടം) എന്ന കാലനിർണയം റിപ്പോർട്ട് ചെയ്തിട്ടുണ്ട്; പ്രാദേശിക ആരംഭത്തിന്റെ കേവലതീയതി തീർപ്പായിട്ടില്ല",
+      "en": "Lower Palaeolithic attribution reported; absolute local onset unresolved",
+      "en_sha256": "717f2d9fbd8140de",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E08.established_in_this_pass",
+      "ml": "2016-ലെ വടക്കൻ കേരള പഠനത്തിന്റെ ലഭ്യമായ സാരാംശം Lower Palaeolithic മുതൽ വാസം ഉണ്ടായിരുന്നിരിക്കാമെന്ന് സൂചിപ്പിക്കുന്നു. എടക്കൽ ശിലാചിത്രചർച്ചയ്ക്കപ്പുറമുള്ള ഒരു ഗവേഷണസൂചനയാണിത്.",
+      "en": "The 2016 north-Kerala study’s accessible abstract suggests occupation from the Lower Palaeolithic. It is a research lead beyond the Edakkal rock-art discussion.",
+      "en_sha256": "fd3408aa8be2730a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E08.limitations",
+      "ml": "പൂർണ റിപ്പോർട്ടും സുരക്ഷിതമായ ഏറ്റവും ആദ്യത്തെ കേവലതീയതിയും ലഭിച്ചില്ല. രൂപമാതൃകാ (typological) വർഗീകരണം കലണ്ടർതീയതിയല്ല. ശിലായുധങ്ങളുടെ സാന്നിധ്യം മാത്രം അവ നിർമ്മിച്ചവരെ Homo sapiens ആയി തിരിച്ചറിയുന്നില്ല.",
+      "en": "The full report and a secure earliest absolute date were not obtained. Typological classification is not a calendar date. The presence of stone tools does not on its own identify their makers as Homo sapiens.",
+      "en_sha256": "c751debdef00f9b6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E08.research_tasks[0]",
+      "ml": "സമ്പൂർണ റിപ്പോർട്ടും അതിൽ ഉദ്ധരിച്ച മുൻ ഫീൽഡ് പഠനങ്ങളും കണ്ടെടുക്കുക.",
+      "en": "Retrieve the complete report and all cited earlier field studies.",
+      "en_sha256": "26cbec27c8c15d6e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E08.research_tasks[1]",
+      "ml": "ഉത്ഖനനത്തിൽ അടുക്കുക്രമത്തോടെ ലഭിച്ച കണ്ടെത്തലുകളെ പ്രതലത്തിൽനിന്നും പുനർനിക്ഷേപിതമായും ലഭിച്ചവയിൽനിന്ന് വേർതിരിക്കുക.",
+      "en": "Distinguish excavated stratified finds from surface and redeposited finds.",
+      "en_sha256": "fb023e08157b3599",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E08.research_tasks[2]",
+      "ml": "അസംസ്കൃതവസ്തു, രൂപമാതൃക, നിക്ഷേപസന്ദർഭം, ഭൂകാലനിർണയം, സ്ഥലത്തിന്റെ അവസ്ഥ എന്നിവ രേഖപ്പെടുത്തുക.",
+      "en": "Record raw material, typology, depositional context, geochronology and site condition.",
+      "en_sha256": "bbf847d8d02e0501",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E08.research_tasks[3]",
+      "ml": "പുരാവസ്തുവിന്റെ തിരിച്ചറിയൽ, സാംസ്കാരിക ആരോപണം, കാലനിർണയം, ജീവിവർഗനിർണയം എന്നിവയ്ക്ക് വേറിട്ട അവകാശവാദങ്ങൾ നിലനിർത്തുക.",
+      "en": "Maintain separate claims for artefact identification, cultural attribution, dating and species assignment.",
+      "en_sha256": "3145be59e0ccb1f0",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E08.title",
+      "ml": "റിപ്പോർട്ട് ചെയ്യപ്പെട്ട ഏറ്റവും ആദ്യത്തെ hominin (ആദിമനുഷ്യവർഗ) സാന്നിധ്യം",
+      "en": "Earliest reported hominin presence",
+      "en_sha256": "56373a8b953e5720",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E09.central_question",
+      "ml": "പ്രദേശവ്യാപകമായ ഒരു ക്രമം നിർബന്ധിച്ച് ചേർക്കാതെ, അഭയസ്ഥാനങ്ങളിലെ നിക്ഷേപങ്ങളും ആയുധസമുച്ചയങ്ങളും എന്ത് വെളിപ്പെടുത്തുന്നു?",
+      "en": "What do shelter deposits and tool assemblages reveal without forcing a pan-regional sequence?",
+      "en_sha256": "144fa8c479935f1c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E09.display_window",
+      "ml": "Mesolithic (മധ്യ ശിലായുഗം) എന്ന പേരുകളും പ്രാദേശിക പരിവർത്തനങ്ങളും; തീയതികൾ ഓരോന്നും വേറിട്ട് വിലയിരുത്തണം",
+      "en": "Mesolithic labels and local transitions; dates require individual evaluation",
+      "en_sha256": "f4b63b22f375543a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E09.established_in_this_pass",
+      "ml": "പാഠ്യാവലോകനം തെന്മല/Tenmala, അങ്കോട് എന്നിവയെ പ്രസക്തമായ, അടുക്കുക്രമമുള്ള അഭയസ്ഥാന സന്ദർഭങ്ങളായി തിരിച്ചറിയുകയും മുൻ ഗവേഷണത്തിലേക്ക് ചൂണ്ടിക്കാണിക്കുകയും ചെയ്യുന്നു.",
+      "en": "The teaching overview identifies Thenmala/Tenmala and Ankode as relevant stratified shelter contexts and points to earlier research.",
+      "en_sha256": "2586effe3fbf6172",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E09.limitations",
+      "ml": "യഥാർത്ഥ അളവും കാലിബ്രേഷനും ഇല്ലാതെ അവലോകനത്തിലെ “5210 വർഷം മുമ്പ്” എന്ന പ്രസ്താവന കൃത്യമായ ഒരു ക്രി.മു. വർഷമാക്കി മാറ്റാനാവില്ല. കേരളത്തിലെ എല്ലാ Mesolithic സമുച്ചയങ്ങളെയും microlithic (സൂക്ഷ്മശിലായുധ) എന്ന് അടയാളപ്പെടുത്താൻ അതിലെ വിവരണം ന്യായം നൽകുന്നില്ല.",
+      "en": "The overview’s 5210-years-ago statement cannot be converted into a precise BCE year without the original measurement and calibration. Its description is not a warrant to label every Kerala Mesolithic assemblage microlithic.",
+      "en_sha256": "8affd377a1d39c75",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E09.research_tasks[0]",
+      "ml": "ഉദ്ധരിച്ച Rajendran റിപ്പോർട്ടുകൾ കണ്ടെടുത്ത് പരീക്ഷണശാലാ നമ്പറുകൾ തിരിച്ചറിയുക.",
+      "en": "Retrieve the cited Rajendran reports and identify laboratory numbers.",
+      "en_sha256": "0dcef82aebfe6647",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E09.research_tasks[1]",
+      "ml": "യഥാർത്ഥ BP മൂല്യങ്ങൾ, അനിശ്ചിതത്വം, കാലിബ്രേഷൻ വക്രം, വസ്തു, സന്ദർഭം എന്നിവ നിലനിർത്തുക.",
+      "en": "Preserve original BP values, uncertainty, calibration curve, material and context.",
+      "en_sha256": "379895675b5dee9e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E09.research_tasks[2]",
+      "ml": "ഒരൊറ്റ നിർണായക ആയുധക്കൂട്ടം അനുമാനിക്കുന്നതിനുപകരം ചീളുസാങ്കേതികവിദ്യകളും (flake technologies) microlith-കളും താരതമ്യം ചെയ്യുക.",
+      "en": "Compare flake technologies and microliths rather than assuming one diagnostic toolkit.",
+      "en_sha256": "cec51b204664e4b6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E09.research_tasks[3]",
+      "ml": "നിക്ഷേപങ്ങൾ പിന്തുണയ്ക്കുന്നിടത്ത് മാത്രം ഭക്ഷ്യാവശിഷ്ടങ്ങൾ, ഋതുഭേദം, സഞ്ചാരം എന്നിവ രേഖപ്പെടുത്തുക.",
+      "en": "Document food remains, seasonality and mobility only where deposits support them.",
+      "en_sha256": "95b91e10af737f97",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E09.title",
+      "ml": "പിൽക്കാല ശിലായുധ സമൂഹങ്ങളും അഭയസ്ഥാനങ്ങളും",
+      "en": "Later stone-tool communities and shelters",
+      "en_sha256": "0485a0b50acb3155",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E10.central_question",
+      "ml": "ഏത് അടയാളങ്ങൾ ഏത് ഘട്ടങ്ങളിലേതാണ്, അവയുടെ പ്രായം എങ്ങനെ പരിമിതപ്പെടുത്താം?",
+      "en": "Which marks belong to which phases, and how can their ages be constrained?",
+      "en_sha256": "7ea416c4de44de83",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E10.display_window",
+      "ml": "തീയതി നിർണയിക്കാത്തതോ വിശാലമായി മാത്രം കാലം ആരോപിച്ചതോ ആയ പാനലുകൾ; എല്ലാ രൂപങ്ങൾക്കും ക്രി.മു. 6000 എന്ന് നൽകരുത്",
+      "en": "Undated or broadly attributed panels; do not assign all figures to 6000 BCE",
+      "en_sha256": "a4149f1fcbfe64d1",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E10.established_in_this_pass",
+      "ml": "ഒരു വിനോദസഞ്ചാര പേജാണ് ക്രി.മു. 6000 എന്ന അവകാശവാദം ഉന്നയിക്കുന്നത്. പരിശോധിച്ച പണ്ഡിതചർച്ച ആ തീയതിയെ കൊത്തുപണികളുടെ സുരക്ഷിതമായ കേവലതീയതിയായി സ്ഥാപിക്കുന്നില്ല.",
+      "en": "A tourism page makes the 6000 BCE claim. The scholarly discussion inspected does not establish that date as a secure absolute date for the engravings.",
+      "en_sha256": "66125e933a95c8a9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E10.limitations",
+      "ml": "നിർദേശിക്കപ്പെട്ട ഒരു പ്രത്യേക ആദ്യകാലതീയതി തെറ്റാണെന്നതിന്റെ തെളിവല്ല ഇത്. സമീപത്തെ celt-കൾ (മിനുക്കിയ ശിലാമഴു), പിൽക്കാല ലിഖിതങ്ങൾ, ശൈലീസാമ്യങ്ങൾ, ഒന്നിനുമേൽ മറ്റൊന്ന് കൊത്തിയത് (superimposition) എന്നിവ വ്യത്യസ്ത തരം വിവരങ്ങളാണ് നൽകുന്നത്. രൂപങ്ങളുടെയും വിശ്വാസങ്ങളുടെയും വ്യാഖ്യാനങ്ങൾ ആരുടേതെന്ന് വ്യക്തമാക്കിത്തന്നെ നിലനിൽക്കണം.",
+      "en": "This is not proof that a particular proposed early date is false. Nearby celts, later inscriptions, stylistic parallels and superimposition provide different types of information. Interpretations of figures and beliefs must remain attributed.",
+      "en_sha256": "70cf1155aa4ef2b4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E10.research_tasks[0]",
+      "ml": "സർവേ ഉദ്ഭവവിവരം സഹിതം പാനൽതലത്തിലും രൂപകൽപനാതലത്തിലും (motif) രേഖകൾ തയ്യാറാക്കുക.",
+      "en": "Create panel- and motif-level records with survey provenance.",
+      "en_sha256": "0a16c78ea073c67b",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E10.research_tasks[1]",
+      "ml": "കൊത്തുപണികളെ ലിഖിതങ്ങളിൽനിന്ന് വേർതിരിച്ച് അവയുടെ ഭൗതികബന്ധങ്ങൾ രേഖപ്പെടുത്തുക.",
+      "en": "Separate engravings from inscriptions and document their physical relationships.",
+      "en_sha256": "723f90c2438eeb1e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E10.research_tasks[2]",
+      "ml": "നേരിട്ടുള്ള കാലനിർണയ അവകാശവാദങ്ങളും അനുബന്ധ സന്ദർഭത്തിന്റെ കാലനിർണയവും വിമർശനാത്മകമായി അവലോകനം ചെയ്യുക.",
+      "en": "Review direct dating claims and associated-context dating critically.",
+      "en_sha256": "0cfa4f33d994982c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E10.research_tasks[3]",
+      "ml": "കൊളോണിയൽ രേഖപ്പെടുത്തലാണ് ഈ സ്ഥലത്തെക്കുറിച്ചുള്ള ആദ്യ അറിവ് എന്ന് പ്രഖ്യാപിക്കാതെ, പ്രാദേശിക അറിവും പിൽക്കാല രേഖപ്പെടുത്തലിന്റെ ചരിത്രവും രേഖപ്പെടുത്തുക.",
+      "en": "Record local knowledge and later documentation history without declaring colonial documentation the first awareness of the site.",
+      "en_sha256": "f00500a6c502aa1e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E10.title",
+      "ml": "എടക്കലും മറ്റ് ശിലാചിത്രങ്ങളും",
+      "en": "Edakkal and other rock art",
+      "en_sha256": "815b215145512ff4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E11.central_question",
+      "ml": "കൃഷി, ഇണക്കിവളർത്തൽ, കൂടുതൽ സ്ഥിരമായ താമസം എന്നിവയ്ക്ക് എപ്പോൾ, എവിടെയാണ് യഥാർത്ഥത്തിൽ തെളിവുള്ളത്?",
+      "en": "When and where are cultivation, domestication or more sedentary residence actually evidenced?",
+      "en_sha256": "89b6cc3780df5334",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E11.display_window",
+      "ml": "സ്ഥലാധിഷ്ഠിതമായ പിൽക്കാല ചരിത്രാതീത പരിവർത്തനങ്ങൾ; ഏകീകൃതമായ ആരംഭം നൽകിയിട്ടില്ല",
+      "en": "Site-specific later-prehistoric transitions; no uniform onset assigned",
+      "en_sha256": "8e023728cf83fd00",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E11.established_in_this_pass",
+      "ml": "ഭൂഭാഗം മുഴുവൻ ബാധകമായ, കാലനിർണയം നടത്തിയ ഒരു Neolithic (നവീന ശിലായുഗ) അല്ലെങ്കിൽ കാർഷിക പരിവർത്തനം ഈ ഘട്ടത്തിൽ സ്ഥാപിച്ചിട്ടില്ല. മുൻ അധ്യായം ഒരു ഗവേഷണനിർദേശമായിരുന്നു; തെളിയിക്കപ്പെട്ട കാലക്രമമല്ല.",
+      "en": "This pass has not established a dated, territory-wide Neolithic or farming transition. The earlier chapter was a research proposal, not a demonstrated chronology.",
+      "en_sha256": "c9740f769ec9385b",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E11.limitations",
+      "ml": "മിനുക്കിയ ഒരു ശിലായുധം മാത്രം കാർഷികഗ്രാമമോ ഇണക്കിവളർത്തിയ വിളയോ സ്ഥാപിക്കുന്നില്ല. പ്രാദേശികബന്ധം തെളിയിക്കപ്പെടുന്നതുവരെ അയൽപ്രദേശങ്ങളിലെ തെളിവ് പശ്ചാത്തലം മാത്രമാണ്.",
+      "en": "A polished stone implement does not by itself establish a farming village or domesticated crop. Evidence from neighbouring regions is context until a local connection is demonstrated.",
+      "en_sha256": "0f869bd4190e518a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E11.research_tasks[0]",
+      "ml": "പുരാസസ്യശാസ്ത്ര, പുരാജന്തുശാസ്ത്ര, അവശിഷ്ടവിശകലന (residue), വാസസ്ഥല തെളിവുകളുടെ പട്ടിക തയ്യാറാക്കുക.",
+      "en": "Inventory archaeobotanical, zooarchaeological, residue and settlement evidence.",
+      "en_sha256": "6261990e8c2bb844",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E11.research_tasks[1]",
+      "ml": "വന്യ ഉപയോഗം, കൃഷി, ഇണക്കിവളർത്തൽ എന്നിവ വേർതിരിക്കുക.",
+      "en": "Distinguish wild use, cultivation and domestication.",
+      "en_sha256": "ff5fdc4cf7809f99",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E11.research_tasks[2]",
+      "ml": "പിന്നീട് കടന്നുകൂടിയ വസ്തുക്കളും നേരിട്ട് കാലനിർണയം നടത്തിയ മാതൃകകളും പരിശോധിക്കുക.",
+      "en": "Check intrusive material and directly dated specimens.",
+      "en_sha256": "e88141990842ea9f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E11.research_tasks[3]",
+      "ml": "അനിവാര്യമായ ഒരു പുരോഗതി ആഖ്യാനം ചെയ്യുന്നതിനുപകരം വ്യത്യസ്ത ഉപജീവനസംയോജനങ്ങളും പ്രാദേശിക കാലക്രമങ്ങളും നിലനിർത്തുക.",
+      "en": "Retain different livelihood combinations and regional chronologies rather than narrating an inevitable progression.",
+      "en_sha256": "69fe267491cd7ba1",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E11.title",
+      "ml": "ഭക്ഷ്യോൽപ്പാദനം, വാസസ്ഥലങ്ങൾ, മാറുന്ന ഉപജീവനമാർഗങ്ങൾ",
+      "en": "Food production, settlement and changing livelihoods",
+      "en_sha256": "aa0779f528948a70",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E12.central_question",
+      "ml": "പ്രത്യേക സ്ഥലങ്ങളിൽ ശവസംസ്കാര സമുച്ചയങ്ങൾ, ഇരുമ്പിന്റെ ഉപയോഗം, വാസം, വിനിമയം എന്നിവ എങ്ങനെ പരസ്പരം ബന്ധപ്പെടുന്നു?",
+      "en": "How do burial assemblages, iron use, habitation and exchange relate in specific places?",
+      "en_sha256": "36bc9ea6906bef6c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E12.display_window",
+      "ml": "പ്രാദേശിക പിൽക്കാല ചരിത്രാതീത ക്രമങ്ങളും ആദ്യകാല ചരിത്രക്രമങ്ങളും ഇടകലരുന്നു",
+      "en": "Local later-prehistoric and early-historic sequences overlap",
+      "en_sha256": "fa3e49d246c2639a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E12.established_in_this_pass",
+      "ml": "KCHR കൈപ്പുസ്തകം പട്ടണത്തിന് ഏകദേശം ക്രി.മു. 1000–500 എന്ന ഇരുമ്പുയുഗഘട്ടം നൽകുന്നു. ഔദ്യോഗിക പുരാവസ്തു അവലോകനം ശവസംസ്കാര സ്മാരകങ്ങളെക്കുറിച്ചുള്ള ആദ്യകാല പഠനങ്ങളിലേക്കുള്ള വഴിയാണ്.",
+      "en": "The KCHR handbook assigns an approximate 1000–500 BCE Iron Age phase to Pattanam. The official archaeological retrospective is a route to early studies of burial monuments.",
+      "en_sha256": "5fee0a423a6ffd16",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E12.limitations",
+      "ml": "ഒരു സ്ഥലത്തിന്റെ ഘട്ടം എല്ലാ മഹാശിലാസ്മാരകങ്ങളുടെയും തീയതിയല്ല. സ്മാരകത്തിന്റെ തരം നേരിട്ടുള്ള വംശീയ അടയാളമല്ല; ഒരു ശവക്കുഴിയിലെ ഇരുമ്പ് ഭൂഭാഗത്ത് മുഴുവൻ ഇരുമ്പ് ആദ്യമായി എത്തിയതിന്റെ തീയതി നൽകുന്നില്ല.",
+      "en": "One site’s phase is not a date for all megaliths. Monument type is not a direct ethnic label; iron in a burial does not date the first introduction of iron to the whole territory.",
+      "en_sha256": "71e5ba6cec42d483",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E12.research_tasks[0]",
+      "ml": "ഉത്ഖനനം നടത്തിയ ശവക്കുഴികളുടെയും വാസസ്ഥലങ്ങളുടെയും പട്ടിക വേറിട്ട് തയ്യാറാക്കുക.",
+      "en": "Inventory excavated graves and habitation sites separately.",
+      "en_sha256": "ac5fd6efb97139e2",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E12.research_tasks[1]",
+      "ml": "അടുക്കുക്രമം, സാമ്പിൾതീയതികൾ, സമുച്ചയങ്ങൾ, ഇളക്കം (disturbance), ഉത്ഖനനകാലം എന്നിവ രേഖപ്പെടുത്തുക.",
+      "en": "Capture stratigraphy, sample dates, assemblages, disturbance and excavation season.",
+      "en_sha256": "96ce76abff9d4524",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E12.research_tasks[2]",
+      "ml": "പ്രസ്താവിച്ച തെളിവോടെ മാത്രം ലോഹസംസ്കരണം, കൃഷി, സാമൂഹിക വ്യാഖ്യാനങ്ങൾ എന്നിവ ബന്ധിപ്പിക്കുക.",
+      "en": "Connect metallurgy, agriculture and social interpretations only with stated evidence.",
+      "en_sha256": "d294d0badb4b2dd3",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E12.research_tasks[3]",
+      "ml": "ഏകീകരിച്ച ഒരു രൂപമാതൃകാവർഗീകരണത്തോടൊപ്പം സ്രോതസ്സിലെ ശവസംസ്കാര പദാവലിയും നിലനിർത്തുക.",
+      "en": "Retain burial terminology from the source alongside a normalized typology.",
+      "en_sha256": "5614ddb137b0d7fc",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#E12.title",
+      "ml": "ഇരുമ്പുയുഗം, ശവസംസ്കാരങ്ങൾ, ആദ്യകാല വാസസ്ഥലങ്ങൾ",
+      "en": "Iron Age, burials and early settlement",
+      "en_sha256": "0e5c10e8b7f8d5f5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P01.central_question",
+      "ml": "ഓരോ ആദ്യകാല പാഠസാക്ഷ്യവും യഥാർത്ഥത്തിൽ എന്താണ് സാക്ഷ്യപ്പെടുത്തുന്നത്, അതിലെ ഭൂമിശാസ്ത്രം എങ്ങനെയാണ് തിരിച്ചറിയുന്നത്?",
+      "en": "What does each early textual witness actually attest, and how is its geography identified?",
+      "en_sha256": "5972feaf3749b786",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P01.display_window",
+      "ml": "ക്രി.മു. മൂന്നാം നൂറ്റാണ്ട്; പ്രാരംഭ വാർഷിക വഴികാട്ടൽ ക്രി.മു. 300-ൽ ആരംഭിക്കുന്നു",
+      "en": "Third century BCE; initial annual navigation begins at 300 BCE",
+      "en_sha256": "737e07f1d3929039",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P01.established_in_this_pass",
+      "ml": "പരിശോധിച്ച പരിഭാഷയിൽ രണ്ടാം ശിലാശാസനം (Rock Edict II) Keralaputras (കേരളപുത്രർ) എന്ന് പേരെടുത്ത് പറയുന്നു. അതിന്റെ സമ്പാദകക്കുറിപ്പ് ക്രി.മു. 257 എന്ന് നിർദേശിക്കുന്നു; ഇപ്പോഴത്തെ സൂചിക കരുതലോടെ മൂന്നാം നൂറ്റാണ്ടിന്റെ ചക്രവാളവും നിർദേശിക്കപ്പെട്ട വർഷവും വേറിട്ട് നിലനിർത്തുന്നു.",
+      "en": "Rock Edict II names Keralaputras in the inspected translation. Its editorial note proposes 257 BCE; the present index conservatively preserves a third-century horizon and the proposed year separately.",
+      "en_sha256": "e05fa722b504f860",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P01.limitations",
+      "ml": "ക്രി.മു. 300 സൂചികയുടെ അതിരാണ്; ഒരു സംഭവത്തിന്റെയോ സാക്ഷരതയുടെ തുടക്കത്തിന്റെയോ അവകാശവാദമല്ല. ഒരു ബാഹ്യപരാമർശം പരിധിക്കുള്ളിൽ കണ്ടെത്തിയ ലിഖിതമല്ല; പേരെടുത്ത് പറഞ്ഞ ഒരു രാഷ്ട്രീയസമൂഹം കൃത്യമായ ഒരു ആധുനിക അതിർത്തിയുമല്ല.",
+      "en": "300 BCE is an indexing boundary, not a claim of an event or the beginning of literacy. An external reference is not an inscription found within the scope, and a named polity is not an exact modern boundary.",
+      "en_sha256": "36723e6c23ba7268",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P01.research_tasks[0]",
+      "ml": "Hultzsch-ഉം പിൽക്കാല വിമർശനാത്മക പതിപ്പുകളും, ലിപികൾ, വായനകൾ, ലിഖിതങ്ങളുടെ സ്ഥാനങ്ങൾ എന്നിവയും പരിശോധിക്കുക.",
+      "en": "Inspect Hultzsch and later critical editions, scripts, readings and inscription locations.",
+      "en_sha256": "9a2a5e211d850546",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P01.research_tasks[1]",
+      "ml": "പരമ്പരാഗത ആഖ്യാനതീയതികളെ രചനാതീയതികളായി കാണാതെ മുൻകാല പാഠസാധ്യതകൾ താരതമ്യം ചെയ്യുക.",
+      "en": "Compare earlier textual candidates without treating traditional narrative dates as composition dates.",
+      "en_sha256": "0911c8242a7a0714",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P01.research_tasks[2]",
+      "ml": "Keralaputras-നെ ചേരരുമായി ബന്ധിപ്പിക്കുന്ന വാദങ്ങൾ രേഖപ്പെടുത്തി അനിശ്ചിതത്വം ഭൂപടത്തിലാക്കുക.",
+      "en": "Document arguments connecting Keralaputras with Cheras and map the uncertainty.",
+      "en_sha256": "90c334175e41d2ef",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P01.research_tasks[3]",
+      "ml": "ന്യായീകരണമുള്ളപ്പോൾ വാർഷിക വഴികാട്ടൽ കൂടുതൽ പിന്നിലേക്ക് നീട്ടുക; “ഏറ്റവും ആദ്യത്തെ ചരിത്രം” സംബന്ധിച്ച സ്ഥിരമായ ഒരു സിദ്ധാന്തം നടപ്പാക്കരുത്.",
+      "en": "Extend annual navigation earlier when warranted; do not enforce a fixed earliest-history dogma.",
+      "en_sha256": "1730838c7e609fa1",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P01.title",
+      "ml": "ആദ്യ രേഖാചക്രവാളം: തെക്കുപടിഞ്ഞാറൻ രാഷ്ട്രീയസമൂഹങ്ങളെക്കുറിച്ചുള്ള പരാമർശങ്ങൾ",
+      "en": "First documentary horizon: references to southwestern polities",
+      "en_sha256": "62fd652312992822",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P02.central_question",
+      "ml": "പാഠങ്ങളും വാസസ്ഥലങ്ങളും ഇറക്കുമതിവസ്തുക്കളും പ്രാദേശിക ഉൽപ്പാദനവും വ്യത്യസ്ത സമൂഹങ്ങളെ എങ്ങനെ വെളിച്ചത്തുകൊണ്ടുവരുന്നു?",
+      "en": "How do texts, settlements, imports and local production illuminate distinct communities?",
+      "en_sha256": "c1ee78946b8f0d00",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P02.display_window",
+      "ml": "ഏകദേശം ക്രി.മു. 300 മുതൽ ക്രി.വ. 500 വരെ, സമ്പാദകീയ ഗവേഷണജാലകം എന്ന നിലയിൽ",
+      "en": "Approximately 300 BCE–500 CE as an editorial research window",
+      "en_sha256": "677c402a15ba928c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P02.established_in_this_pass",
+      "ml": "Periplus തുറമുഖങ്ങളെയും വ്യാപാരത്തെയും വിവരിക്കുന്നു; പാഠങ്ങളിലെ ഭൂമിശാസ്ത്രവുമായി താരതമ്യം ചെയ്യാനുള്ള പുരാവസ്തുതെളിവ് പട്ടണം നൽകുന്നു. ഓരോന്നിനും അതിന്റേതായ കാലനിർണയ-വ്യാഖ്യാന പരിമിതികളുണ്ട്.",
+      "en": "The Periplus describes ports and trade; Pattanam provides archaeological evidence to compare with textual geography. Each has its own dating and interpretative constraints.",
+      "en_sha256": "fdeefb111e597d16",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P02.limitations",
+      "ml": "ഏകദേശ രചനാകാലം, ഉത്ഖനനഘട്ടങ്ങൾ, മാതൃകകളുടെ തീയതികൾ എന്നിവ വേറിട്ടുതന്നെ നിലനിൽക്കണം. പട്ടണവും മുസിരിസും ഒന്നാണെന്ന് തീർപ്പായ വസ്തുതയായി കാണരുത്; സംഘകാല കവിതകൾക്ക് ഒരൊറ്റ കൃത്യവർഷം നൽകരുത്.",
+      "en": "Approximate composition, excavation phases and specimen dates must remain distinct. Do not equate Pattanam and Muziris as a settled identity or assign Sangam poems a single exact year.",
+      "en_sha256": "327cd5dc79270778",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P02.research_tasks[0]",
+      "ml": "ഓരോ കവിതയുടെയും തലത്തിൽ സംഘകാല സാക്ഷ്യങ്ങളും വിമർശനാത്മക പരിഭാഷകളുടെ രജിസ്റ്ററും തയ്യാറാക്കുക.",
+      "en": "Build poem-level Sangam witnesses and a critical-translation registry.",
+      "en_sha256": "2913a7cd810dd369",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P02.research_tasks[1]",
+      "ml": "കൃത്യമായ പുസ്തക/ഭാഗ സ്ഥാനസൂചനകളോടെ Pliny, Ptolemy ഭാഗങ്ങൾ കണ്ടെടുക്കുക.",
+      "en": "Retrieve Pliny and Ptolemy passages with exact book/section locators.",
+      "en_sha256": "6b99915de37507c1",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P02.research_tasks[2]",
+      "ml": "നാണയശാസ്ത്രം, ലിഖിതങ്ങൾ, പുരാസസ്യശാസ്ത്രം, വാസസ്ഥല റിപ്പോർട്ടുകൾ എന്നിവ ചേർക്കുക.",
+      "en": "Add numismatics, inscriptions, archaeobotany and settlement reports.",
+      "en_sha256": "2f07041801f0a14e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P02.research_tasks[3]",
+      "ml": "ഇറക്കുമതി ചെയ്ത വസ്തുക്കളെ താമസക്കാരുടെ വംശീയതയെയോ ദേശീയതയെയോ കുറിച്ചുള്ള അനുമാനങ്ങളിൽനിന്ന് വേർതിരിക്കുക.",
+      "en": "Separate imported objects from assumptions about the ethnicity or nationality of residents.",
+      "en_sha256": "379c33255642f807",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P02.title",
+      "ml": "ആദ്യകാല ചരിത്രസമൂഹങ്ങളും ഇന്ത്യൻ മഹാസമുദ്ര ബന്ധങ്ങളും",
+      "en": "Early historic communities and Indian Ocean connections",
+      "en_sha256": "8c65d164af26c100",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P03.central_question",
+      "ml": "പ്രാദേശികമായി വൈവിധ്യമുള്ള രാഷ്ട്രീയ, കാർഷിക, ഭാഷാ, മത സ്ഥാപനങ്ങൾ എങ്ങനെ മാറി?",
+      "en": "How did locally varied political, agrarian, linguistic and religious institutions change?",
+      "en_sha256": "5f89bc6c009100d6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P03.display_window",
+      "ml": "ഏകദേശം ക്രി.വ. 501–1497; സമ്പാദകീയ ജാലകം, ഒരൊറ്റ സാമൂഹികഘട്ടമല്ല",
+      "en": "Approximately 501–1497 CE; editorial window, not one social stage",
+      "en_sha256": "0efb59567627cb69",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P03.established_in_this_pass",
+      "ml": "നിർദേശപാഠം, അന്തിമ വ്യാഖ്യാനം, വിമർശനാത്മക പതിപ്പ് എന്നിവ വേർതിരിക്കേണ്ടത് എന്തുകൊണ്ടെന്ന് കൊല്ലം ചെപ്പേടുകളെക്കുറിച്ചുള്ള ഗവേഷണപദ്ധതി കാണിക്കുന്നു. സൂക്ഷ്മമായി പരിമിതപ്പെടുത്തിയ ഒരു മധ്യകാല പ്രാരംഭരേഖയാണ് അത് നൽകുന്നത്; സമ്പൂർണ കാലക്രമമല്ല.",
+      "en": "The Kollam-plates research project demonstrates why proposal text, final interpretation and critical edition must be distinguished. It provides one carefully qualified medieval seed, not a complete chronology.",
+      "en_sha256": "c2df75ee1b957743",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P03.limitations",
+      "ml": "ഒരു ഭാഷയ്ക്കോ ഒരു മതസമൂഹത്തിന് മുഴുവനായോ ഒരൊറ്റ ജനനവർഷം സ്ഥാപിച്ചിട്ടില്ല. വംശാവലികൾ, പിൽക്കാല ഐതിഹ്യങ്ങൾ, ഭരണവർഷ കണക്കുകൂട്ടലുകൾ എന്നിവ ഓരോന്നും വേറിട്ട് പരിശോധിക്കണം.",
+      "en": "No single birth year for a language or a whole religious community is established. Genealogies, retrospective legends and regnal calculations require individual review.",
+      "en_sha256": "e643716457bce8f8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P03.research_tasks[0]",
+      "ml": "ഫോട്ടോകൾ, പതിപ്പുകൾ, കലണ്ടർ യുക്തി എന്നിവയോടുകൂടിയ ചെപ്പേടുകൾക്കും ശിലാലിഖിതങ്ങൾക്കും മുൻഗണന നൽകുക.",
+      "en": "Prioritize copper plates and stone inscriptions with photographs, editions and calendrical reasoning.",
+      "en_sha256": "e6ba81da31e53294",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P03.research_tasks[1]",
+      "ml": "ഏകീകൃതമായ ഒരു രാജ്യം അടിച്ചേൽപ്പിക്കാതെ ചേര പെരുമാക്കൾ, വേണാട്, കോലത്തുനാട്, കോഴിക്കോട്, കൊച്ചി, ചെറിയ പ്രാദേശിക അധികാരകേന്ദ്രങ്ങൾ എന്നിവ ഉൾപ്പെടുത്തുക.",
+      "en": "Cover Chera Perumals, Venad, Kolathunadu, Kozhikode, Kochi and smaller local authorities without imposing a unified kingdom.",
+      "en_sha256": "f10854c8cd5403f2",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P03.research_tasks[2]",
+      "ml": "ഭൂബന്ധങ്ങൾ, അധ്വാനം, ജാതി, ലിംഗഭേദം, ആരാധന, പാണ്ഡിത്യം എന്നിവ ഒരുമിച്ച് അന്വേഷിക്കുക.",
+      "en": "Investigate land relations, labour, caste, gender, worship and scholarship together.",
+      "en_sha256": "15d2ad45c1b34ba4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P03.research_tasks[3]",
+      "ml": "ഉദ്ഭവവിവരവും പരിഭാഷാപരിശോധനയും സഹിതം അറബി, പേർഷ്യൻ, ചൈനീസ്, ജൂത, ക്രൈസ്തവ രേഖകൾ ഉപയോഗിക്കുക.",
+      "en": "Use Arab, Persian, Chinese, Jewish and Christian records with provenance and translation review.",
+      "en_sha256": "87ed09582248d724",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P03.title",
+      "ml": "പ്രാദേശിക സ്ഥാപനങ്ങൾ, ഭാഷകൾ, ശൃംഖലകൾ",
+      "en": "Regional institutions, languages and networks",
+      "en_sha256": "bc125ecfc666a895",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P04.central_question",
+      "ml": "വിദേശശക്തികൾ നിലവിലുള്ള പ്രാദേശിക സ്ഥാപനങ്ങളുമായും സമുദ്രശൃംഖലകളുമായും എങ്ങനെ ഇടപെട്ടു?",
+      "en": "How did overseas powers interact with existing local institutions and maritime networks?",
+      "en_sha256": "13dd67b48791f063",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P04.display_window",
+      "ml": "ക്രി.വ. 1498–1791; സമ്പാദകീയ ജാലകം",
+      "en": "1498–1791 CE; editorial window",
+      "en_sha256": "f2b3361c3f8c3c23",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P04.established_in_this_pass",
+      "ml": "യാത്രാഡയറിയിലെ ഉദ്ധരണി പോർച്ചുഗീസ് വരവിന്റെ വിവരണം 1498-ൽ Calicut-ൽ (കോഴിക്കോട്) സ്ഥാപിക്കുന്നു. സമുദ്രവിനിമയം ആ വരവിനും വളരെ മുമ്പേ നിലവിലുണ്ടായിരുന്നുവെന്ന് മുമ്പത്തെ Periplus തെളിവ് കാണിക്കുന്നു.",
+      "en": "The voyage journal excerpt places the Portuguese arrival account at Calicut in 1498. The prior Periplus evidence demonstrates that maritime exchange long predates that arrival.",
+      "en_sha256": "c4555d1d5dc8e664",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P04.limitations",
+      "ml": "ഈ വർഷം അജ്ഞാതമോ ജനവാസമില്ലാത്തതോ ആയ ഒരു തീരത്തിന്റെ “കണ്ടെത്തൽ” അടയാളപ്പെടുത്തുന്നില്ല. സഞ്ചാരികളുടെ വിവരണങ്ങൾ അവരുടെ സാഹചര്യത്തിൽനിന്നുള്ള സാക്ഷ്യമാണ്; അതിൽ തെറ്റായ തിരിച്ചറിയൽ, വാചാടോപം, ശത്രുത എന്നിവയും ഉൾപ്പെടുന്നു.",
+      "en": "The year does not mark the discovery of an unknown or uninhabited coast. Accounts by travellers are situated testimony, including misidentification, rhetoric and hostility.",
+      "en_sha256": "2c2e2c1e366f370d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P04.research_tasks[0]",
+      "ml": "പോർച്ചുഗീസ് രേഖകളെ പ്രാദേശിക, അറബി, മറ്റ് വിവരണങ്ങളുമായി താരതമ്യം ചെയ്യുക.",
+      "en": "Compare Portuguese records with local, Arabic and other accounts.",
+      "en_sha256": "a8129550f279a6f4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P04.research_tasks[1]",
+      "ml": "ഡച്ച്, ഫ്രഞ്ച്, മൈസൂർ സ്രോതസ്സുപരമ്പരകളുടെയും അവയുടെ പ്രാദേശിക പ്രത്യാഘാതങ്ങളുടെയും പട്ടിക തയ്യാറാക്കുക.",
+      "en": "Inventory Dutch, French and Mysorean source series and local consequences.",
+      "en_sha256": "0c65007b0149f720",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P04.research_tasks[2]",
+      "ml": "മാഹിയെ ബാഹ്യ ഭരണപശ്ചാത്തലമായി നിലനിർത്തുക; പരിധിക്കുള്ളിലെ പ്രസക്തമായ പ്രവർത്തനങ്ങളുമായി ബന്ധിപ്പിക്കുക.",
+      "en": "Keep Mahe as external administrative context, linked to relevant in-scope activity.",
+      "en_sha256": "46af30206610982d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P04.research_tasks[3]",
+      "ml": "അക്രമം, വ്യാപാരം, ദൈനംദിന ഉപജീവനം, മതപരിവർത്തനം എന്നിവയെ യൂറോപ്യൻ ശക്തികളുടെ ലളിതമായ തുടർച്ചയായല്ല, പരസ്പരം കൂടിക്കലരുന്ന ചരിത്രങ്ങളായി കാണുക.",
+      "en": "Treat violence, trade, everyday livelihoods and religious change as intersecting histories, not a simple succession of European powers.",
+      "en_sha256": "f0312693c95184ac",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P04.title",
+      "ml": "ആദ്യകാല ആധുനിക സമ്പർക്കങ്ങളും മത്സരിക്കുന്ന പരമാധികാരങ്ങളും",
+      "en": "Early modern encounters and competing sovereignties",
+      "en_sha256": "e50cc9e2041e2fb6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P05.central_question",
+      "ml": "ആധുനിക ഭൂഭാഗത്തിന്റെ വിവിധ ഭാഗങ്ങൾക്കായി ഏതെല്ലാം ഭരണകൂടങ്ങളും സമൂഹങ്ങളുമാണ് രേഖകൾ സൃഷ്ടിച്ചത്?",
+      "en": "Which administrations and communities generated records for different parts of the modern territory?",
+      "en_sha256": "a279d6d8f856e5b8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P05.display_window",
+      "ml": "ക്രി.വ. 1792–1946; പ്രാദേശികമായി കൂടുതൽ കൃത്യമാക്കേണ്ട സമ്പാദകീയ ജാലകം",
+      "en": "1792–1946 CE; editorial window needing local refinements",
+      "en_sha256": "9cd660f0c0958fc4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P05.established_in_this_pass",
+      "ml": "ആർക്കൈവ് പോർട്ടലുകൾ, മാന്വലുകൾ, പിൽക്കാല പുരാവസ്തുചരിത്രങ്ങൾ എന്നിവ സ്രോതസ്സുകളിലേക്കുള്ള വഴികൾ നൽകുന്നു. ഈ പ്രാരംഭശേഖരം ഏതെങ്കിലും കൊളോണിയൽ രേഖാപരമ്പര സമ്പൂർണമായി പരിശോധിച്ചുവെന്ന് അവകാശപ്പെടുന്നില്ല.",
+      "en": "Archive portals, manuals and later archaeological histories provide source routes. No claim is made that this starter has audited a complete colonial series.",
+      "en_sha256": "649dace206c687bc",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P05.limitations",
+      "ml": "തിരഞ്ഞെടുത്ത ജാലകം ക്രമീകരണത്തിനുള്ള ഒരു കീഴ്‌വഴക്കമാണ്; എല്ലായിടത്തും ഒരുപോലെ സ്ഥിരീകരിച്ച ഭരണാതിർത്തിയല്ല. ഗസറ്റിയർ വിവരണങ്ങളും കാനേഷുമാരികളും ഭരണപരമായ വിഭാഗങ്ങളെ പ്രതിഫലിപ്പിക്കുന്നു; അവ എല്ലാ സമൂഹങ്ങൾക്കും വേണ്ടി സംസാരിക്കുന്നില്ല.",
+      "en": "The chosen window is an organizational convention, not a uniformly verified regime boundary. Gazetteer descriptions and censuses reflect administrative categories and do not speak for every community.",
+      "en_sha256": "b734392b635aea1a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P05.research_tasks[0]",
+      "ml": "ജില്ലാ മാന്വലുകൾ, റവന്യൂ നടപടിരേഖകൾ, കാനേഷുമാരികൾ, ഗസറ്റുകൾ, കോടതിരേഖകൾ, പത്രങ്ങൾ എന്നിവ വാല്യവും വർഷവും അനുസരിച്ച് പട്ടികപ്പെടുത്തുക.",
+      "en": "Inventory district manuals, revenue proceedings, censuses, gazettes, court records and newspapers by volume and year.",
+      "en_sha256": "85c229d1c722302e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P05.research_tasks[1]",
+      "ml": "ബ്രിട്ടീഷ് ഭരണത്തിലുള്ള മലബാറിനെ തിരുവിതാംകൂർ, കൊച്ചി സ്ഥാപനങ്ങളിൽനിന്ന് വേർതിരിക്കുക.",
+      "en": "Separate British-administered Malabar from Travancore and Cochin institutions.",
+      "en_sha256": "30d6406463b391ba",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P05.research_tasks[2]",
+      "ml": "പല സ്വതന്ത്ര സ്രോതസ്സുപാരമ്പര്യങ്ങൾ ഉപയോഗിച്ച് പരിഷ്കരണം, അധ്വാനം, അടിമത്തം, ജാതി, ലിംഗഭേദം, ചെറുത്തുനിൽപ്പ് എന്നിവ പഠിക്കുക.",
+      "en": "Study reform, labour, slavery, caste, gender and resistance with multiple independent source traditions.",
+      "en_sha256": "6aaa65031107acdf",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P05.research_tasks[3]",
+      "ml": "മലയാളി എന്ന് വിവരിക്കപ്പെട്ടവരിലോ മലയാളത്തിൽ എഴുതിയ രേഖകളിലോ മാത്രമായി ഉൾപ്പെടുത്തൽ പരിമിതപ്പെടുത്തരുത്.",
+      "en": "Do not restrict inclusion to people described as Malayali or records written in Malayalam.",
+      "en_sha256": "1c38c46098808595",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P05.title",
+      "ml": "കൊളോണിയൽ ഭരണം, നാട്ടുരാജ്യ സ്ഥാപനങ്ങൾ, പൊതുജീവിതം",
+      "en": "Colonial administration, princely institutions and public life",
+      "en_sha256": "3573cb1fdee63402",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P06.central_question",
+      "ml": "ഭരണപരമായ പുനഃസംഘടന ആധുനിക പഠനചട്ടക്കൂടിനുള്ളിലെ ഭൂമിയെ എങ്ങനെ ബാധിച്ചു?",
+      "en": "How did administrative reorganization affect the land inside the modern study frame?",
+      "en_sha256": "fb3538f4830f983a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P06.display_window",
+      "ml": "ക്രി.വ. 1947–1956; കൃത്യമായ നിയമസംഭവങ്ങൾക്ക് ഓരോന്നിനും വേറിട്ട തീയതികൾ വേണം",
+      "en": "1947–1956 CE; precise legal events require individual dates",
+      "en_sha256": "9124f4f126694dca",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P06.established_in_this_pass",
+      "ml": "1956-ലെ നിയമം കൃത്യമായ ഒരു നിശ്ചിതദിനം (appointed day) നൽകുകയും കൈമാറിയ പ്രദേശങ്ങൾ നിർവചിക്കുകയും ചെയ്യുന്നു. “മലബാർ മുഴുവനും തിരുവിതാംകൂർ-കൊച്ചി മുഴുവനും” എന്ന് സംഗ്രഹിക്കുന്നതിനുപകരം അതിലെ ഒഴിവാക്കലുകൾ സഹിതം അത് വായിക്കണം.",
+      "en": "The 1956 statute provides a precise appointed day and defines transferred territories. It must be read with its exclusions rather than summarized as all Malabar plus all Travancore-Cochin.",
+      "en_sha256": "b8f603bc78c8f1a7",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P06.limitations",
+      "ml": "സംസ്ഥാനരൂപീകരണം ഭൂമിയെയോ അതിലെ നിവാസികളെയോ എല്ലാ സാംസ്കാരിക സ്വത്വങ്ങളെയോ സൃഷ്ടിച്ചില്ല. 1956-ലെ നിയമം സ്വയം ഒരു സ്ഥിരീകരിച്ച നിലവിലെ അതിർത്തി ഡാറ്റാസെറ്റല്ല.",
+      "en": "State formation did not create the land, its inhabitants or all cultural identities. The 1956 Act is not itself a verified current boundary dataset.",
+      "en_sha256": "c11fc9c38bd9e495",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P06.research_tasks[0]",
+      "ml": "സംയോജന ഉടമ്പടികൾ, തുടർന്നുള്ള നിയമങ്ങൾ, അതിർത്തി ക്രമീകരണങ്ങൾ എന്നിവ വായിക്കുക.",
+      "en": "Read integration instruments, successive acts and boundary adjustments.",
+      "en_sha256": "ee94db075b240338",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P06.research_tasks[1]",
+      "ml": "പഴയ ജില്ലകളും ഇന്നത്തെ ജില്ലകളും ഒത്തുപോകുന്നുവെന്ന് അനുമാനിക്കാതെ വില്ലേജ്/താലൂക്ക് തലത്തിലുള്ള ഉൾപ്പെടുത്തലും ഒഴിവാക്കലും പിന്തുടരുക.",
+      "en": "Trace village/taluk-level inclusion and exclusion rather than assuming old and current districts match.",
+      "en_sha256": "9799f263066f107d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P06.research_tasks[2]",
+      "ml": "പാസാക്കൽ, അംഗീകാരം (assent), പ്രസിദ്ധീകരണം, പ്രാബല്യം എന്നിവയുടെ തീയതികൾ വേർതിരിക്കുക.",
+      "en": "Separate passage, assent, publication and commencement dates.",
+      "en_sha256": "dbfd2fcceaad65f9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P06.research_tasks[3]",
+      "ml": "സമകാലിക രേഖകൾ ഉപയോഗിച്ച് പുനഃസംഘടനയ്ക്കു പിന്നിലെ കാഴ്ചപ്പാടുകളും പ്രസ്ഥാനങ്ങളും രേഖപ്പെടുത്തുക.",
+      "en": "Record viewpoints and movements behind reorganization using contemporary records.",
+      "en_sha256": "6305e6b8f56b0d39",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P06.title",
+      "ml": "സംയോജനവും ഇന്നത്തെ സംസ്ഥാന ചട്ടക്കൂടും",
+      "en": "Integration and the present-state frame",
+      "en_sha256": "17425f916a14881a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P07.central_question",
+      "ml": "ലഭ്യതയെ സമ്പൂർണതയായി തെറ്റിദ്ധരിക്കാതെ, ജീവനുള്ള ഒരു പൊതുരേഖാശേഖരം എങ്ങനെ സൂചികപ്പെടുത്താം?",
+      "en": "How can a living public record be indexed without mistaking availability for completeness?",
+      "en_sha256": "19afc58d0b9bada9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P07.display_window",
+      "ml": "ക്രി.വ. 1957–2026; നടപ്പുവർഷത്തിന്റെ അവസാനതീയതി 2026 ഒക്ടോബർ 11",
+      "en": "1957–2026 CE; current-year cutoff 11 October 2026",
+      "en_sha256": "8cb68d220edf304c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P07.established_in_this_pass",
+      "ml": "സ്ഥിരീകരിച്ച 2025-ലെ കൈയെഴുത്തുപ്രതി ശേഖരണ പ്രഖ്യാപനം ലഭ്യമായ രേഖാസമുച്ചയം തന്നെ തുടർന്നും മാറിക്കൊണ്ടിരിക്കുന്നുവെന്ന് കാണിക്കുന്നു. അത് ഗവേഷണ-ലഭ്യതാ ചരിത്രത്തിന്റെ ഭാഗമാണ്; കൈയെഴുത്തുപ്രതികളുടെ യഥാർത്ഥ നിർമ്മാണവർഷങ്ങളുടേതല്ല.",
+      "en": "The verified 2025 manuscript-collection announcement demonstrates that the accessible corpus itself continues to change. It belongs to research and access history, not to the manuscripts’ original production years.",
+      "en_sha256": "219de5ea6182aa8d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P07.limitations",
+      "ml": "സ്ഥിരീകരിച്ച ഒരു സമകാലിക രാഷ്ട്രീയ/സാമ്പത്തിക കാലക്രമം ഈ പ്രാരംഭശേഖരം അവകാശപ്പെടുന്നില്ല. ജീവിച്ചിരിക്കുന്ന വ്യക്തികളുടെ വിവരങ്ങൾ, ആരോപണങ്ങൾ, പവിത്രജ്ഞാനം, സൂക്ഷ്മതയുള്ള സ്ഥലങ്ങളുടെ സ്ഥാനങ്ങൾ എന്നിവയ്ക്ക് വ്യക്തമായ സംരക്ഷണനടപടികൾ ആവശ്യമാണ്.",
+      "en": "This seed does not claim a verified contemporary political or economic chronology. Living-person data, allegations, sacred knowledge and sensitive site locations require explicit safeguards.",
+      "en_sha256": "2e813d23a7b8d6ac",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P07.research_tasks[0]",
+      "ml": "ഔദ്യോഗിക സ്ഥിതിവിവര, തിരഞ്ഞെടുപ്പ്, പരിസ്ഥിതി, നിയമനിർമ്മാണ പരമ്പരകൾ ഇനംതിരിച്ച് പട്ടികപ്പെടുത്തുക.",
+      "en": "Inventory official statistical, electoral, environmental and legislative series at item level.",
+      "en_sha256": "751f63091d9e63de",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P07.research_tasks[1]",
+      "ml": "കാലക്രമേണ സ്ഥിതിവിവരക്കണക്കുകൾ താരതമ്യം ചെയ്യുന്നതിനുമുമ്പ് നിർവചനങ്ങൾ, പ്രദേശവ്യാപ്തി, പരിഷ്കരണങ്ങൾ എന്നിവ നിലനിർത്തുക.",
+      "en": "Preserve definitions, territorial coverage and revisions before comparing statistics over time.",
+      "en_sha256": "8746360324e088cb",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P07.research_tasks[2]",
+      "ml": "പൊതുസ്ഥാപനങ്ങളെ മത്സ്യബന്ധനം, കൃഷി, വനങ്ങൾ, കുടിയേറ്റം, അധ്വാനം, ശാസ്ത്രം, സംസ്കാരം, ലിംഗഭേദം, പാർശ്വവൽക്കരിക്കപ്പെട്ട സമൂഹങ്ങൾ എന്നിവയുമായി സന്തുലിതപ്പെടുത്തുക.",
+      "en": "Balance public institutions with fisheries, farming, forests, migration, labour, science, culture, gender and marginalized communities.",
+      "en_sha256": "a06267075437b86e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P07.research_tasks[3]",
+      "ml": "തിരുത്തലുകൾ, പിൻവലിക്കലുകൾ, ലഭ്യതാമാറ്റങ്ങൾ എന്നിവ പിന്തുടരുക; 2026-നെ ഭാഗികവർഷമായി കാണുക.",
+      "en": "Track corrections, retractions and access changes; treat 2026 as a partial year.",
+      "en_sha256": "993b311f11b11f5c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/periods.json#P07.title",
+      "ml": "സമകാലിക ഭൂഭാഗം, പരിസ്ഥിതി, സമൂഹം",
+      "en": "Contemporary territory, environment and society",
+      "en_sha256": "c0f09624d38f25f9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    }
+  ],
+  "note": "AI-assisted Malayalam draft. Human Malayalam-language review and specialist review are pending; a model check is not approval. Imported from notes/translation-review (draft PRs #3, #6, #7) where the English is unchanged, plus integration-batch translations for English that changed or was not staged."
+}

@@ -43,10 +43,19 @@ class BilingualRenderingTests(unittest.TestCase):
     def test_fixture_catalogues_are_valid(self):
         self.assertEqual(errors_for(fixture_catalogues()), [])
 
-    def test_without_catalogues_output_is_unchanged(self):
+    def test_without_catalogues_output_is_english_only(self):
+        # Since integration batch 1 the committed views include Malayalam, so the
+        # no-catalogue fallback is checked for English-only output instead of
+        # byte equality with the committed files.
         plain, _ = make_outputs(catalogues=[])
         for path in ['records/R014.md', 'years/CE/1498.md', 'sources/S001.md', 'audit/CHAT_AUDIT.md']:
-            self.assertEqual(plain[path], (ROOT / path).read_text(encoding='utf-8'), path)
+            self.assertNotIn('translation_ml', plain[path], path)
+            self.assertIsNone(bilingual.MALAYALAM.search(plain[path]), path)
+
+    def test_committed_views_match_integrated_catalogues(self):
+        full, _ = make_outputs()
+        for path in ['records/R014.md', 'years/CE/1498.md', 'sources/S001.md', 'audit/CHAT_AUDIT.md']:
+            self.assertEqual(full[path], (ROOT / path).read_text(encoding='utf-8'), path)
 
     def test_malayalam_first_english_second(self):
         out, _ = make_outputs(catalogues=fixture_catalogues())
