@@ -1,0 +1,22 @@
+{
+  "bug": "date-roles-and-counting",
+  "description": "The same year could be linked twice from one record and counted twice.",
+  "collection": "records",
+  "target": "R014",
+  "mutations": [
+    {
+      "op": "append",
+      "path": [
+        "year_links"
+      ],
+      "value": {
+        "year": 1498,
+        "role": "year_attested"
+      }
+    }
+  ],
+  "expect": [
+    "R014",
+    "duplicate year link"
+  ]
+}

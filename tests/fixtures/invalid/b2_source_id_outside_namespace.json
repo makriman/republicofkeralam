@@ -1,0 +1,20 @@
+{
+  "bug": "generic-id-pattern",
+  "description": "A source ID with the period prefix passed the generic letter-plus-digits check.",
+  "collection": "sources",
+  "target": "S042",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "id"
+      ],
+      "value": "P042"
+    }
+  ],
+  "expect": [
+    "sources",
+    "P042",
+    "^S[0-9]{3,}$"
+  ]
+}

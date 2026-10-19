@@ -1,0 +1,21 @@
+{
+  "bug": "generic-id-pattern",
+  "description": "Corpus source references were not checked.",
+  "collection": "corpora",
+  "target": "C001",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "source_ids"
+      ],
+      "value": [
+        "S999"
+      ]
+    }
+  ],
+  "expect": [
+    "C001",
+    "S999"
+  ]
+}

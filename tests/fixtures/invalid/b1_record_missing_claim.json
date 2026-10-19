@@ -1,0 +1,19 @@
+{
+  "bug": "missing-or-wrong-type-crashes",
+  "description": "A record without claim raised KeyError instead of a validation error.",
+  "collection": "records",
+  "target": "R001",
+  "mutations": [
+    {
+      "op": "delete",
+      "path": [
+        "claim"
+      ]
+    }
+  ],
+  "expect": [
+    "R001",
+    "claim",
+    "required"
+  ]
+}

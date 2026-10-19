@@ -1,0 +1,20 @@
+{
+  "bug": "missing-or-wrong-type-crashes",
+  "description": "A numeric url raised inside urlparse instead of a validation error.",
+  "collection": "sources",
+  "target": "S001",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "url"
+      ],
+      "value": 42
+    }
+  ],
+  "expect": [
+    "S001",
+    "url",
+    "string"
+  ]
+}

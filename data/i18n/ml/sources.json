@@ -1,0 +1,968 @@
+{
+  "catalogue": "translation-catalogue/1",
+  "language": "ml",
+  "source_path": "data/sources.json",
+  "entries": [
+    {
+      "key": "data/sources.json#S001.inspection_note",
+      "ml": "4.54 നൂറുകോടി (4.54-billion) വർഷം എന്ന കണക്ക് മാത്രം ഉപയോഗിക്കുക. ഈ പഴയ പേജിലെ മറ്റ് “ഏറ്റവും പഴയ പാറ”, പ്രപഞ്ചശാസ്ത്ര സ്ഥാനനിർണയങ്ങൾ സ്വീകരിച്ചിട്ടില്ല.",
+      "en": "Use the 4.54-billion-year estimate only. Other oldest-rock and cosmological rankings on this older page have not been adopted.",
+      "en_sha256": "178ce60fd8ac5a5d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S001.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S002.inspection_note",
+      "ml": "സാരാംശവും പ്രസാധകന്റെ preview-ഉം 2026-10-18-ന് വായിച്ചു; പൂർണപാഠം പണമതിലിന് പിന്നിലാണ്, ലഭിച്ചില്ല. EPA HERO പകർപ്പ് സമയപരിധി കടന്നു. ഇതിന് ഒരു erratum ഉണ്ട്: S003. സംഖ്യാകണ്ടെത്തലുകൾ തിരുത്തൽ പരിശോധന കാത്തിരിക്കുന്നു; അവ notes/evidence-review-ൽ മാത്രമാണ് രേഖപ്പെടുത്തിയിരിക്കുന്നത്.",
+      "en": "Abstract and publisher preview read 2026-10-18; full text paywalled and not obtained. EPA HERO mirror timed out. Has an erratum, S003. Numerical findings remain correction-pending and are recorded only in notes/evidence-review.",
+      "en_sha256": "38476066727a32ab",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S002.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S003.inspection_note",
+      "ml": "നിലനിൽപ്പും ഗ്രന്ഥസൂചികാപരമായ തിരിച്ചറിയലും പരിശോധിച്ചു; തിരുത്തലിന്റെ പാഠം ലഭിച്ചില്ല. Erratum എന്ത് മാറ്റുന്നുവെന്ന് അനുമാനിക്കരുത്.",
+      "en": "Existence and bibliographic identity checked; correction text not obtained. Do not infer what the erratum changes.",
+      "en_sha256": "4fcff5c0d20b4e8d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S003.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S004.inspection_note",
+      "ml": "പ്രാദേശിക പിളരൽ, മാഗ്മാ പ്രവർത്തനം, അരികുപരിണാമം; ഇന്നത്തെ തീരരേഖയ്ക്ക് ഒരൊറ്റ ജന്മദിനമല്ല.",
+      "en": "Regional rifting, magmatism and margin evolution; not a single birthday for the present coastline.",
+      "en_sha256": "48730e88d9ec0ef9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S004.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S005.inspection_note",
+      "ml": "DOI-യിൽ 2007 ഉണ്ടെങ്കിലും പ്രസിദ്ധീകരണവർഷം 2008 ആണ്. തടത്തിലെ രേഖകൾ അപരദനത്തെയും അരികുപരിണാമത്തെയും കുറിച്ച് വിവരം നൽകുന്നു; പൂർണ ലേഖനം വിമർശനാത്മകമായി അവലോകനം ചെയ്തിട്ടില്ല.",
+      "en": "Publication year is 2008, despite 2007 in the DOI. Basin records inform erosion and margin evolution; full article not critically reviewed.",
+      "en_sha256": "13feab6160a7f82d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S005.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S006.inspection_note",
+      "ml": "പ്രധാനപ്പെട്ട ഒരു സൂചന; സ്ഥിരീകരിച്ച “ഏറ്റവും പഴയ പാറ” സ്ഥാനനിർണയമല്ല. സാമ്പിൾ സന്ദർഭവും, പ്രായങ്ങൾ അളന്നതാണോ പാരമ്പര്യമായി ലഭിച്ചതാണോ മാതൃകാപ്രായങ്ങളാണോ എന്നതും പൂർണപാഠം അവലോകനം ചെയ്ത് നിർണയിക്കണം.",
+      "en": "An important lead, not a verified oldest-rock ranking. Sample context and whether ages are measured, inherited or model ages require full-text review.",
+      "en_sha256": "91ae071bad93a7a6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S006.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S007.inspection_note",
+      "ml": "മുൻഗണനയുള്ള 17.08–17.13 Ma നിക്ഷേപക്കണക്ക് സാരാംശത്തിൽ റിപ്പോർട്ട് ചെയ്തിരിക്കുന്നു. പൂർണ സാമ്പിൾപട്ടികകളും വിശകലന അനിശ്ചിതത്വവും പരിശോധിച്ചിട്ടില്ല. പ്രസിദ്ധീകരിച്ചത് 2022 ജൂൺ 27.",
+      "en": "Preferred 17.08–17.13 Ma depositional estimate reported in the abstract. Full sample tables and analytical uncertainty were not inspected. Published 27 June 2022.",
+      "en_sha256": "12a8bf466300d846",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S007.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S008.inspection_note",
+      "ml": "ആദ്യ ഓൺലൈൻ പ്രസിദ്ധീകരണം 2022 മേയ് 31; ജേണൽ വാല്യപ്രസിദ്ധീകരണം 2023. ഇവ ഫോസിലുകളുടെ പ്രായമല്ല.",
+      "en": "First online 31 May 2022; journal volume publication 2023. These are not fossil ages.",
+      "en_sha256": "0b824a74a7e77dad",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S008.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S009.inspection_note",
+      "ml": "പൂർണ ലേഖനം 2026-10-18-ന് വായിച്ചു. വാണിമേൽ (Vanimel), ചൈത്രവാഹിനി (Chaithravahini) നദികളുടെ തീരത്തട്ടുകളിൽനിന്നുള്ള ഉപരിതല കണ്ടെത്തലുകളിലെ ശിലോപകരണങ്ങളുടെ രൂപവർഗ്ഗീകരണത്തെ അടിസ്ഥാനമാക്കിയാണ് അവയെ Lower Palaeolithic കാലത്തേതായി കണക്കാക്കുന്നത്. ഉത്ഖനനം, അടുക്കുക്രമം, കേവലതീയതികൾ എന്നിവ റിപ്പോർട്ട് ചെയ്തിട്ടില്ല; നിർദേശാങ്കങ്ങളും നൽകിയിട്ടില്ല. ആദ്യവാസത്തിന്റെ കലണ്ടർവർഷം ഇത് സ്ഥാപിക്കുന്നില്ല. പ്രസാധകന്റെ PDF-ലെ പാഠപാളിയിൽ ഉപസംഹാരത്തിന്റെ പേജ് സൂചന 2026-10-19-ന് വീണ്ടും പരിശോധിച്ചു: അച്ചടിച്ച പേജ് 635; പേജിന്റെ ചിത്രം ലഭ്യമാക്കാനുള്ള ശ്രമം പരാജയപ്പെട്ടു.",
+      "en": "Full article read 2026-10-18. Lower Palaeolithic attribution rests on tool typology of surface finds from river terraces of the Vanimel and Chaithravahini. No excavation, stratigraphy or absolute dates are reported, and no coordinates are given. This does not establish a first-occupation calendar year. Conclusion locator rechecked in the publisher PDF text layer on 2026-10-19: printed p. 635; page-image retrieval failed.",
+      "en_sha256": "3ebddb2716c6dd31",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S009.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S010.inspection_note",
+      "ml": "Rajendran റിപ്പോർട്ടുകളിലേക്കുള്ള ഉപകാരപ്രദമായ വഴി; അവയ്ക്ക് പകരമല്ല. ഈ ഭാഗത്തെ “5210 വർഷം മുമ്പ്” എന്ന കരിപ്രായ പ്രസ്താവനയ്ക്ക് പരീക്ഷണശാലാ തിരിച്ചറിയലോ പിഴവുപരിധിയോ കാലിബ്രേഷനോ ഇല്ല. അതിന്റെ പൊതുസംഗ്രഹത്തിൽ ദക്ഷിണേന്ത്യയെക്കുറിച്ച് പൊരുത്തമില്ലാത്ത ഒരു സാമാന്യവൽക്കരണവുമുണ്ട്.",
+      "en": "Useful route to Rajendran reports, not a substitute for them. The 5210-years-ago charcoal statement lacks laboratory identifier, error and calibration in this passage. Its general summary also contains an inconsistent South India generalization.",
+      "en_sha256": "75fc2d3545487978",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S010.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S011.inspection_note",
+      "ml": "പരിശോധിക്കേണ്ട ഒരു അവകാശവാദമായാണ് ഇവിടെ രേഖപ്പെടുത്തുന്നത്; പരീക്ഷണശാലാ കാലനിർണയ തെളിവായോ സന്ദർഭാധിഷ്ഠിത കാലനിർണയ തെളിവായോ അല്ല.",
+      "en": "Recorded here as a claim to audit, not as laboratory or contextual dating evidence.",
+      "en_sha256": "5ca14bece9c6399c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S011.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S012.inspection_note",
+      "ml": "എല്ലാ കൊത്തുപണികൾക്കും സുരക്ഷിതമായ കേവലകാലനിർണയം നൽകുന്നില്ല. ജാഗ്രതയെ പിന്തുണയ്ക്കുന്നു; എല്ലാ ആദ്യകാലതീയതികളും തെറ്റാണെന്നതിന്റെ തെളിവല്ല.",
+      "en": "Does not supply secure absolute dating for all engravings. Supports caution, not proof that every early date is false.",
+      "en_sha256": "b4373724ba1bd862",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S012.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S013.inspection_note",
+      "ml": "പിൽക്കാല അവലോകനമാണ്; പത്തൊമ്പതാം നൂറ്റാണ്ടിലെ മൂലപ്രസിദ്ധീകരണങ്ങളല്ല. “കണ്ടെത്തൽ” എന്ന പദം ഈ പണ്ഡിതരേഖയിലേക്കുള്ള പ്രവേശനത്തെയാണ് സൂചിപ്പിക്കുന്നത്; മുൻപത്തെ പ്രാദേശിക അറിവിന്റെ അഭാവത്തെയല്ല.",
+      "en": "Retrospective account, not the original nineteenth-century publications. Discovery terminology refers to entry into this scholarly record, not absence of earlier local knowledge.",
+      "en_sha256": "8b2134bc61288c79",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S013.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S014.inspection_note",
+      "ml": "ഗിർനാർ പരിഭാഷ ഭരണാധികാരിയുടെ അതിർത്തിക്കപ്പുറമുള്ള ജനങ്ങളുടെ കൂട്ടത്തിൽ Keralaputras-നെ പേരെടുത്ത് പറയുന്നു. കുറിപ്പ് 2 ഈ പാഠത്തിന് ക്രി.മു. 257 നിർദേശിക്കുന്നു. കൃത്യമായ കാലനിർണയത്തിന് വിമർശനാത്മക പതിപ്പുകളുമായുള്ള താരതമ്യം ആവശ്യമാണ്.",
+      "en": "Girnar translation names Keralaputras among peoples beyond the ruler’s borders. Note 2 proposes 257 BCE for this text. Exact dating requires comparison with critical editions.",
+      "en_sha256": "79db5f8a406dc17f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S014.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S015.inspection_note",
+      "ml": "archive.org പകർപ്പിന്റെ OCR പാഠം ഈ ഭാഗങ്ങളിൽ വായിച്ചു; ചിത്രഫലകങ്ങൾ OCR പാഠവുമായി ഒത്തുനോക്കിയിട്ടില്ല. 2026-10-19-ന് ആമുഖത്തിലെ xxxv–xxxvi പേജുകൾ OCR-ൽ വീണ്ടും പരിശോധിച്ചു: കണക്കുകൂട്ടൽ XIII-നെക്കുറിച്ചാണ്; പന്ത്രണ്ടു വർഷത്തെ പട്ടികയിൽ II ഉൾപ്പെടുന്നില്ല. ഈ ഭാഗം II-ന് ക്രി.മു. 252 എന്ന തീയതി സ്ഥാപിക്കുന്നില്ല.",
+      "en": "OCR text of the archive.org copy read at these passages; plates not checked against the OCR. On 2026-10-19 introduction pp. xxxv–xxxvi were rechecked in OCR: the calculation concerns XIII; the twelve-year list omits II. This passage does not establish 252 BCE for II.",
+      "en_sha256": "2e53a4a4bc70bff8",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S015.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S016.inspection_note",
+      "ml": "University of Washington പതിപ്പ് Schoff (1912) ഉപയോഗിക്കുന്നു, Casson (1989)-ന്റെ വ്യാഖ്യാനത്തോടെ; വെബ് പതിപ്പ് 2004 ജൂൺ. പ്രാചീനകൃതിയുടെ രചന ക്രി.വ. ഒന്നാം നൂറ്റാണ്ടിൽ സ്ഥാപിക്കുന്നു; ഈ ആധുനിക പ്രസിദ്ധീകരണവർഷങ്ങളിൽ ഏതിലുമല്ല.",
+      "en": "University of Washington edition uses Schoff (1912), with commentary from Casson (1989); web edition June 2004. Ancient composition is placed in the first century CE, not in either modern publication year.",
+      "en_sha256": "0e936c17e39b5179",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S016.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S017.inspection_note",
+      "ml": "മൂലവാല്യം 2004-ലേതാണ്; Cambridge ഓൺലൈൻ തീയതി 2015 ഫെബ്രുവരി 16. സ്ഥലനിർണയം ഒരു വാദമാണ്; സ്ഥലങ്ങളുടെ തിരിച്ചറിയലുകൾ നിശ്ശബ്ദമായി ലയിപ്പിക്കാനുള്ള കാരണമല്ല. സാരാംശം ലഭ്യമല്ലെന്ന് പ്രസാധകൻ പറയുന്നു; metadata മാത്രം പരിശോധിച്ചു. S018-ന്റെ ഗ്രന്ഥസൂചി ഈ ലേഖനത്തെ pp. 351–9 എന്ന് ഉദ്ധരിക്കുന്നു; ഇത് പ്രസാധകനും Crossref-ഉം നൽകുന്ന പേജുകളുമായി (312–320) പൊരുത്തപ്പെടുന്നില്ല.",
+      "en": "Original volume is 2004; Cambridge online date is 16 February 2015. Identification is an argument, not a reason to silently merge site identifiers. The publisher states that no abstract is available; only metadata was inspected. S018's reference list cites this article as pp. 351–9, which conflicts with the publisher and Crossref (312–320).",
+      "en_sha256": "0fd76748478af1ec",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S017.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S018.inspection_note",
+      "ml": "രചയിതാക്കളുടെ 2008-ലെ വാദമായി വായിച്ചു. എല്ലാ ആധുനിക ഭൂമിശാസ്ത്ര സ്ഥലനിർണയങ്ങളോ സ്ഥലത്തുണ്ടായിരുന്ന ഓരോ വ്യക്തിയുടെയും ദേശീയതയോ ഇത് തീർപ്പാക്കുന്നില്ല. 2008 മാർച്ചിലെ വാല്യപ്രസിദ്ധീകരണവും 2026 ഏപ്രിൽ 22-ലെ ഓൺലൈൻ ലഭ്യതയും ഗ്രന്ഥസൂചികാവിവരം വേർതിരിക്കുന്നു.",
+      "en": "Read as the authors’ 2008 argument. Does not settle every modern geographical identification or the nationality of every person at the site. Bibliographic metadata distinguishes March 2008 volume publication from 22 April 2026 online hosting.",
+      "en_sha256": "bc7e6c803813d184",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S018.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S019.inspection_note",
+      "ml": "സാംസ്കാരിക കാലക്രമവും ഗവേഷണ സമയരേഖയും പരിശോധിച്ചു; പട്ടികയും സമയരേഖയും ചിത്രത്തിലും ഒത്തുനോക്കി. കാലക്രമം ഈ സ്ഥലത്തിന് മാത്രം ബാധകവും ഏകദേശവുമാണ്. മറ്റ് ഭാഗങ്ങൾ പൂർണമായി അവലോകനം ചെയ്തിട്ടില്ല.",
+      "en": "Cultural chronology and research timeline inspected; table and timeline also visually checked. Chronology is site-specific and approximate. Other sections not fully reviewed.",
+      "en_sha256": "44af66dce1a73996",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S019.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S020.inspection_note",
+      "ml": "നിർദേശവും ഫലങ്ങളും വ്യത്യസ്തമാണ്: അന്തിമഫലങ്ങൾ ക്രി.വ. 849-ലെ ഒരൊറ്റ രേഖയെയും പഴയ മലയാളത്തിലുള്ള പ്രധാന പാഠത്തെയും വിവരിക്കുന്നു; നിർദേശത്തിലെ മുൻരൂപീകരണം അങ്ങനെയല്ല. ഫലങ്ങളെ ആരുടേതെന്ന് വ്യക്തമാക്കിയ പദ്ധതിക്കണ്ടെത്തലുകളായി കാണുക; വിമർശനാത്മക പതിപ്പിന് പകരമായല്ല.",
+      "en": "Proposal and results differ: final outcomes describe a single 849 CE document and Old Malayalam main text, unlike the proposal’s earlier formulation. Treat results as attributed project findings, not a replacement for the critical edition.",
+      "en_sha256": "fc2a0ab251f7ff5a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S020.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S021.inspection_note",
+      "ml": "ഒരു അജ്ഞാതകർതൃകകൃതിയെയും അറിയപ്പെടുന്ന ഏക സമകാലിക പകർപ്പിനെയും വിവരിക്കുന്നു; രജിസ്ട്രേഷൻ 2013. രജിസ്ട്രേഷൻ രചനാതീയതിയോ വരവിന്റെ തീയതിയോ അല്ല.",
+      "en": "Describes an anonymous work and the sole known contemporary copy; registration 2013. Registration is not composition or arrival date.",
+      "en_sha256": "b10092422f7bef4b",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S021.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S022.inspection_note",
+      "ml": "വർഷവും വരവിന്റെ വിവരണവും പരിശോധിച്ചു; പേജിന്റെ ചിത്രം ഒത്തുനോക്കി. കൃത്യമായ ദിവസം ഇവിടെ ഏകീകരിച്ചിട്ടില്ല: ഉദ്ധരണി മേയ് 20 നൽകുകയും മേയ് 22-നെ “അടുത്ത ദിവസം” എന്ന് വിളിക്കുകയും ചെയ്യുന്നു. ആമുഖത്തിലെ സമ്പാദകീയവും ശത്രുതാപരവുമായ വംശീയ/മത വിധിതീർപ്പുകൾ വസ്തുതാവിവരണങ്ങളായി സ്വീകരിച്ചിട്ടില്ല.",
+      "en": "Year and arrival account inspected; page image checked. Exact day not normalized here: excerpt gives May 20 and calls May 22 the following day. Opening editorial and hostile ethnic/religious judgments are not adopted as factual descriptions.",
+      "en_sha256": "e3ee412421107ae4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S022.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S023.inspection_note",
+      "ml": "ഔദ്യോഗിക India Code-ലെ ഏകീകൃത PDF 2026-10-19-ന് അച്ചടിച്ച പേജുകൾ 6–8-ൽ പരിശോധിച്ചു: നിയമത്തിന്റെ തലക്കെട്ടിലെ തീയതി 1956 ഓഗസ്റ്റ് 31, വകുപ്പ് 2(a)-യിലെ നിശ്ചിതദിനം 1956 നവംബർ 1, വകുപ്പ് 2(r)-യിലെ പ്രദേശപരമായ പരാമർശതീയതി 1956 ജൂലൈ 1, വകുപ്പുകൾ 4–5 എന്നിവ. വകുപ്പ് 4 Shencottah താലൂക്കിനെ പേരെടുത്തുപറയുന്നു. ഏകീകൃതപാഠം Part A ഒഴിവാക്കിയതായി കുറിക്കുന്നു; മൂല ഗസറ്റിന്റെ സ്കാനും പിന്നീടുള്ള അതിർത്തിമാറ്റങ്ങളും ഇനിയും പരിശോധിച്ചിട്ടില്ല. ഇത് നിയമപ്രകാരമുള്ള രൂപീകരണത്തെ പിന്തുണയ്ക്കുന്നു; നിലവിലെ GIS ബഹുഭുജത്തെ അല്ല. മുമ്പ് രേഖപ്പെടുത്തിയ MHA URL 2026-10-18-ന് 404 നൽകി.",
+      "en": "Official India Code consolidated PDF inspected on 2026-10-19 at printed pp. 6–8: Act heading dated 31 August 1956, appointed day 1 November 1956 in s. 2(a), territorial reference date 1 July 1956 in s. 2(r), and ss. 4–5. Section 4 names Shencottah taluk. The consolidated text notes omission of Part A; original Gazette scan and later boundary alterations remain unchecked. This supports statutory formation, not a current GIS polygon. The earlier recorded MHA URL returned 404 on 2026-10-18.",
+      "en_sha256": "8b51195c3c633f5e",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S023.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S024.inspection_note",
+      "ml": "മാഹി ഭരണപ്രദേശത്തെ കേരളത്തിൽനിന്ന് വേർതിരിക്കാൻ ഉപയോഗിക്കുന്നു; മാഹി നദീതടം നിർവചിക്കാനല്ല.",
+      "en": "Used to distinguish the Mahe administrative territory from Kerala, not to define the Mahe river basin.",
+      "en_sha256": "4e2335b45610320f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S024.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S025.inspection_note",
+      "ml": "റേഡിയോകാർബൺ BP 1950-നെ ആധാരമാക്കുന്നു; ലളിതമായ കുറയ്ക്കലിലൂടെ ലഭിക്കുന്ന കലണ്ടർവർഷമല്ല.",
+      "en": "Radiocarbon BP is referenced to 1950; it is not a calendar year obtained by simple subtraction.",
+      "en_sha256": "8d0dcf7835636758",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S025.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S026.inspection_note",
+      "ml": "തീയതിമാതൃകയ്ക്ക് ആധാരം നൽകുന്നു. ഈ പ്രാരംഭശേഖരം രേഖപ്പെടുത്തിയ സ്വന്തം ഉപഗണം നടപ്പാക്കുന്നു; സമ്പൂർണ EDTF അനുസരണം അവകാശപ്പെടുന്നില്ല.",
+      "en": "Informs the date model. This starter implements its own documented subset, not a claim of complete EDTF compliance.",
+      "en_sha256": "db888e08750e4a3f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S026.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S027.inspection_note",
+      "ml": "യഥാർത്ഥത്തിൽ നിയന്ത്രണത്തിലുള്ള അവകാശങ്ങൾക്ക് മാത്രമേ ലൈസൻസ് നൽകാനാകൂ. സ്രോതസ്സുവസ്തുക്കൾക്ക് ഈ ശേഖരത്തിന്റെ ലൈസൻസ് ബാധകമാകുന്നില്ല.",
+      "en": "Only rights actually controlled can be licensed. Source materials do not inherit this repository’s license.",
+      "en_sha256": "f633809b610e3049",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S027.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S028.inspection_note",
+      "ml": "ഈ ഘട്ടത്തിൽ പ്രധാന പേജ് ലഭ്യമാക്കാൻ കഴിഞ്ഞില്ല. എല്ലാ ശേഖരങ്ങളും ഡിജിറ്റൈസ് ചെയ്തിട്ടുണ്ടെന്ന് അവകാശപ്പെടുന്നില്ല.",
+      "en": "Landing page fetch failed during this pass. No claim that all holdings are digitized.",
+      "en_sha256": "828895e4e9b757be",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S028.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S029.inspection_note",
+      "ml": "കാറ്റലോഗിങ് സൂചന മാത്രം; ഇനംതിരിച്ചുള്ള പട്ടികയോ ഏറ്റവും പഴയ തീയതിയുടെ പരിശോധനയോ പൂർത്തിയായിട്ടില്ല.",
+      "en": "Cataloguing lead only; no item-level inventory or earliest-date audit completed.",
+      "en_sha256": "883cbd86fbcad096",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S029.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S030.inspection_note",
+      "ml": "ഗസറ്റുകൾ, മാന്വലുകൾ, റിപ്പോർട്ടുകൾ, മറ്റ് ആനുകാലികങ്ങൾ എന്നിവ ശീർഷകം/വാല്യം/ഇനം തലത്തിൽ എണ്ണിത്തിട്ടപ്പെടുത്തണം.",
+      "en": "Gazettes, manuals, reports and other serials require title/volume/item-level enumeration.",
+      "en_sha256": "59566f91344c0340",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S030.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S031.inspection_note",
+      "ml": "നടപടിരേഖകൾ, ബില്ലുകൾ, റിപ്പോർട്ടുകൾ എന്നിവയ്ക്കുള്ള സാധ്യതയുള്ള രേഖാസമുച്ചയം. ഒരു പരമ്പരയുടെയും സമ്പൂർണത സ്ഥാപിച്ചിട്ടില്ല.",
+      "en": "Candidate corpus for proceedings, bills and reports. No series completeness established.",
+      "en_sha256": "97875f3d51023e33",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S031.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S032.inspection_note",
+      "ml": "സ്ഥാപനചരിത്രവും ശേഖരവിവരണവും പരിശോധിച്ചു; അടിസ്ഥാനവസ്തുക്കൾ മുഴുവനായി വായിച്ചിട്ടില്ല. കടപ്പാട്/ഗവേഷണപ്രവേശനം നിയന്ത്രണമില്ലാത്ത പുനഃപ്രസിദ്ധീകരണാനുമതി സ്ഥാപിക്കുന്നില്ല.",
+      "en": "Institutional history and collection description checked; underlying objects have not been exhaustively read. Acknowledgement/research access does not establish unrestricted republication.",
+      "en_sha256": "4ac8001df35471ca",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S032.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S033.inspection_note",
+      "ml": "ഡിജിറ്റൈസ് ചെയ്ത അച്ചടിവസ്തുക്കളും കൈയെഴുത്തുവസ്തുക്കളും ഇവിടെ കണ്ടെത്താം. ഓരോ ഇനത്തിന്റെയും അവകാശങ്ങൾ, തീയതികൾ, ഭൂമിശാസ്ത്രപ്രസക്തി എന്നിവ പരിശോധിക്കണം.",
+      "en": "Digitized printed and manuscript materials are discoverable here. Item-level rights, dates and geographic relevance need checking.",
+      "en_sha256": "cbf2c16338a9330e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S033.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S034.inspection_note",
+      "ml": "പദ്ധതിതലത്തിലുള്ള കണ്ടെത്തൽ; എല്ലാ സ്വകാര്യ ആർക്കൈവുകളും ഡിജിറ്റൈസ് ചെയ്തിട്ടുണ്ടെന്നോ കൂട്ട പുനരുപയോഗത്തിന് ലൈസൻസ് ഉണ്ടെന്നോ ഉള്ള അവകാശവാദമല്ല.",
+      "en": "Project-level discovery, not an assertion that all private archives are digitized or licensed for bulk reuse.",
+      "en_sha256": "5c57f7109a3769e1",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S034.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S035.inspection_note",
+      "ml": "ശേഖരങ്ങളിലേക്കുള്ള സ്ഥാപനപരമായ വഴി; ഇനം കാറ്റലോഗുകൾ വേറിട്ട് അവലോകനം ചെയ്യണം.",
+      "en": "Institutional route to holdings; item catalogues need separate review.",
+      "en_sha256": "4bd22e044ad9eecc",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S035.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S036.inspection_note",
+      "ml": "പ്രഖ്യാപനം വായിച്ചു; 92 കൈയെഴുത്തുപ്രതികളും വായിച്ചിട്ടില്ല. ഡിജിറ്റൈസേഷൻ തീയതി കൈയെഴുത്തുപ്രതികളുടെ നിർമ്മാണതീയതിക്ക് പകരം വയ്ക്കരുത്.",
+      "en": "The announcement was read, not all 92 manuscripts. Digitization date must not be substituted for manuscript production dates.",
+      "en_sha256": "759308b35ce560f6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S036.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S037.inspection_note",
+      "ml": "കാറ്റലോഗ് തിരിച്ചറിഞ്ഞു; ഇനങ്ങളുടെ ചിത്രങ്ങൾ, സമ്പൂർണത, ലഭ്യത, അവകാശങ്ങൾ എന്നിവ പരിശോധിച്ചിട്ടില്ല. കാറ്റലോഗിന്റെ വ്യാപ്തിയെ അവലോകനം ചെയ്ത ചിത്രങ്ങളുടെ എണ്ണമായി കാണരുത്.",
+      "en": "Catalogue identified; item images, completeness, availability and rights not audited. Do not treat catalogue extent as reviewed image count.",
+      "en_sha256": "227bfe7034c50a7e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S037.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S038.inspection_note",
+      "ml": "ദൃശ്യ-ശ്രാവ്യ വസ്തുക്കൾക്കും പ്രസിദ്ധീകൃത വസ്തുക്കൾക്കുമുള്ള കണ്ടെത്തൽസൂചന; ഇനംതിരിച്ചുള്ള ഉൾപ്പെടുത്തൽ നടന്നിട്ടില്ല.",
+      "en": "Discovery lead for audiovisual and published material; no item-level ingestion.",
+      "en_sha256": "28add12bc1649ce4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S038.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S039.inspection_note",
+      "ml": "ഒരു ജേണൽ സ്വതന്ത്രമായി ലഭ്യമാണെന്നത് ഒരു പ്രത്യേക പുനരുപയോഗ ലൈസൻസ് സ്വയമേവ അർത്ഥമാക്കുന്നില്ല; ഓരോ ലേഖനത്തിനും സ്രോതസ്സുരേഖ വേണം.",
+      "en": "Open access to a journal does not automatically mean a particular reuse license; each article requires a source record.",
+      "en_sha256": "2076a964096097f8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S039.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S040.inspection_note",
+      "ml": "നിർദേശിക്കപ്പെട്ട രചയിതാക്കളെ കാറ്റലോഗ് സംശയാസ്പദം എന്ന് അടയാളപ്പെടുത്തുന്നു. സ്വയമേവ നിർമ്മിച്ച അതിന്റെ സംഗ്രഹം ചരിത്രപരമായ രചനയെ ആധുനിക പതിപ്പുമായി കൂട്ടിക്കുഴയ്ക്കുന്നു; ആ സംഗ്രഹം പ്രാചീനസംഭവത്തിന്റെ തെളിവല്ല. പ്രകാശനം 2014, പുതുക്കൽ 2024.",
+      "en": "Catalogue marks proposed authors as dubious. Its automatically generated summary confuses historical composition with the modern edition; that summary is not evidence for the ancient event. Release 2014, update 2024.",
+      "en_sha256": "77b3b3a541c1cdab",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S040.rights",
+      "ml": "ഈ പതിപ്പ് അമേരിക്കയിൽ (USA) പൊതുസഞ്ചയത്തിലാണെന്ന് കാറ്റലോഗ് രേഖപ്പെടുത്തുന്നു; മറ്റ് നിയമാധികാരപരിധികളും പിന്നീട് ചേർത്ത ഭാഗങ്ങളും ഇനിയും പരിശോധിക്കണം. പൂർണപാഠം ഉൾപ്പെടുത്തിയിട്ടില്ല.",
+      "en": "Catalogue labels this edition public domain in the USA; other jurisdictions and added matter still require review. No full text included.",
+      "en_sha256": "3f2b4ab0bcc261e7",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S041.inspection_note",
+      "ml": "കൃതിയെ ക്രി.വ. രണ്ടാം നൂറ്റാണ്ടിൽ സ്ഥാപിക്കുന്നതിനെ പിന്തുണയ്ക്കുന്നു; കേരളവുമായി ബന്ധപ്പെട്ട ഭാഗങ്ങൾ വിമർശനാത്മക പതിപ്പിൽ പരിശോധിച്ചിട്ടില്ല.",
+      "en": "Supports the work’s second-century CE placement; the Kerala-relevant entries have not been checked in a critical edition.",
+      "en_sha256": "d102e9ff6f0ec8a5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S041.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S042.inspection_note",
+      "ml": "പരാജയപ്പെട്ട ഈ ശ്രമത്തിൽനിന്ന് ചാർട്ടിന്റെ പതിപ്പോ സംഖ്യാതിരുകളോ സ്വീകരിച്ചിട്ടില്ല. ഔപചാരിക ഘട്ടാതിരുകൾ ചേർക്കുന്നതിനുമുമ്പ് ലൈസൻസുള്ള ഒരു പതിപ്പ് നേടി രേഖപ്പെടുത്തുക.",
+      "en": "No chart version or numerical boundaries adopted from this failed fetch. Obtain and record a licensed version before formal stage-boundary imports.",
+      "en_sha256": "f37e1067a2f1558f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S042.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S043.inspection_note",
+      "ml": "Digital Library of India സ്കാനിന്റെ OCR പാഠം പേജ് 412, 420–421 എന്നിവയിൽ വായിച്ചു; പേജ് 409–411 OCR-ൽ കണ്ടെത്തിയില്ല; പേജ് ചിത്രങ്ങളും plates-ഉം പരിശോധിച്ചിട്ടില്ല. Fawcett-ന്റെ സന്ദർശനം ഏകദേശം 1896-ന്റെ തുടക്കത്തിലാണെന്ന് പറയുന്ന ഒരു റിപ്പോർട്ട് പേജ് 412 ഉദ്ധരിക്കുന്നു; ഗുഹ നാട്ടുകാർക്ക് കുറഞ്ഞത് 12 അല്ലെങ്കിൽ 15 വർഷമായി അറിയാമായിരുന്നുവെന്ന Fawcett-ന്റെ മറുപടിയും അവിടെയുണ്ട്. വാസാവശിഷ്ടം കണ്ടെത്താത്ത ഒരു കുഴി (trench) Fawcett റിപ്പോർട്ട് ചെയ്യുന്നു. പതിപ്പുവിവരം: The Indian Antiquary, vol. 30 (1901), pp. 409–421.",
+      "en": "OCR text of the Digital Library of India scan read at pp. 412 and 420–421; pp. 409–411 were not located in the OCR and page images and plates were not checked. Page 412 quotes a report placing Fawcett's visit at about the beginning of 1896 and gives Fawcett's reply that residents had known the cave for at least 12 or 15 years. Fawcett reports a trench that found no habitation deposit. Edition details: The Indian Antiquary, vol. 30 (1901), pp. 409–421.",
+      "en_sha256": "b4acd978b3e0798f",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S043.rights",
+      "ml": "1901-ലെ പ്രസിദ്ധീകരണം; archive.org ഇനം ഒരു ലൈസൻസും പറയുന്നില്ല. പല നിയമപരിധികളിലും പൊതുസഞ്ചയത്തിലാകാനിടയുണ്ട്; എന്നാൽ ഇവിടെ തീരുമാനിച്ചിട്ടില്ല. കണ്ണിയും ചെറു ഉദ്ധരണിയും മാത്രം.",
+      "en": "1901 publication; the archive.org item states no licence. Probably public domain in many jurisdictions, but not determined here. Link and short quotation only.",
+      "en_sha256": "6c5bbb26e6333beb",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S044.inspection_note",
+      "ml": "പൂർണ പ്രബന്ധം വായിച്ചു (6 പേജ്). 'Date of the engravings' എന്ന ഭാഗം മഹാശിലായുഗ അല്ലെങ്കിൽ ആദ്യകാല ചരിത്രകാല തീയതി നിർദേശിക്കുന്നു; ഏറ്റവും പഴയ ലിഖിതങ്ങളെ പിൽക്കാല അതിരായി എടുക്കുന്നു. ഇത് ആപേക്ഷിക വാദമാണ്; കേവലതീയതിയല്ല. Fawcett-ന്റെ സന്ദർശനത്തിന് പ്രബന്ധം 1894 നൽകുന്നു. പതിപ്പ്: XXV Valcamonica Symposium 2013 papers, pp. 337–342; പ്രബന്ധസമാഹാരത്തിന്റെ പ്രസിദ്ധീകരണവർഷം പരിശോധിക്കാത്തതിനാൽ ഒന്നും രേഖപ്പെടുത്തിയിട്ടില്ല.",
+      "en": "Full paper read (6 pages). The 'Date of the engravings' section proposes a megalithic or early historic date and treats the earliest inscriptions as a later limit; it is a relative argument, not an absolute date. The paper gives 1894 for Fawcett's visit. Edition: XXV Valcamonica Symposium 2013 papers, pp. 337–342; the publication year of the papers volume was not checked, so none is registered.",
+      "en_sha256": "784e4340057028f4",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S044.rights",
+      "ml": "PDF-ൽ പകർപ്പവകാശം പറയുന്നില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Copyright not stated in the PDF; link and original summary only.",
+      "en_sha256": "f06d5160afe0d421",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S045.inspection_note",
+      "ml": "സംസ്ഥാന ടൂറിസം പേജ് പൂർണമായി വായിച്ചു. ഇത് S011-മായി വാചകങ്ങൾ പങ്കിടുന്നു, കണ്ടെത്തലിന് 1895 നൽകുന്നു, തീയതികൾക്ക് തെളിവൊന്നും ഉദ്ധരിക്കുന്നില്ല. കാലനിർണയ തെളിവായല്ല, പരിശോധിക്കേണ്ട ഒരു അവകാശവാദമായാണ് രേഖപ്പെടുത്തുന്നത്.",
+      "en": "State tourism page read in full. It shares wording with S011, gives 1895 for the discovery and cites no evidence for its dates. Recorded as a claim to audit, not as dating evidence.",
+      "en_sha256": "6564327ce5e16f42",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S045.rights",
+      "ml": "പുനർവിതരണത്തിന് അനുമതി ഉറപ്പാക്കിയിട്ടില്ല; കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Not cleared for redistribution; link and original summary only.",
+      "en_sha256": "aabad4179643a1ff",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S046.inspection_note",
+      "ml": "Perseus എൻകോഡ് ചെയ്ത 1855-ലെ Bostock, Riley പരിഭാഷയിൽ പുസ്തകം 6, അധ്യായം 26 വായിച്ചു. പ്രസിദ്ധീകരണവർഷം പരിഭാഷയുടേതാണ്; Pliny-യുടെ രചനാകാലത്തിന്റേതല്ല. രചനാകാലത്തിന് ഒരു സ്രോതസ്സും പരിശോധിച്ചിട്ടില്ല. ലാറ്റിൻ പാഠവും ഒരു ആധുനിക പരിഭാഷയും ഇനിയും താരതമ്യം ചെയ്യണം. Muziris പാഠത്തിൽ പരാമർശിക്കുന്ന ഒരു സ്ഥലനാമമായി തുടരുന്നു.",
+      "en": "Book 6, chapter 26 read in the 1855 Bostock and Riley translation as encoded by Perseus. The publication year is that of the translation, not of Pliny's composition; no source for the composition date has been checked. The Latin text and a modern translation remain to be compared. Muziris stays a textual name.",
+      "en_sha256": "a3db79e662c34425",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S046.rights",
+      "ml": "1855-ലെ പരിഭാഷ; Perseus എൻകോഡിംഗ് വ്യവസ്ഥകൾ പരിശോധിച്ചിട്ടില്ല. കണ്ണിയും ചെറു ഉദ്ധരണിയും മാത്രം.",
+      "en": "1855 translation; Perseus encoding terms not reviewed. Link and short quotation only.",
+      "en_sha256": "899e3169c8629f9e",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S047.inspection_note",
+      "ml": "Geography 7.1.8-ഉം അതിന്റെ വ്യാഖ്യാനം pp. 50–52-ഉം, 7.1.86-ഉം അതിന്റെ വ്യാഖ്യാനം p. 181-ഉം OCR പാഠത്തിൽ വായിച്ചു. Yule-നെ പിന്തുടർന്ന് McCrindle Mouziris-നെ കൊടുങ്ങല്ലൂരുമായും Karoura-യെ കരൂരുമായും തിരിച്ചറിയുന്നത് ആരോപിത വാദങ്ങളാണ്. Ptolemy-യുടെ നിർദേശാങ്കങ്ങൾ ആധുനിക സ്ഥാനങ്ങളല്ല. പ്രസിദ്ധീകരണവർഷം പരിഭാഷയുടേതാണ്; Geography-യുടേതല്ല.",
+      "en": "OCR text read at Geography 7.1.8 with commentary pp. 50–52 and 7.1.86 with commentary p. 181. McCrindle's identifications, following Yule, of Mouziris with Kodungallur and Karoura with Karur are attributed arguments. Ptolemy's coordinates are not modern positions. The publication year is that of the translation, not of the Geography.",
+      "en_sha256": "bedea2ba4fb678d1",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S047.rights",
+      "ml": "1885-ലെ പ്രസിദ്ധീകരണം; ലൈസൻസ് ഫീൽഡുകൾ പരിശോധിച്ചിട്ടില്ല. കണ്ണിയും ചെറു ഉദ്ധരണിയും മാത്രം.",
+      "en": "1885 publication; licence fields not reviewed. Link and short quotation only.",
+      "en_sha256": "c13459fcdb25c6fd",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S048.inspection_note",
+      "ml": "India Code പാഠത്തിന്റെ ഒരു ഏകീകൃത പുനഃപ്രസിദ്ധീകരണത്തിൽ വകുപ്പുകൾ 4, 5 വായിച്ചു. പേജ് തീയതിയിൽ പ്രാബല്യത്തിലുള്ള ഏകീകൃതപാഠം 1956-ലെ ഗസറ്റ് പാഠമല്ല; പുനഃപ്രസാധകന്റെ വ്യാഖ്യാനം ഉപയോഗിച്ചിട്ടില്ല. S023-നായി രേഖപ്പെടുത്തിയ ഔദ്യോഗിക പകർപ്പ് 2026-10-18-ന് HTTP 404 നൽകിയതിനാൽ മാത്രമാണ് ഇത് ഉപയോഗിച്ചത്. നിയമവകുപ്പുകൾ ഒരു അതിർത്തി ഡാറ്റാസെറ്റല്ല.",
+      "en": "Sections 4 and 5 read in a consolidated republication of the India Code text. Consolidated text as in force on the page date is not the 1956 Gazette text; the republisher's commentary was not used. Used only because the recorded official copy for S023 returned HTTP 404 on 2026-10-18. Statutory provisions are not a boundary dataset.",
+      "en_sha256": "59ff4014fee9d6b2",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/sources.json#S048.rights",
+      "ml": "നിയമപാഠം; പുനഃപ്രസാധകന്റെ വ്യാഖ്യാനം ഉപയോഗിച്ചിട്ടില്ല. കണ്ണിയും സ്വന്തമായി എഴുതിയ സംഗ്രഹവും മാത്രം.",
+      "en": "Statute text; the republisher's commentary was not used. Link and original summary only.",
+      "en_sha256": "c3a97eb11079bab1",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    }
+  ],
+  "note": "AI-assisted Malayalam draft. Human Malayalam-language review and specialist review are pending; a model check is not approval. Imported from notes/translation-review (draft PRs #3, #6, #7) where the English is unchanged, plus integration-batch translations for English that changed or was not staged."
+}

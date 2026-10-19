@@ -1,0 +1,19 @@
+{
+  "bug": "source-review-weaker-than-record-review",
+  "description": "An arbitrary source human_review value passed.",
+  "collection": "sources",
+  "target": "S001",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "human_review"
+      ],
+      "value": "yes"
+    }
+  ],
+  "expect": [
+    "S001",
+    "human_review"
+  ]
+}

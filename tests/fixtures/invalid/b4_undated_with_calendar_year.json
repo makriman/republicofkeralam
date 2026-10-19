@@ -1,0 +1,21 @@
+{
+  "bug": "json-schema-not-executed",
+  "description": "Conditional rule: an undated claim must not carry a calendar year.",
+  "collection": "records",
+  "target": "R002",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "date",
+        "start_year"
+      ],
+      "value": 100
+    }
+  ],
+  "expect": [
+    "R002",
+    "start_year",
+    "undated"
+  ]
+}

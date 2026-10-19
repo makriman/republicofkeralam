@@ -1,0 +1,20 @@
+{
+  "bug": "spatial-filter-without-geometry",
+  "description": "Spatial filtering could be enabled although no checked boundary geometry exists.",
+  "collection": "scope",
+  "target": null,
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "spatial_filtering_enabled"
+      ],
+      "value": true
+    }
+  ],
+  "expect": [
+    "scope",
+    "spatial_filtering_enabled",
+    "geometry"
+  ]
+}

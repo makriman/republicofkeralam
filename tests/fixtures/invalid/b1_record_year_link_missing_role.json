@@ -1,0 +1,21 @@
+{
+  "bug": "missing-or-wrong-type-crashes",
+  "description": "A year link without role raised KeyError.",
+  "collection": "records",
+  "target": "R014",
+  "mutations": [
+    {
+      "op": "delete",
+      "path": [
+        "year_links",
+        0,
+        "role"
+      ]
+    }
+  ],
+  "expect": [
+    "R014",
+    "role",
+    "required"
+  ]
+}

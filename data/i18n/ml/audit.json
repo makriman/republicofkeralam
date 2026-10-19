@@ -1,0 +1,1608 @@
+{
+  "catalogue": "translation-catalogue/1",
+  "language": "ml",
+  "source_path": "data/audit.json",
+  "entries": [
+    {
+      "key": "data/audit.json#A001.corrected_treatment",
+      "ml": "നിലനിർത്തുക; ഗ്രഹതല, ഭൂവിജ്ഞാനീയ, പുരാവസ്തു, ഭരണപരമായ ചരിത്രങ്ങൾ വേർതിരിച്ചുകൊണ്ട്.",
+      "en": "Retain, distinguishing planetary, geological, archaeological and administrative histories.",
+      "en_sha256": "bafaabef40178cce",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A001.earlier_claim",
+      "ml": "1956-ൽ രൂപീകരിച്ച സംസ്ഥാനത്തെക്കാൾ വളരെ പഴക്കമുള്ള ചരിത്രം ഈ പ്രദേശത്തിനുണ്ട്.",
+      "en": "The region has a history far older than the state formed in 1956.",
+      "en_sha256": "ead462465e2fa632",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A002.corrected_treatment",
+      "ml": "ക്രി.മു. 6000 എന്നത് വിനോദസഞ്ചാര പേജിന്റെ ആരോപണമായി രേഖപ്പെടുത്തുക; സ്ഥാപിതമായ കേവലതീയതിയായല്ല.",
+      "en": "Record 6000 BCE as the tourism page’s attribution, not an established absolute date.",
+      "en_sha256": "5efb0d94d2d38b56",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A002.earlier_claim",
+      "ml": "എടക്കൽ കൊത്തുപണികൾക്ക് ഏകദേശം ക്രി.മു. 6000-ന്റെ പഴക്കമുണ്ട്.",
+      "en": "Edakkal engravings date to around 6000 BCE.",
+      "en_sha256": "6939b3c57edd074e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A003.corrected_treatment",
+      "ml": "ഈ കണക്കുകൂട്ടൽ സ്ഥിരീകരിക്കാത്ത ക്രി.മു. 6000 എന്ന അനുമാനത്തെ ആശ്രയിക്കുന്നു; അതിനെ തീയതിയുള്ള വാസവസ്തുതയാക്കരുത്.",
+      "en": "This calculation inherits the unverified 6000 BCE premise; do not make it a dated occupation fact.",
+      "en_sha256": "6b891a0e1da035a7",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A003.earlier_claim",
+      "ml": "ഏകദേശം 8000 വർഷം മുമ്പ് അവിടെ ആളുകൾ താമസിച്ചിരുന്നുവെന്ന് എടക്കൽ സ്ഥാപിക്കുന്നു.",
+      "en": "Edakkal establishes people living there about 8000 years ago.",
+      "en_sha256": "3df20d86097794df",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A004.corrected_treatment",
+      "ml": "ഗ്രന്ഥസൂചികാമിതി (bibliometric) അടിസ്ഥാനത്തിൽ “വ്യാപകമായി ഉദ്ധരിക്കപ്പെടുന്നവയിൽ ഏറ്റവും പഴയത്” എന്ന സ്ഥാനനിർണയം സ്ഥാപിച്ചിട്ടില്ല. മുൻകാല ശിലായുധതെളിവുകൾ സ്വതന്ത്രമായി അന്വേഷിക്കുക.",
+      "en": "No bibliometric oldest-widely-cited ranking was established. Investigate earlier stone-tool evidence independently.",
+      "en_sha256": "72d30b44b23056a3",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A004.earlier_claim",
+      "ml": "വ്യാപകമായി ഉദ്ധരിക്കപ്പെടുന്ന ചരിത്രാതീത തെളിവുകളിൽ ഏറ്റവും പഴയത് എടക്കലാണ് / മനുഷ്യചരിത്രം തുടങ്ങാൻ ഉചിതമായ ആദ്യബിന്ദുവാണ്.",
+      "en": "Edakkal is the oldest widely cited prehistoric evidence / an appropriate earliest-human start.",
+      "en_sha256": "54b1550886b07a26",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A005.corrected_treatment",
+      "ml": "കീഴ്‌വഴക്കമായുള്ള സ്ഥലനാമം നിലനിർത്തുന്നു; ഭൗതികമായി ഇത് സ്വാഭാവിക ശിലാഭയം/പിളർപ്പാണ്, ലയനഗുഹ (solution cave) ആകണമെന്നില്ല.",
+      "en": "The conventional place name is retained; the physical setting is a natural rock shelter/cleft, not necessarily a solution cave.",
+      "en_sha256": "9da85391df0161fc",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A005.earlier_claim",
+      "ml": "എടക്കൽ വയനാട്ടിലെ ഒരു ഗുഹയാണ്.",
+      "en": "Edakkal is a cave in Wayanad.",
+      "en_sha256": "973418ea1b064ae5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A006.corrected_treatment",
+      "ml": "മനുഷ്യരൂപം/മൃഗരൂപം പോലുള്ളവയും അടയാളങ്ങളും പട്ടികപ്പെടുത്താം; ദൈനംദിന പ്രവർത്തനവും അർത്ഥവും വ്യാഖ്യാനങ്ങളാണ്, സ്വയമേവ തിരിച്ചറിയാവുന്ന വസ്തുതകളല്ല.",
+      "en": "Human/animal-like forms and signs can be catalogued; everyday activity and meaning are interpretations, not automatically identifiable facts.",
+      "en_sha256": "14bb021fa1948a52",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A006.earlier_claim",
+      "ml": "അതിലെ ചിത്രങ്ങൾ മനുഷ്യരെയും മൃഗങ്ങളെയും ചിഹ്നങ്ങളെയും ദൈനംദിന പ്രവർത്തനങ്ങളെയും ചിത്രീകരിക്കുന്നു.",
+      "en": "Its pictures depict humans, animals, symbols and everyday activities.",
+      "en_sha256": "a6ec84727e7de344",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A007.corrected_treatment",
+      "ml": "പല ഘട്ടങ്ങളിലായി കൂട്ടിച്ചേർത്തു എന്നത് പണ്ഡിതവ്യാഖ്യാനമാണ്; ഓരോ പാനലിന്റെയും തീയതി ഈ പരിശോധന നൽകുന്നില്ല.",
+      "en": "Multiple additions are a scholarly interpretation; panel-by-panel dates are not supplied by this audit.",
+      "en_sha256": "256b90c09b9eede5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A007.earlier_claim",
+      "ml": "കൊത്തുപണികൾ വ്യത്യസ്ത കാലഘട്ടങ്ങളിലേതാണ്.",
+      "en": "The engravings belong to different periods.",
+      "en_sha256": "09ae60a54eee07a5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A008.corrected_treatment",
+      "ml": "റിപ്പോർട്ട് ചെയ്യപ്പെട്ട Lower Palaeolithic തെളിവിലേക്കുള്ള വ്യക്തമായ സൂചനയാണ് 2016-ലെ സാരാംശം; അത് ആദ്യവാസത്തിന്റെ തീയതി നിർണയിക്കുന്നില്ല.",
+      "en": "The 2016 abstract is a concrete lead to reported Lower Palaeolithic evidence; it does not determine the first occupation date.",
+      "en_sha256": "c61abaffe111ab1f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A008.earlier_claim",
+      "ml": "എടക്കലിനെക്കാൾ മുമ്പുള്ള മനുഷ്യപ്രവർത്തനം സാധ്യമാണ്.",
+      "en": "Earlier human activity than Edakkal is possible.",
+      "en_sha256": "507c7d7a7bd6ed28",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A009.corrected_treatment",
+      "ml": "ആദ്യകാല ബാഹ്യപരാമർശമായി നിലനിർത്തുക; ഭൂഭാഗത്തിനുള്ളിലെ ഏതെങ്കിലും സ്ഥലത്തെക്കുറിച്ച് സങ്കൽപ്പിക്കാവുന്ന ഏറ്റവും ആദ്യത്തെ രേഖയുടെ തെളിവായല്ല.",
+      "en": "Retain as an early external reference, not proof of the earliest conceivable record about any place inside the territory.",
+      "en_sha256": "4b5003fb71cdaccf",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A009.earlier_claim",
+      "ml": "അശോകന്റെ ലിഖിതങ്ങൾ ക്രി.മു. മൂന്നാം നൂറ്റാണ്ടിലെ ഒരു രേഖാനങ്കൂരം നൽകുന്നു.",
+      "en": "Ashoka’s inscriptions provide a third-century BCE documentary anchor.",
+      "en_sha256": "91aafa25a0ad80e1",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A010.corrected_treatment",
+      "ml": "മൂന്നാം നൂറ്റാണ്ടിന്റെ ചക്രവാളം ഉപയോഗിക്കുക. പരിശോധിച്ച പരിഭാഷകൻ ക്രി.മു. 257 നിർദേശിക്കുന്നു; അതിനെ ആരോപിത കാലനിർണയമായി നിലനിർത്തുക, സാർവത്രികമായ കൃത്യ ആരംഭമായല്ല.",
+      "en": "Use a third-century horizon. The inspected translator proposes 257 BCE; retain that as attributed dating, not a universal exact start.",
+      "en_sha256": "df9fa8d96ec46b29",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A010.earlier_claim",
+      "ml": "ഏകദേശം ക്രി.മു. 250 ഉറച്ച ആരംഭബിന്ദുവാണ്.",
+      "en": "Approximately 250 BCE is a firm starting point.",
+      "en_sha256": "e07b8952277e2682",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A011.corrected_treatment",
+      "ml": "ഓരോ സാക്ഷ്യപ്രതിയിലെയും അക്ഷരരൂപങ്ങളും ലിപികളും നിലനിർത്തുക. Hultzsch 1925 വായിക്കുന്നത്: ഗിർനാർ Ketalaputo, കാൽസി Ke[lala]puto, ഷാഹ്ബാസ്ഗഢി Keradaputro, മാൻസെഹ്റ Keralaputra. Kedalaputo എന്ന രൂപം Hultzsch-ൽ കണ്ടെത്തിയില്ല; അതിന്റെ പതിപ്പ് തിരിച്ചറിയണം. ഏകീകരിക്കുന്നതിനുമുമ്പ് പിൽക്കാല വിമർശനാത്മക പതിപ്പുകൾ താരതമ്യം ചെയ്യുക.",
+      "en": "Preserve witness-specific spellings and scripts. Hultzsch 1925 reads Girnar Ketalaputo, Kalsi Ke[lala]puto, Shahbazgarhi Keradaputro and Mansehra Keralaputra. The form Kedalaputo was not found in Hultzsch and needs its edition identified. Compare later critical editions before normalizing.",
+      "en_sha256": "3211aace779f2f0a",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A011.earlier_claim",
+      "ml": "Keralaputra / Kedalaputo പരസ്പരം മാറ്റാവുന്ന കൃത്യമായ പകർത്തിയെഴുത്തുകളാണ്.",
+      "en": "Keralaputra / Kedalaputo are interchangeable exact transcriptions.",
+      "en_sha256": "29191189db31f074",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A012.corrected_treatment",
+      "ml": "ഈ കീഴ്‌വഴക്ക തിരിച്ചറിയലിനെ കൃത്യമായ ഭൂഭാഗത്തിന്റെയോ രാജവംശ കാലക്രമത്തിന്റെയോ ആധുനിക സ്വത്വത്തിന്റെയോ തെളിവാക്കി മാറ്റരുത്. തിരിച്ചറിയൽ സംബന്ധിച്ച പൂർണ ഗവേഷണസാഹിത്യം പരിശോധിച്ചിട്ടില്ല. പതിമൂന്നാം ശിലാശാസനം ചോഡർ, പാണ്ഡ്യർ, താമ്രപർണി എന്നിവയെ പേരെടുത്തു പറയുന്നു; Keralaputras-നെ പറയുന്നില്ല (S014; S015 p. xxxix). അനുമാനമൊന്നും നടത്താതെ ഈ അഭാവം രേഖപ്പെടുത്തുക.",
+      "en": "Do not translate this conventional identification into proof of exact territory, dynasty chronology or modern identity. The full identification literature has not been audited. Rock Edict XIII names Chodas, Pandyas and Tamraparni but not the Keralaputras (S014; S015 p. xxxix); record this absence without drawing an inference.",
+      "en_sha256": "4d35f5204b01148a",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A012.earlier_claim",
+      "ml": "Keralaputras-നെ പൊതുവെ ചേരരുമായി ബന്ധപ്പെടുത്തുന്നു.",
+      "en": "Keralaputras are generally associated with Cheras.",
+      "en_sha256": "eccd8782d1069a33",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A013.corrected_treatment",
+      "ml": "പരിശോധിച്ച രണ്ടാം ശാസനത്തിന്റെ പരിഭാഷ ഈ ജനങ്ങളെ ഭരണാധികാരിയുടെ അതിർത്തിക്കപ്പുറമുള്ളവരായാണ് പേരെടുത്ത് പറയുന്നത്; കൂട്ടിച്ചേർക്കൽ (annexation) അനുമാനിക്കരുത്.",
+      "en": "The inspected Edict II translation names these peoples beyond the ruler’s borders; do not infer annexation.",
+      "en_sha256": "72671f62e43aef7b",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A013.earlier_claim",
+      "ml": "അശോകപരാമർശം കേരളത്തിന്മേലുള്ള മൗര്യ നിയന്ത്രണം സ്ഥാപിക്കുന്നു.",
+      "en": "The Ashokan reference establishes Mauryan control of Kerala.",
+      "en_sha256": "6b36ac401aa9a2b6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A014.corrected_treatment",
+      "ml": "ഓരോ കവിതയും, പതിപ്പുകൾ, അടരുകൾ, നിർദേശിത തീയതികൾ, സ്ഥലനിർണയങ്ങൾ എന്നിവ ശേഖരിക്കുക. ഈ ഘട്ടത്തിൽ രേഖാസമുച്ചയം സ്ഥിരീകരിച്ചിട്ടില്ല.",
+      "en": "Collect individual poems, editions, layers, proposed dates and place identifications. The corpus was not verified in this pass.",
+      "en_sha256": "8654b447a54b811f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A014.earlier_claim",
+      "ml": "ആദ്യകാല ചേരചരിത്രം പുനർനിർമ്മിക്കാൻ സംഘസാഹിത്യം ഉപയോഗിക്കാം.",
+      "en": "Sangam literature can be used to reconstruct early Chera history.",
+      "en_sha256": "0dc0d14eea947c36",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A015.corrected_treatment",
+      "ml": "അത്തരം കൃത്യതയ്ക്ക് ന്യായീകരണമില്ല. പാഠരചന, സംശോധന, നിലനിൽക്കുന്ന സാക്ഷ്യപ്രതി എന്നിവ വേർതിരിച്ച് സൂക്ഷിക്കുക.",
+      "en": "No such precision was justified. Keep text composition, redaction and surviving witness separate.",
+      "en_sha256": "7867af57f1ba12b4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A015.earlier_claim",
+      "ml": "സംഘകവിതകൾ കൃത്യമായ സംഭവതീയതികളോ ഒരൊറ്റ രചനാതീയതിയോ നൽകുന്നു.",
+      "en": "Sangam poems provide exact event dates or a single compositional date.",
+      "en_sha256": "bad83f3dda505c45",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A016.corrected_treatment",
+      "ml": "പരിശോധിച്ച പതിപ്പ് പൊതുകാലഘട്ടത്തെയും തുറമുഖ/വ്യാപാര ഉള്ളടക്കത്തെയും പിന്തുണയ്ക്കുന്നു. കൃത്യമായ രചനാവർഷം സ്വീകരിച്ചിട്ടില്ല.",
+      "en": "The inspected edition supports the general period and port/trade content. No exact composition year adopted.",
+      "en_sha256": "011ebd45bf9f5ee1",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A016.earlier_claim",
+      "ml": "Periplus ക്രി.വ. ഒന്നാം നൂറ്റാണ്ടിലെ ഗ്രീക്ക് ഭാഷയിലുള്ള ഒരു വ്യാപാരവിവരണമാണ്.",
+      "en": "The Periplus is a first-century CE Greek-language trade account.",
+      "en_sha256": "d6080510b924c1c9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A017.corrected_treatment",
+      "ml": "Natural History 6.26 എന്ന ഭാഗം 1855-ലെ Bostock, Riley പരിഭാഷയിൽ വായിച്ചു: ഇന്ത്യയിലെ ഏറ്റവും അടുത്ത വ്യാപാരകേന്ദ്രമായി Muziris, Nitrias-ന് സമീപം കടൽക്കൊള്ളക്കാർ, അകലെയുള്ള ഒരു നങ്കൂരസ്ഥലം, Caelobothras രാജാവ്. ലാറ്റിൻ പാഠവും ഒരു ആധുനിക പരിഭാഷയും ഇനിയും പരിശോധിക്കണം. Muziris പാഠത്തിൽ പരാമർശിക്കുന്ന ഒരു സ്ഥലനാമമായി തുടരുന്നു.",
+      "en": "Natural History 6.26 read in the 1855 Bostock and Riley translation: Muziris as the nearest mart of India, pirates near Nitrias, a distant anchorage, king Caelobothras. The Latin text and a modern translation remain to be checked. Muziris stays a textual name.",
+      "en_sha256": "e2900154641af2da",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A017.earlier_claim",
+      "ml": "കേരളതീരത്തെക്കുറിച്ചുള്ള പ്രസക്തമായ തെളിവ് Pliny നൽകുന്നു.",
+      "en": "Pliny gives relevant Kerala-coast evidence.",
+      "en_sha256": "a818ae084aeec77e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A018.corrected_treatment",
+      "ml": "Geography-യുടെ രണ്ടാം നൂറ്റാണ്ട് കാലനിർണയത്തെ ഗവേഷണസ്ഥാപനം പിന്തുണയ്ക്കുന്നു. Geography 7.1.8 (Mouziris, ഒരു വ്യാപാരകേന്ദ്രം), 7.1.86 (Kerobothros-ന്റെ രാജധാനിയായ Karoura) എന്നിവ McCrindle-ന്റെ 1885-ലെ ഇംഗ്ലീഷ് പരിഭാഷയുടെയും വ്യാഖ്യാനത്തിന്റെയും OCR പാഠത്തിൽ പരിശോധിച്ചു. Yule-നെ പിന്തുടർന്ന് McCrindle, Mouziris-നെ കൊടുങ്ങല്ലൂരുമായും Karoura-യെ തമിഴ്നാട്ടിലെ കരൂരുമായും തിരിച്ചറിഞ്ഞു. ഇവ ആ രചയിതാക്കൾ നിർദേശിച്ച തിരിച്ചറിയലുകളായി തുടരുന്നു; മൂല ഗ്രീക്ക് പാഠം, സ്കാൻ ചിത്രങ്ങൾ, ആധുനികമായ ഒരു വിമർശനാത്മക പതിപ്പ് എന്നിവ പരിശോധിച്ച് സ്ഥിരീകരിച്ചിട്ടില്ല. Ptolemy-യുടെ നിർദേശാങ്കങ്ങൾ ആധുനിക സ്ഥാനങ്ങളല്ല.",
+      "en": "The research institution supports the second-century date of the Geography. Geography 7.1.8 (Mouziris, an emporium) and 7.1.86 (Karoura, royal seat of Kerobothros) were inspected in OCR of McCrindle’s 1885 English translation and commentary. McCrindle, following Yule, identified Mouziris with Kodungallur and Karoura with Karur in Tamil Nadu. These remain attributed identifications; original Greek, scan images and a modern critical edition were not verified. Ptolemy’s coordinates are not modern positions.",
+      "en_sha256": "18175ef5d462e95d",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A018.earlier_claim",
+      "ml": "രണ്ടാം നൂറ്റാണ്ടിലെ രേഖയ്ക്ക് Ptolemy-യുടെ കൃതി പ്രസക്തമാണ്.",
+      "en": "Ptolemy’s work is relevant to the second-century record.",
+      "en_sha256": "3b7de678d0d52f7f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A019.corrected_treatment",
+      "ml": "പാഠങ്ങളും മൺപാത്രങ്ങളും വിനിമയത്തെ പിന്തുണയ്ക്കുന്നു; സന്ദർശിച്ചവരോ താമസിച്ചവരോ ആയ എല്ലാവരും റോമാക്കാരായിരുന്നുവെന്ന് അവ തെളിയിക്കുന്നില്ല, എല്ലാ തുറമുഖങ്ങളുടെയും നിർദേശാങ്കം തീർപ്പാക്കുന്നുമില്ല.",
+      "en": "Texts and ceramics support exchange; they do not prove all visiting or resident people were Roman, or settle every port coordinate.",
+      "en_sha256": "30530554d00509c4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A019.earlier_claim",
+      "ml": "ഗ്രീക്ക്/റോമൻ വ്യാപാരതെളിവുകൾ ആദ്യകാല സമുദ്രബന്ധങ്ങൾ കാണിക്കുന്നു.",
+      "en": "Greek/Roman trade evidence shows early maritime connections.",
+      "en_sha256": "8d59284e59b18d03",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A020.corrected_treatment",
+      "ml": "1956-ലെ നിയമത്തിലെ 2(a), 5 വകുപ്പുകൾ നിശ്ചിതദിനത്തെ പിന്തുണയ്ക്കുന്നു.",
+      "en": "Sections 2(a) and 5 of the 1956 Act support the appointed day.",
+      "en_sha256": "62b8f9f14e26e03e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A020.earlier_claim",
+      "ml": "കേരളം 1956 നവംബർ 1-ന് രൂപീകരിക്കപ്പെട്ടു.",
+      "en": "Kerala was formed on 1 November 1956.",
+      "en_sha256": "aeb6efe3930d19e4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A021.corrected_treatment",
+      "ml": "അടിസ്ഥാനശിലാചരിത്രം, ഭൂപ്രകൃതി, അവസാദനിക്ഷേപം, ആധുനിക ഭരണാതിർത്തികൾ എന്നിവ തമ്മിലുള്ള വ്യത്യാസം നിലനിർത്തുക.",
+      "en": "Retain the distinction between basement history, topography, sedimentation and modern administrative boundaries.",
+      "en_sha256": "2d77fb1b6a6db4bd",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A021.earlier_claim",
+      "ml": "ആധുനിക ഭൗതിക ഭൂപ്രകൃതി ഭൂവിജ്ഞാനീയ കാലത്തിലൂടെ രൂപപ്പെട്ടതാണ്.",
+      "en": "The modern physical landscape has developed over geological time.",
+      "en_sha256": "4e13a5d694b4afb6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A022.corrected_treatment",
+      "ml": "ആഗോള പശ്ചാത്തലമായി മാത്രം ഉപയോഗിക്കുക; പ്രാദേശിക സാമ്പിളിന്റെ പ്രായമായല്ല.",
+      "en": "Use as global context only, not a local sample age.",
+      "en_sha256": "d38975cb6f4eb590",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A022.earlier_claim",
+      "ml": "ഭൂമി ഏകദേശം 4.54 നൂറുകോടി വർഷം മുമ്പ് രൂപപ്പെട്ടു.",
+      "en": "Earth formed approximately 4.54 billion years ago.",
+      "en_sha256": "eb4a9613bd2f52da",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A023.corrected_treatment",
+      "ml": "പ്രസക്തമായ ഭൂകാലനിർണയപഠനങ്ങളുണ്ട്. തിരുത്തലുകളും വിശകലനസന്ദർഭവും പരിശോധിക്കുന്നതുവരെ സാമ്പിൾതല പ്രായങ്ങൾ സ്വീകരിക്കുന്നില്ല.",
+      "en": "Relevant geochronology exists. Sample-level ages are not adopted until corrections and analytical context are checked.",
+      "en_sha256": "8d66c4b5141c05c2",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A023.earlier_claim",
+      "ml": "തെക്കൻ കേരളത്തിൽ പ്രാചീനമായ ഒരു പരൽഭൂവിജ്ഞാനീയ അടിത്തറയുണ്ട്.",
+      "en": "Southern Kerala includes an ancient crystalline geological foundation.",
+      "en_sha256": "ea8f87832b5e74fe",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A024.corrected_treatment",
+      "ml": "“ഏറ്റവും പഴയ വസ്തു” സ്ഥാനനിർണയം തീർപ്പായിട്ടില്ല. അളന്ന പ്രായങ്ങൾ, പാരമ്പര്യമായി ലഭിച്ച ധാന്യങ്ങൾ, ഭൂവൽക്ക മാതൃകാപ്രായങ്ങൾ എന്നിവ വേർതിരിക്കുക.",
+      "en": "No oldest-material ranking was resolved. Separate measured ages, inherited grains and crustal model ages.",
+      "en_sha256": "c783ea063774b1ed",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A024.earlier_claim",
+      "ml": "കേരളത്തിന് താഴെയുള്ള ഏറ്റവും പഴയ പാറയ്ക്ക് ഇതിനകം സ്ഥാപിതമായ ഒരൊറ്റ പ്രായമുണ്ട്.",
+      "en": "The oldest rock beneath Kerala has a single already-established age.",
+      "en_sha256": "cb2a09506c24778a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A025.corrected_treatment",
+      "ml": "ഇത് നിർദേശിക്കപ്പെട്ട ഒരു പുസ്തകവിഭജനമാണ്; കേരളത്തിന് മാത്രമായി നിരീക്ഷിച്ച അതിരല്ല. പ്രക്രിയാധിഷ്ഠിത പഠനരേഖകൾകൊണ്ട് പകരം വയ്ക്കുക.",
+      "en": "This is a proposed book division, not an observed Kerala-specific boundary. Replace with process-based dossiers.",
+      "en_sha256": "258e477dd4ac0e98",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A025.earlier_claim",
+      "ml": "ഒന്നാം ഭാഗം 250 ദശലക്ഷം (25 കോടി) വർഷം മുമ്പ് അവസാനിപ്പിച്ച് രണ്ടാം ഭാഗം അവിടെ തുടങ്ങാം.",
+      "en": "Part I can end and Part II begin at 250 million years ago.",
+      "en_sha256": "d082900cae632a86",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A026.corrected_treatment",
+      "ml": "ഈ ബന്ധം രചയിതാക്കളുടെ വ്യാഖ്യാനമായി നിലനിർത്തുക; പൂർണ ഭൂകാലനിർണയ വിലയിരുത്തൽ ബാക്കിയാണ്.",
+      "en": "Retain the connection as the authors’ interpretation; full geochronological evaluation remains pending.",
+      "en_sha256": "1a1aecc4bafa5419",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A026.earlier_claim",
+      "ml": "Trivandrum Block ഗവേഷണം ഗോണ്ട്വാനയുടെ രൂപപ്പെടലിന് പ്രസക്തമാണ്.",
+      "en": "Trivandrum Block research is relevant to Gondwana assembly.",
+      "en_sha256": "2e6121d546a843b3",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A027.corrected_treatment",
+      "ml": "രൂപപ്പെടൽ, പിളരൽ, വേർപിരിയൽ, മാഗ്മാ പ്രവർത്തനം എന്നിവയ്ക്ക് വേറിട്ട രേഖകൾ നിലനിർത്തുക.",
+      "en": "Maintain separate assembly, rifting, separation and magmatism records.",
+      "en_sha256": "0892b435fce908cd",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A027.earlier_claim",
+      "ml": "ഗോണ്ട്വാനയുടെ രൂപപ്പെടലും ഇന്ത്യയുടെ പിൽക്കാല വേർപിരിയലുകളും ഒരേ ഘട്ടമാണ്.",
+      "en": "Gondwana assembly and India’s later separations are the same episode.",
+      "en_sha256": "326f452a35dfeaec",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A028.corrected_treatment",
+      "ml": "ബഹുഘട്ട ഗവേഷണചട്ടക്കൂട് നിലനിർത്തുക; ഓരോ ഘട്ടത്തിന്റെയും കൃത്യമായ പ്രായത്തിന് കൂടുതൽ പ്രാഥമിക പഠനങ്ങൾ വേണം.",
+      "en": "Retain a multi-stage research framework; exact episode ages need additional primary studies.",
+      "en_sha256": "27470786f92e7994",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A028.earlier_claim",
+      "ml": "പടിഞ്ഞാറൻ അരിക് ഭൂഖണ്ഡവിഭജനവുമായും ടെക്റ്റോണിക്-മാഗ്മാ പ്രക്രിയകളുമായും ബന്ധപ്പെട്ടതാണ്.",
+      "en": "The western margin is related to continental breakup and tectono-magmatic processes.",
+      "en_sha256": "6e016e22ee729297",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A029.corrected_treatment",
+      "ml": "മുൻ മറുപടി അതിന്റെ തീയതി അന്വേഷിക്കാൻ നിർദേശിക്കുകയാണ് ചെയ്തത്; കൃത്യമായ കാലക്രമം സ്ഥിരീകരിച്ചില്ല.",
+      "en": "The earlier response proposed investigating its date; it did not verify a precise chronology.",
+      "en_sha256": "c106167d875becad",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A029.earlier_claim",
+      "ml": "ഇന്ത്യ–മഡഗാസ്കർ വേർപിരിയൽ ഈ സംഭാഷണത്തിൽ കൃത്യമായി കാലനിർണയം ചെയ്തു.",
+      "en": "India–Madagascar separation has been precisely dated in this chat.",
+      "en_sha256": "ca7ea49c762db33c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A030.corrected_treatment",
+      "ml": "ഒരൊറ്റ ജന്മദിനം അടിച്ചേൽപ്പിക്കുന്നതിനുപകരം ഭൂപ്രകൃതി, പുറത്തെത്തൽ, അപരദനം, മാഗ്മാ പ്രവർത്തനം, അവസാദനിക്ഷേപം എന്നിവ വേർതിരിക്കുക.",
+      "en": "Separate relief, exhumation, erosion, magmatism and sedimentation rather than imposing a single birthday.",
+      "en_sha256": "b5c6187be289c80c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A030.earlier_claim",
+      "ml": "പശ്ചിമഘട്ടം ഒരൊറ്റ നിമിഷത്തെ സംഭവത്തിൽ രൂപപ്പെട്ടതല്ല.",
+      "en": "The Western Ghats were not made in one instantaneous event.",
+      "en_sha256": "5c95673ac5d99df8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A031.corrected_treatment",
+      "ml": "പ്രസക്തമായ പ്രബന്ധം സ്ഥിരീകരിച്ചു; പ്രസിദ്ധീകരണം 2008.",
+      "en": "Relevant paper confirmed; publication is 2008.",
+      "en_sha256": "842977d2691abf57",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A031.earlier_claim",
+      "ml": "കടൽത്തടത്തിലെ അവസാദനിക്ഷേപം പശ്ചിമഘട്ടത്തിന്റെ പരിണാമത്തെക്കുറിച്ച് വിവരം നൽകുന്നു.",
+      "en": "Offshore basin sedimentation informs Western Ghats evolution.",
+      "en_sha256": "40fa1787b34139d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A032.corrected_treatment",
+      "ml": "core-കളെ ആധാരമാക്കിയുള്ള പ്രാദേശിക പുനർനിർമ്മിതി പൂർത്തിയായിട്ടില്ല. ഇത് ഗവേഷണ പഠനരേഖയായി തുടരുന്നു.",
+      "en": "No local core-based reconstruction was completed. This remains a research dossier.",
+      "en_sha256": "9c1e13c7a1ec2bb0",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A032.earlier_claim",
+      "ml": "ഇന്നത്തെ കായലുകൾക്കും അഴിമുഖങ്ങൾക്കും നദീമുഖങ്ങൾക്കും അറിയപ്പെടുന്ന ഒരൊറ്റ രൂപീകരണതീയതിയുണ്ട്.",
+      "en": "Present backwaters, estuaries and river mouths have a single known formation date.",
+      "en_sha256": "d6889736bf7cd554",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A033.corrected_treatment",
+      "ml": "കാലനിർണയം നടത്തിയ core-കളും ഭൂരൂപവിജ്ഞാനവും ഇല്ലാതെ പൊതുപ്രക്രിയാചട്ടക്കൂടിനെ പ്രത്യേക പ്രാദേശിക തീയതികളാക്കരുത്.",
+      "en": "Do not turn the general process framework into specific local dates without dated cores and geomorphology.",
+      "en_sha256": "170353e03961ff47",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A033.earlier_claim",
+      "ml": "സമുദ്രനിരപ്പ് മാറ്റങ്ങളും അവസാദനിക്ഷേപവും തീരത്തെ ബാധിച്ചു.",
+      "en": "Sea-level changes and sedimentation affected the coast.",
+      "en_sha256": "b170d976cc66a4bb",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A034.corrected_treatment",
+      "ml": "തുടർച്ചയായ ആഖ്യാനം നിറയ്ക്കുന്നതിനുമുമ്പ് സ്വതന്ത്രമായ പുരാകാലാവസ്ഥ, ഫോസിൽ, പരിസ്ഥിതി തെളിവുകൾ കണ്ടെടുക്കുക.",
+      "en": "Retrieve independent palaeoclimate, fossil and ecological evidence before filling a continuous narrative.",
+      "en_sha256": "b8c8ef3f9340778f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A034.earlier_claim",
+      "ml": "മൺസൂൺ, ജൈവവൈവിധ്യം, വനങ്ങൾ എന്നിവ ഭൂവിജ്ഞാനീയ ആരംഭം മുതൽ തുടർച്ചയായി ആഖ്യാനം ചെയ്യാം.",
+      "en": "Monsoon, biodiversity and forests can be narrated continuously from the geological start.",
+      "en_sha256": "5c9656d5da78094e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A035.corrected_treatment",
+      "ml": "ഫോസിൽ-അവസാദ ചരിത്രങ്ങൾ ചേർക്കുക; Quilon പഠനങ്ങൾ വ്യക്തമായ പ്രാരംഭ സ്രോതസ്സുവഴിയാണ്.",
+      "en": "Add fossil and sedimentary histories; the Quilon studies are a concrete initial source route.",
+      "en_sha256": "92af58a12f7807ab",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A035.earlier_claim",
+      "ml": "സമ്പൂർണ ഭൂചരിത്രത്തിൽനിന്ന് പുരാജീവശാസ്ത്രം ഒഴിവാക്കാം.",
+      "en": "Palaeontology can be omitted from a complete land history.",
+      "en_sha256": "bb1f9c3723ab4d25",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A036.corrected_treatment",
+      "ml": "ലഭ്യമായ 2016-ലെ സാരാംശം ഇത് സൂചിപ്പിക്കുന്നു. പൂർണ പുരാവസ്തുസന്ദർഭവും കേവലതീയതികളും അവലോകനം ചെയ്തിട്ടില്ല.",
+      "en": "The accessible 2016 abstract suggests this. Full archaeological context and absolute dates are not reviewed.",
+      "en_sha256": "3c6efc7144093271",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A036.earlier_claim",
+      "ml": "Lower Palaeolithic മുതൽ വടക്കൻ കേരളത്തിൽ ജനവാസമുണ്ട്.",
+      "en": "Northern Kerala has been occupied since the Lower Palaeolithic.",
+      "en_sha256": "abb7333018d83e90",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A037.corrected_treatment",
+      "ml": "ശിലായുധ കാലനിർണയത്തിൽനിന്ന് ജീവിവർഗനിർണയം സ്വയമേവ ഉണ്ടാകുന്നില്ല. പ്രാദേശികരേഖയ്ക്ക് വേറിട്ട ജൈവതെളിവ് വേണം.",
+      "en": "No species identification follows automatically from a stone-tool attribution. The local record needs separate biological evidence.",
+      "en_sha256": "22f287f48051ae31",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A037.earlier_claim",
+      "ml": "ആദ്യകാല ആയുധതെളിവ് Homo sapiens-ന്റെ വരവ് പ്രത്യേകമായി കാലനിർണയം ചെയ്യുന്നു.",
+      "en": "Early tool evidence dates the arrival of Homo sapiens specifically.",
+      "en_sha256": "2bc67bec9f9cb105",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A038.corrected_treatment",
+      "ml": "അവലോകനം അവയെ പേരെടുത്ത് പറയുന്നു; പ്രാഥമിക റിപ്പോർട്ടുകളും കാലനിർണയവും പരിശോധിക്കണം.",
+      "en": "The overview names them; primary reports and dating need inspection.",
+      "en_sha256": "2c0eb5ae8893e889",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A038.earlier_claim",
+      "ml": "തെന്മലയും അങ്കോടും പ്രസക്തമായ Mesolithic സ്ഥലങ്ങളാണ്.",
+      "en": "Thenmala and Ankode are relevant Mesolithic sites.",
+      "en_sha256": "80e2056dd4999d94",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A039.corrected_treatment",
+      "ml": "ഉദ്ധരിച്ച അവലോകനം വ്യത്യസ്തമായ ഒരു പ്രാദേശിക ആയുധക്കൂട്ടത്തെ വ്യക്തമായി വിവരിക്കുന്നു; സമുച്ചയങ്ങൾ തമ്മിലുള്ള വ്യത്യാസങ്ങൾ നിലനിർത്തുക.",
+      "en": "The cited overview explicitly describes a different local toolkit; preserve assemblage differences.",
+      "en_sha256": "b1bbe7f04ea4bebb",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A039.earlier_claim",
+      "ml": "കേരളത്തിലെ Mesolithic ഏകരൂപത്തിൽ microlithic ആണ്.",
+      "en": "The Mesolithic of Kerala is uniformly microlithic.",
+      "en_sha256": "c7676e4c37861681",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A040.corrected_treatment",
+      "ml": "പരീക്ഷണശാലാപ്രായം, അനിശ്ചിതത്വം, കാലിബ്രേഷൻ എന്നിവ കണ്ടെടുക്കുക; ഇന്നത്തെ വർഷത്തിൽനിന്നോ വെറുതെ 1950-ൽനിന്നോ കുറയ്ക്കരുത്.",
+      "en": "Retrieve laboratory age, uncertainty and calibration; do not subtract from today or simply from 1950.",
+      "en_sha256": "62de12f346d92013",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A040.earlier_claim",
+      "ml": "5210 വർഷം മുമ്പ് എന്ന കരിപ്രായം നേരിട്ട് ഒരു ക്രി.മു. വർഷമാക്കി മാറ്റാം.",
+      "en": "A charcoal age of 5210 years ago can be converted directly to a BCE year.",
+      "en_sha256": "7a03586217ca8475",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A041.corrected_treatment",
+      "ml": "ഏകരൂപതയ്ക്കെതിരായ മുൻ മുന്നറിയിപ്പ് നിലനിർത്തുന്നു. യഥാർത്ഥ വിള, മൃഗ, വാസസ്ഥല തെളിവുകൾ ഇനിയും ആവശ്യമാണ്.",
+      "en": "The earlier caveat against uniformity is retained. Actual crop, animal and settlement evidence is still needed.",
+      "en_sha256": "af38ede60669fea9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A041.earlier_claim",
+      "ml": "കേരളത്തിലെ നവീനശിലായുഗ, കാർഷിക പരിവർത്തനങ്ങൾ ഒരൊറ്റ സ്ഥിരക്രമം പിന്തുടർന്നു.",
+      "en": "Kerala’s Neolithic and farming transitions followed one fixed sequence.",
+      "en_sha256": "b2cc4b6aa46be058",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A042.corrected_treatment",
+      "ml": "സാമീപ്യം മാത്രം ഓരോ പാനലിന്റെയും സുരക്ഷിതമായ കേവലകാലനിർണയമല്ല.",
+      "en": "Association alone is not secure absolute dating of each panel.",
+      "en_sha256": "93318218d8f5cca8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A042.earlier_claim",
+      "ml": "എടക്കലിനടുത്തുള്ള മിനുക്കിയ ഒരു celt എല്ലാ കൊത്തുപണികളുടെയും തീയതി നേരിട്ട് നിർണയിക്കുന്നു.",
+      "en": "A polished celt near Edakkal directly dates all the engravings.",
+      "en_sha256": "6156c1aedbb81dfe",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A043.corrected_treatment",
+      "ml": "സ്മാരകങ്ങൾ, സമുച്ചയങ്ങൾ, തീയതികൾ എന്നിവ ഓരോന്നും വേറിട്ട് പരിഗണിക്കുക. സ്മാരകത്തിന്റെ തരത്തിൽനിന്ന് വംശീയ-ഭാഷാ സ്വത്വം നൽകുന്നില്ല.",
+      "en": "Treat monuments, assemblages and dates individually. No ethnolinguistic identity is assigned from monument type.",
+      "en_sha256": "d77137b4428bd75e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A043.earlier_claim",
+      "ml": "എല്ലാ മഹാശിലാസ്മാരകങ്ങളും ഒരു വംശീയജനതയുടേതോ ഒരേകാലത്തെ ഒരു സംസ്കാരത്തിന്റേതോ ആണ്.",
+      "en": "All megaliths belong to one ethnic people or one synchronous culture.",
+      "en_sha256": "20479d3024a2479d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A044.corrected_treatment",
+      "ml": "ലോഹസംസ്കരണം, വിളയുൽപ്പാദനം, താമസം, ശ്രേണീബന്ധം എന്നിവയുടെ തെളിവുകൾ വേർതിരിക്കുക; അവ ഒരേസമയം ഉണ്ടായി എന്ന് അനുമാനിക്കരുത്.",
+      "en": "Separate evidence for metallurgy, crop production, residence and hierarchy; do not assume their simultaneity.",
+      "en_sha256": "5da12196f25e701e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A044.earlier_claim",
+      "ml": "ഇരുമ്പ്, കൃഷി, സാമൂഹിക വേർതിരിവ് എന്നിവ ഭൂഭാഗം മുഴുവനുമുള്ള ഒരൊറ്റ സമയരേഖയിൽ സ്ഥാപിക്കാം.",
+      "en": "Iron, agriculture and social differentiation can be placed on one territory-wide timeline.",
+      "en_sha256": "f0c3857544af7488",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A045.corrected_treatment",
+      "ml": "2013-ലെ കൈപ്പുസ്തകത്തിലെ ഏകദേശഘട്ടങ്ങൾ ആ സ്ഥലത്തിന് മാത്രം ബാധകമാണ്.",
+      "en": "The approximate phases in the 2013 handbook are site-specific.",
+      "en_sha256": "ab40e04552701331",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A045.earlier_claim",
+      "ml": "പട്ടണത്തിന്റെ കാലക്രമം കേരളം മുഴുവന്റേതുമായി ഉപയോഗിക്കാം.",
+      "en": "Pattanam’s chronology can stand in for all of Kerala.",
+      "en_sha256": "49d581bd571a034d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A046.corrected_treatment",
+      "ml": "പുരാവസ്തുസ്ഥലത്തെയും പ്രാചീനപാഠങ്ങളിലെ സ്ഥലനാമത്തെയും വേർതിരിച്ച് സൂക്ഷിക്കുക; ആരോപിത സ്ഥലനിർണയ പരികല്പനകളിലൂടെ ബന്ധിപ്പിക്കുക.",
+      "en": "Keep the archaeological site and the ancient textual toponym separate, linked by attributed identification hypotheses.",
+      "en_sha256": "4aa8192710338475",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A046.earlier_claim",
+      "ml": "പട്ടണം നിർണായകമായി മുസിരിസ് ആണ്.",
+      "en": "Pattanam is conclusively Muziris.",
+      "en_sha256": "38eb45bdd52bb5dc",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A047.corrected_treatment",
+      "ml": "മുൻ രൂപരേഖ ഗവേഷണവിഷയങ്ങൾ പേരെടുത്ത് പറഞ്ഞു; തെളിയിക്കപ്പെട്ട രാജവംശതുടർച്ചയല്ല.",
+      "en": "The earlier outline named research topics, not a demonstrated dynastic continuity.",
+      "en_sha256": "4057908d7d4aea11",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A047.earlier_claim",
+      "ml": "ആദ്യകാല ചേരർ, പിൽക്കാല ചേരർ, ചേര പെരുമാക്കൾ എന്നിവർ തെളിയിക്കപ്പെട്ട ഒരൊറ്റ തുടർച്ചയായ കാലക്രമമാണ്.",
+      "en": "The earliest Cheras, later Cheras and Chera Perumals are one continuous proven chronology.",
+      "en_sha256": "76618b9f401c6930",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A048.corrected_treatment",
+      "ml": "കാലക്രമത്തിലെ അഭിപ്രായഭിന്നതകളും വിടവുകളും രേഖപ്പെടുത്തുക; പ്രാദേശിക ലിഖിത-പുരാവസ്തു പഠനങ്ങൾ കണ്ടെടുക്കുക.",
+      "en": "Record chronological disagreements and gaps; retrieve regional epigraphic and archaeological studies.",
+      "en_sha256": "dcd9e44d61133c6f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A048.earlier_claim",
+      "ml": "ആദ്യകാല ചേരർക്കുശേഷമുള്ള പരിവർത്തനം വൃത്തിയുള്ള, തുടർച്ചയായ ഒരു രാഷ്ട്രീയ ആഖ്യാനംകൊണ്ട് നിറയ്ക്കാം.",
+      "en": "The post-early-Chera transition can be filled with a neat continuous political narrative.",
+      "en_sha256": "4e700091eb8adc5f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A049.corrected_treatment",
+      "ml": "അത്തരം ഒരു വർഷത്തിന് പിന്തുണയില്ല. ഭാഷാസവിശേഷതകൾ, ലിഖിതവർഗീകരണം, കൈയെഴുത്തുപ്രതി കൈമാറ്റം എന്നിവയ്ക്ക് വേറിട്ട തെളിവ് വേണം.",
+      "en": "No such year is supported. Language features, inscription classification and manuscript transmission need separate evidence.",
+      "en_sha256": "0e0111e8b9cae349",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A049.earlier_claim",
+      "ml": "മലയാളത്തിന് കൃത്യമായ ഒരു ജനനവർഷമുണ്ട്.",
+      "en": "Malayalam has an exact birth year.",
+      "en_sha256": "66774e9a84709571",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A050.corrected_treatment",
+      "ml": "ഒരു സ്ഥാനനിർണയവും പരിശോധിച്ചിട്ടില്ല. പരിഷ്കരിച്ച ഭാഷാനിർണയത്തെയാണ് കൊല്ലം പദ്ധതി ഉദാഹരിക്കുന്നത്; തീർപ്പായ “ആദ്യ ലിഖിതം” അവകാശവാദത്തെയല്ല.",
+      "en": "No ranking was audited. The Kollam project illustrates revised language attribution, not a settled first-inscription claim.",
+      "en_sha256": "ea8d36efe3c1efe5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A050.earlier_claim",
+      "ml": "ഏറ്റവും ആദ്യത്തെ മലയാളലിഖിതമോ അതിന്റെ തീയതിയോ ഇവിടെ സ്ഥാപിച്ചു.",
+      "en": "The earliest Malayalam inscription or its date was established here.",
+      "en_sha256": "74597fd9a80d0b52",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A051.corrected_treatment",
+      "ml": "പാരമ്പര്യങ്ങളെ ആരോപിത ആഖ്യാനങ്ങളായി നിലനിർത്തുക; സ്വതന്ത്രരേഖകൾ, കെട്ടിടങ്ങൾ, പുരാവസ്തുക്കൾ, തീയതിയുള്ള സാക്ഷ്യപ്രതികൾ എന്നിവയ്ക്ക് വേറിട്ട രേഖകൾ വേണം.",
+      "en": "Retain traditions as attributed narratives; independent documents, buildings, artefacts and dated witnesses require separate records.",
+      "en_sha256": "fc829c69087a9c7c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A051.earlier_claim",
+      "ml": "മതസമൂഹങ്ങളുടെ സ്ഥാപനകഥകൾ ചരിത്രപരമായ വരവുകളുടെ തീയതി നേരിട്ട് നൽകുന്നു.",
+      "en": "Religious-community founding narratives directly date historical arrivals.",
+      "en_sha256": "f73b973b9db94b60",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A052.corrected_treatment",
+      "ml": "കാലവിപര്യയത്തിനെതിരായ മുൻ മുന്നറിയിപ്പ് നിലനിൽക്കുന്നു; പ്രത്യേക പ്രാദേശിക വികാസങ്ങൾ ഇനിയും ഗവേഷണം ചെയ്യണം.",
+      "en": "The earlier warning against anachronism stands; specific local developments remain to be researched.",
+      "en_sha256": "2591f05efc53ff51",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A052.earlier_claim",
+      "ml": "പിൽക്കാല ജാതി-ഭൂബന്ധങ്ങൾ ചരിത്രാതീതകാലത്ത് മാറ്റമില്ലാതെ നിലനിന്നിരുന്നു.",
+      "en": "Later caste and land relations existed unchanged in prehistory.",
+      "en_sha256": "96e9a7d386112160",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A053.corrected_treatment",
+      "ml": "പഠനാതിർത്തിയിൽനിന്ന് രാഷ്ട്രീയ ഐക്യം അനുമാനിക്കരുത്. നേരത്തേ പട്ടികപ്പെടുത്തിയ ശക്തികൾ സ്രോതസ്സുതല സ്ഥിരീകരണം ആവശ്യമുള്ള വിഷയങ്ങളാണ്.",
+      "en": "Do not infer political unity from the study boundary. The powers listed earlier are topics requiring source-level verification.",
+      "en_sha256": "d1b470ab7689b495",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A053.earlier_claim",
+      "ml": "മധ്യകാല കേരളം ഒരൊറ്റ ഏകീകൃത രാജ്യമായിരുന്നു.",
+      "en": "Medieval Kerala was a single unified kingdom.",
+      "en_sha256": "78681a3b03b646c8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A054.corrected_treatment",
+      "ml": "മുൻ രൂപരേഖ വിഷയങ്ങൾ നൽകി; രേഖാസമുച്ചയ പരിശോധനയല്ല. തീയതിയുള്ള പ്രാഥമികപാഠ-വസ്തു രേഖകൾ തയ്യാറാക്കുക.",
+      "en": "The earlier outline provided topics, not a corpus audit. Build dated primary-text and object records.",
+      "en_sha256": "61ba3013f8f9018d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A054.earlier_claim",
+      "ml": "അറബ്, ചൈനീസ് ബന്ധങ്ങൾ ഈ സംഭാഷണത്തിൽ സമഗ്രമായി രേഖപ്പെടുത്തി.",
+      "en": "Arab and Chinese connections have been exhaustively documented in this chat.",
+      "en_sha256": "0a3f7f0c7d65d5e5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A055.corrected_treatment",
+      "ml": "യാത്രാഡയറി ഉദ്ധരണി വർഷത്തെ പിന്തുണയ്ക്കുന്നു. കൃത്യമായ ദിവസവും കലണ്ടർ ഏകീകരണവും വേറിട്ട പരിശോധനകളായി തുടരുന്നു.",
+      "en": "The journal extract supports the year. Exact day and calendar normalization remain separate checks.",
+      "en_sha256": "682eb57f252c557c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A055.earlier_claim",
+      "ml": "വാസ്കോ ഡ ഗാമ 1498-ൽ Calicut-ൽ (കോഴിക്കോട്) എത്തി.",
+      "en": "Vasco da Gama reached Calicut in 1498.",
+      "en_sha256": "919ffe4da6a71285",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A056.corrected_treatment",
+      "ml": "മുൻകാല വ്യാപാരം Periplus-ൽ നേരിട്ട് സാക്ഷ്യപ്പെടുത്തിയിട്ടുണ്ട്. നിലവിലുള്ള ഒരു ശൃംഖലയിലേക്കുള്ള വരവ് എന്ന് ഉപയോഗിക്കുക; കേവലമായ “കണ്ടെത്തൽ” എന്നല്ല.",
+      "en": "Earlier trade is directly attested in the Periplus. Use arrival within an existing network, not discovery as an absolute.",
+      "en_sha256": "d5a072de63078fe6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A056.earlier_claim",
+      "ml": "പോർച്ചുഗീസ് വരവ് മുമ്പ് അജ്ഞാതമായിരുന്ന ഒരു വ്യാപാരതീരം “കണ്ടെത്തി”.",
+      "en": "Portuguese arrival discovered a previously unknown trading coast.",
+      "en_sha256": "4b58e425b58f577e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A057.corrected_treatment",
+      "ml": "ഇവ അധ്യായവിഷയങ്ങളായിരുന്നു; പരിശോധിച്ച സംഭവകാലക്രമങ്ങളല്ല. അവയുടെ രേഖാന്വേഷണം ജോലിപ്പട്ടികയിൽ നിലനിർത്തുക.",
+      "en": "These were chapter topics, not checked event chronologies. Keep their documentary investigation in the work queue.",
+      "en_sha256": "ab3b5314f3ebc907",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A057.earlier_claim",
+      "ml": "ഡച്ച്, മൈസൂർ, ബ്രിട്ടീഷ് ഇടപെടലുകളുടെ വിശദമായ കാലക്രമം സ്ഥിരീകരിച്ചു.",
+      "en": "The detailed chronology of Dutch, Mysorean and British involvement was verified.",
+      "en_sha256": "158196cc0f94e982",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A058.corrected_treatment",
+      "ml": "മുൻപത്തെ വേർതിരിവ് ആവശ്യമായ ഗവേഷണചട്ടക്കൂടാണ്. എല്ലാ ഭരണപരിവർത്തനങ്ങളും ഈ ഘട്ടത്തിൽ പരിശോധിച്ചിട്ടില്ല.",
+      "en": "The earlier distinction is a necessary research frame. This pass did not audit all administrative transitions.",
+      "en_sha256": "55d51c1abc690957",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A058.earlier_claim",
+      "ml": "ബ്രിട്ടീഷ് ഭരണത്തിലുള്ള മലബാറിനും നാട്ടുരാജ്യങ്ങൾക്കും ഒരേ ക്രമീകരണങ്ങളായിരുന്നു.",
+      "en": "British-administered Malabar and the princely states had identical arrangements.",
+      "en_sha256": "34c13b5d16faa2d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A059.corrected_treatment",
+      "ml": "തെളിവുപഠനരേഖകളില്ലാതെയാണ് രൂപരേഖ അവയെ പേരെടുത്ത് പറയുന്നത്. ഓരോ തീയതിയും പങ്കാളികളും ആളപായവും വ്യാഖ്യാനങ്ങളും സമകാലിക രേഖകളിൽനിന്ന് സ്ഥിരീകരിക്കുക.",
+      "en": "The outline names them without evidentiary dossiers. Verify individual dates, actors, casualties and interpretations from contemporaneous records.",
+      "en_sha256": "de291e5cbcb24c8c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A059.earlier_claim",
+      "ml": "മാപ്പിള കലാപങ്ങൾ, വൈക്കം, ക്ഷേത്രപ്രവേശനം, തൊഴിൽ, സ്വാതന്ത്ര്യ സംഭവവികാസങ്ങൾ എന്നിവയെല്ലാം സ്ഥിരീകരിച്ചു.",
+      "en": "Mappila uprisings, Vaikom, temple entry, labour and independence developments were all verified.",
+      "en_sha256": "bd108bf7d1d5a31b",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A060.corrected_treatment",
+      "ml": "ഓരോ ഉടമ്പടിയും പ്രാബല്യതീയതിയും വേർതിരിക്കുക; അവയുടെ നിയമചരിത്രത്തിന് പകരമല്ല രൂപരേഖ.",
+      "en": "Distinguish individual instruments and commencement dates; the outline is not a substitute for their legal history.",
+      "en_sha256": "352d20efc875260f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A060.earlier_claim",
+      "ml": "1947–1956 എന്നത് എല്ലാ സംയോജന സംഭവങ്ങളെയും മതിയായ രീതിയിൽ വിവരിക്കുന്നു.",
+      "en": "1947–1956 describes every integration event sufficiently.",
+      "en_sha256": "5d0e66e4c6e60dfb",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A061.corrected_treatment",
+      "ml": "4-ാം വകുപ്പ് പേരെടുത്ത് പറഞ്ഞ താലൂക്കുകൾ മദ്രാസിലേക്ക് കൈമാറുന്നു; 5-ാം വകുപ്പ് ശേഷിക്കുന്ന തിരുവിതാംകൂർ-കൊച്ചി പ്രദേശങ്ങളെക്കുറിച്ചാണ്.",
+      "en": "Section 4 transfers named taluks to Madras; section 5 concerns the remaining Travancore-Cochin territories.",
+      "en_sha256": "2c154a085e32bead",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A061.earlier_claim",
+      "ml": "തിരുവിതാംകൂർ-കൊച്ചി മുഴുവനും 1956-ൽ പുതിയ സംസ്ഥാനത്തിൽ ചേർന്നു.",
+      "en": "All Travancore-Cochin entered the new state in 1956.",
+      "en_sha256": "a4a7eb6d4e93f19d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A062.corrected_treatment",
+      "ml": "5-ാം വകുപ്പ് ലക്കദീവ്, മിനിക്കോയ് ദ്വീപുകളെ ഒഴിവാക്കുന്നു; ദ്വീപുപ്രദേശത്തിന് 6-ാം വകുപ്പ് വായിക്കുക.",
+      "en": "Section 5 excludes Laccadive and Minicoy islands; read section 6 for the island territory.",
+      "en_sha256": "388bb6e3fc54c59e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A062.earlier_claim",
+      "ml": "മലബാർ ജില്ല മുഴുവനും 1956-ൽ പുതിയ സംസ്ഥാനത്തിൽ ചേർന്നു.",
+      "en": "All Malabar district entered the new state in 1956.",
+      "en_sha256": "6e3fbe2cf9a84076",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A063.corrected_treatment",
+      "ml": "5-ാം വകുപ്പ് ദക്ഷിണ കാനറയിലെ കാസർകോട് താലൂക്കിനെ ഉൾപ്പെടുത്തുന്നു.",
+      "en": "Section 5 includes Kasaragod taluk of South Kanara.",
+      "en_sha256": "a812e9cd8b052c32",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A063.earlier_claim",
+      "ml": "1956-ലെ സംഗ്രഹത്തിൽ കാസർകോടിന്റെ ഉൾപ്പെടുത്തൽ അവഗണിക്കാം.",
+      "en": "Kasaragod’s inclusion can be ignored in the 1956 summary.",
+      "en_sha256": "e546b0b8ab2c68c4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A064.corrected_treatment",
+      "ml": "സ്ഥലതലത്തിലുള്ള കാലാനുസൃത ഒത്തുനോക്കൽപ്പട്ടിക ഉപയോഗിക്കുക. പുറത്തുള്ള സ്ഥലങ്ങളും വ്യക്തമായ പശ്ചാത്തലമായി ഉൾപ്പെടുത്താം.",
+      "en": "Use a place-level temporal crosswalk. Outside places can still be included as explicit context.",
+      "en_sha256": "221272a09e3cbbd1",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A064.earlier_claim",
+      "ml": "ചരിത്രപരമായ തിരുവിതാംകൂറും മലബാറും ആധുനിക കേരളവും പരസ്പരം മാറ്റാവുന്ന പ്രദേശങ്ങളാണ്.",
+      "en": "Historical Travancore, Malabar and modern Kerala are interchangeable areas.",
+      "en_sha256": "9cd5eb84bdd15e30",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A065.corrected_treatment",
+      "ml": "ഔദ്യോഗിക ജില്ലാ പോർട്ടൽ പുതുച്ചേരി ഭരണത്തെ തിരിച്ചറിയുന്നു; ജില്ലാപ്രദേശത്തെ നദീതടത്തിൽനിന്ന് വേർതിരിക്കുക.",
+      "en": "The official district portal identifies the Puducherry administration; distinguish district territory from river basin.",
+      "en_sha256": "a34d263e82aaa02f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A065.earlier_claim",
+      "ml": "മാഹി ആധുനിക കേരളത്തിന്റെ ഭരണപരിധിയുടെ ഭാഗമാണ്.",
+      "en": "Mahe is part of the modern Kerala administrative scope.",
+      "en_sha256": "baa1c248e0d4cb8c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A066.corrected_treatment",
+      "ml": "ലൈസൻസുള്ള നിലവിലെ ബഹുഭുജം നേടി പിൽക്കാല മാറ്റങ്ങൾ പരിശോധിക്കുക. ഈ പതിപ്പിൽ സ്ഥിരീകരിച്ച ജ്യാമിതി ഇല്ല.",
+      "en": "Acquire a licensed current polygon and audit later changes. This release does not contain verified geometry.",
+      "en_sha256": "08badcec6d0798e9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A066.earlier_claim",
+      "ml": "1956-ലെ നിയമം ഇന്നത്തേക്കുള്ള GIS അതിർത്തി പൂർണമായി നിർവചിക്കുന്നു.",
+      "en": "The 1956 Act fully defines a GIS boundary for today.",
+      "en_sha256": "38ebc4b76134b3c8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A067.corrected_treatment",
+      "ml": "ഇവ മുൻ രൂപരേഖയിലെ ഗവേഷണപരിപാടികളാണ്; വർഷംതോറും പരിശോധിച്ച കണ്ടെത്തലുകളല്ല.",
+      "en": "These are research programmes in the earlier outline, not audited year-by-year findings.",
+      "en_sha256": "15904fb271665a63",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A067.earlier_claim",
+      "ml": "1956-നുശേഷമുള്ള രാഷ്ട്രീയം, ഭൂപരിഷ്കരണം, ആരോഗ്യം, കുടിയേറ്റം, സാമ്പത്തിക പരിവർത്തനം എന്നിവ ഇതിനകം പൂർണമായി സ്ഥിരീകരിച്ചു.",
+      "en": "Post-1956 politics, land reforms, health, migration and economic transformation are already fully verified.",
+      "en_sha256": "8d80c3b06d444a8b",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A068.corrected_treatment",
+      "ml": "സാക്ഷ്യപ്രതികളും സ്വീകരണചരിത്രവുമുള്ള ഒരു പാഠ/വാമൊഴി പാരമ്പര്യമായി കാണുക; അനുഭവാധിഷ്ഠിത ഭൂവിജ്ഞാനീയ കാലക്രമമായല്ല.",
+      "en": "Treat it as a textual/oral tradition with witnesses and reception history, not an empirical geological chronology.",
+      "en_sha256": "ea06901d441ab917",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A068.earlier_claim",
+      "ml": "പരശുരാമ പാരമ്പര്യം തീരരൂപീകരണത്തിന്റെ തീയതിയുള്ള ഭൗതികവിശദീകരണമാണ്.",
+      "en": "Parasurama tradition is a dated physical explanation of coastal formation.",
+      "en_sha256": "2abbd186d7485a05",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A069.corrected_treatment",
+      "ml": "ഉപജീവനം, ലിംഗഭേദം, പാർശ്വവൽക്കരിക്കപ്പെട്ട സമൂഹങ്ങൾ, പരിസ്ഥിതി എന്നിവ അവസാന അധ്യായങ്ങളിൽ മാത്രമല്ല, പ്രസക്തമായ എല്ലാ കാലഘട്ടങ്ങളിലും ഉൾച്ചേർക്കുക.",
+      "en": "Integrate livelihoods, gender, marginalized communities and environment into every relevant period, not only end chapters.",
+      "en_sha256": "44b38883e5e61bd8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A069.earlier_claim",
+      "ml": "സാധാരണ ജനങ്ങളും പരിസ്ഥിതിചരിത്രവും വേറിട്ട ഐച്ഛിക കൂട്ടിച്ചേർക്കലുകളാകണം.",
+      "en": "Ordinary people and environmental history should be separate optional add-ons.",
+      "en_sha256": "4691da3d7f438da4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A070.corrected_treatment",
+      "ml": "അവ വ്യത്യസ്ത പരിശോധനാആഴങ്ങളുള്ള യഥാർത്ഥവും പ്രസക്തവുമായ സൂചനകളാണ്; രണ്ട് പ്രസാധക ലേഖനങ്ങളും NDLI ലേഖനവും പൂർണമായി വായിച്ചിട്ടില്ല.",
+      "en": "They are real relevant leads with different inspection depths; two publisher articles and the NDLI article were not read in full.",
+      "en_sha256": "d4723232d912da85",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A070.earlier_claim",
+      "ml": "മുമ്പ് കണ്ണി നൽകിയ അഞ്ച് വിഭവങ്ങളും പൂർണപാഠം പരിശോധിച്ചവയാണ്.",
+      "en": "The five previously linked resources were all full-text-verified.",
+      "en_sha256": "40a707f4d9b62348",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A071.corrected_treatment",
+      "ml": "ഒരു erratum കണ്ടെത്തി, അത് ഇനിയും വായിച്ചിട്ടില്ല; അതിലെ ഉള്ളടക്കം നിരുപദ്രവമാണെന്നോ നിർണായകമാണെന്നോ അവകാശപ്പെടരുത്.",
+      "en": "An erratum was located and remains unread; do not claim its contents are harmless or decisive.",
+      "en_sha256": "b6e7fcc35e041881",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A071.earlier_claim",
+      "ml": "മുമ്പത്തെ Trivandrum പരാമർശത്തിന് തിരുത്തൽ പരിശോധന ആവശ്യമില്ല.",
+      "en": "The earlier Trivandrum reference needs no corrections check.",
+      "en_sha256": "01a94ffc8bf2d77c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A072.corrected_treatment",
+      "ml": "തെറ്റിദ്ധരിപ്പിക്കുന്ന DOI അക്കങ്ങൾ ഉണ്ടെങ്കിലും അരികുപ്രബന്ധം 1998-ലേതും Basin Research പ്രബന്ധം 2008-ലേതുമാണ്.",
+      "en": "The margin paper is 1998 and the Basin Research paper is 2008 despite misleading DOI digits.",
+      "en_sha256": "af95086913880f70",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A072.earlier_claim",
+      "ml": "DOI-യിൽ ഉൾച്ചേർത്ത വർഷം എപ്പോഴും പ്രസിദ്ധീകരണവർഷമാണ്.",
+      "en": "A year embedded in a DOI is always the publication year.",
+      "en_sha256": "5724059b9fa134d6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A073.corrected_treatment",
+      "ml": "പട്ടണം ലേഖനം 2015 ഓൺലൈൻ ലഭ്യതാതീയതിയുള്ള 2004-ലെ പ്രസിദ്ധീകരണമാണ്. രണ്ട് ഫീൽഡുകളും നിലനിർത്തുക.",
+      "en": "The Pattanam article is a 2004 publication with a 2015 hosting date. Preserve both fields.",
+      "en_sha256": "04bc53297f7ee76e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A073.earlier_claim",
+      "ml": "പ്രസാധകരുടെ ഓൺലൈൻ ലഭ്യതാതീയതികൾ എപ്പോഴും മൂലപഠനത്തിന്റെ തീയതിയാണ്.",
+      "en": "Publisher online-hosting dates always date the original study.",
+      "en_sha256": "51291782565bca10",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A074.corrected_treatment",
+      "ml": "പരിശോധനയുടെ ആഴം രേഖപ്പെടുത്തുക. ഒരു കാറ്റലോഗിന് ഗ്രന്ഥസൂചികാപരമായ തിരിച്ചറിയൽ സ്ഥിരീകരിക്കാം; കാണാത്ത സാമ്പിൾപട്ടികകളോ പാഠവായനകളോ അല്ല.",
+      "en": "Record inspection depth. A catalogue can verify bibliographic identity but not unseen sample tables or text readings.",
+      "en_sha256": "087710a6e9d0c0e2",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A074.earlier_claim",
+      "ml": "സാരാംശങ്ങളും കാറ്റലോഗുകളും പൂർണ ലേഖനങ്ങളും ഒരേ തലത്തിലുള്ള സ്ഥിരീകരണം നൽകുന്നു.",
+      "en": "Abstracts, catalogues and full articles provide the same level of verification.",
+      "en_sha256": "04f785734e8c6f8d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A075.corrected_treatment",
+      "ml": "സംഭവങ്ങൾ കെട്ടിച്ചമയ്ക്കാതെ വഴികാട്ടൽപേജുകൾ നിർമ്മിക്കുക. കാലപരിധി തെളിവുകൾ അടിസ്ഥാന കാലഘട്ടരേഖകളിൽ തുടരും.",
+      "en": "Generate navigation pages without fabricating events. Interval evidence remains in canonical period records.",
+      "en_sha256": "cef2fa8b6e67de64",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A075.earlier_claim",
+      "ml": "എഴുത്ത് തുടങ്ങിയതിനുശേഷമുള്ള എല്ലാ വർഷത്തിനും നിർബന്ധമായും നിലനിൽക്കുന്ന ഒരു വർഷനിർദിഷ്ട രേഖയുണ്ട്.",
+      "en": "Every year after writing begins necessarily has a surviving year-specific record.",
+      "en_sha256": "3847f0fd6ea78fff",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A076.corrected_treatment",
+      "ml": "ഈ പതിപ്പിൽ അതിനർത്ഥം വർഷനിർദിഷ്ട പ്രാരംഭരേഖ ഇനിയും ചേർത്തിട്ടില്ല എന്നാണ്; സംഭവങ്ങളുടെയോ നിലനിൽക്കുന്ന തെളിവുകളുടെയോ അഭാവമല്ല.",
+      "en": "In this release it means no year-specific seed has yet been entered, not absence of events or surviving evidence.",
+      "en_sha256": "4e9231fd7023b104",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A076.earlier_claim",
+      "ml": "ഒരു വർഷഫയലിൽ വിവരമില്ലെങ്കിൽ ആ വർഷം ഒന്നും നടന്നില്ല എന്നർത്ഥം.",
+      "en": "No entry in a year file means nothing happened that year.",
+      "en_sha256": "dd14763a7b5e6fba",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A077.corrected_treatment",
+      "ml": "സാധാരണരീതിയിൽ സൂചികപ്പെടുത്തുകയും പുനരാഖ്യാനം ചെയ്യുകയും ചെയ്യുക; അവകാശങ്ങൾ ഇനംതിരിച്ച് രേഖപ്പെടുത്തുക; ന്യായീകരിക്കാവുന്ന അനുമതിയോ പൊതുസഞ്ചയ നിർണയമോ ഉള്ളപ്പോൾ മാത്രം പുനഃസംഭരിക്കുക (rehost).",
+      "en": "Index and paraphrase by default; record rights at item level, and rehost only with a defensible permission or public-domain determination.",
+      "en_sha256": "9d6da75d88b531b7",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A077.earlier_claim",
+      "ml": "ഓൺലൈനിലുള്ള എല്ലാ പൊതുവസ്തുക്കളും ഈ ശേഖരത്തിന്റെ ലൈസൻസിൽ സ്വതന്ത്രമായി പുനഃപ്രസിദ്ധീകരിക്കാം.",
+      "en": "All online public material is free to republish under the repo license.",
+      "en_sha256": "10e940bb11ca50d0",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A078.corrected_treatment",
+      "ml": "പ്രഖ്യാപിച്ച ശേഖരസ്നാപ്ഷോട്ടുകൾക്കുള്ളിൽ സമഗ്ര പട്ടികപ്പെടുത്തൽ നടത്തുക; കെട്ടിച്ചമച്ച ആഗോള ശതമാനത്തിനുപകരം അറിയാത്തവ, ലഭ്യമാക്കാനാകാത്തവ, ഇല്ലാത്ത പരിധികൾ എന്നിവ പ്രസിദ്ധീകരിക്കുക.",
+      "en": "Pursue exhaustive inventory within declared collection snapshots and publish unknowns, access failures and missing ranges rather than an invented global percentage.",
+      "en_sha256": "21ee057671b956c8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A078.earlier_claim",
+      "ml": "പരിമിതമായ ഒരു തിരച്ചിലിന് മാറിക്കൊണ്ടിരിക്കുന്ന വെബ് മുഴുവന്റെയും സമഗ്രവ്യാപ്തി സ്ഥാപിക്കാനാകും.",
+      "en": "A finite search can establish exhaustive coverage of the whole changing web.",
+      "en_sha256": "f5ad5d1441f68819",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A079.corrected_treatment",
+      "ml": "ക്രി.മു. 300 പ്രാരംഭ മൂന്നാം നൂറ്റാണ്ട് വഴികാട്ടൽ പാത്രത്തിന്റെ തിരഞ്ഞെടുത്ത തുടക്കമാണ്. മുൻകാല രേഖാതെളിവുകൾ അതിനെ പിന്നിലേക്ക് നീട്ടാം.",
+      "en": "300 BCE is the chosen start of the initial third-century navigation container. Earlier documentary evidence can extend it.",
+      "en_sha256": "4b796dd86c791d39",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A079.earlier_claim",
+      "ml": "വാർഷിക ഫയലുകൾ ക്രി.മു. 300-ൽ തുടങ്ങുന്നത് രേഖാമൂല ചരിത്രം ആ വർഷം തുടങ്ങി എന്ന് തെളിയിക്കുന്നു.",
+      "en": "Starting annual files at 300 BCE proves recorded history began in that year.",
+      "en_sha256": "d70bcef908fb95ce",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A080.corrected_treatment",
+      "ml": "ഈ പതിപ്പ് AI സഹായത്തോടെ തയ്യാറാക്കിയതും പ്രസ്താവിച്ച ആഴങ്ങളിൽ സ്രോതസ്സുപരിശോധന നടത്തിയതുമാണ്; മനുഷ്യരുടെ പണ്ഡിതപരിശോധന എല്ലായിടത്തും ബാക്കിയാണ്.",
+      "en": "This release is AI-assisted and source-audited at the stated depths; human scholarly review is pending throughout.",
+      "en_sha256": "84fdd5795907a029",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/audit.json#A080.earlier_claim",
+      "ml": "പദ്ധതി മുഴുവനും സ്വതന്ത്ര ചരിത്രകാരന്മാരോ ഫീൽഡ് വിദഗ്ധരോ പരിശോധിച്ചു.",
+      "en": "The full project has been checked by independent historians or field specialists.",
+      "en_sha256": "65b0cd4e6c672c8a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    }
+  ],
+  "note": "AI-assisted Malayalam draft. Human Malayalam-language review and specialist review are pending; a model check is not approval. Imported from notes/translation-review (draft PRs #3, #6, #7) where the English is unchanged, plus integration-batch translations for English that changed or was not staged."
+}

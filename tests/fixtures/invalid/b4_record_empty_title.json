@@ -1,0 +1,20 @@
+{
+  "bug": "json-schema-not-executed",
+  "description": "The schema sets minLength 1 for title; not enforced.",
+  "collection": "records",
+  "target": "R001",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "title"
+      ],
+      "value": ""
+    }
+  ],
+  "expect": [
+    "R001",
+    "title",
+    "shorter"
+  ]
+}

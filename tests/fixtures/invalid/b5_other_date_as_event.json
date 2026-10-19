@@ -1,0 +1,25 @@
+{
+  "bug": "date-roles-and-counting",
+  "description": "other_dates could hold an event date, mixing it with publication and digitization dates.",
+  "collection": "records",
+  "target": "R002",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "other_dates"
+      ],
+      "value": [
+        {
+          "role": "event",
+          "year": 2006
+        }
+      ]
+    }
+  ],
+  "expect": [
+    "R002",
+    "other_dates[0]",
+    "event"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bug": "json-schema-not-executed",
+  "description": "Conditional rule: historical precision must be day, year, conventional_year or interval.",
+  "collection": "records",
+  "target": "R014",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "date",
+        "precision"
+      ],
+      "value": "circa"
+    }
+  ],
+  "expect": [
+    "R014",
+    "precision",
+    "circa"
+  ]
+}

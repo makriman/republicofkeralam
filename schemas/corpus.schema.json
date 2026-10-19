@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Corpus or collection target",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "source_ids",
+    "status",
+    "snapshot_date",
+    "complete_inventory"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^C[0-9]{3,}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^S[0-9]{3,}$"
+      }
+    },
+    "status": {
+      "type": "string",
+      "pattern": "^[a-z][a-z_]*$"
+    },
+    "snapshot_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "catalogue_items_total": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "items_enumerated": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "items_content_reviewed": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "rights_cleared_assets": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "next_task": {
+      "type": "string"
+    },
+    "complete_inventory": {
+      "type": "boolean"
+    }
+  }
+}

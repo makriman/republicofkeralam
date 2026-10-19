@@ -1,0 +1,80 @@
+{
+  "catalogue": "translation-catalogue/1",
+  "language": "ml",
+  "source_path": "scripts/build.py",
+  "note": "Test fixture only. Malayalam copied from the AI-assisted draft staged in notes/translation-review (batch 2 and 3, revision 457d8f6e47627854161b64d1db6c82b069b55e2b). Human language review pending. Not canonical data.",
+  "entries": [
+    {
+      "key": "scripts/build.py#roles.year_attested",
+      "ml": "വർഷം സാക്ഷ്യപ്പെടുത്തിയിരിക്കുന്നു; ദിവസം ഏകീകരിച്ചിട്ടില്ല",
+      "en_sha256": "9368374425879e91",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "scripts/build.py#record.evidence_type",
+      "ml": "**തെളിവിന്റെ തരം:**",
+      "en_sha256": "f4e8b440f7bed636",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "scripts/build.py#record.h_limitations",
+      "ml": "## പരിമിതികൾ",
+      "en_sha256": "639d5ea4c0ebc26c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "scripts/build.py#year.coverage",
+      "ml": "**വ്യാപ്തി:**",
+      "en_sha256": "b1e018d3c99d7b9a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "scripts/build.py#year.coverage_seed",
+      "ml": "സ്രോതസ്സുമായി ബന്ധിപ്പിച്ച ചുരുക്കം പ്രാരംഭരേഖകൾ; പൂർത്തിയായ വർഷചരിത്രമല്ല.",
+      "en_sha256": "df72ce5d28e2a7a0",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "scripts/build.py#year.partial",
+      "ml": "**ഭാഗിക വർഷം:** ഈ പതിപ്പ് {as_of}-ൽ അവസാനിക്കുന്നു. പിന്നീടുള്ള ഒരു സംഭവവും സൂചിപ്പിക്കുന്നില്ല.",
+      "en_sha256": "08c8fb8ea89024b2",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "scripts/build.py#year.index",
+      "ml": "[വർഷസൂചിക](../README.md)",
+      "en_sha256": "2b036267f812acee",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "scripts/build.py#audit.table_head",
+      "ml": "| അധ്യായം | നിർദേശിച്ച വിഷയം | പഠനരേഖ(കൾ) | പരിശോധനാനില |",
+      "en_sha256": "d9ad3314fb996e6d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    }
+  ]
+}

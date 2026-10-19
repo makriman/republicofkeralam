@@ -1,0 +1,25 @@
+{
+  "bug": "date-roles-and-counting",
+  "description": "other_dates accepted year zero.",
+  "collection": "records",
+  "target": "R002",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "other_dates"
+      ],
+      "value": [
+        {
+          "role": "publication",
+          "year": 0
+        }
+      ]
+    }
+  ],
+  "expect": [
+    "R002",
+    "other_dates[0]",
+    "year"
+  ]
+}

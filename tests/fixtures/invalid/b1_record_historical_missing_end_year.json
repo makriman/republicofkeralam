@@ -1,0 +1,20 @@
+{
+  "bug": "missing-or-wrong-type-crashes",
+  "description": "A historical date without end_year raised KeyError.",
+  "collection": "records",
+  "target": "R014",
+  "mutations": [
+    {
+      "op": "delete",
+      "path": [
+        "date",
+        "end_year"
+      ]
+    }
+  ],
+  "expect": [
+    "R014",
+    "end_year",
+    "required"
+  ]
+}

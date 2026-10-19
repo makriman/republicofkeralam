@@ -1,0 +1,19 @@
+{
+  "bug": "missing-or-wrong-type-crashes",
+  "description": "A source without url raised KeyError.",
+  "collection": "sources",
+  "target": "S001",
+  "mutations": [
+    {
+      "op": "delete",
+      "path": [
+        "url"
+      ]
+    }
+  ],
+  "expect": [
+    "S001",
+    "url",
+    "required"
+  ]
+}

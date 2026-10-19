@@ -1,0 +1,2118 @@
+{
+  "catalogue": "translation-catalogue/1",
+  "language": "ml",
+  "source_path": "data/records.json",
+  "entries": [
+    {
+      "key": "data/records.json#R001.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R001.caveat",
+      "ml": "ഈ സംഖ്യ റൗണ്ട് ചെയ്തതാണ്. ഈ പഴയ പേജിൽ മറ്റിടങ്ങളിലുള്ള “കൂടുതൽ പഴയ പാറ” സ്ഥാനനിർണയങ്ങൾ സ്വീകരിച്ചിട്ടില്ല.",
+      "en": "The scalar is rounded. Older-rock rankings elsewhere on this older page are not adopted.",
+      "en_sha256": "9463258d18b294be",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R001.claim",
+      "ml": "ഭൂമിയുടെ പ്രായം ഏകദേശം 4.54 നൂറുകോടി വർഷമാണെന്ന കണക്ക് USGS നൽകുന്നു. ഇത് ഈ ഭൂമിയുടെ ഭൗതികചരിത്രത്തിനുള്ള ആഗോള പശ്ചാത്തലമാണ്; കേരളത്തിലെ ഒരു പാറയുടെ പ്രായമല്ല.",
+      "en": "USGS gives an Earth-age estimate of approximately 4.54 billion years. This is global context for the land’s material history, not the age of a Kerala rock.",
+      "en_sha256": "3cadfac51fd9c7d0",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R001.date.datum",
+      "ml": "Ma: ദശലക്ഷം വർഷം മുമ്പ്; റേഡിയോകാർബൺ BP അല്ല",
+      "en": "Ma: million years ago; not radiocarbon BP",
+      "en_sha256": "7f1523af8aabd113",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R001.date.original_expression",
+      "ml": "ഏകദേശം 4.54 നൂറുകോടി വർഷം; അനിശ്ചിതത്വം 1%-ൽ താഴെയാണെന്ന് USGS പറയുന്നു",
+      "en": "Approximately 4.54 billion years; USGS states uncertainty below 1%",
+      "en_sha256": "2c385757354d48bf",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R001.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R001.title",
+      "ml": "ഗ്രഹത്തിന്റെ പ്രായം പശ്ചാത്തലമായി",
+      "en": "Planetary age as context",
+      "en_sha256": "2b5b911668171420",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R002.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R002.caveat",
+      "ml": "പാരമ്പര്യമായി ലഭിച്ച ഒരു ധാതുപ്രായം ഇന്നത്തെ കരഭാഗം മുഴുവന്റെയും പ്രായമല്ല. Erratum-ന്റെ ഫലം ഇനിയും അറിവായിട്ടില്ല.",
+      "en": "An inherited mineral age is not the age of the whole present landmass. The effect of the erratum is not yet known.",
+      "en_sha256": "1c8b2982deb58059",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R002.claim",
+      "ml": "2006-ലെ Trivandrum Block പഠനം തെക്കൻ അടിസ്ഥാനശിലയുടെ ചരിത്രത്തിന് പ്രസക്തമായ ധാതുപ്രായ തെളിവുകൾ റിപ്പോർട്ട് ചെയ്യുന്നു. അതിന്റെ erratum പരിശോധിക്കുന്നതുവരെ അതിലെ സംഖ്യാഫലങ്ങൾ ഈ പ്രാരംഭശേഖരത്തിൽ ഉൾപ്പെടുത്തുന്നില്ല.",
+      "en": "The 2006 Trivandrum Block study reports mineral-age evidence relevant to southern basement history. Its numerical results are withheld from this seed pending inspection of its erratum.",
+      "en_sha256": "577d6b11750dd948",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R002.date.original_expression",
+      "ml": "പ്രീകാംബ്രിയൻ–കേംബ്രിയൻ ധാതുചരിത്രങ്ങൾ; erratum പരിശോധിക്കുന്നതുവരെ സംഖ്യകൾ സ്വീകരിക്കുന്നത് തടഞ്ഞിരിക്കുന്നു",
+      "en": "Precambrian–Cambrian mineral histories; numerical adoption blocked pending erratum",
+      "en_sha256": "ea0cb5314a4ab15a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R002.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R002.title",
+      "ml": "തെക്കൻ പ്രദേശത്തെ പ്രാചീന അടിസ്ഥാനശിലയെക്കുറിച്ചുള്ള പഠനത്തിന് അതിന്റെ erratum ആവശ്യമാണ്",
+      "en": "Ancient southern-basement study requires its erratum",
+      "en_sha256": "a4e8f118f4536d3e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R003.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R003.caveat",
+      "ml": "“ഏറ്റവും പഴയ പാറ” എന്ന പ്രായമോ സ്ഥാനനിർണയമോ ഇവിടെ ഉറപ്പിച്ചുപറയുന്നില്ല.",
+      "en": "No oldest-rock age or ranking is asserted here.",
+      "en_sha256": "f02ec8f4215bb4c1",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R003.claim",
+      "ml": "ഹേഡിയൻ മുതൽ നിയോആർക്കിയൻ വരെയുള്ള ഭൂവൽക്ക പരിണാമത്തെക്കുറിച്ചുള്ള 2016-ലെ പ്രബന്ധം ഏറ്റവും പഴയ പ്രാദേശിക വസ്തുക്കളെക്കുറിച്ചുള്ള അന്വേഷണത്തിന് പ്രസക്തമാണ്; എന്നാൽ സാമ്പിളുകളുടെയും പ്രായവ്യാഖ്യാനത്തിന്റെയും പൂർണ തെളിവുകൾ അവലോകനം ചെയ്തിട്ടില്ല.",
+      "en": "The 2016 paper on Hadean-to-Neoarchean crustal evolution is relevant to investigating the oldest local material, but the full sample and age-interpretation evidence has not been reviewed.",
+      "en_sha256": "2f29b933a3468016",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R003.date.original_expression",
+      "ml": "ഹേഡിയൻ മുതൽ നിയോആർക്കിയൻ വരെയുള്ള ഭൂവൽക്ക പരിണാമ അവകാശവാദം; സാമ്പിൾതല വിലയിരുത്തൽ ബാക്കി",
+      "en": "Hadean to Neoarchean crustal-evolution claim; sample-level evaluation pending",
+      "en_sha256": "23085221c737fd7f",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R003.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R003.title",
+      "ml": "ഉപദ്വീപീയ പ്രാചീന ഭൂവൽക്ക പ്രബന്ധം തീർപ്പാകാത്ത ഒരു കാലനിർണയസൂചനയാണ്",
+      "en": "Peninsular ancient-crust paper is an unresolved dating lead",
+      "en_sha256": "443d59750eed7aad",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R004.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R004.caveat",
+      "ml": "തടം മുഴുവനുമുള്ള വ്യാഖ്യാനങ്ങൾ പ്രാദേശികമായി ബാധകമാക്കാൻ തെളിവ് വേണം.",
+      "en": "Local transfer of basin-wide interpretations requires evidence.",
+      "en_sha256": "a46e6d2ca55c93b2",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R004.claim",
+      "ml": "പടിഞ്ഞാറൻ തീരത്തെ ടെക്റ്റോണിക്-മാഗ്മാ പഠനവും കടലിലെ അവസാദനിക്ഷേപ പഠനവും അരികിന്റെ വികാസത്തിലെ വ്യത്യസ്ത പ്രക്രിയകളാണ് അന്വേഷിക്കുന്നത്; പശ്ചിമഘട്ട പർവതനിരയുടെയോ തീരത്തിന്റെയോ രൂപീകരണത്തിനുള്ള ഒരൊറ്റ തീയതിയായി ഇവിടെ രണ്ടിനെയും ഉപയോഗിക്കുന്നില്ല.",
+      "en": "The west-coast tectono-magmatic study and the offshore-sedimentation study investigate different processes in margin development; neither is used here as a single date for the birth of the Ghats or coast.",
+      "en_sha256": "b326d18c0c4f95eb",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R004.date.original_expression",
+      "ml": "ബഹുഘട്ട അരികുവികാസം",
+      "en": "Multistage margin development",
+      "en_sha256": "c7aa366b4ddbc8c8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R004.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R004.title",
+      "ml": "പടിഞ്ഞാറൻ അരികിനെക്കുറിച്ചുള്ള ബഹുഘട്ട ഗവേഷണമാതൃക",
+      "en": "A multistage west-margin research model",
+      "en_sha256": "bea9fe38379e6a06",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R005.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R005.caveat",
+      "ml": "മുൻഗണനയുള്ള ഈ പരിധിയെ സ്ഥിതിവിവരശാസ്ത്രപരമായ confidence interval ആയോ തീരം മുഴുവന്റെയും പ്രായമായോ ഇവിടെ അവതരിപ്പിക്കുന്നില്ല. സാമ്പിൾ എടുത്ത ഭാഗങ്ങൾ, സാമ്പിളുകളുടെ എണ്ണം, reference curve, അനിശ്ചിതത്വം എന്നിവ കണ്ടില്ല; പൂർണപാഠം അടഞ്ഞ പ്രവേശനത്തിലാണ്. S008-ന് ഇതേ ഗ്രന്ഥകർത്താക്കളാണ്; അത് സ്വതന്ത്ര സ്ഥിരീകരണമല്ല.",
+      "en": "The preferred range is not presented here as a statistical confidence interval or an age for the whole coastline. Sampled sections, sample count, reference curve and uncertainty were not seen; the full text is closed access. S008 shares authors and is not independent confirmation.",
+      "en_sha256": "17585bec65209a53",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R005.claim",
+      "ml": "മൊളസ്ക് പുറന്തോടുകളിലെ സ്ട്രോൺഷ്യം-ഐസോടോപ്പ് പഠനത്തെ ആധാരമാക്കി, സാമ്പിൾ എടുത്ത Quilon Formation വസ്തുക്കൾക്ക് 17.08–17.13 Ma എന്ന മുൻഗണനയുള്ള നിക്ഷേപക്കണക്ക് Carolin, Vadlamani, Bajpai എന്നിവർ റിപ്പോർട്ട് ചെയ്യുന്നു.",
+      "en": "Carolin, Vadlamani and Bajpai report a preferred depositional estimate of 17.08–17.13 Ma for sampled Quilon Formation material, based on strontium-isotope work on molluscan shells.",
+      "en_sha256": "dc0375b1f0537111",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R005.date.datum",
+      "ml": "Ma: ദശലക്ഷം വർഷം മുമ്പ്; റേഡിയോകാർബൺ BP അല്ല",
+      "en": "Ma: million years ago; not radiocarbon BP",
+      "en_sha256": "7f1523af8aabd113",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R005.date.original_expression",
+      "ml": "മുൻഗണനയുള്ള നിക്ഷേപപ്രായം 17.08–17.13 Ma",
+      "en": "Preferred depositional age 17.08–17.13 Ma",
+      "en_sha256": "1887127daa1bdb8c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R005.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R005.title",
+      "ml": "Quilon Formation-ന്റെ നിക്ഷേപക്കണക്ക്",
+      "en": "Quilon Formation depositional estimate",
+      "en_sha256": "9347e9a58f5c0de6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R006.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R006.caveat",
+      "ml": "ഉത്ഖനനമോ അടുക്കുക്രമമോ (stratigraphy) കേവല കാലനിർണയമോ ഇല്ലാത്ത ഉപരിതല കണ്ടെത്തലുകൾ; നദീതടത്തട്ടുകളിലെ വസ്തുക്കളെ നദി സ്ഥാനം മാറ്റിയിരിക്കാം. ആയുധങ്ങളുടെ രൂപമാതൃക ഒരു ജീവിവർഗത്തെയോ ആദ്യമായി എത്തിയ കൃത്യവർഷത്തെയോ സ്ഥാപിക്കുന്നില്ല.",
+      "en": "Surface finds without excavation, stratigraphy or absolute dating; terrace finds may have been moved by the river. Tool typology does not establish a species or an exact first-arrival year.",
+      "en_sha256": "79a71717621da755",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R006.claim",
+      "ml": "Ramesh N. K.-യുടെ 2016-ലെ ലേഖനം വടക്കൻ കേരളത്തിലെ നദീതടത്തട്ടുകളിൽ (river terraces) ഉപരിതലത്തിൽനിന്ന് ശേഖരിച്ച ശിലായുധങ്ങളെ രൂപമാതൃകയുടെ അടിസ്ഥാനത്തിൽ Lower Palaeolithic-ലേക്ക് ചേർക്കുന്നു.",
+      "en": "Ramesh N. K.'s 2016 article attributes surface-collected stone tools from river terraces in northern Kerala to the Lower Palaeolithic on typological grounds.",
+      "en_sha256": "741c454533ea576c",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R006.date.original_expression",
+      "ml": "Lower Palaeolithic കാലനിർണയം; കേവലതീയതി സ്വീകരിച്ചിട്ടില്ല",
+      "en": "Lower Palaeolithic attribution; no adopted absolute date",
+      "en_sha256": "6a485970168f8ef2",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R006.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R006.title",
+      "ml": "വടക്കൻ കേരളത്തിൽ റിപ്പോർട്ട് ചെയ്യപ്പെട്ട Lower Palaeolithic തെളിവ്",
+      "en": "Reported Lower Palaeolithic evidence in northern Kerala",
+      "en_sha256": "7207e0140f00415c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R007.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R007.caveat",
+      "ml": "അവലോകനത്തിലെ “5210 വർഷം മുമ്പ്” എന്ന മൂല്യത്തിന് കൃത്യമായ കലണ്ടർവർഷമാക്കി മാറ്റാൻ ആവശ്യമായ വിവരങ്ങളില്ല. അതിലെ വിവരണത്തിനുപകരം അനുമാനിച്ച ഒരു microlithic ആയുധക്കൂട്ടം ചേർക്കരുത്.",
+      "en": "The overview’s 5210-years-ago value lacks enough metadata for conversion into a precise calendar year. Its description should not be replaced with an assumed microlithic toolkit.",
+      "en_sha256": "c17f3a5cc4ddef50",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R007.claim",
+      "ml": "INFLIBNET അവലോകനം തെന്മല/Tenmala, അങ്കോട് എന്നിവിടങ്ങളിലെ അഭയസ്ഥാന നിക്ഷേപങ്ങൾ തിരിച്ചറിയുകയും മുൻ ഫീൽഡ് ഗവേഷണത്തിലേക്ക് ചൂണ്ടിക്കാണിക്കുകയും ചെയ്യുന്നു.",
+      "en": "The INFLIBNET overview identifies Thenmala/Tenmala and Ankode shelter deposits and points to earlier field research.",
+      "en_sha256": "cb27aeaa5c590e01",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R007.date.original_expression",
+      "ml": "Mesolithic കാലനിർണയം; ഉദ്ധരിച്ച കരിയുടെ പ്രായം ഏകീകരിച്ചിട്ടില്ല",
+      "en": "Mesolithic attribution; quoted charcoal age not normalized",
+      "en_sha256": "aeb43365c29c24d3",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R007.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R007.title",
+      "ml": "തെന്മലയും അങ്കോടും പുരാവസ്തു ഗവേഷണസൂചനകളാണ്",
+      "en": "Thenmala and Ankode are archaeological research leads",
+      "en_sha256": "4ea35e1d582fd75a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R008.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R008.caveat",
+      "ml": "നിർദേശിക്കപ്പെട്ട എല്ലാ ആദ്യകാലതീയതികളും തെറ്റാണെന്ന് ഇത് തെളിയിക്കുന്നില്ല; രൂപങ്ങൾ വ്യത്യസ്ത ഘട്ടങ്ങളെ പ്രതിനിധീകരിച്ചേക്കാം. ക്രി.മു. 6000 എന്ന കണക്ക് ഒരേ വാചകങ്ങൾ പങ്കിടുന്നതും തെളിവൊന്നും ഉദ്ധരിക്കാത്തതുമായ ടൂറിസം പേജുകളിൽ മാത്രമാണ്. പരിശോധിച്ച പണ്ഡിതചർച്ചകൾ ആപേക്ഷിക കാലങ്ങൾ നിർദേശിക്കുന്നു: Gurukkal ചിത്രസഞ്ചയത്തിന് താൽക്കാലികമായി ക്രി.മു. ഒന്നാം സഹസ്രാബ്ദത്തിന്റെ അവസാനഘട്ടം; Ajit Kumar ഏറ്റവും പഴയ ലിഖിതങ്ങളെ പിൽക്കാല അതിരായി എടുത്ത് മഹാശിലായുഗ അല്ലെങ്കിൽ ആദ്യകാല ചരിത്രകാല തീയതി. Fawcett-ന്റെ 1901-ലെ കുഴിയിൽ (trench) വാസാവശിഷ്ടം കണ്ടില്ല. കൊത്തുചിത്രങ്ങൾക്കുള്ള കേവലതീയതിയൊന്നും പരിശോധിച്ചിട്ടില്ല.",
+      "en": "This does not prove every proposed early date false, and figures may represent different episodes. The 6000 BCE figure appears only on tourism pages that share wording and cite no evidence. Inspected scholarship proposes relative dates: Gurukkal a tentative late first millennium BCE for the gallery; Ajit Kumar a megalithic or early historic date, using the earliest inscriptions as a later limit. Fawcett's 1901 trench found no habitation deposit. No absolute date for the engravings has been inspected.",
+      "en_sha256": "8a7b966ca208541a",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R008.claim",
+      "ml": "ജില്ലാ വിനോദസഞ്ചാര പേജ് എടക്കൽ കൊത്തുപണികൾക്ക് ക്രി.മു. 6000 എന്ന് നൽകുന്നു; പരിശോധിച്ച പണ്ഡിതചർച്ച അതിനെ പാനലുകളുടെ സുരക്ഷിതമായ കേവലതീയതിയായി സ്ഥാപിക്കുന്നില്ല.",
+      "en": "The district tourism page assigns Edakkal engravings to 6000 BCE; the scholarly discussion inspected does not establish that as a secure absolute date for the panels.",
+      "en_sha256": "de23a0fa903464c7",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R008.date.original_expression",
+      "ml": "ക്രി.മു. 6000 ഒരു വിനോദസഞ്ചാര ആരോപണമാണ്; സ്വീകരിച്ച സംഭവതീയതിയല്ല",
+      "en": "6000 BCE is a tourism attribution, not an adopted event date",
+      "en_sha256": "1d86cff7b29b6b34",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R008.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R008.title",
+      "ml": "എടക്കൽ കൊത്തുപണികൾ: ഒരു തീയതി അവകാശവാദം, ഉറപ്പിച്ച വർഷമല്ല",
+      "en": "Edakkal engravings: a date claim, not a fixed year",
+      "en_sha256": "61b850ab8bee3982",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R009.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R009.caveat",
+      "ml": "2013-ൽ റിപ്പോർട്ട് ചെയ്തതുപോലെയുള്ള ഒരു സ്ഥലത്തിന്റെ ഘട്ടമാണിത്; കേരളത്തിന്റെ മുഴുവൻ കാലക്രമമോ മുടക്കമില്ലാത്ത വാസത്തിന്റെ തെളിവോ അല്ല.",
+      "en": "This is one site’s phase as reported in 2013, not all Kerala’s chronology or proof of uninterrupted occupation.",
+      "en_sha256": "ffa18fbc25ecc988",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R009.claim",
+      "ml": "KCHR-ന്റെ ഏഴാം സീസൺ കൈപ്പുസ്തകം പട്ടണത്തിന് ഏകദേശം ക്രി.മു. 1000–500 എന്ന ഇരുമ്പുയുഗഘട്ടം നൽകുന്നു.",
+      "en": "The KCHR seventh-season handbook gives Pattanam an approximate Iron Age phase of 1000–500 BCE.",
+      "en_sha256": "1574c80da90440e9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R009.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; സംഭവത്തിന്റെ കൃത്യമായ ആരംഭ-അവസാന അതിരുകളല്ല",
+      "en": "BCE/CE indexing; not exact event endpoints",
+      "en_sha256": "daf0ff596285dc25",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R009.date.original_expression",
+      "ml": "ക്രി.മു. 1000–500, ഏകദേശ പുരാവസ്തുഘട്ടം",
+      "en": "1000–500 BCE, approximate archaeological phase",
+      "en_sha256": "5be08965e85f87b7",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R009.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R009.title",
+      "ml": "പട്ടണത്തിന്റെ റിപ്പോർട്ട് ചെയ്യപ്പെട്ട ഇരുമ്പുയുഗഘട്ടം",
+      "en": "Pattanam’s reported Iron Age phase",
+      "en_sha256": "250fa38ae42ae4aa",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R010.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R010.caveat",
+      "ml": "ഈ ശാസനം ഇന്നത്തെ കേരളത്തിനുള്ളിൽ കണ്ടെത്തിയ ലിഖിതമല്ല; അത് ഒരു ഭരണവർഷവും പറയുന്നില്ല. Dhammika ഗിർനാർ പാഠത്തിന് ക്രി.മു. 257 എന്ന തീയതി നൽകുന്നു; ഇത് ആ സമ്പാദകൻ നിർദേശിച്ച തീയതിയാണ്, ഇവിടെ സ്വീകരിച്ച കൃത്യവർഷമല്ല. Hultzsch-ന്റെ xxxv–xxxvi പേജുകൾ Edict II-ന് ക്രി.മു. 252 എന്ന തീയതി സ്ഥാപിക്കുന്നില്ല. പ്രാദേശിക ചികിത്സാസംവിധാനങ്ങൾ ഉണ്ടായിരുന്നുവെന്ന് അതിലെ അവകാശവാദങ്ങൾ സ്വതന്ത്രമായി തെളിയിക്കുന്നില്ല.",
+      "en": "The edict is not an inscription found inside present Kerala and states no regnal year. Dhammika dates the Girnar text to 257 BCE; this is an attributed editorial date, not an adopted exact year. Hultzsch pp. xxxv–xxxvi does not establish a 252 BCE date for Edict II. Its claims do not independently prove local medical installations.",
+      "en_sha256": "62172c2857504ce8",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R010.claim",
+      "ml": "പ്രധാന ശിലാശാസനം II-ന്റെ (Major Rock Edict II) പരിശോധിച്ച പരിഭാഷ ഭരണാധികാരിയുടെ അതിർത്തിക്കപ്പുറമുള്ള ജനങ്ങളുടെ കൂട്ടത്തിൽ Keralaputras-നെ പേരെടുത്ത് പറയുന്നു. തെക്കുപടിഞ്ഞാറൻ പ്രദേശവുമായുള്ള ബന്ധം ചരിത്ര-ഭൂമിശാസ്ത്രപരമായ ഒരു വ്യാഖ്യാനമാണ്; ആധുനിക അതിർത്തിയുടെ വിവരണമല്ല.",
+      "en": "The inspected translation of Major Rock Edict II names Keralaputras among peoples beyond the ruler’s borders. The association with the southwestern region is a historical-geographic interpretation, not a modern boundary description.",
+      "en_sha256": "f500e9d20addbfd1",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R010.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; സംഭവത്തിന്റെ കൃത്യമായ ആരംഭ-അവസാന അതിരുകളല്ല",
+      "en": "BCE/CE indexing; not exact event endpoints",
+      "en_sha256": "daf0ff596285dc25",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R010.date.original_expression",
+      "ml": "ക്രി.മു. മൂന്നാം നൂറ്റാണ്ട്; സമ്പാദകൻ വേറിട്ട് ക്രി.മു. 257 നിർദേശിക്കുന്നു",
+      "en": "Third century BCE; editor separately proposes 257 BCE",
+      "en_sha256": "6372b7414d6a5486",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R010.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R010.title",
+      "ml": "രണ്ടാം ശിലാശാസനത്തിലെ Keralaputras",
+      "en": "Keralaputras in Rock Edict II",
+      "en_sha256": "8ecac0424875b121",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R011.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R011.caveat",
+      "ml": "ഓരോ പ്രാചീന സ്ഥലപ്പേരിനെയും ഒരു ആധുനിക നിർദേശാങ്കവുമായി സമീകരിക്കുകയോ വ്യാപാരത്തിൽനിന്ന് എല്ലാ നിവാസികളുടെയും വംശീയത അനുമാനിക്കുകയോ ചെയ്യരുത്. Pliny (Natural History 6.26) Muziris-നെ ചരക്കുകളിൽ അത്ര സമ്പന്നമല്ലാത്ത സ്ഥലമായി വിവരിക്കുന്നു; ഇത് Periplus വിവരണത്തിൽനിന്ന് വ്യത്യസ്തമാണ്. ഈ വ്യത്യാസം പരിഹരിച്ചിട്ടില്ല.",
+      "en": "Do not equate every ancient place name with a modern coordinate or infer the ethnicity of all residents from trade. Pliny (Natural History 6.26) describes Muziris as not very rich in merchandise, which differs from the Periplus account; the difference is unresolved.",
+      "en_sha256": "a62f726adf1a1dde",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R011.claim",
+      "ml": "Periplus 53–56 ഭാഗങ്ങളിൽ മുസിരിസിനെയും സമീപ തുറമുഖങ്ങളെയും ഭരണാധികാരികളെയും സമുദ്രവിനിമയത്തെയും വിവരിക്കുന്നു. പരിശോധിച്ച പതിപ്പ് ഈ പ്രാചീനകൃതിയുടെ രചന ക്രി.വ. ഒന്നാം നൂറ്റാണ്ടിൽ സ്ഥാപിക്കുന്നു.",
+      "en": "The Periplus describes Muziris and neighbouring ports, rulers and maritime exchange in sections 53–56. The inspected edition places the ancient composition in the first century CE.",
+      "en_sha256": "fe2d4ac7e86f2e83",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R011.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; സംഭവത്തിന്റെ കൃത്യമായ ആരംഭ-അവസാന അതിരുകളല്ല",
+      "en": "BCE/CE indexing; not exact event endpoints",
+      "en_sha256": "daf0ff596285dc25",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R011.date.original_expression",
+      "ml": "ക്രി.വ. ഒന്നാം നൂറ്റാണ്ട്; കൃത്യമായ രചനാവർഷം സ്വീകരിച്ചിട്ടില്ല",
+      "en": "First century CE; exact composition year not adopted",
+      "en_sha256": "44615c430a7cb951",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R011.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R011.title",
+      "ml": "ഒന്നാം നൂറ്റാണ്ടിലെ Periplus തുറമുഖവിവരണങ്ങൾ",
+      "en": "First-century Periplus port descriptions",
+      "en_sha256": "c644395d976198b0",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R012.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R012.caveat",
+      "ml": "ഒരു സ്ഥലഘട്ടം പല സംഭവങ്ങളെ ഉൾക്കൊള്ളുന്നു; അതിനെ ഓരോ വർഷത്തിലേക്കും വേറിട്ട് തീയതിയുള്ള സംഭവമായി പകർത്തരുത്.",
+      "en": "A site phase spans many events; it must not be copied as a separately dated event into every year.",
+      "en_sha256": "9758bce9e3fcfe50",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R012.claim",
+      "ml": "KCHR കൈപ്പുസ്തകം പട്ടണത്തിലെ ആദ്യകാല ചരിത്രഘട്ടത്തെ (Early Historic) ഏകദേശം ക്രി.മു. 300 മുതൽ ക്രി.വ. 500 വരെയുള്ള കാലത്ത് ഉൾപ്പെടുത്തുന്നു.",
+      "en": "The KCHR handbook groups a Pattanam Early Historic phase approximately within 300 BCE–500 CE.",
+      "en_sha256": "e6ac5ec10779fecd",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R012.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; സംഭവത്തിന്റെ കൃത്യമായ ആരംഭ-അവസാന അതിരുകളല്ല",
+      "en": "BCE/CE indexing; not exact event endpoints",
+      "en_sha256": "daf0ff596285dc25",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R012.date.original_expression",
+      "ml": "ക്രി.മു. 300 മുതൽ ക്രി.വ. 500 വരെ; ഏകദേശ സ്ഥലഘട്ടം",
+      "en": "300 BCE–500 CE; approximate site phase",
+      "en_sha256": "19a85f503b87ab83",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R012.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R012.title",
+      "ml": "പട്ടണത്തിലെ ആദ്യകാല ചരിത്രഘട്ടം",
+      "en": "Early Historic Pattanam phase",
+      "en_sha256": "a781f5d0c46f77f4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R013.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R013.caveat",
+      "ml": "ലിഖിതത്തിന്റെ വിമർശനാത്മക പതിപ്പും തീയതിപരിവർത്തനവും ഇനിയും പരിശോധിക്കണം. അതേ പേജിലെ നിർദേശം മുൻപത്തെ ഒരു വ്യാഖ്യാനമാണ് ഉപയോഗിക്കുന്നത്. പദ്ധതിക്ക് 2011 ഡിസംബർ മുതൽ 2013 നവംബർ വരെ ധനസഹായം ലഭിച്ചു; നിർദേശത്തിൽ രണ്ട് തമിഴ് ദാനപത്രങ്ങളും ലിപികളുടെ കൂട്ടത്തിൽ ദേവനാഗരിയും പറഞ്ഞിരുന്നു; അന്തിമഫലങ്ങൾ ഇത് തിരുത്തുന്നു.",
+      "en": "The critical inscription edition and date conversion must still be reviewed. The same page’s proposal uses an earlier interpretation. The project was funded from December 2011 to November 2013; the proposal described two Tamil grants and Devanagari among the scripts, which the final outcomes revise.",
+      "en_sha256": "f8be9f980710ed6a",
+      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R013.claim",
+      "ml": "AHRC ഗവേഷണപദ്ധതിയുടെ അന്തിമഫലങ്ങൾ കൊല്ലം ചെപ്പേടുകളെ ക്രി.വ. 849-ലെ ഒരൊറ്റ രേഖയായി വിവരിക്കുന്നു.",
+      "en": "The final outcomes of the AHRC research project describe the Kollam plates as a single document dated to 849 CE.",
+      "en_sha256": "ce39bc0662ccc75d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R013.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R013.date.original_expression",
+      "ml": "പദ്ധതിഫലങ്ങളിൽ ക്രി.വ. 849; മൂലകലണ്ടർ യുക്തി ഇനിയും പരിശോധിച്ചിട്ടില്ല",
+      "en": "849 CE in project outcomes; original calendrical reasoning not yet inspected",
+      "en_sha256": "ed75fc1b42095a41",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R013.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R013.title",
+      "ml": "കൊല്ലം ചെപ്പേടുകൾ: ആരോപിതമായ ക്രി.വ. 849 കാലനിർണയം",
+      "en": "Kollam copper plates: attributed 849 CE dating",
+      "en_sha256": "26f064521b5fe124",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R014.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R014.caveat",
+      "ml": "വർഷം നിലനിർത്തിയിരിക്കുന്നു; കൃത്യമായ ദിവസം ഏകീകരിച്ചിട്ടില്ല. ഉദ്ധരണിയിൽ മേയ് 20/മേയ് 22 ക്രമപ്രശ്നമുണ്ട്; പൂർണ വിമർശനാത്മക പതിപ്പ് ആവശ്യമാണ്. ഇത് സമുദ്രസമ്പർക്കത്തിന്റെ തുടക്കമല്ല.",
+      "en": "Year retained, exact day not normalized. The extract contains a May 20/May 22 sequencing issue; the full critical edition is required. This is not the beginning of maritime contact.",
+      "en_sha256": "a64a97de5d18d27a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R014.claim",
+      "ml": "യാത്രാഡയറി ഉദ്ധരണി അതിന്റെ 1498 ഭാഗത്ത് Calicut-ന് (കോഴിക്കോട്) സമീപം നങ്കൂരമിട്ടതിനെ വിവരിക്കുന്നു.",
+      "en": "The voyage-journal extract describes anchoring near Calicut in its 1498 section.",
+      "en_sha256": "8a48f174e994c033",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R014.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R014.date.original_expression",
+      "ml": "ക്രി.വ. 1498",
+      "en": "1498 CE",
+      "en_sha256": "ab906b6bd9de1f14",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R014.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R014.title",
+      "ml": "യാത്രാഡയറി 1498-ൽ Calicut-ലെ വരവ് രേഖപ്പെടുത്തുന്നു",
+      "en": "Voyage journal places arrival at Calicut in 1498",
+      "en_sha256": "a55081ccf8ab5174",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R015.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R015.caveat",
+      "ml": "നിയമത്തിലെ തീയതി പുതിയ സംസ്ഥാനം നിലവിൽവന്ന തീയതിയല്ല.",
+      "en": "The date on the Act is not the commencement date for the new state.",
+      "en_sha256": "d45a4fed16202d7a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R015.claim",
+      "ml": "1956-ലെ 37-ാം നമ്പർ നിയമത്തിന്റെ (Act 37 of 1956) ഔദ്യോഗിക പകർപ്പിന്റെ തീയതി 1956 ഓഗസ്റ്റ് 31 ആണ്; സംസ്ഥാനങ്ങളുടെ പുനഃസംഘടന അത് വ്യവസ്ഥ ചെയ്യുന്നു.",
+      "en": "The official copy of Act 37 of 1956 is dated 31 August 1956 and sets out the reorganization of states.",
+      "en_sha256": "70567b69ce79ea28",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R015.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R015.date.original_expression",
+      "ml": "1956 ഓഗസ്റ്റ് 31",
+      "en": "31 August 1956",
+      "en_sha256": "18b98f48a51e6cf8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R015.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R015.title",
+      "ml": "സംസ്ഥാന പുനഃസംഘടനാ നിയമം 1956 ഓഗസ്റ്റ് 31-ലേത്",
+      "en": "States Reorganisation Act dated 31 August 1956",
+      "en_sha256": "eb52b3e59b5162cb",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R016.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R016.caveat",
+      "ml": "എല്ലാ കൈമാറ്റങ്ങൾക്കും നിയമം വായിക്കുക: ഇത് ചരിത്രപരമായ മലബാർ മുഴുവനോ ചരിത്രപരമായ തിരുവിതാംകൂർ മുഴുവനോ അല്ല. മൂലനിയമം സ്വയം നിലവിലെ അതിർത്തിബഹുഭുജം സ്ഥാപിക്കുന്നില്ല.",
+      "en": "Read the Act for all transfers: this is not all historic Malabar or all historic Travancore. The original Act does not by itself establish the current polygon.",
+      "en_sha256": "2eb15ecf2f518d6d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R016.claim",
+      "ml": "2(a), 5 എന്നീ വകുപ്പുകൾ 1956 നവംബർ 1-നെ പുതിയ സംസ്ഥാനത്തിന്റെ രൂപീകരണത്തിനുള്ള നിശ്ചിതദിനമാക്കുന്നു. 5-ാം വകുപ്പ് നിർദിഷ്ട പ്രദേശങ്ങൾ സംയോജിപ്പിക്കുകയും വ്യക്തമായ ഒഴിവാക്കലുകൾ ഉൾക്കൊള്ളുകയും ചെയ്യുന്നു.",
+      "en": "Sections 2(a) and 5 make 1 November 1956 the appointed day for formation of the new state. Section 5 combines specified territories and contains explicit exclusions.",
+      "en_sha256": "e0804b40c3ebf498",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R016.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R016.date.original_expression",
+      "ml": "1956 നവംബർ 1",
+      "en": "1 November 1956",
+      "en_sha256": "392f9be2304bc035",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R016.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R016.title",
+      "ml": "സംസ്ഥാനരൂപീകരണം 1956 നവംബർ 1-ന് പ്രാബല്യത്തിൽ",
+      "en": "State formation takes effect on 1 November 1956",
+      "en_sha256": "b8b810a4b0fcbe70",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R017.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R017.caveat",
+      "ml": "മൂലപ്രസിദ്ധീകരണം പരിശോധിച്ചിട്ടില്ല; ഇത് ഗവേഷണപ്രവർത്തനത്തിന്റെ തീയതിയാണ്, ശവക്കല്ലറയുടെ നിർമ്മാണത്തിന്റേതല്ല.",
+      "en": "The original publication has not been inspected; this dates research activity, not the construction of the burial.",
+      "en_sha256": "b4f147017e7dc5f8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R017.claim",
+      "ml": "സംസ്ഥാന പുരാവസ്തുവകുപ്പിന്റെ അവലോകനം പുതിയങ്ങാടിയിലെ ബാബിങ്ടണിന്റെ ഉത്ഖനനം 1819-ലേതാണെന്ന് നൽകുന്നു.",
+      "en": "The state Archaeology Department’s retrospective dates Babington’s excavation at Puthiyangadi to 1819.",
+      "en_sha256": "f1fe8a0c61109b72",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R017.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R017.date.original_expression",
+      "ml": "ക്രി.വ. 1819",
+      "en": "1819 CE",
+      "en_sha256": "898e8b6412956983",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R017.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R017.title",
+      "ml": "ബാബിങ്ടൺ ഉത്ഖനനം 1819-ൽ എന്ന് രേഖപ്പെടുത്തിയിരിക്കുന്നു",
+      "en": "Babington excavation recorded for 1819",
+      "en_sha256": "66d2ced04436dba8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R018.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R018.caveat",
+      "ml": "മാന്വലിൽ വിവരിക്കുന്ന എല്ലാ ആചാരങ്ങളുടെയും അവകാശവാദങ്ങളുടെയും തീയതി പ്രസിദ്ധീകരണവർഷമല്ല. പൂർണ പതിപ്പും പ്രദേശങ്ങളുടെ ഒത്തുനോക്കൽപ്പട്ടികയും ഇനിയും ആവശ്യമാണ്.",
+      "en": "A publication year does not date every custom or claim described in the manual. Full edition and territorial crosswalk still required.",
+      "en_sha256": "64b438cafe146952",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R018.claim",
+      "ml": "ലോഗന്റെ മലബാർ മാന്വലിന്റെ ആദ്യഭാഗത്തിന്റെ പ്രസിദ്ധീകരണവർഷം 1887 ആണെന്ന് ഔദ്യോഗിക പുരാവസ്തു അവലോകനം തിരിച്ചറിയുന്നു.",
+      "en": "The official archaeology retrospective identifies 1887 as the publication year of the first part of Logan’s Malabar Manual.",
+      "en_sha256": "7cfe508bb79abd1e",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R018.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R018.date.original_expression",
+      "ml": "ക്രി.വ. 1887",
+      "en": "1887 CE",
+      "en_sha256": "db34fb224a64759c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R018.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R018.title",
+      "ml": "മലബാർ മാന്വൽ പ്രസിദ്ധീകരണം, 1887",
+      "en": "Malabar Manual publication, 1887",
+      "en_sha256": "578e0c26d3ad9be3",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R019.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R019.caveat",
+      "ml": "ഇതിനെ മനുഷ്യരുടെ ആദ്യ കണ്ടെത്തൽ എന്ന് വിളിക്കരുത്; മുൻപേയുള്ള പ്രാദേശിക അറിവ് മായ്ച്ചുകളയുന്നില്ല. ഗുഹ നാട്ടുകാർക്ക് കുറഞ്ഞത് 12 അല്ലെങ്കിൽ 15 വർഷമായി അറിയാമായിരുന്നുവെന്ന് Fawcett എഴുതി. വർഷത്തെക്കുറിച്ച് സ്രോതസ്സുകൾ വിയോജിക്കുന്നു: 1894 (S012; Ajit Kumar 2013), 1895 (S011-ഉം സംസ്ഥാന ടൂറിസം പേജും), ഏകദേശം 1896-ന്റെ തുടക്കം (Fawcett 1901, പേജ് 412-ൽ ഉദ്ധരിച്ച ഒരു റിപ്പോർട്ട്). 1894–1896 എന്ന ഇടവേള പരസ്പരവിരുദ്ധമായ റിപ്പോർട്ടുകൾ നൽകുന്ന വർഷങ്ങളുടെ പരിധിയാണ്; ഇടയ്ക്കുള്ള ഓരോ വർഷത്തിലും സന്ദർശനങ്ങൾ നടന്നുവെന്ന് അത് അവകാശപ്പെടുന്നില്ല.",
+      "en": "Do not call this the first human discovery; local prior knowledge is not erased, and Fawcett wrote that residents had known the cave for at least 12 or 15 years. Sources disagree on the year: 1894 (S012; Ajit Kumar 2013), 1895 (S011 and the state tourism page), and about the beginning of 1896 (a report quoted in Fawcett 1901, p. 412). The 1894–1896 interval bounds the conflicting reports; it does not assert visits in every intervening year.",
+      "en_sha256": "428a019df6741b1c",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R019.claim",
+      "ml": "എടക്കൽ കൊത്തുപണികളുമായുള്ള Fawcett-ന്റെ സമ്പർക്കത്തിന് Sahapedia-യും Kumar-ഉം 1894 എന്ന വർഷം നൽകുന്നു; ടൂറിസം വിവരണങ്ങൾ 1895 നൽകുന്നു, അതേസമയം Fawcett-ന്റെ 1901-ലെ കൃതിയിൽ ഉദ്ധരിച്ച ഒരു റിപ്പോർട്ട് ഏകദേശം 1896-ന്റെ തുടക്കം എന്നാണ് നൽകുന്നത്. ഈ സമ്പർക്കം നടന്ന വർഷം ഇനിയും തീർപ്പായിട്ടില്ല.",
+      "en": "Sahapedia and Kumar attribute Fawcett’s encounter with Edakkal’s engravings to 1894; tourism accounts give 1895, while a report quoted in Fawcett 1901 gives about the beginning of 1896. The encounter year remains unsettled.",
+      "en_sha256": "b416f73027762731",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R019.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R019.date.original_expression",
+      "ml": "1894 (S012; Kumar 2013), 1895 (S011; സംസ്ഥാന ടൂറിസം), ഏകദേശം 1896-ന്റെ തുടക്കം (Fawcett 1901, പേജ് 412-ൽ ഉദ്ധരിച്ച റിപ്പോർട്ട്); പരസ്പരവിരുദ്ധമായ റിപ്പോർട്ടുകൾ",
+      "en": "1894 (S012; Kumar 2013), 1895 (S011; state tourism), about the beginning of 1896 (report quoted in Fawcett 1901, p. 412); conflicting reports",
+      "en_sha256": "e6c9009970360741",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R019.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R019.title",
+      "ml": "എടക്കലിന്റെ പണ്ഡിതോചിത രേഖപ്പെടുത്തലിലെ ഒരു നാഴികക്കല്ല്, പരസ്പരവിരുദ്ധമായ റിപ്പോർട്ടുകൾ (1894–1896)",
+      "en": "Edakkal scholarly documentation milestone, conflicting reports (1894–1896)",
+      "en_sha256": "2e66b02efe8d1d97",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R020.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R020.caveat",
+      "ml": "ലേഖനവും അതിലെ ചിത്രങ്ങളും വിമർശനാത്മകമായി പരിശോധിച്ചിട്ടില്ല.",
+      "en": "The article itself and its figures have not been critically checked.",
+      "en_sha256": "54103c654bf938bd",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R020.claim",
+      "ml": "1901-ൽ പ്രസിദ്ധീകരിച്ച Indian Antiquary വാല്യം 30-ലെ ചിത്രങ്ങളോടുകൂടിയ ഒരു എടക്കൽ ലേഖനം വകുപ്പിന്റെ അവലോകനം തിരിച്ചറിയുന്നു.",
+      "en": "The department retrospective identifies an illustrated Edakkal article in Indian Antiquary volume 30, published in 1901.",
+      "en_sha256": "7f7b1b99a1dea16a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R020.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R020.date.original_expression",
+      "ml": "ക്രി.വ. 1901",
+      "en": "1901 CE",
+      "en_sha256": "312009c01077338b",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R020.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R020.title",
+      "ml": "എടക്കലിനെക്കുറിച്ചുള്ള ഫോസെറ്റിന്റെ ലേഖനം, 1901",
+      "en": "Fawcett’s Edakkal article, 1901",
+      "en_sha256": "8232dc94dc9dd770",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R021.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R021.caveat",
+      "ml": "2015-ലെ ഓൺലൈൻ ലഭ്യതാതീയതി യഥാർത്ഥ പ്രസിദ്ധീകരണവർഷമല്ല; നിർദേശിക്കപ്പെട്ട ഏകത്വം ആരുടേതെന്ന് വ്യക്തമാക്കിയ ഒരു വാദമായി തുടരുന്നു.",
+      "en": "The 2015 online-hosting date is not the original publication year; the proposed identity remains an attributed argument.",
+      "en_sha256": "43ed30fca9a283d2",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R021.claim",
+      "ml": "Shajan-ഉം സഹപ്രവർത്തകരും പട്ടണത്തെയും മുസിരിസിനെയും സംബന്ധിച്ച ഒരു വാദം Journal of Roman Archaeology വാല്യം 17-ൽ (2004) പ്രസിദ്ധീകരിച്ചു.",
+      "en": "Shajan and colleagues published an argument concerning Pattanam and Muziris in Journal of Roman Archaeology volume 17 (2004).",
+      "en_sha256": "e54b8836663e8113",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R021.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R021.date.original_expression",
+      "ml": "ക്രി.വ. 2004",
+      "en": "2004 CE",
+      "en_sha256": "58f1e79a5e013c13",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R021.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R021.title",
+      "ml": "പട്ടണം–മുസിരിസ് സ്ഥലനിർണയം വാദിച്ച 2004-ലെ ലേഖനം",
+      "en": "Pattanam–Muziris identification argued in a 2004 article",
+      "en_sha256": "65378669bc59b1d5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R022.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R022.caveat",
+      "ml": "സ്ഥാപനത്തിന്റെ “ആദ്യ സീസൺ” എന്ന അടയാളം മുൻപത്തെ സർവേയും പരീക്ഷണ ഉത്ഖനനവും മായ്ച്ചുകളയരുത്.",
+      "en": "Earlier survey and trial work must not be erased by this institutional first-season label.",
+      "en_sha256": "f89a0cb9823cf494",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R022.claim",
+      "ml": "ഏഴാം സീസൺ കൈപ്പുസ്തകത്തിലെ ഗവേഷണ സമയരേഖ KCHR-ന്റെ ആദ്യ പട്ടണം ഉത്ഖനന സീസൺ 2007-ൽ എന്ന് രേഖപ്പെടുത്തുന്നു.",
+      "en": "The seventh-season handbook’s research timeline lists KCHR’s first Pattanam excavation season in 2007.",
+      "en_sha256": "b68a4286ca3e1437",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R022.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R022.date.original_expression",
+      "ml": "ക്രി.വ. 2007",
+      "en": "2007 CE",
+      "en_sha256": "01ad64afd48b1e24",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R022.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R022.title",
+      "ml": "KCHR-ന്റെ ആദ്യ പട്ടണം ഉത്ഖനന സീസൺ, 2007",
+      "en": "KCHR first Pattanam excavation season, 2007",
+      "en_sha256": "8596237ba6b6727a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R023.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R023.caveat",
+      "ml": "ഇറക്കുമതി ചെയ്ത വസ്തുക്കൾ വിനിമയത്തെ പിന്തുണയ്ക്കുന്നു; അവ മാത്രം സ്ഥലത്തിന്റെ ഏകത്വമോ വ്യക്തികളുടെ ഉദ്ഭവമോ തീർപ്പാക്കുന്നില്ല.",
+      "en": "Imported objects support exchange; they do not alone settle place identity or individual origins.",
+      "en_sha256": "3ea11d06f6600663",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R023.claim",
+      "ml": "2008-ലെ മൺപാത്ര റിപ്പോർട്ട് ബാഹ്യബന്ധങ്ങൾ ചർച്ച ചെയ്യുകയും മുസിരിസുമായുള്ള സമാനതയെ കണ്ടെത്തലുകൾ പിന്തുണയ്ക്കുന്ന ഒരു വാദമായി കാണുകയും ചെയ്യുന്നു.",
+      "en": "The 2008 ceramic report discusses external connections and treats equivalence with Muziris as an argument supported by the finds.",
+      "en_sha256": "7d7b50a5541217e9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R023.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R023.date.original_expression",
+      "ml": "ക്രി.വ. 2008",
+      "en": "2008 CE",
+      "en_sha256": "5d40f773a9b21e83",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R023.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R023.title",
+      "ml": "മൺപാത്രങ്ങളും പട്ടണം സ്ഥലനിർണയവാദവും, 2008",
+      "en": "Ceramics and the Pattanam identification argument, 2008",
+      "en_sha256": "e06e213a156c78e1",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R024.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R024.caveat",
+      "ml": "രജിസ്ട്രേഷൻ, നിലനിൽക്കുന്ന പകർപ്പിന്റെ തീയതി, വിവരിക്കുന്ന സംഭവങ്ങൾ എന്നിവ വേറിട്ട തീയതികളാണ്.",
+      "en": "Registration, surviving-copy date and narrated events are separate dates.",
+      "en_sha256": "c54d8ce85efcc4fa",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R024.claim",
+      "ml": "യാത്രാഡയറിയുടെ Memory of the World രജിസ്ട്രേഷൻ 2013-ൽ എന്ന് UNESCO-യുടെ രേഖ രേഖപ്പെടുത്തുന്നു.",
+      "en": "UNESCO’s entry records the voyage journal’s Memory of the World registration in 2013.",
+      "en_sha256": "8c76e75315284fe9",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R024.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R024.date.original_expression",
+      "ml": "ക്രി.വ. 2013",
+      "en": "2013 CE",
+      "en_sha256": "6b01edbde2a742b8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R024.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R024.title",
+      "ml": "യാത്രാഡയറി 2013-ൽ UNESCO രജിസ്റ്ററിൽ",
+      "en": "The voyage journal enters UNESCO’s register in 2013",
+      "en_sha256": "a38c14a5816571fb",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R025.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R025.caveat",
+      "ml": "പ്രസിദ്ധീകരണതീയതി 2022-ലെ ഒരു ഭൂവിജ്ഞാനീയ സംഭവമല്ല.",
+      "en": "The publication date is not a geological event in 2022.",
+      "en_sha256": "58002f6e4322dca6",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R025.claim",
+      "ml": "Quilon നിക്ഷേപപ്രായ പഠനത്തിന് പ്രസാധകൻ 2022 ജൂൺ 27 എന്ന തീയതി നൽകുന്നു.",
+      "en": "The publisher dates the Quilon depositional-age study to 27 June 2022.",
+      "en_sha256": "895d037790841868",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R025.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R025.date.original_expression",
+      "ml": "2022 ജൂൺ 27",
+      "en": "27 June 2022",
+      "en_sha256": "4429db0d7f83e26b",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R025.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R025.title",
+      "ml": "Quilon സ്ട്രോൺഷ്യം-ഐസോടോപ്പ് പഠനം 2022-ൽ പ്രസിദ്ധീകരിച്ചു",
+      "en": "Quilon strontium-isotope study published in 2022",
+      "en_sha256": "68dd9447d814f0e4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R026.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R026.caveat",
+      "ml": "വാല്യത്തിന്റെ തീയതി 2023 ആണ്. രണ്ട് തീയതികളും നിലനിർത്തുക; അവയിൽ ഒന്നും ഫോസിലുകളുടെ പ്രായമല്ല.",
+      "en": "The volume is dated 2023. Keep both dates, and neither is the age of the fossils.",
+      "en_sha256": "66892a0fec66de19",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R026.claim",
+      "ml": "തെക്കുപടിഞ്ഞാറൻ ഇന്ത്യയിൽനിന്നുള്ള Miocene (മയോസീൻ) മത്സ്യ otolith-കളെക്കുറിച്ചുള്ള പഠനത്തിന്റെ ഓൺലൈൻ പ്രസിദ്ധീകരണതീയതി 2022 മേയ് 31 എന്ന് പ്രസാധകൻ രേഖപ്പെടുത്തുന്നു.",
+      "en": "The publisher records 31 May 2022 as the online publication date of the study of Miocene fish otoliths from southwestern India.",
+      "en_sha256": "ce8cafe988f064c8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R026.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R026.date.original_expression",
+      "ml": "2022 മേയ് 31",
+      "en": "31 May 2022",
+      "en_sha256": "c16bcd963a0c5ef4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R026.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R026.title",
+      "ml": "മത്സ്യ-otolith പഠനം: ആദ്യ ഓൺലൈൻ തീയതി",
+      "en": "Fish-otolith study: first online date",
+      "en_sha256": "c092c92c751282d5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R027.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R027.caveat",
+      "ml": "ഇത് അതേ പഠനത്തിന്റെ രണ്ടാമത്തെ പ്രസിദ്ധീകരണഘട്ടമാണ്; രണ്ടാമത്തെ ഫോസിൽ കണ്ടെത്തലല്ല.",
+      "en": "This is a second publication milestone for the same study, not a second fossil discovery.",
+      "en_sha256": "993e62fc49450220",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R027.claim",
+      "ml": "മത്സ്യ-otolith പഠനം PalZ വാല്യം 97-ൽ (2023), 43–80 പേജുകളിൽ പ്രസിദ്ധീകരിച്ചിരിക്കുന്നു.",
+      "en": "The fish-otolith study appears in PalZ volume 97 (2023), pages 43–80.",
+      "en_sha256": "04bf87a5b3f442f1",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R027.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R027.date.original_expression",
+      "ml": "ക്രി.വ. 2023",
+      "en": "2023 CE",
+      "en_sha256": "355beae475789714",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R027.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R027.title",
+      "ml": "മത്സ്യ-otolith പഠനം: വാല്യപ്രസിദ്ധീകരണം",
+      "en": "Fish-otolith study: volume publication",
+      "en_sha256": "642413a2ce1fcc06",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R028.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R028.caveat",
+      "ml": "പ്രഖ്യാപനമാണ് പരിശോധിച്ചത്; ഓരോ കൈയെഴുത്തുപ്രതിയുമല്ല. ഇത് ലഭ്യതാചരിത്രത്തിലെ ഒരു സംഭവമാണ്; കൈയെഴുത്തുപ്രതികളുടെ യഥാർത്ഥ നിർമ്മാണതീയതിയല്ല.",
+      "en": "The announcement was inspected, not every manuscript. This is an access-history event, not the manuscripts’ original production date.",
+      "en_sha256": "c720f6dff47b9fa5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R028.claim",
+      "ml": "92 കൈയെഴുത്തുപ്രതികളുള്ള റാപ്പൽ (Rappal) ശേഖരത്തിലേക്കുള്ള പ്രവേശനം 2025 ജൂൺ 23-ന് HMML പ്രഖ്യാപിച്ചു.",
+      "en": "HMML announced access to a 92-manuscript Rappal collection on 23 June 2025.",
+      "en_sha256": "36f4ac846cb452f8",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R028.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R028.date.original_expression",
+      "ml": "2025 ജൂൺ 23",
+      "en": "23 June 2025",
+      "en_sha256": "011f50ad15962199",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R028.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R028.title",
+      "ml": "റാപ്പൽ കൈയെഴുത്തുപ്രതി ശേഖരത്തിന്റെ പ്രഖ്യാപനം, 2025",
+      "en": "Rappal manuscript collection announcement, 2025",
+      "en_sha256": "59e9ef01b309c846",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R029.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R029.caveat",
+      "ml": "ഇതുകൊണ്ട് ഒരു പ്രാചീന കണ്ടെത്തലിനും 2016 എന്ന തീയതി ലഭിക്കുന്നില്ല; റിപ്പോർട്ടിലെ പൂർണ തെളിവുകൾ ഇനിയും അവലോകനം ചെയ്തിട്ടില്ല.",
+      "en": "No ancient find is thereby dated to 2016; the report’s full evidence remains unreviewed.",
+      "en_sha256": "e1005e3efbcb957b",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R029.claim",
+      "ml": "വടക്കൻ കേരളത്തിലെ ചരിത്രാതീത-ആദ്യചരിത്ര (pre- and protohistoric) പഠനം 2016-ലെ പ്രസിദ്ധീകരണമാണെന്ന് NDLI, ജേണൽ രേഖകൾ തിരിച്ചറിയുന്നു.",
+      "en": "The NDLI and journal records identify the north-Kerala pre- and protohistoric study as a 2016 publication.",
+      "en_sha256": "42e9826078187a0b",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R029.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R029.date.original_expression",
+      "ml": "ക്രി.വ. 2016",
+      "en": "2016 CE",
+      "en_sha256": "05fb96371a6a3320",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R029.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R029.title",
+      "ml": "വടക്കൻ കേരള പുരാവസ്തു പ്രബന്ധം 2016-ൽ പ്രസിദ്ധീകരിച്ചു",
+      "en": "North-Kerala archaeology paper published in 2016",
+      "en_sha256": "4aecf93c24f1703c",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R030.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R030.caveat",
+      "ml": "Erratum ഉണ്ടെന്ന് പരിശോധിച്ചു; അതിന്റെ പാഠം പരിശോധിച്ചിട്ടില്ല. തിരുത്തൽ നിസ്സാരമാണെന്നോ പ്രബന്ധം മുഴുവൻ അസാധുവാക്കുന്നുവെന്നോ അനുമാനിക്കരുത്.",
+      "en": "Erratum existence is checked, but its text is not. Do not infer that the correction is minor or invalidates the whole paper.",
+      "en_sha256": "59b6204110055e63",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R030.claim",
+      "ml": "Trivandrum Block പ്രബന്ധത്തിനും വേറിട്ട് തിരിച്ചറിഞ്ഞ ഒരു erratum-നും 2006-ലെ പ്രസിദ്ധീകരണരേഖകളുണ്ട്.",
+      "en": "The Trivandrum Block paper and a separately identified erratum both have 2006 publication records.",
+      "en_sha256": "5929e4ff0a5a0877",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R030.date.calendar",
+      "ml": "ക്രി.മു./ക്രി.വ. സൂചിക; അറിയാവുന്നിടത്ത് മൂല കലണ്ടർ നിലനിർത്തിയിരിക്കുന്നു",
+      "en": "BCE/CE indexing; original calendar retained where known",
+      "en_sha256": "0cd46705491775d4",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R030.date.original_expression",
+      "ml": "ക്രി.വ. 2006",
+      "en": "2006 CE",
+      "en_sha256": "6fe58b5d9a87c616",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R030.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R030.title",
+      "ml": "Trivandrum ഭൂകാലനിർണയ പ്രബന്ധവും erratum-ഉം, 2006",
+      "en": "Trivandrum geochronology paper and erratum, 2006",
+      "en_sha256": "df67569f897809b2",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R031.authoring",
+      "ml": "AI സഹായത്തോടെയുള്ള പ്രാരംഭ വേർതിരിച്ചെടുക്കലും സ്വന്തം പുനരാഖ്യാനവും; വിഷയവിദഗ്ധപരിശോധന ബാക്കി",
+      "en": "AI-assisted initial extraction and original paraphrase; specialist review pending",
+      "en_sha256": "2269f77c5ea38cc5",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R031.caveat",
+      "ml": "ഇത് ഓൺലൈൻ ലഭ്യത/പ്രസിദ്ധീകരണ വിവരണരേഖയിലെ സംഭവമാണ്; 2026-ലെ പുതിയ ഉത്ഖനനമല്ല. ചരിത്രവാദം 2008-ലെ റിപ്പോർട്ടിന്റേതാണ്.",
+      "en": "This is a hosting/publication metadata event, not a new excavation in 2026. The historical argument belongs to the 2008 report.",
+      "en_sha256": "71af32941b51ee9d",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R031.claim",
+      "ml": "നിലവിലെ പ്രസാധക പേജ് മൂലവാല്യം 2008 മാർച്ചിലേതാണെന്ന് തിരിച്ചറിയുമ്പോൾത്തന്നെ ഓൺലൈൻ പ്രസിദ്ധീകരണം 2026 ഏപ്രിൽ 22-ന് എന്ന് രേഖപ്പെടുത്തുന്നു.",
+      "en": "The current publisher page records online publication on 22 April 2026 while identifying the original volume as March 2008.",
+      "en_sha256": "44867121ceedb61a",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R031.date.calendar",
+      "ml": "ഗ്രിഗോറിയൻ കലണ്ടർ",
+      "en": "Gregorian",
+      "en_sha256": "d9d4f456cecabcf1",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R031.date.original_expression",
+      "ml": "2026 ഏപ്രിൽ 22",
+      "en": "22 April 2026",
+      "en_sha256": "db716b90aa18db41",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R031.rights",
+      "ml": "സ്വന്തമായി എഴുതിയ സംഗ്രഹം മാത്രം; സ്രോതസ്സുവസ്തുക്കൾക്ക് അവയുടെ സ്വന്തം അവകാശങ്ങൾ തുടരും.",
+      "en": "Original summary only; source materials retain their own rights.",
+      "en_sha256": "e846a3e338b2c386",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    },
+    {
+      "key": "data/records.json#R031.title",
+      "ml": "2008-ലെ പട്ടണം മൺപാത്ര റിപ്പോർട്ടിന്റെ Cambridge ഓൺലൈൻ ലഭ്യതാതീയതി",
+      "en": "Cambridge hosting date for the 2008 Pattanam ceramics report",
+      "en_sha256": "4ede90199ed2b602",
+      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ai_assisted": true,
+      "human_language_review": "pending",
+      "specialist_review": "pending"
+    }
+  ],
+  "note": "AI-assisted Malayalam draft. Human Malayalam-language review and specialist review are pending; a model check is not approval. Imported from notes/translation-review (draft PRs #3, #6, #7) where the English is unchanged, plus integration-batch translations for English that changed or was not staged."
+}

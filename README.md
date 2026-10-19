@@ -2,6 +2,8 @@
 
 പതിപ്പ് 0.1.0: പ്രാരംഭ ഗവേഷണ ശേഖരം. ഈ പതിപ്പിലെ തെളിവുകളുടെ പരിശോധനാതീയതി: 2026 ഒക്ടോബർ 11.
 
+2026 ഒക്ടോബർ 19-ലെ തിരുത്തലുകൾ ചേർത്തിട്ടുണ്ട്. നിലവിലെ കണക്കുകൾക്കും അവശേഷിക്കുന്ന പരിശോധനകൾക്കും [കവറേജ് വിവരങ്ങളും](coverage/README.md) [തിരുത്തൽക്കുറിപ്പും](docs/REVIEW_CORRECTIONS_2026-10-19.md) കാണുക. മലയാള കരടുകൾക്ക് മനുഷ്യ ഭാഷാപരിശോധനയും ചരിത്രവാദങ്ങൾക്ക് സ്വതന്ത്ര വിദഗ്ധപരിശോധനയും ബാക്കിയാണ്.
+
 ഇന്ന് കേരളത്തിന്റെ ഭരണപരിധിക്കുള്ളിലുള്ള ഭൂഭാഗത്തിന്റെ ചരിത്രം ശേഖരിക്കുന്ന പദ്ധതിയാണിത്. പാറകളുടെ രൂപീകരണം, പഴയ പരിസ്ഥിതികൾ, മനുഷ്യവാസത്തിന്റെ തെളിവുകൾ, സമൂഹങ്ങൾ, ഇന്നത്തെ സംഭവങ്ങൾ എന്നിവ ഇതിൽ ഉൾപ്പെടുന്നു. ഒരു സ്രോതസ്സിൽ “കേരളം” എന്ന വാക്കില്ലെങ്കിലും ഈ ഭൂഭാഗത്തെക്കുറിച്ചുള്ള തെളിവുണ്ടാകാം. ആ വാക്ക് ഉണ്ടെന്നതുകൊണ്ടുമാത്രം ഒരു രേഖ പദ്ധതിയുടെ പരിധിയിൽ വരണമെന്നില്ല.
 
 ഈ ശേഖരത്തിലെ ഗവേഷണം പ്രാരംഭ ഘട്ടത്തിലാണ്. 2,326 വാർഷിക പേജുകളിൽ 18 എണ്ണത്തിലാണ് വർഷവുമായി ബന്ധപ്പെട്ട പ്രാരംഭ രേഖകളിലേക്കുള്ള കണ്ണികളുള്ളത്. ശേഷിക്കുന്ന 2,308 പേജുകൾ ഗവേഷണം നടത്താനുള്ളവയായി അടയാളപ്പെടുത്തിയിട്ടുണ്ട്. 31 അടിസ്ഥാന തെളിവുരേഖകളിൽ പഴയ സംഭവങ്ങളെക്കുറിച്ചുള്ള രേഖകൾക്കൊപ്പം ഗവേഷണവും പ്രസിദ്ധീകരണവും സംബന്ധിച്ച വിവരങ്ങളുമുണ്ട്. സ്വതന്ത്ര മനുഷ്യവിദഗ്ധരുടെ ചരിത്രപരിശോധനയും ഏതെങ്കിലും സമ്പൂർണ രേഖാശേഖരത്തിന്റെ ഇനംതിരിച്ചുള്ള പരിശോധനയും പൂർത്തിയായിട്ടില്ല. ഇവ 0.1.0 പതിപ്പിന്റെ കണക്കുകളാണ്; പിന്നീട് ചേർക്കുന്ന രേഖകൾക്കായി [കവറേജ് വിവരങ്ങൾ](coverage/README.md) പരിശോധിക്കുക.
@@ -103,3 +105,6 @@ Edit canonical JSON and rebuild the pages. Direct edits to generated pages may b
 Reader-facing archive content is being prepared in Malayalam first, followed by English. This README and the contribution guide are AI-assisted translation drafts, pending Malayalam-language and specialist review. This does not claim that the remaining repository has been translated. The separate landing page remains English-only.
 
 Original code uses the MIT license. Original prose and applicable editorial contributions use CC BY 4.0 where contributors control the rights. Third-party books, translations, images, scans and databases retain their own rights. See [LICENSE.md](LICENSE.md), [rights and ethics](docs/RIGHTS_AND_ETHICS.md) and [release limitations](RELEASE_NOTES.md).
+
+
+Current revision (19 October 2026): see [coverage](coverage/README.md) and the [correction note](docs/REVIEW_CORRECTIONS_2026-10-19.md). The original release figures above are historical. Malayalam drafts and historical claims still await qualified human review.

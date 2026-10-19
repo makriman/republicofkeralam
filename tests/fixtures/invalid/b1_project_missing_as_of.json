@@ -1,0 +1,19 @@
+{
+  "bug": "missing-or-wrong-type-crashes",
+  "description": "project.json without as_of raised KeyError.",
+  "collection": "project",
+  "target": null,
+  "mutations": [
+    {
+      "op": "delete",
+      "path": [
+        "as_of"
+      ]
+    }
+  ],
+  "expect": [
+    "project",
+    "as_of",
+    "required"
+  ]
+}

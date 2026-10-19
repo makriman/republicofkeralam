@@ -97,7 +97,7 @@
     "id": "A011",
     "earlier_claim": "Keralaputra / Kedalaputo are interchangeable exact transcriptions.",
     "verdict": "critical_edition_pending",
-    "corrected_treatment": "Preserve witness-specific spellings and scripts. Compare critical editions before normalizing all forms.",
+    "corrected_treatment": "Preserve witness-specific spellings and scripts. Hultzsch 1925 reads Girnar Ketalaputo, Kalsi Ke[lala]puto, Shahbazgarhi Keradaputro and Mansehra Keralaputra. The form Kedalaputo was not found in Hultzsch and needs its edition identified. Compare later critical editions before normalizing.",
     "sources": [
       "S014",
       "S015"
@@ -107,7 +107,7 @@
     "id": "A012",
     "earlier_claim": "Keralaputras are generally associated with Cheras.",
     "verdict": "further_epigraphic_review",
-    "corrected_treatment": "Do not translate this conventional identification into proof of exact territory, dynasty chronology or modern identity. The full identification literature has not been audited.",
+    "corrected_treatment": "Do not translate this conventional identification into proof of exact territory, dynasty chronology or modern identity. The full identification literature has not been audited. Rock Edict XIII names Chodas, Pandyas and Tamraparni but not the Keralaputras (S014; S015 p. xxxix); record this absence without drawing an inference.",
     "sources": [
       "S014",
       "S015"
@@ -119,7 +119,8 @@
     "verdict": "not_claimed_but_guardrail",
     "corrected_treatment": "The inspected Edict II translation names these peoples beyond the ruler’s borders; do not infer annexation.",
     "sources": [
-      "S014"
+      "S014",
+      "S015"
     ]
   },
   {
@@ -148,17 +149,20 @@
   {
     "id": "A017",
     "earlier_claim": "Pliny gives relevant Kerala-coast evidence.",
-    "verdict": "primary_passage_pending",
-    "corrected_treatment": "A relevant Natural History VI.26 lead was located, but the primary passage was not inspected. Do not mark this subclaim fully verified.",
-    "sources": []
+    "verdict": "primary_passage_inspected_in_translation",
+    "corrected_treatment": "Natural History 6.26 read in the 1855 Bostock and Riley translation: Muziris as the nearest mart of India, pirates near Nitrias, a distant anchorage, king Caelobothras. The Latin text and a modern translation remain to be checked. Muziris stays a textual name.",
+    "sources": [
+      "S046"
+    ]
   },
   {
     "id": "A018",
     "earlier_claim": "Ptolemy’s work is relevant to the second-century record.",
     "verdict": "partly_verified",
-    "corrected_treatment": "The research institution supports the second-century date of the Geography; local passages and geographical identifications remain unverified.",
+    "corrected_treatment": "The research institution supports the second-century date of the Geography. Geography 7.1.8 (Mouziris, an emporium) and 7.1.86 (Karoura, royal seat of Kerobothros) were inspected in OCR of McCrindle’s 1885 English translation and commentary. McCrindle, following Yule, identified Mouziris with Kodungallur and Karoura with Karur in Tamil Nadu. These remain attributed identifications; original Greek, scan images and a modern critical edition were not verified. Ptolemy’s coordinates are not modern positions.",
     "sources": [
-      "S041"
+      "S041",
+      "S047"
     ]
   },
   {

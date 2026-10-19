@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Malayalam translation catalogue (data/i18n/ml/*.json)",
+  "description": "See docs/BILINGUAL_DATA.md. Freshness, key resolution, review records and label form are checked by scripts/bilingual.py.",
+  "type": "object",
+  "required": [
+    "catalogue",
+    "language",
+    "source_path",
+    "entries"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "catalogue": {
+      "const": "translation-catalogue/1"
+    },
+    "language": {
+      "const": "ml"
+    },
+    "source_path": {
+      "enum": [
+        "data/records.json",
+        "data/sources.json",
+        "data/periods.json",
+        "data/audit.json",
+        "data/corpora.json",
+        "data/prior_chapter_crosswalk.json",
+        "geography/scope.json",
+        "scripts/build.py"
+      ]
+    },
+    "note": {
+      "type": "string"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entry"
+      }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "required": [
+        "key",
+        "ml",
+        "en_sha256",
+        "source_revision",
+        "ai_assisted",
+        "human_language_review"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "key": {
+          "type": "string",
+          "pattern": "^(data/[a-z_]+\\.json|geography/scope\\.json|scripts/build\\.py)#.+$"
+        },
+        "ml": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "description": "Optional copy of the English that was translated, for reviewers. Must equal the current English."
+        },
+        "en_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{16}$"
+        },
+        "source_revision": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "ai_assisted": {
+          "type": "boolean"
+        },
+        "human_language_review": {
+          "enum": [
+            "pending",
+            "approved",
+            "rejected"
+          ]
+        },
+        "specialist_review": {
+          "enum": [
+            "pending",
+            "approved",
+            "rejected",
+            "not_required"
+          ]
+        },
+        "reviewers": {
+          "type": "array"
+        },
+        "terminology_questions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

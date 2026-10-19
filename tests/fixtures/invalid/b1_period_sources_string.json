@@ -1,0 +1,20 @@
+{
+  "bug": "missing-or-wrong-type-crashes",
+  "description": "A string in place of the sources list was iterated character by character.",
+  "collection": "periods",
+  "target": "E01",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "sources"
+      ],
+      "value": "S001"
+    }
+  ],
+  "expect": [
+    "E01",
+    "sources",
+    "array"
+  ]
+}

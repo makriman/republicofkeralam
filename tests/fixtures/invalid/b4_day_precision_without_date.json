@@ -1,0 +1,20 @@
+{
+  "bug": "json-schema-not-executed",
+  "description": "Conditional rule: precision day needs a checked date string.",
+  "collection": "records",
+  "target": "R015",
+  "mutations": [
+    {
+      "op": "delete",
+      "path": [
+        "date",
+        "date"
+      ]
+    }
+  ],
+  "expect": [
+    "R015",
+    "date",
+    "required"
+  ]
+}

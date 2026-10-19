@@ -1,0 +1,21 @@
+{
+  "bug": "json-schema-not-executed",
+  "description": "Conditional rule: a geological date must not also carry BCE/CE years.",
+  "collection": "records",
+  "target": "R001",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "date",
+        "start_year"
+      ],
+      "value": -1000
+    }
+  ],
+  "expect": [
+    "R001",
+    "start_year",
+    "geological"
+  ]
+}

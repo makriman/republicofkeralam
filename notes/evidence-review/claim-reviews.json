@@ -1,0 +1,1947 @@
+{
+  "schema": "rok-evidence-review/0.1",
+  "status": "proposal; not canonical data",
+  "base_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+  "base_blobs": {
+    "data/sources.json": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88",
+    "data/records.json": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac",
+    "data/audit.json": "6af689f425bf00842e6feef58eb3f01c583277ed",
+    "geography/scope.json": "47cf0ca258f7aca536758c3de9c35a41f855c5bc"
+  },
+  "accessed": "2026-10-18",
+  "review_status": {
+    "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+    "human_scholarly_review": "pending",
+    "human_malayalam_review": "pending",
+    "specialist_review_needed": []
+  },
+  "notes": {
+    "ml": "ഈ ഫയൽ കൈകൊണ്ട് എഴുതിയ അവലോകനക്കുറിപ്പാണ്. data/*.json മാറ്റുന്നില്ല. നിർദേശിത തിരുത്തലുകൾ proposed-corrections.json-ൽ.",
+    "en": "Hand-authored review notes. They do not change data/*.json. Proposed corrections are in proposed-corrections.json."
+  },
+  "inspection_depth_vocabulary": {
+    "metadata_only": "Bibliographic record or landing page only.",
+    "abstract_and_preview": "Author abstract plus publisher preview snippets; no full text.",
+    "relevant_passages_translation": "Named passages read in a translation.",
+    "relevant_passages_ocr_text": "Named passages read in OCR text; page images or plates not checked.",
+    "relevant_passages_secondary_copy": "Named passages read in a republished copy, not the official text.",
+    "full_page": "Entire web page read.",
+    "full_record": "Entire database record read.",
+    "full_text": "Complete article or chapter read.",
+    "access_failed_this_pass": "The source could not be reached in this pass; not evidence that it does not exist.",
+    "relevant_passages_pdf_text": "Named passages read in a PDF text layer; no claim of image inspection."
+  },
+  "proposed_sources": [
+    {
+      "key": "NEW-SRC-01",
+      "title": "Notes on the rock carvings in the Edakal Cave, Wynaad",
+      "creator": "F. Fawcett; edited by R. C. Temple",
+      "edition": "The Indian Antiquary, vol. 30 (1901), pp. 409–421; Digital Library of India scan on archive.org",
+      "url": "https://archive.org/details/in.ernet.dli.2015.206685",
+      "locator": "OCR text of pp. 412 and 420–421; pp. 409–411 not located in the OCR; page images not checked",
+      "inspected_depth": "relevant_passages_ocr_text",
+      "rights": "1901 publication; the archive.org item states no licence. Probably public domain in many jurisdictions, but not determined here. Link and short quotation only."
+    },
+    {
+      "key": "NEW-SRC-02",
+      "title": "Decoding the meaning and beliefs associated with petroglyphs in Edakkal rock shelter, Kerala, India",
+      "creator": "Ajit Kumar",
+      "edition": "XXV Valcamonica Symposium 2013 papers, pp. 337–342 (PDF hosted by Centro Camuno di Studi Preistorici)",
+      "url": "https://www.ccsp.it/web/SITOVCS2013/programma%20e%20pdf%20vari/PDF%20x%20sito%20web/Kumar.pdf",
+      "locator": "The Edakkal rock shelter, first paragraph, p. 337 (1894 attribution, rechecked 2026-10-19 in PDF text layer); section Date of the engravings and closing paragraph, p. 340 (earlier pass)",
+      "inspected_depth": "full_text",
+      "rights": "Copyright not stated in the PDF; link and original summary only."
+    },
+    {
+      "key": "NEW-SRC-03",
+      "title": "Edakkal caves (Kerala Tourism destination page)",
+      "creator": "Department of Tourism, Government of Kerala",
+      "edition": "Live web page, read 2026-10-18",
+      "url": "https://www.keralatourism.org/destination/edakkal-caves-wayanad/335/",
+      "locator": "Summary line and 'Significance and History' paragraph",
+      "inspected_depth": "full_page",
+      "rights": "Not cleared for redistribution; link and original summary only."
+    },
+    {
+      "key": "NEW-SRC-04",
+      "title": "The Natural History, book 6, chapter 26",
+      "creator": "Pliny the Elder; translated by John Bostock and H. T. Riley (1855); Perseus Digital Library",
+      "edition": "English translation of 1855 as encoded by Perseus (text 1999.02.0137)",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D6%3Achapter%3D26",
+      "locator": "Book 6, chapter 26 (modern sections about 104–106): Ocelis, Muziris, Nitrias, Caelobothras, Barace, Cottonara",
+      "inspected_depth": "relevant_passages_translation",
+      "rights": "1855 translation; Perseus encoding terms not reviewed. Link and short quotation only."
+    },
+    {
+      "key": "NEW-SRC-05",
+      "title": "Ancient India as described by Ptolemy",
+      "creator": "J. W. McCrindle (translator and commentator)",
+      "edition": "1885; Google-digitised copy on archive.org",
+      "url": "https://archive.org/details/ancientindiaasd00mccrgoog",
+      "locator": "Geography 7.1.8 (Limyrike, printed pp. 48–49) and commentary pp. 50–52; 7.1.86 (Karoura, p. 180) and commentary p. 181; OCR only",
+      "inspected_depth": "relevant_passages_ocr_text",
+      "rights": "1885 publication; licence fields not reviewed. Link and short quotation only."
+    },
+    {
+      "key": "NEW-SRC-06",
+      "title": "The States Reorganisation Act, 1956: sections 4 and 5 (consolidated text)",
+      "creator": "eCourtsIndia republication of the India Code text",
+      "edition": "Consolidated text as in force on the page date, not the 1956 Gazette text",
+      "url": "https://indiacode.ecourtsindia.com/states-reorganisation-act-1956/section/5/",
+      "locator": "Section 4 and section 5 pages, read 2026-10-18",
+      "inspected_depth": "relevant_passages_secondary_copy",
+      "rights": "Statute text; the republisher's commentary was not used. Link and original summary only."
+    }
+  ],
+  "access_log": [
+    {
+      "url": "https://wayanad.gov.in/en/tourist-place/edakkal-caves/",
+      "for": "S011",
+      "result": "full page read",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.keralatourism.org/destination/edakkal-caves-wayanad/335/",
+      "for": "NEW-SRC-03",
+      "result": "full page read",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.sahapedia.org/the-edakkal-rock-engravings-morphology-and-meanings",
+      "for": "S012",
+      "result": "full essay read, including notes",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "http://journal.iias.ac.in/ojs/index.php/shss/article/view/627",
+      "for": "S012 related journal version",
+      "result": "timed out; journal version details not verified",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.ccsp.it/web/SITOVCS2013/programma%20e%20pdf%20vari/PDF%20x%20sito%20web/Kumar.pdf",
+      "for": "NEW-SRC-02",
+      "result": "PDF read in full (6 pages)",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://archive.org/details/in.ernet.dli.2015.206685",
+      "for": "NEW-SRC-01",
+      "result": "OCR text read at relevant passages; page images not checked",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://ndl.iitkgp.ac.in/re_document/heritage_jmsa/heritage_jmsa/20cbac6daf651e060f585ee15a7fb490",
+      "for": "S009",
+      "result": "HTTP 401 from this environment",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://heritageuniversityofkerala.com/VolumeDetails.aspx?VID=4",
+      "for": "S009",
+      "result": "page shell loaded; article list not rendered",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://heritageuniversityofkerala.com/JournalPDF/Volume4/39.pdf",
+      "for": "S009",
+      "result": "article PDF read in full (10 pages)",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://accesstoinsight.org/lib/authors/dhammika/wheel386.html",
+      "for": "S014",
+      "result": "full page read, including Rock Edicts II and XIII and notes",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://archive.org/details/InscriptionsOfAsoka.NewEditionByE.Hultzsch",
+      "for": "S015",
+      "result": "OCR text read at relevant passages; plates and page images not checked",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S1342937X05000237",
+      "for": "S002",
+      "result": "abstract and preview snippets read; full text paywalled",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S1342937X06001547",
+      "for": "S003",
+      "result": "title, issue and pages only; correction text paywalled",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://hero.epa.gov/reference/517944/",
+      "for": "S002 alternative",
+      "result": "timed out",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.gr.2006.04.002",
+      "for": "S003",
+      "result": "Crossref metadata read",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s12040-022-01898-x",
+      "for": "S007",
+      "result": "abstract, preview, references and contributions statement read; full text paywalled (OpenAlex: closed)",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://depts.washington.edu/silkroad/texts/periplus/periplus.html",
+      "for": "S016",
+      "result": "sections 53–57 and editorial note read",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D6%3Achapter%3D26",
+      "for": "NEW-SRC-04",
+      "result": "chapter read",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://archive.org/details/ancientindiaasd00mccrgoog",
+      "for": "NEW-SRC-05",
+      "result": "OCR text read at relevant entries and commentary",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.mpiwg-berlin.mpg.de/project/ptolemy-geography",
+      "for": "S041",
+      "result": "HTTP 200; content not re-read",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/locating-the-ancient-port-of-muziris-fresh-findings-from-pattanam/B5B0722032419BF1609E95CA2F56D71F",
+      "for": "S017",
+      "result": "landing page read; publisher states no abstract is available; article paywalled",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/antiquity-project-gallery/article/external-connections-of-early-historic-pattanam-india-the-ceramic-evidence/8FBFA06CFF75BAD53D762ED49CB7ED53",
+      "for": "S018",
+      "result": "full HTML article read",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1017/S1047759400008278",
+      "for": "S017",
+      "result": "Crossref metadata read",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.15184/S2978855200904645",
+      "for": "S018",
+      "result": "Crossref metadata read",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.mha.gov.in/sites/default/files/2022-08/The%2520State%2520Reorganisation%2520Act%25201956_270614%5B1%5D.pdf",
+      "for": "S023",
+      "result": "HTTP 404; two URL encodings tried",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/handle/123456789/1680",
+      "for": "S023 alternative",
+      "result": "timed out",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://indiacode.ecourtsindia.com/states-reorganisation-act-1956/section/5/",
+      "for": "NEW-SRC-06",
+      "result": "sections 4 and 5 read",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://gtr.ukri.org/projects?ref=AH%2FI025948%2F1",
+      "for": "S020",
+      "result": "full record read: abstract, funded period, key findings",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "http://www.849CE.org.uk",
+      "for": "S020 project site",
+      "result": "no response within 25 seconds from this environment; not evidence the site is gone",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.archaeology.kerala.gov.in/pages/archaeology-in-kerala/25",
+      "for": "S013",
+      "result": "no response within 25 seconds from this environment",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://kchr.ac.in/images/img/pattanam_7th_season_handbook1.pdf",
+      "for": "S019",
+      "result": "no response within 25 seconds; S019 not re-inspected",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://api.github.com/repos/makriman/republicofkeralam",
+      "for": "current-status check",
+      "result": "public repository; created 2026-10-19T00:31:20Z (2026-10-18 17:31 America/Los_Angeles); issues enabled",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1680/1/a1956-37.pdf",
+      "for": "S023",
+      "result": "PDF text layer: heading and ss. 2(a), 2(r), 4–5, printed pp. 6–8; official consolidated version, not original Gazette",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://heritageuniversityofkerala.com/JournalPDF/Volume4/39.pdf",
+      "for": "S009",
+      "result": "Text layer printed pp. 634–635: conclusion on 635; screenshot retrieval failed",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://archive.org/stream/InscriptionsOfAsoka.NewEditionByE.Hultzsch/HultzschCorpusAsokaSearchable_djvu.txt",
+      "for": "S015",
+      "result": "OCR introduction pp. xxxv–xxxvi: XIII calculation and twelve-year list inspected; no II-specific 252 BCE premise",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://archive.org/details/in.ernet.dli.2015.206685",
+      "for": "NEW-SRC-01",
+      "result": "Retrieval failed in web tool; no original page images inspected this pass",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1342937X06001547",
+      "for": "S003",
+      "result": "Retrieval failed; indexed publisher metadata only, no correction text inspected",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://en.wikisource.org/wiki/Page:Acts_of_the_Parliament_of_India_1956.djvu/681",
+      "for": "1956 original-text lead",
+      "result": "Transcription of Act heading and s.2(a) inspected; linked image fetch failed",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://en.wikisource.org/wiki/Page:Acts_of_the_Parliament_of_India_1956.djvu/683",
+      "for": "1956 original-text lead",
+      "result": "Transcription of s.4 inspected, agrees with official consolidated PDF; original image not checked",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://en.wikisource.org/wiki/Page:Acts_of_the_Parliament_of_India_1956.djvu/684",
+      "for": "1956 original-text lead",
+      "result": "Transcription of s.5 inspected, retains Part A; image not checked",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Indian_Antiquary_Vol_30.pdf",
+      "for": "NEW-SRC-01 alternate scan",
+      "result": "File metadata and index located; original PDF retrieval returned HTTP 429. Index points printed pp.409–412 to PDF pages 431, 432, 435, 436; text/image inspection not achieved",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://www.ccsp.it/web/SITOVCS2013/programma%20e%20pdf%20vari/PDF%20x%20sito%20web/Kumar.pdf",
+      "for": "NEW-SRC-02 / integrated S044",
+      "result": "PDF text layer printed p.337, section The Edakkal rock shelter, first paragraph: attributes discovery to Fawcett in 1894 and cites Fawcett 1901; page image not checked. Targeted locator verification only.",
+      "date": "2026-10-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "EV-01",
+      "priority": 1,
+      "title": {
+        "ml": "ഇടയ്ക്കൽ കൊത്തുചിത്രങ്ങൾക്ക് പറയുന്ന ക്രി.മു. 6000 എന്ന തീയതി",
+        "en": "Edakkal engravings and the claimed 6000 BCE date"
+      },
+      "stable_ids": {
+        "records": [
+          "R008"
+        ],
+        "audit": [
+          "A002",
+          "A003",
+          "A042"
+        ],
+        "sources": [
+          "S011",
+          "S012"
+        ],
+        "periods": [
+          "E10"
+        ],
+        "proposed_sources": [
+          "NEW-SRC-01",
+          "NEW-SRC-02",
+          "NEW-SRC-03"
+        ]
+      },
+      "claim_under_review": {
+        "ml": "ഇടയ്ക്കലിലെ ഏറ്റവും പഴയ കൊത്തുചിത്രങ്ങൾ ക്രി.മു. 6000-ലേതാണ് എന്ന പ്രസ്താവന.",
+        "en": "The statement that the oldest Edakkal engravings date to 6000 BCE."
+      },
+      "sources_inspected": [
+        {
+          "id": "S011",
+          "edition": "Live district page, read 2026-10-18",
+          "locator": "Fourth paragraph: 'The oldest among them date back to 6000 B.C, to the age of Stone Age man.'",
+          "inspected_depth": "full_page"
+        },
+        {
+          "id": "NEW-SRC-03",
+          "edition": "Live state tourism page, read 2026-10-18",
+          "locator": "Summary line and 'Significance and History' paragraph",
+          "inspected_depth": "full_page"
+        },
+        {
+          "id": "S012",
+          "edition": "Sahapedia web essay; no publication date shown",
+          "locator": "Paragraph beginning 'The representations collectively signify'; notes 1 and 2",
+          "inspected_depth": "full_text"
+        },
+        {
+          "id": "NEW-SRC-02",
+          "edition": "XXV Valcamonica Symposium 2013, pp. 337–342",
+          "locator": "'Date of the engravings', p. 340",
+          "inspected_depth": "full_text"
+        },
+        {
+          "id": "NEW-SRC-01",
+          "edition": "Indian Antiquary 30 (1901), OCR",
+          "locator": "pp. 412 and 420–421 (OCR pagination)",
+          "inspected_depth": "relevant_passages_ocr_text"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "ഇടയ്ക്കൽ ഇന്നത്തെ വയനാട് ജില്ലയിലാണ്; ഇന്നത്തെ ഭരണപരിധിക്കുള്ളിലെ സ്ഥലം (core). നിർദേശാങ്കങ്ങൾ ഈ കുറിപ്പിൽ ചേർത്തിട്ടില്ല.",
+        "en": "Edakkal lies in present Wayanad district, inside the present administrative territory (core). No coordinates are added in these notes."
+      },
+      "date_roles": [
+        {
+          "role": "claimed_production_date",
+          "value": "6000 BC",
+          "attributed_to": "S011; NEW-SRC-03 (no evidence cited on either page)"
+        },
+        {
+          "role": "proposed_relative_date",
+          "value": "core figures Neolithic, peripheral figures megalithic; 'a tentative dating of the gallery as late first millennium BC'",
+          "attributed_to": "S012"
+        },
+        {
+          "role": "proposed_relative_date",
+          "value": "megalithic or early historic; the earliest inscriptions (2nd to 3rd century CE on palaeographic grounds, citing Mahadevan 1998) give a date before which the engravings existed",
+          "attributed_to": "NEW-SRC-02, p. 340"
+        },
+        {
+          "role": "palaeographic_date_of_inscription",
+          "value": "'about 600 A.D.' for a two-line inscription (an early opinion quoted by Fawcett)",
+          "attributed_to": "NEW-SRC-01, p. 412 OCR"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "ക്രി.മു. 6000 എന്ന തീയതിക്ക് പരിശോധിച്ച ഒരു സ്രോതസ്സിലും ലബോറട്ടറി തീയതിയോ ഉത്ഖനനസന്ദർഭമോ കണ്ടില്ല. രണ്ട് ടൂറിസം പേജുകൾ മാത്രമാണ് ഈ സംഖ്യ നൽകുന്നത്; അവ തെളിവ് ഉദ്ധരിക്കുന്നില്ല.",
+          "en": "No inspected source offers a laboratory date or excavated context for 6000 BCE. Only the two tourism pages give the figure, and neither cites evidence."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "ഗുരുക്കൾ (S012) കേന്ദ്രഭാഗത്തെ ചിത്രങ്ങളെ നവീനശിലായുഗത്തോടും പുറംഭാഗത്തേതിനെ മഹാശിലായുഗത്തോടും ബന്ധിപ്പിച്ച്, ക്രി.മു. ഒന്നാം സഹസ്രാബ്ദത്തിന്റെ അവസാനം എന്ന താൽക്കാലിക കാലം നിർദേശിക്കുന്നു. ചിത്രങ്ങളുടെ പുരാവസ്തു സന്ദർഭത്തെക്കുറിച്ച് നേരിട്ടുള്ള സൂചനകൾ ഇല്ലെന്നും ലേഖനം പറയുന്നു.",
+          "en": "Gurukkal (S012) links the core figures to the Neolithic and the peripheral figures to the megalithic, and proposes a tentative late first millennium BCE dating. The essay also says there are no direct clues to the archaeology of the figures."
+        },
+        {
+          "ml": "അജിത് കുമാർ (NEW-SRC-02, പേജ് 340) നവീനശിലായുഗബന്ധം ഉപേക്ഷിക്കണമെന്ന് വാദിക്കുന്നു: സമീപത്ത് നവീനശിലായുഗ അവശിഷ്ടങ്ങൾ റിപ്പോർട്ട് ചെയ്തിട്ടില്ല; ആദ്യകാല ലിഖിതങ്ങൾക്ക് നൂറ്റാണ്ടുകൾ മുമ്പ് ചിത്രങ്ങൾ ഉണ്ടായിരുന്നു എന്ന് കരുതിയാലും അവ മഹാശിലായുഗത്തിലോ ആദ്യകാല ചരിത്രകാലത്തിലോ ആണ് വരിക.",
+          "en": "Ajit Kumar (NEW-SRC-02, p. 340) argues that the Neolithic association should be abandoned: no Neolithic debris is reported nearby, and even if the engravings preceded the earliest inscriptions by centuries they would fall in the megalithic or early historic period."
+        },
+        {
+          "ml": "ഫോസെറ്റ് 1901 (NEW-SRC-01, പേജ് 412 OCR) രണ്ടാം സന്ദർശനത്തിൽ ഗുഹയ്ക്ക് കുറുകെ 7 അടി ആഴത്തിൽ കുഴിച്ചിട്ടും വാസാവശിഷ്ടങ്ങൾ കണ്ടില്ലെന്ന് രേഖപ്പെടുത്തുന്നു. സമീപത്ത് ക്വാർട്സ് ചീളും മിനുക്കിയ കൽമഴുവും കണ്ടെത്തിയെന്നത് (പേജ് 420) ചിത്രങ്ങളുടെ തീയതി നിർണയിക്കുന്നില്ല.",
+          "en": "Fawcett 1901 (NEW-SRC-01, p. 412 OCR) reports that a 7-foot section cut across the cave on his second visit found no traces of habitation. His note of a quartz flake and a polished celt found nearby (p. 420) does not date the engravings."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "ജില്ലാ പേജും സംസ്ഥാന ടൂറിസം പേജും ഒരേ വാക്യഘടനയും സംഖ്യകളും (1200 അടി, 1895, ക്രി.മു. 6000) പങ്കിടുന്നു. അവയെ രണ്ട് സ്വതന്ത്ര സ്ഥിരീകരണങ്ങളായി എണ്ണരുത്. കുമാറിന്റെ ലിഖിതകാലം മഹാദേവൻ 1998-നെ ആശ്രയിക്കുന്നു; ആ പ്രബന്ധം പരിശോധിച്ചിട്ടില്ല.",
+        "en": "The district page and the state tourism page share phrasing and figures (1200 ft, 1895, 6000 B.C.). Count them as one claim chain, not two confirmations. Kumar's inscription date depends on Mahadevan 1998, which was not inspected."
+      },
+      "rights": {
+        "ml": "കണ്ണിയും സ്വന്തം സംഗ്രഹവും മാത്രം. ഫോസെറ്റ് 1901-ലെ ചിത്രഫലകങ്ങൾ പകർത്തിയിട്ടില്ല.",
+        "en": "Links and original summaries only. No plates from Fawcett 1901 were copied."
+      },
+      "finding": {
+        "ml": "ക്രി.മു. 6000 ഒരു ടൂറിസം അവകാശവാദമായി മാത്രം രേഖപ്പെടുത്തണം. പരിശോധിച്ച പണ്ഡിതചർച്ചകൾ നവീനശിലായുഗം മുതൽ മഹാശിലായുഗം അല്ലെങ്കിൽ ആദ്യകാല ചരിത്രകാലം വരെയുള്ള ആപേക്ഷിക കാലങ്ങൾ നിർദേശിക്കുന്നു; ഒന്നും കൊത്തുചിത്രങ്ങൾക്ക് കേവലതീയതി നൽകുന്നില്ല. R008-ന്റെ ഇപ്പോഴത്തെ സമീപനം ശരിയാണ്; വിരുദ്ധവായനകൾ ചേർക്കണം.",
+        "en": "Keep 6000 BCE as a tourism claim only. The inspected scholarship proposes relative dates from Neolithic to megalithic or early historic, and none gives an absolute date for the engravings. R008's current treatment holds; the contrary readings should be added."
+      },
+      "proposed_corrections": [
+        "PC-01",
+        "PC-02",
+        "PC-03"
+      ],
+      "unresolved": [
+        "U-01",
+        "U-02"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "archaeology",
+          "rock art",
+          "epigraphy"
+        ]
+      }
+    },
+    {
+      "id": "EV-02",
+      "priority": 1,
+      "title": {
+        "ml": "ഇടയ്ക്കൽ പണ്ഡിതരേഖയിൽ എത്തിയ വർഷം: 1894, 1895, 1896",
+        "en": "Year Edakkal entered the scholarly record: 1894, 1895 or 1896"
+      },
+      "stable_ids": {
+        "records": [
+          "R019",
+          "R020"
+        ],
+        "audit": [],
+        "sources": [
+          "S011",
+          "S012",
+          "S013"
+        ],
+        "periods": [
+          "P05",
+          "E10"
+        ],
+        "proposed_sources": [
+          "NEW-SRC-01",
+          "NEW-SRC-03"
+        ]
+      },
+      "claim_under_review": {
+        "ml": "ഫോസെറ്റ് 1894-ൽ ഇടയ്ക്കലിലെ കൊത്തുചിത്രങ്ങൾ കണ്ടു (R019).",
+        "en": "Fawcett encountered the Edakkal engravings in 1894 (R019)."
+      },
+      "sources_inspected": [
+        {
+          "id": "S012",
+          "edition": "Sahapedia essay",
+          "locator": "Second paragraph: discovery 'in 1894'",
+          "inspected_depth": "full_text"
+        },
+        {
+          "id": "S011",
+          "edition": "District page",
+          "locator": "Third paragraph: 'Ever since their discovery in 1895'",
+          "inspected_depth": "full_page"
+        },
+        {
+          "id": "NEW-SRC-03",
+          "edition": "State tourism page",
+          "locator": "'discovered and recognised ... in 1895 by Fred Fawcett'",
+          "inspected_depth": "full_page"
+        },
+        {
+          "id": "NEW-SRC-01",
+          "edition": "Indian Antiquary 30 (1901)",
+          "locator": "p. 412 OCR: a quoted report beginning 'About the beginning of the year 1896 Mr. F. Fawcett ... discovered'; Fawcett's reply that residents had known the cave for at least 12 or 15 years",
+          "inspected_depth": "relevant_passages_ocr_text"
+        },
+        {
+          "id": "S013",
+          "edition": "State Archaeology Department page",
+          "locator": "No response from this environment on 2026-10-18",
+          "inspected_depth": "access_failed_this_pass"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "ഇന്നത്തെ ഭരണപരിധിക്കുള്ളിൽ (core).",
+        "en": "Inside the present territory (core)."
+      },
+      "date_roles": [
+        {
+          "role": "research_history",
+          "value": "1894",
+          "attributed_to": "S012; NEW-SRC-02"
+        },
+        {
+          "role": "research_history",
+          "value": "1895",
+          "attributed_to": "S011; NEW-SRC-03"
+        },
+        {
+          "role": "research_history",
+          "value": "about the beginning of 1896 (report quoted in 1901)",
+          "attributed_to": "NEW-SRC-01, p. 412 OCR"
+        },
+        {
+          "role": "publication",
+          "value": "1901 (Indian Antiquary vol. 30; October 1901 running head seen in OCR)",
+          "attributed_to": "NEW-SRC-01"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "S012-ഉം കുമാറും (NEW-SRC-02) 1894 എന്ന് പറയുന്നു.",
+          "en": "S012 and Kumar (NEW-SRC-02) give 1894."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "ടൂറിസം പേജുകൾ 1895 എന്ന് പറയുന്നു. 1901 ലേഖനത്തിൽ ഉദ്ധരിച്ച ഒരു റിപ്പോർട്ട് '1896-ന്റെ തുടക്കം' എന്ന് പറയുന്നു. താൻ ഗുഹ കണ്ടെത്തിയതല്ലെന്നും നാട്ടുകാർക്ക് കുറഞ്ഞത് 12-15 വർഷമായി അറിയാമായിരുന്നുവെന്നും ഫോസെറ്റ് തന്നെ എഴുതുന്നു.",
+          "en": "The tourism pages give 1895. A report quoted in the 1901 article gives 'about the beginning of the year 1896'. Fawcett himself writes that he did not discover the cave and that residents had known it for at least 12 or 15 years."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "ടൂറിസം പേജുകൾ ഒരു ശൃംഖല. 1901 ലേഖനത്തിന്റെ ആദ്യ പേജുകൾ (409-411) OCR-ൽ കണ്ടെത്താനായില്ല; ഫോസെറ്റിന്റെ സ്വന്തം സന്ദർശനവർഷങ്ങൾ അവിടെ ഉണ്ടാകാം.",
+        "en": "The tourism pages are one chain. The opening pages of the 1901 article (409-411) were not found in the OCR and may give Fawcett's own visit years."
+      },
+      "rights": {
+        "ml": "കണ്ണിയും ചെറു ഉദ്ധരണിയും മാത്രം.",
+        "en": "Links and short quotations only."
+      },
+      "finding": {
+        "ml": "1894 ഒറ്റ ഉറപ്പുള്ള വർഷമായി അവതരിപ്പിക്കരുത്. മൂന്ന് വർഷങ്ങളും ആരുടേതെന്ന് രേഖപ്പെടുത്തി നിലനിർത്തണം. 'കണ്ടെത്തൽ' എന്നതിന് പകരം 'പണ്ഡിതരേഖയിൽ എത്തിയത്' എന്ന പ്രയോഗം തുടരണം.",
+        "en": "Do not present 1894 as a single settled year. Keep all three years with attribution, and keep describing the event as entry into the scholarly record rather than discovery."
+      },
+      "proposed_corrections": [
+        "PC-04"
+      ],
+      "unresolved": [
+        "U-03"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "history of archaeology"
+        ]
+      }
+    },
+    {
+      "id": "EV-03",
+      "priority": 2,
+      "title": {
+        "ml": "വടക്കൻ കേരളത്തിലെ ആദ്യകാല മനുഷ്യവാസം: പ്രാചീന ശിലായുഗത്തിന്റെ ആദ്യഘട്ടം എന്ന ആരോപണം",
+        "en": "Early occupation in northern Kerala: the Lower Palaeolithic attribution"
+      },
+      "stable_ids": {
+        "records": [
+          "R006",
+          "R029"
+        ],
+        "audit": [
+          "A008",
+          "A036",
+          "A037"
+        ],
+        "sources": [
+          "S009"
+        ],
+        "periods": [
+          "E08",
+          "P01"
+        ],
+        "proposed_sources": []
+      },
+      "claim_under_review": {
+        "ml": "വടക്കൻ കേരളത്തിൽ പ്രാചീന ശിലായുഗത്തിന്റെ ആദ്യഘട്ടം മുതൽ മനുഷ്യവാസം ഉണ്ടായിരുന്നു എന്ന് S009 സൂചിപ്പിക്കുന്നു (R006).",
+        "en": "S009 suggests occupation of northern Kerala from the Lower Palaeolithic (R006)."
+      },
+      "sources_inspected": [
+        {
+          "id": "S009",
+          "edition": "Heritage: Journal of Multidisciplinary Studies in Archaeology 4 (2016), 627–636; PDF from the publisher's site",
+          "locator": "pp. 628–631 (Lower Palaeolithic finds), conclusion p. 635",
+          "inspected_depth": "full_text"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "വാണിമേൽ (കോഴിക്കോട് ജില്ല), ചൈത്രവാഹിനി (കാസർകോട് ജില്ല) നദീതടങ്ങളിലെ ഉപരിതല ശേഖരങ്ങൾ; ഇന്നത്തെ ഭരണപരിധിക്കുള്ളിൽ (core). പ്രബന്ധം നിർദേശാങ്കങ്ങൾ നൽകുന്നില്ല; ഇവിടെ ചേർക്കുന്നുമില്ല.",
+        "en": "Surface collections from river terraces of the Vanimel (Kozhikode district) and Chaithravahini (Kasaragod district); inside the present territory (core). The paper gives no coordinates and none are added here."
+      },
+      "date_roles": [
+        {
+          "role": "relative_cultural_attribution",
+          "value": "Lower Palaeolithic, by tool typology",
+          "attributed_to": "S009"
+        },
+        {
+          "role": "publication",
+          "value": "2016",
+          "attributed_to": "S009"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "വാണിമേൽ നദിയുടെ ഉയർന്ന തട്ടിൽ നിന്ന് ഒരു ക്വാർട്സ് കൈമഴു (16.5 × 6.6 × 4.4 സെ.മീ.), ചൈത്രവാഹിനി തട്ടുകളിൽ നിന്ന് കൂർത്ത ചോപ്പറുകളും മറ്റ് ഉപകരണങ്ങളും; ഒന്ന് അൽപം ഉരുണ്ട നിലയിൽ. ഗ്രന്ഥകർത്താവ് രൂപവിജ്ഞാനത്തിന്റെ അടിസ്ഥാനത്തിൽ ഇവയെ പ്രാചീന ശിലായുഗത്തിന്റെ ആദ്യഘട്ടത്തോട് ബന്ധിപ്പിക്കുന്നു.",
+          "en": "A quartz hand axe (16.5 × 6.6 × 4.4 cm) from a high terrace of the Vanimel, and pointed choppers and other tools from Chaithravahini terraces, one described as slightly rolled. The author assigns them to the Lower Palaeolithic on typological grounds."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "പരിശോധിച്ചവയിൽ വിരുദ്ധ പ്രസിദ്ധീകരണം കണ്ടില്ല. എന്നാൽ ഉത്ഖനനം, അടുക്കുകളുടെ വിവരണം, കേവല കാലനിർണയം എന്നിവയൊന്നും പ്രബന്ധത്തിൽ ഇല്ല; ഉപരിതല ശേഖരങ്ങൾ നദിയൊഴുക്കിൽ സ്ഥാനം മാറിയിരിക്കാം.",
+          "en": "No contrary publication was found in this pass. The paper reports no excavation, stratigraphic description or absolute dating, and surface finds on terraces may have been moved by the river."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "ഈ കണ്ടെത്തലുകളെക്കുറിച്ചുള്ള പത്രവാർത്തകൾ ഇതേ ഗവേഷകന്റെ വിവരണമാണ്; സ്വതന്ത്ര സ്ഥിരീകരണമല്ല.",
+        "en": "Newspaper items on these finds report the same researcher's account and are not independent confirmation."
+      },
+      "rights": {
+        "ml": "കണ്ണിയും സ്വന്തം സംഗ്രഹവും മാത്രം; ചിത്രങ്ങൾ പകർത്തിയിട്ടില്ല.",
+        "en": "Link and original summary only; no figures copied."
+      },
+      "finding": {
+        "ml": "R006-ന്റെ സമീപനം ശരി; എന്നാൽ 'സാരാംശം മാത്രം' എന്ന പരിമിതി ഇപ്പോൾ പൂർണപാഠ പരിശോധനയുടെ അടിസ്ഥാനത്തിൽ മാറ്റിയെഴുതണം: ആരോപണം രൂപവിജ്ഞാനപരമാണ്, ഉപരിതല ശേഖരങ്ങളാണ്, കാലനിർണയമില്ല. ഒരു ആദ്യവാസവർഷം കണക്കാക്കരുത്.",
+        "en": "R006's treatment holds, but its abstract-only caveat should now be restated from the full text: the attribution is typological, from surface collections, with no dating. Do not derive a first-occupation year."
+      },
+      "proposed_corrections": [
+        "PC-05",
+        "PC-06"
+      ],
+      "unresolved": [
+        "U-04"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "Palaeolithic archaeology",
+          "geomorphology"
+        ]
+      }
+    },
+    {
+      "id": "EV-04",
+      "priority": 3,
+      "title": {
+        "ml": "അശോകന്റെ രണ്ടാം ശിലാശാസനത്തിലെ കേരളപുത്രർ: സാക്ഷ്യപ്രതികളിലെ രൂപഭേദങ്ങൾ",
+        "en": "Keralaputra in Ashoka's Rock Edict II: witness-specific forms"
+      },
+      "stable_ids": {
+        "records": [
+          "R010"
+        ],
+        "audit": [
+          "A011"
+        ],
+        "sources": [
+          "S014",
+          "S015"
+        ],
+        "periods": [
+          "E12"
+        ],
+        "proposed_sources": []
+      },
+      "claim_under_review": {
+        "ml": "കേരളപുത്ര എന്ന പേരിന്റെ വിവിധ രൂപങ്ങൾ ഒരേ പകർപ്പായി കണക്കാക്കാമോ (A011).",
+        "en": "Whether the forms of the name Keralaputra can be treated as one exact transcription (A011)."
+      },
+      "sources_inspected": [
+        {
+          "id": "S014",
+          "edition": "S. Dhammika, The Edicts of King Asoka (Wheel 386/387, 1993), Access to Insight edition",
+          "locator": "Fourteen Rock Edicts, II and XIII, with notes",
+          "inspected_depth": "full_text"
+        },
+        {
+          "id": "S015",
+          "edition": "E. Hultzsch, Corpus Inscriptionum Indicarum vol. 1, new edition, 1925; archive.org item InscriptionsOfAsoka.NewEditionByE.Hultzsch",
+          "locator": "Girnar II line 2 and p. 3 nn. 7–8; Kalsi II line 4 and note; Shahbazgarhi II line 4; Mansehra II line 6; introduction pp. xxxv–xxxix",
+          "inspected_depth": "relevant_passages_ocr_text"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "ശാസനപ്രതികൾ കേരളത്തിന് പുറത്താണ് (ഗിർനാർ, കൽസി, ഷാഹ്ബാസ്ഗഢി, മാൻസെഹ്റ); പേര് ഒരു ബാഹ്യ പരാമർശമാണ് (external_reference).",
+        "en": "The edict witnesses are outside Kerala (Girnar, Kalsi, Shahbazgarhi, Mansehra); the name is an external reference."
+      },
+      "date_roles": [
+        {
+          "role": "production_of_inscription",
+          "value": "third century BCE; see EV-05 for the editor-specific years",
+          "attributed_to": "S014; S015"
+        },
+        {
+          "role": "publication_of_edition",
+          "value": "1925",
+          "attributed_to": "S015"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "ഹൂൾഷിന്റെ പാഠം: ഗിർനാർ 'Ketalaputo', കൽസി 'Ke[lala]puto', ഷാഹ്ബാസ്ഗഢി 'Keradaputro', മാൻസെഹ്റ 'Keralaputra'. 'Ketalaputa' 'Keralaputra'-യുടെ തെറ്റാകാം എന്ന് പേജ് 3 കുറിപ്പ് 8; കൽസിയിലെ ഭാഷാഭേദം r-നു പകരം l ഉപയോഗിക്കുന്നു എന്ന് കൽസി കുറിപ്പ്; '-putta' ഒരു ഗോത്രത്തിൽ ഉൾപ്പെട്ടത് എന്നാണ് ല്യൂഡേഴ്സിന്റെ വായന എന്ന് കുറിപ്പ് 7.",
+          "en": "Hultzsch's text reads Girnar 'Ketalaputo', Kalsi 'Ke[lala]puto', Shahbazgarhi 'Keradaputro', Mansehra 'Keralaputra'. Note 8 on p. 3 says 'Ketalaputa' may be a mistake for 'Keralaputra'; the Kalsi note says that dialect replaces r with l; note 7 reports Lüders reading '-putta' as 'belonging to a tribe'."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "A011-ൽ പേര് പറയുന്ന 'Kedalaputo' എന്ന രൂപം ഹൂൾഷിന്റെ സൂചികയിലോ പരിശോധിച്ച വരികളിലോ കണ്ടില്ല. അത് മറ്റൊരു പതിപ്പിൽ നിന്നോ ലിപ്യന്തരണത്തിൽ നിന്നോ ആകാം.",
+          "en": "The form 'Kedalaputo' named in A011 was not found in Hultzsch's index or the lines inspected. It may come from another edition or transliteration."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "ധമ്മികയുടെ വിവർത്തനം ഹൂൾഷ് ഉൾപ്പെടെയുള്ള പഴയ പതിപ്പുകളെ ആശ്രയിക്കുന്നു; രണ്ടും പൂർണമായി സ്വതന്ത്രമല്ല.",
+        "en": "Dhammika's translation draws on earlier editions including Hultzsch, so the two are not fully independent."
+      },
+      "rights": {
+        "ml": "ഹൂൾഷ് 1925: archive.org ഇനത്തിൽ Public Domain Mark 1.0. ധമ്മിക: Access to Insight വിതരണ വ്യവസ്ഥകൾ പുനഃപരിശോധിച്ചിട്ടില്ല; കണ്ണി മാത്രം. ശാസനചിത്രഫലകങ്ങൾ OCR-ൽ പരിശോധിച്ചിട്ടില്ല.",
+        "en": "Hultzsch 1925: the archive.org item carries Public Domain Mark 1.0. Dhammika: Access to Insight distribution terms not re-reviewed; link only. Plates were not checked against the OCR."
+      },
+      "finding": {
+        "ml": "A011 ശരിയാണ്: ഓരോ സാക്ഷ്യപ്രതിയുടെയും രൂപം വേറെ സൂക്ഷിക്കണം. ഹൂൾഷിൽ കണ്ട നാല് രൂപങ്ങളും സ്ഥാനസൂചനയോടെ ചേർക്കാം; 'Kedalaputo' സ്രോതസ്സ് കണ്ടെത്തുന്നതുവരെ അനിശ്ചിതമായി അടയാളപ്പെടുത്തണം.",
+        "en": "A011 holds: keep each witness's form separate. The four forms found in Hultzsch can be added with locators; mark 'Kedalaputo' as unsourced until its edition is identified."
+      },
+      "proposed_corrections": [
+        "PC-07",
+        "PC-08"
+      ],
+      "unresolved": [
+        "U-05"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "Prakrit epigraphy",
+          "Brahmi and Kharosthi palaeography"
+        ]
+      }
+    },
+    {
+      "id": "EV-05",
+      "priority": 3,
+      "title": {
+        "ml": "രണ്ടാം ശിലാശാസനത്തിന്റെ കാലം: നിർദേശിത വർഷവും അനിശ്ചിതത്വവും",
+        "en": "Date of Rock Edict II: attributed year and chronological uncertainty"
+      },
+      "stable_ids": {
+        "records": [
+          "R010"
+        ],
+        "audit": [
+          "A009",
+          "A010",
+          "A079"
+        ],
+        "sources": [
+          "S014",
+          "S015"
+        ],
+        "periods": [
+          "E12"
+        ],
+        "proposed_sources": []
+      },
+      "claim_under_review": {
+        "ml": "R010 ക്രി.മു. മൂന്നാം നൂറ്റാണ്ട് എന്ന ഇടവേള സ്വീകരിക്കുകയും ക്രി.മു. 257 എന്ന വിവർത്തകന്റെ നിർദേശം വേറെ രേഖപ്പെടുത്തുകയും ചെയ്യുന്നു.",
+        "en": "R010 adopts the third century BCE interval and records the translator's 257 BCE separately."
+      },
+      "sources_inspected": [
+        {
+          "id": "S014",
+          "edition": "Access to Insight edition",
+          "locator": "Rock Edict notes 1, 2, 5 and 7 (Girnar text dated to 257 BCE)",
+          "inspected_depth": "full_text"
+        },
+        {
+          "id": "S015",
+          "edition": "Hultzsch 1925",
+          "locator": "Introduction pp. xxxv–xxxvi (chronology: coronation taken as about 264 BCE)",
+          "inspected_depth": "relevant_passages_ocr_text"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "ബാഹ്യ പരാമർശം (external_reference).",
+        "en": "External reference."
+      },
+      "date_roles": [
+        {
+          "role": "proposed_production_year",
+          "value": "257 BCE",
+          "attributed_to": "S014 notes"
+        },
+        {
+          "role": "stated_in_text",
+          "value": "Rock Edict II states no regnal year.",
+          "attributed_to": "S014; S015"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "ക്രി.മു. മൂന്നാം നൂറ്റാണ്ട് എന്ന ഇടവേള രണ്ട് പതിപ്പുകൾക്കും യോജിക്കുന്നു.",
+          "en": "The third century BCE interval fits both editions."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "ധമ്മികയുടെ ക്രി.മു. 257 എന്ന തീയതി നിലനിർത്താം. ഹൂൾഷിന്റെ പേജ് xxxv–xxxvi രണ്ടാം ശിലാശാസനത്തിന് ക്രി.മു. 252 എന്ന തീയതി തെളിയിക്കുന്നില്ല.",
+          "en": "Dhammika gives 257 BCE. Hultzsch pp. xxxv–xxxvi does not establish 252 BCE for Edict II: the chronological calculation concerns XIII and the twelve-year list does not name II."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "രണ്ടാം ശിലാശാസനത്തെ കൃത്യമായ വർഷവുമായി ബന്ധിപ്പിക്കുന്ന വിദഗ്ധസാഹിത്യം പരിശോധിക്കണം.",
+        "en": "An Edict-II-specific chronological argument is still needed; arithmetic from a coronation date alone does not establish its production year."
+      },
+      "rights": {
+        "ml": "കണ്ണിയും സ്വന്തം സംഗ്രഹവും.",
+        "en": "Links and original summary."
+      },
+      "finding": {
+        "ml": "ക്രി.മു. മൂന്നാം നൂറ്റാണ്ട് നിലനിർത്തുക; ധമ്മികയുടെ തീയതി അദ്ദേഹത്തിന്റേതായി മാത്രം രേഖപ്പെടുത്തുക. ക്രി.മു. 252 എന്ന പിന്തുണയില്ലാത്ത ബദൽ ഒഴിവാക്കുക.",
+        "en": "Keep the third-century BCE interval and Dhammika’s date as attributed. Withdraw the unsupported 252 BCE alternative. Do not treat an external mention as the start of Kerala’s recorded history."
+      },
+      "proposed_corrections": [
+        "PC-09",
+        "PC-21"
+      ],
+      "unresolved": [
+        "U-06"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "Mauryan chronology"
+        ]
+      }
+    },
+    {
+      "id": "EV-06",
+      "priority": 3,
+      "title": {
+        "ml": "കേരളപുത്ര രാഷ്ട്രീയസമൂഹത്തിന്റെ തിരിച്ചറിയൽ; പതിമൂന്നാം ശിലാശാസനത്തിൽ പേരില്ലായ്മ",
+        "en": "Identifying the Keralaputra polity; absence from Rock Edict XIII"
+      },
+      "stable_ids": {
+        "records": [
+          "R010"
+        ],
+        "audit": [
+          "A012",
+          "A013"
+        ],
+        "sources": [
+          "S014",
+          "S015"
+        ],
+        "periods": [
+          "E12"
+        ],
+        "proposed_sources": []
+      },
+      "claim_under_review": {
+        "ml": "കേരളപുത്രരെ ചേരരുമായി ബന്ധിപ്പിക്കുന്ന പതിവ് തിരിച്ചറിയലും മൗര്യനിയന്ത്രണം എന്ന തെറ്റായ നിഗമനവും (A012, A013).",
+        "en": "The conventional link of Keralaputras with the Cheras, and the false inference of Mauryan control (A012, A013)."
+      },
+      "sources_inspected": [
+        {
+          "id": "S014",
+          "edition": "Access to Insight edition",
+          "locator": "Rock Edict II note 3; Rock Edict XIII",
+          "inspected_depth": "full_text"
+        },
+        {
+          "id": "S015",
+          "edition": "Hultzsch 1925",
+          "locator": "Introduction p. xxxix (Rock Edict XIII, section Q; gloss of Keralaputra)",
+          "inspected_depth": "relevant_passages_ocr_text"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "ബാഹ്യ പരാമർശം. ധമ്മിക തെക്കുപടിഞ്ഞാറൻ തീരം എന്നും ഹൂൾഷ് 'Kerala or Malabar' എന്നും പറയുന്നു; ഇവ ആധുനിക അതിർത്തിയല്ല.",
+        "en": "External reference. Dhammika places them on the southwest seaboard and Hultzsch glosses 'king of Kerala or Malabar'; neither is a modern boundary."
+      },
+      "date_roles": [
+        {
+          "role": "production_of_inscription",
+          "value": "third century BCE",
+          "attributed_to": "S014; S015"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "രണ്ടാം ശാസനം ഇവരെ അതിർത്തിക്ക് അപ്പുറമുള്ളവരായി പറയുന്നു; അതിനാൽ കീഴടക്കൽ അനുമാനിക്കാനാവില്ല (A013).",
+          "en": "Edict II names them beyond the borders, so annexation cannot be inferred (A013)."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "പതിമൂന്നാം ശാസനം ചോഡർ, പാണ്ഡ്യർ, താമ്രപർണി എന്നിവരെ മാത്രം പറയുന്നു; കേരളപുത്രരെ പറയുന്നില്ല (ധമ്മിക; ഹൂൾഷ് പേജ് xxxix). ഇതിൽ നിന്ന് ഒന്നും ഊഹിക്കരുത്; പേരില്ലായ്മ രേഖപ്പെടുത്തുക മാത്രം.",
+          "en": "Edict XIII names only the Chodas, Pandyas and Tamraparni, not the Keralaputras (Dhammika; Hultzsch p. xxxix). Record the absence without drawing a conclusion from it."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "ചേരതിരിച്ചറിയലിന്റെ പൂർണ പണ്ഡിതസാഹിത്യം പരിശോധിച്ചിട്ടില്ല.",
+        "en": "The full identification literature for the Chera link was not reviewed."
+      },
+      "rights": {
+        "ml": "കണ്ണിയും സ്വന്തം സംഗ്രഹവും.",
+        "en": "Links and original summary."
+      },
+      "finding": {
+        "ml": "A012, A013 നിലനിർത്തുക. പതിമൂന്നാം ശാസനത്തിൽ പേരില്ല എന്ന വസ്തുത കുറിപ്പായി ചേർക്കുക.",
+        "en": "Keep A012 and A013. Add the absence from Edict XIII as a note."
+      },
+      "proposed_corrections": [
+        "PC-10"
+      ],
+      "unresolved": [
+        "U-07"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "early historic South Indian polity studies"
+        ]
+      }
+    },
+    {
+      "id": "EV-07",
+      "priority": 4,
+      "title": {
+        "ml": "തിരുവനന്തപുരം ഖണ്ഡത്തിലെ ഭൂകാലനിർണയം (S002)",
+        "en": "Trivandrum Block geochronology (S002)"
+      },
+      "stable_ids": {
+        "records": [
+          "R002",
+          "R030"
+        ],
+        "audit": [
+          "A023",
+          "A024",
+          "A026",
+          "A071"
+        ],
+        "sources": [
+          "S002",
+          "S003"
+        ],
+        "periods": [
+          "P01"
+        ],
+        "proposed_sources": []
+      },
+      "claim_under_review": {
+        "ml": "S002-ലെ സംഖ്യാപരമായ പ്രായങ്ങൾ തിരുത്തൽക്കുറിപ്പ് (S003) വായിക്കുന്നതുവരെ സ്വീകരിക്കരുത് (R002).",
+        "en": "S002's numerical ages should not be adopted until the erratum (S003) is read (R002)."
+      },
+      "sources_inspected": [
+        {
+          "id": "S002",
+          "edition": "Gondwana Research 9(3), 261–278, April 2006 (issue date per Crossref)",
+          "locator": "Author abstract; ScienceDirect preview snippets",
+          "inspected_depth": "abstract_and_preview"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "തെക്കൻ കേരളത്തിലെയും സമീപ തമിഴ്നാട്ടിലെയും ഖോണ്ടലൈറ്റ് മേഖല; സാമ്പിൾ സ്ഥാനങ്ങൾ പരിശോധിച്ചിട്ടില്ല, അതിനാൽ ഓരോ പ്രായവും ഇന്നത്തെ കേരളത്തിനുള്ളിലാണോ എന്ന് പറയാനാവില്ല.",
+        "en": "Khondalite belt of southern Kerala and adjacent Tamil Nadu. Sample locations were not inspected, so it cannot be said which ages come from inside present Kerala."
+      },
+      "date_roles": [
+        {
+          "role": "geological_ages_reported",
+          "value": "EPMA chemical U–Th–Pb ages: oldest spot 3534 Ma (detrital zircon core); isochron ages 3193 ± 72 to 2148 ± 94 Ma; zircon peaks about 644–746 Ma; youngest rim 483 Ma; monazite cores to 2057 Ma, and peaks about 560–520 Ma",
+          "attributed_to": "S002 abstract; withheld from adoption pending S003"
+        },
+        {
+          "role": "publication",
+          "value": "2006",
+          "attributed_to": "S002"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "സാരാംശം പല ഘട്ടങ്ങളിലുള്ള ധാതുചരിത്രം വിവരിക്കുന്നു; ഏറ്റവും പഴയ സംഖ്യ ഒരു അപരദന ധാന്യത്തിന്റേതാണ്, പാറയുടെ രൂപീകരണപ്രായമല്ല.",
+          "en": "The abstract describes a multi-stage mineral history. The oldest figure belongs to a detrital grain, not to the formation of the rock."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "തിരുത്തൽക്കുറിപ്പ് എന്താണ് മാറ്റുന്നതെന്ന് അറിയില്ല; അതിനാൽ ഈ സംഖ്യകൾ ഏതെങ്കിലും ബാധിക്കപ്പെട്ടിട്ടുണ്ടാകാം.",
+          "en": "What the erratum changes is unknown, so any of these figures may be affected."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "S003 S002-നെ നേരിട്ട് തിരുത്തുന്നു.",
+        "en": "S003 directly corrects S002."
+      },
+      "rights": {
+        "ml": "അടഞ്ഞ പ്രവേശനം; പണമതിൽ മറികടന്നിട്ടില്ല. സംഖ്യകൾ സാരാംശത്തിൽ നിന്നുള്ള വസ്തുതകളായി മാത്രം.",
+        "en": "Closed access; the paywall was not bypassed. Figures are recorded as facts from the abstract only."
+      },
+      "finding": {
+        "ml": "R002 തടസ്സം നിലനിർത്തുക. സംഖ്യകൾ 'സാരാംശത്തിൽ റിപ്പോർട്ട് ചെയ്തത്, സ്വീകരിച്ചിട്ടില്ല' എന്ന് അടയാളപ്പെടുത്തി ഈ കുറിപ്പിൽ മാത്രം സൂക്ഷിക്കുക. 3534 Ma 'കേരളത്തിലെ ഏറ്റവും പഴയ പാറ' ആയി അവതരിപ്പിക്കരുത്.",
+        "en": "Keep R002's block. Hold the figures in these notes only, marked as reported in the abstract and not adopted. Do not present 3534 Ma as the oldest rock in Kerala."
+      },
+      "proposed_corrections": [
+        "PC-11"
+      ],
+      "unresolved": [
+        "U-08"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "geochronology",
+          "Precambrian geology"
+        ]
+      }
+    },
+    {
+      "id": "EV-08",
+      "priority": 4,
+      "title": {
+        "ml": "S003 തിരുത്തൽക്കുറിപ്പിന്റെ ഗ്രന്ഥസൂചി",
+        "en": "Bibliographic identity of erratum S003"
+      },
+      "stable_ids": {
+        "records": [
+          "R002",
+          "R030"
+        ],
+        "audit": [
+          "A071"
+        ],
+        "sources": [
+          "S003"
+        ],
+        "periods": [],
+        "proposed_sources": []
+      },
+      "claim_under_review": {
+        "ml": "S003 Gondwana Research 10(1), 203–204-ൽ ആണ്.",
+        "en": "S003 is in Gondwana Research 10(1), 203–204."
+      },
+      "sources_inspected": [
+        {
+          "id": "S003",
+          "edition": "Gondwana Research 10(1–2), 203–204, August 2006, DOI 10.1016/j.gr.2006.04.002",
+          "locator": "Crossref record and ScienceDirect landing page",
+          "inspected_depth": "metadata_only"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "S002 പോലെ.",
+        "en": "As for S002."
+      },
+      "date_roles": [
+        {
+          "role": "publication",
+          "value": "August 2006 (issue)",
+          "attributed_to": "Crossref"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "Crossref ലക്കം 10(1–2) എന്നും പേജുകൾ 203–204 എന്നും നൽകുന്നു.",
+          "en": "Crossref gives issue 10(1–2) and pages 203–204."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "നിലവിലെ കാർഡ് ലക്കം '10(1)' എന്ന് മാത്രം പറയുന്നു.",
+          "en": "The current card gives the issue as '10(1)' only."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "ഇല്ല.",
+        "en": "None."
+      },
+      "rights": {
+        "ml": "തിരുത്തൽപാഠം പണമതിലിന് പിന്നിൽ; ലഭിച്ചിട്ടില്ല.",
+        "en": "Correction text is behind a paywall and was not obtained."
+      },
+      "finding": {
+        "ml": "ലക്കം 10(1–2) എന്ന് തിരുത്തുക; DOI ചേർക്കുക. തിരുത്തലിന്റെ ഉള്ളടക്കം അനുമാനിക്കരുത്.",
+        "en": "Correct the issue to 10(1–2) and add the DOI. Do not infer the correction's content."
+      },
+      "proposed_corrections": [
+        "PC-12"
+      ],
+      "unresolved": [
+        "U-08"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "bibliography"
+        ]
+      }
+    },
+    {
+      "id": "EV-09",
+      "priority": 5,
+      "title": {
+        "ml": "ക്വയിലോൺ രൂപീകരണം: സാമ്പിൾ സന്ദർഭവും കാലനിർണയരീതിയും",
+        "en": "Quilon Formation: sample context and dating method"
+      },
+      "stable_ids": {
+        "records": [
+          "R005",
+          "R025"
+        ],
+        "audit": [
+          "A035"
+        ],
+        "sources": [
+          "S007",
+          "S008"
+        ],
+        "periods": [
+          "P02",
+          "P03"
+        ],
+        "proposed_sources": []
+      },
+      "claim_under_review": {
+        "ml": "സാമ്പിൾ ചെയ്ത ക്വയിലോൺ രൂപീകരണ വസ്തുക്കൾക്ക് 17.08–17.13 Ma എന്ന മുൻഗണനാനിക്ഷേപപ്രായം (R005).",
+        "en": "A preferred depositional age of 17.08–17.13 Ma for sampled Quilon Formation material (R005)."
+      },
+      "sources_inspected": [
+        {
+          "id": "S007",
+          "edition": "Journal of Earth System Science (2022), DOI 10.1007/s12040-022-01898-x; published online 27 June 2022",
+          "locator": "Abstract; preview; reference list; author contributions statement",
+          "inspected_depth": "abstract_and_preview"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "കൊല്ലം തീരപ്രദേശത്തെ ഭാഗങ്ങൾ (core). സാമ്പിൾ ഭാഗങ്ങളുടെ കൃത്യസ്ഥാനം കണ്ടില്ല. ഫലം കേരളതീരം മുഴുവനും ബാധകമാക്കരുത്.",
+        "en": "Sections in the Kollam coastal area (core). Exact sampled sections were not seen. The result must not be generalized to the whole Kerala coast."
+      },
+      "date_roles": [
+        {
+          "role": "depositional_age_estimate",
+          "value": "17.08–17.13 Ma, preferred; described by the authors as a precise numerical age agreeing with a Burdigalian assignment",
+          "attributed_to": "S007 abstract"
+        },
+        {
+          "role": "publication_online",
+          "value": "2022-06-27",
+          "attributed_to": "S007"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "അരഗോണൈറ്റ് മൊളസ്ക് പുറന്തോടുകളിലെ 87Sr/86Sr അനുപാതം; മുൻകാല ഫോസിൽ അടിസ്ഥാനമാക്കിയ ബർഡിഗാലിയൻ നിർണയവുമായി യോജിക്കുന്നു.",
+          "en": "87Sr/86Sr ratios on aragonitic mollusc shells; consistent with the earlier fossil-based Burdigalian assignment."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "മുൻകാല നിർണയങ്ങൾ ഇയോസീൻ മുതൽ പ്ലയോസീൻ വരെ വ്യത്യാസപ്പെട്ടിരുന്നു എന്ന് സാരാംശം പറയുന്നു. സാമ്പിൾ എണ്ണം, ഉപയോഗിച്ച സ്ട്രോൺഷ്യം വക്രം, അനിശ്ചിതത്വം, പുനർക്രിസ്റ്റലീകരണ പരിശോധന എന്നിവ കണ്ടില്ല.",
+          "en": "The abstract says earlier estimates ranged from Eocene to Pliocene. Sample count, the strontium curve used, uncertainty and diagenesis screening were not seen."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "S008 ഇതേ ഗ്രന്ഥകർത്താക്കളുടേതാണ്; സ്വതന്ത്ര സ്ഥിരീകരണമല്ല.",
+        "en": "S008 shares authors and is not independent confirmation."
+      },
+      "rights": {
+        "ml": "അടഞ്ഞ പ്രവേശനം (OpenAlex: closed); പണമതിൽ മറികടന്നിട്ടില്ല.",
+        "en": "Closed access (OpenAlex: closed); the paywall was not bypassed."
+      },
+      "finding": {
+        "ml": "R005-ന്റെ പരിമിതി ശരി. സാമ്പിൾ ഭാഗങ്ങൾ, എണ്ണം, അനിശ്ചിതത്വം എന്നിവ പൂർണപാഠം വായിക്കുന്നതുവരെ അറിയില്ല എന്ന് വ്യക്തമാക്കുക.",
+        "en": "R005's caveat holds. State that sampled sections, sample count and uncertainty remain unknown until the full text is read."
+      },
+      "proposed_corrections": [
+        "PC-13"
+      ],
+      "unresolved": [
+        "U-09"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "strontium isotope stratigraphy",
+          "Neogene palaeontology"
+        ]
+      }
+    },
+    {
+      "id": "EV-10",
+      "priority": 6,
+      "title": {
+        "ml": "പെരിപ്ലസിലെ മുസിരിസ്",
+        "en": "Muziris in the Periplus"
+      },
+      "stable_ids": {
+        "records": [
+          "R011"
+        ],
+        "audit": [
+          "A016",
+          "A019"
+        ],
+        "sources": [
+          "S016"
+        ],
+        "periods": [
+          "E06"
+        ],
+        "proposed_sources": []
+      },
+      "claim_under_review": {
+        "ml": "പെരിപ്ലസ് 53–56 ഭാഗങ്ങൾ മുസിരിസും സമീപ തുറമുഖങ്ങളും വിവരിക്കുന്നു (R011).",
+        "en": "Periplus sections 53–56 describe Muziris and neighbouring ports (R011)."
+      },
+      "sources_inspected": [
+        {
+          "id": "S016",
+          "edition": "W. H. Schoff translation (1912), web text prepared by Jenott (June 2004), University of Washington Silk Road Seattle",
+          "locator": "Sections 53–57 and editorial note",
+          "inspected_depth": "relevant_passages_translation"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "മുസിരിസ് ഒരു ഗ്രന്ഥനാമമാണ്; അതിന്റെ ആധുനിക സ്ഥാനം തർക്കത്തിലാണ്. ബാഹ്യ പരാമർശം (external_reference).",
+        "en": "Muziris is a textual name with a disputed modern location. External reference."
+      },
+      "date_roles": [
+        {
+          "role": "composition",
+          "value": "first century CE (editorial attribution; no exact year)",
+          "attributed_to": "S016"
+        },
+        {
+          "role": "translation_publication",
+          "value": "1912",
+          "attributed_to": "S016"
+        },
+        {
+          "role": "online_text",
+          "value": "June 2004",
+          "attributed_to": "S016"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "ഭാഗം 54: മുസിരിസ് സെറോബോത്ര രാജ്യത്തിന്റേത്; തിണ്ടിസിൽ നിന്ന് 500 സ്റ്റേഡിയ; നദീമുഖത്ത് നിന്ന് 20 സ്റ്റേഡിയ ഉള്ളിൽ. ഭാഗം 56 വ്യാപാരവസ്തുക്കൾ പട്ടികപ്പെടുത്തുന്നു.",
+          "en": "Section 54: Muziris belongs to the kingdom of Cerobothra, is 500 stadia from Tyndis, and lies 20 stadia up a river from its mouth. Section 56 lists the trade goods."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "പ്ലിനി (EV-11) മുസിരിസിനെ വ്യാപാരവസ്തുക്കളിൽ അത്ര സമ്പന്നമല്ലാത്ത സ്ഥലമായി വിവരിക്കുന്നു; പെരിപ്ലസ് ഇതിന് വിരുദ്ധമായി സമൃദ്ധമായ വ്യാപാരം ചിത്രീകരിക്കുന്നു. രചനാകാലത്തിലെ ഈ വ്യത്യാസം പരിഹരിച്ചിട്ടില്ല.",
+          "en": "Pliny (EV-11) calls Muziris not very rich in merchandise, while the Periplus depicts busy trade. The difference has not been resolved."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "ഷോഫിന്റെ വിവർത്തനം പഴയതാണ്; കസ്സന്റെ (1989) വിമർശനാത്മക പതിപ്പ് പരിശോധിച്ചിട്ടില്ല.",
+        "en": "Schoff's translation is old; Casson's 1989 critical edition was not inspected."
+      },
+      "rights": {
+        "ml": "1912 വിവർത്തനം; കണ്ണിയും ചെറു ഉദ്ധരണിയും.",
+        "en": "1912 translation; link and short quotation."
+      },
+      "finding": {
+        "ml": "R011 നിലനിർത്തുക. മുസിരിസ് = പട്ടണം എന്ന് ഈ രേഖയിൽ ചേർക്കരുത്; സ്ഥലം ഗ്രന്ഥനാമമായി മാത്രം.",
+        "en": "Keep R011. Do not add Muziris = Pattanam to this record; keep the place as a textual name only."
+      },
+      "proposed_corrections": [
+        "PC-14"
+      ],
+      "unresolved": [
+        "U-10"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "classical philology",
+          "Indian Ocean history"
+        ]
+      }
+    },
+    {
+      "id": "EV-11",
+      "priority": 6,
+      "title": {
+        "ml": "പ്ലിനിയുടെ പ്രകൃതിചരിത്രം 6.26",
+        "en": "Pliny, Natural History 6.26"
+      },
+      "stable_ids": {
+        "records": [],
+        "audit": [
+          "A017"
+        ],
+        "sources": [],
+        "periods": [
+          "E06"
+        ],
+        "proposed_sources": [
+          "NEW-SRC-04"
+        ]
+      },
+      "claim_under_review": {
+        "ml": "പ്ലിനി കേരളതീരവുമായി ബന്ധപ്പെട്ട തെളിവ് നൽകുന്നു; പ്രാഥമിക ഭാഗം പരിശോധിച്ചിട്ടില്ല (A017).",
+        "en": "Pliny gives relevant Kerala-coast evidence; the primary passage was not inspected (A017)."
+      },
+      "sources_inspected": [
+        {
+          "id": "NEW-SRC-04",
+          "edition": "Bostock and Riley translation, 1855, Perseus",
+          "locator": "Book 6, chapter 26",
+          "inspected_depth": "relevant_passages_translation"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "മുസിരിസ്, നിട്രിയാസ്, ബറാകെ, കോട്ടനാര എന്നിവ ഗ്രന്ഥനാമങ്ങൾ; ആധുനിക സ്ഥാനങ്ങൾ ഈ ഭാഗം സ്ഥാപിക്കുന്നില്ല.",
+        "en": "Muziris, Nitrias, Barace and Cottonara are textual names; this passage does not establish modern locations."
+      },
+      "date_roles": [
+        {
+          "role": "composition",
+          "value": "Natural History completed about 77 CE (general reference; not checked in this pass)",
+          "attributed_to": "needs a cited source"
+        },
+        {
+          "role": "translation_publication",
+          "value": "1855",
+          "attributed_to": "NEW-SRC-04"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "ഒസെലിസിൽ നിന്ന് 40 ദിവസത്തെ യാത്രയ്ക്ക് ശേഷം 'ഇന്ത്യയിലെ ഏറ്റവും അടുത്ത വിപണി' മുസിരിസ്; നിട്രിയാസിലെ കടൽക്കൊള്ളക്കാർ; തീരത്ത് നിന്ന് അകലെയുള്ള നങ്കൂരസ്ഥലം; രാജാവ് കേലോബോത്രാസ്.",
+          "en": "Muziris is the 'nearest mart of India', 40 days from Ocelis; pirates near Nitrias; the anchorage is far from shore; the king is Caelobothras."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "മുസിരിസ് 'not very rich in articles of merchandize' എന്ന് പ്ലിനി; പെരിപ്ലസുമായി വ്യത്യാസം (EV-10).",
+          "en": "Pliny says Muziris is 'not very rich in articles of merchandize', in contrast with the Periplus (EV-10)."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "ലാറ്റിൻ മൂലപാഠവും ആധുനിക വിവർത്തനവും പരിശോധിച്ചിട്ടില്ല.",
+        "en": "The Latin text and a modern translation were not inspected."
+      },
+      "rights": {
+        "ml": "1855 വിവർത്തനം; Perseus വ്യവസ്ഥകൾ പുനഃപരിശോധിച്ചിട്ടില്ല; ചെറു ഉദ്ധരണി മാത്രം.",
+        "en": "1855 translation; Perseus terms not re-reviewed; short quotation only."
+      },
+      "finding": {
+        "ml": "A017 'പ്രാഥമിക ഭാഗം വിവർത്തനത്തിൽ പരിശോധിച്ചു; ലാറ്റിൻ പാഠം ശേഷിക്കുന്നു' എന്നാക്കാം. പുതിയ സ്രോതസ്സ് കാർഡും ഒരു ബാഹ്യ പരാമർശരേഖയും നിർദേശിക്കുന്നു.",
+        "en": "A017 can move to 'primary passage inspected in translation; Latin text pending'. A new source card and an external-reference record are proposed."
+      },
+      "proposed_corrections": [
+        "PC-15"
+      ],
+      "unresolved": [
+        "U-10"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "Latin philology"
+        ]
+      }
+    },
+    {
+      "id": "EV-12",
+      "priority": 6,
+      "title": {
+        "ml": "ടോളമിയുടെ ഭൂമിശാസ്ത്രം 7.1: മൗസിരിസ്, കരൂര",
+        "en": "Ptolemy, Geography 7.1: Mouziris and Karoura"
+      },
+      "stable_ids": {
+        "records": [],
+        "audit": [
+          "A018"
+        ],
+        "sources": [
+          "S041"
+        ],
+        "periods": [
+          "E06"
+        ],
+        "proposed_sources": [
+          "NEW-SRC-05"
+        ]
+      },
+      "claim_under_review": {
+        "ml": "ടോളമിയുടെ കൃതി രണ്ടാം നൂറ്റാണ്ടിലെ രേഖയ്ക്ക് പ്രസക്തമാണ്; പ്രാദേശിക ഭാഗങ്ങൾ പരിശോധിച്ചിട്ടില്ല (A018).",
+        "en": "Ptolemy's work is relevant to the second-century record; local passages unverified (A018)."
+      },
+      "sources_inspected": [
+        {
+          "id": "NEW-SRC-05",
+          "edition": "McCrindle 1885",
+          "locator": "7.1.8 (pp. 48–49) and commentary pp. 50–51; 7.1.86 (p. 180) and commentary p. 181",
+          "inspected_depth": "relevant_passages_ocr_text"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "മൗസിരിസ് ഗ്രന്ഥനാമം. മക്ക്രിൻഡിൽ യൂളിനെ പിന്തുടർന്ന് അതിനെ കൊടുങ്ങല്ലൂരുമായി തിരിച്ചറിയുന്നു; മുമ്പ് മംഗലാപുരം എന്ന നിർദേശവും ഉണ്ടായിരുന്നു എന്ന് പറയുന്നു. കേരോബോത്രോസിന്റെ ആസ്ഥാനമായ കരൂരയെ ഇന്നത്തെ തമിഴ്നാട്ടിലെ കരൂരുമായി ബന്ധിപ്പിക്കുന്നു; അത് കേരളത്തിന് പുറത്താണ്.",
+        "en": "Mouziris is a textual name. McCrindle, following Yule, identifies it with Kodungallur (Kranganur) and notes an earlier Mangalore identification. He places Karoura, royal seat of Kerobothros, at Karur in present Tamil Nadu, outside Kerala."
+      },
+      "date_roles": [
+        {
+          "role": "composition",
+          "value": "second century CE",
+          "attributed_to": "S041"
+        },
+        {
+          "role": "translation_publication",
+          "value": "1885",
+          "attributed_to": "NEW-SRC-05"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "7.1.8: 'Mouziris, an emporium', നിർദേശാങ്കങ്ങൾ 117° 14°. 7.1.86: 'Karoura, the royal seat of Kerobothros'.",
+          "en": "7.1.8: 'Mouziris, an emporium', with coordinates 117° 14°. 7.1.86: 'Karoura, the royal seat of Kerobothros'."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "1885-ലെ കൊടുങ്ങല്ലൂർ തിരിച്ചറിയൽ പിൽക്കാല പട്ടണം വാദങ്ങളുമായി (EV-13) പൊരുത്തപ്പെടുന്നില്ല. ടോളമിയുടെ നിർദേശാങ്കങ്ങൾ ആധുനിക അക്ഷാംശരേഖാംശമല്ല.",
+          "en": "The 1885 Kodungallur identification differs from the later Pattanam arguments (EV-13). Ptolemy's coordinates are not modern latitude and longitude."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "മക്ക്രിൻഡിൽ യൂളിനെ ആശ്രയിക്കുന്നു. ആധുനിക വിമർശനാത്മക പതിപ്പ് (സ്റ്റ്യൂക്കർട്ട്-ഗ്രാസ്ഹോഫ് 2006) പരിശോധിച്ചിട്ടില്ല.",
+        "en": "McCrindle relies on Yule. The modern critical edition (Stückelberger and Grasshoff 2006) was not inspected."
+      },
+      "rights": {
+        "ml": "1885 പ്രസിദ്ധീകരണം; ചെറു ഉദ്ധരണി.",
+        "en": "1885 publication; short quotation."
+      },
+      "finding": {
+        "ml": "A018-ൽ പ്രാദേശിക ഭാഗങ്ങൾ 'പഴയ വിവർത്തനത്തിൽ പരിശോധിച്ചു' എന്ന് ചേർക്കുക. കൊടുങ്ങല്ലൂർ തിരിച്ചറിയൽ മറ്റൊരു ആരോപിത വാദമായി രേഖപ്പെടുത്തുക. ടോളമിയുടെ സംഖ്യകളെ മാപ്പ് സ്ഥാനമാക്കരുത്.",
+        "en": "Add to A018 that the local passages were inspected in an old translation. Record the Kodungallur identification as another attributed argument. Do not turn Ptolemy's figures into map positions."
+      },
+      "proposed_corrections": [
+        "PC-16"
+      ],
+      "unresolved": [
+        "U-10"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "Greek philology",
+          "historical geography"
+        ]
+      }
+    },
+    {
+      "id": "EV-13",
+      "priority": 6,
+      "title": {
+        "ml": "പട്ടണം (സ്ഥലം), മുസിരിസ് (ഗ്രന്ഥനാമം): S017, S018 തീയതികളും തിരിച്ചറിയൽ വാദവും",
+        "en": "Pattanam (site) and Muziris (textual name): S017 and S018 dates and the identification argument"
+      },
+      "stable_ids": {
+        "records": [
+          "R009",
+          "R012",
+          "R021",
+          "R023",
+          "R031"
+        ],
+        "audit": [
+          "A045",
+          "A046",
+          "A073"
+        ],
+        "sources": [
+          "S017",
+          "S018",
+          "S019"
+        ],
+        "periods": [
+          "E06",
+          "E09"
+        ],
+        "proposed_sources": []
+      },
+      "claim_under_review": {
+        "ml": "പട്ടണത്തെ മുസിരിസുമായി തിരിച്ചറിയുന്നത് ആരോപിത വാദം മാത്രം; S017 2004, S018 2008 (ഓൺലൈൻ തീയതികൾ വേറെ).",
+        "en": "The Pattanam–Muziris identification is an attributed argument only; S017 is 2004 and S018 is 2008, with online dates kept separate."
+      },
+      "sources_inspected": [
+        {
+          "id": "S017",
+          "edition": "Journal of Roman Archaeology 17 (2004), pp. 312–320; Cambridge online 16 February 2015",
+          "locator": "Landing page and Crossref record; the publisher states no abstract is available",
+          "inspected_depth": "metadata_only"
+        },
+        {
+          "id": "S018",
+          "edition": "Antiquity Project Gallery 82(315), March 2008, pp. 1–5; Cambridge online 22 April 2026",
+          "locator": "Full HTML article: finds, discussion, conclusion, references",
+          "inspected_depth": "full_text"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "പട്ടണം പെരിയാർ നദീമുഖത്തിന് ഏകദേശം 5 കി.മീ. തെക്കുകിഴക്ക്, എറണാകുളം ജില്ലയിൽ (core) എന്ന് S018. മുസിരിസ് ഗ്രന്ഥനാമമാണ്; രണ്ടും വേറെ സ്ഥലഐഡികളായി സൂക്ഷിക്കണം. പട്ടണം ഉത്ഖനനസ്ഥലത്തിന്റെ കൃത്യ നിർദേശാങ്കങ്ങൾ ഇവിടെ ചേർക്കുന്നില്ല.",
+        "en": "S018 places Pattanam about 5 km south-east of the Periyar mouth, in Ernakulam district (core). Muziris is a textual name; keep the two as separate place IDs. No precise coordinates for the excavation site are added here."
+      },
+      "date_roles": [
+        {
+          "role": "publication",
+          "value": "2004 (journal volume)",
+          "attributed_to": "S017, Crossref"
+        },
+        {
+          "role": "online_hosting",
+          "value": "2015-02-16",
+          "attributed_to": "S017, Crossref"
+        },
+        {
+          "role": "publication",
+          "value": "March 2008 (volume 82, issue 315)",
+          "attributed_to": "S018, Crossref"
+        },
+        {
+          "role": "online_hosting",
+          "value": "2026-04-22",
+          "attributed_to": "S018, Crossref"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "S018 ഇറ്റാലിയൻ സിജിലാറ്റ, അമ്പതിലധികം ആംഫോറ കഷണങ്ങൾ, റൗലെറ്റഡ് വെയർ, സസാനിയൻ പാത്രങ്ങൾ എന്നിവ റിപ്പോർട്ട് ചെയ്യുന്നു. ഗ്രന്ഥകർത്താക്കൾ മുസിരിസുമായി തുല്യപ്പെടുത്താൻ 'ശക്തമായ വാദം' ഉണ്ടെന്ന് എഴുതുന്നു, എന്നാൽ 'if this is indeed the case' എന്ന ഉപാധിയോടെ.",
+          "en": "S018 reports Italian sigillata, more than 50 amphora sherds, rouletted ware and Sasanian wares. The authors write of a 'strong argument' for equating Pattanam with Muziris, qualified by 'if this is indeed the case'."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "മക്ക്രിൻഡിൽ (EV-12) 1885-ൽ കൊടുങ്ങല്ലൂർ എന്ന് തിരിച്ചറിഞ്ഞു. S018-ന്റെ ഗ്രന്ഥസൂചി S017-നെ '351-9' പേജുകളായി ഉദ്ധരിക്കുന്നു; പ്രസാധകനും Crossref-ഉം 312–320 എന്ന് നൽകുന്നു.",
+          "en": "McCrindle (EV-12) identified Kodungallur in 1885. S018's reference list cites S017 as pages '351-9', while the publisher and Crossref give 312–320."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "S017, S018, S019 എന്നിവ ഒരേ ഗവേഷണസംഘവുമായി ബന്ധപ്പെട്ടവയാണ്; സ്വതന്ത്ര സ്ഥിരീകരണമായി എണ്ണരുത്. S019 ഈ ഘട്ടത്തിൽ വീണ്ടും പരിശോധിച്ചില്ല.",
+        "en": "S017, S018 and S019 are linked to the same research team and should not be counted as independent confirmation. S019 was not re-inspected in this pass."
+      },
+      "rights": {
+        "ml": "S017 പണമതിൽ; S018 വായിക്കാൻ ലഭ്യം, എന്നാൽ പുനർവിതരണാവകാശം പരിശോധിച്ചിട്ടില്ല. കണ്ണിയും ചെറു ഉദ്ധരണിയും മാത്രം.",
+        "en": "S017 is paywalled; S018 is readable but redistribution rights were not checked. Links and short quotations only."
+      },
+      "finding": {
+        "ml": "S017 പരിശോധന 'metadata_only' ആക്കുക; S018 'full_text' ആക്കുക. പേജ് വ്യത്യാസം കുറിക്കുക. പട്ടണം, മുസിരിസ് വേറെ സ്ഥലഐഡികൾ; ബന്ധം ആരോപിത തിരിച്ചറിയൽവാദങ്ങളിലൂടെ മാത്രം.",
+        "en": "Change S017's inspection to metadata_only and S018's to full_text. Note the page discrepancy. Keep Pattanam and Muziris as separate place IDs linked only through attributed identification arguments."
+      },
+      "proposed_corrections": [
+        "PC-17"
+      ],
+      "unresolved": [
+        "U-11"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "Indian Ocean archaeology",
+          "ceramics"
+        ]
+      }
+    },
+    {
+      "id": "EV-14",
+      "priority": 7,
+      "title": {
+        "ml": "1956-ലെ സംസ്ഥാന പുനഃസംഘടനാ നിയമം: വകുപ്പുകൾ, അതിർത്തി ഡാറ്റ വേറെ",
+        "en": "States Reorganisation Act 1956: provisions kept apart from boundary data"
+      },
+      "stable_ids": {
+        "records": [
+          "R015",
+          "R016"
+        ],
+        "audit": [
+          "A020",
+          "A060",
+          "A061",
+          "A062",
+          "A063",
+          "A064",
+          "A065",
+          "A066"
+        ],
+        "sources": [
+          "S023",
+          "S024"
+        ],
+        "periods": [
+          "P07"
+        ],
+        "proposed_sources": [
+          "NEW-SRC-06"
+        ]
+      },
+      "claim_under_review": {
+        "ml": "1956 നിയമം കേരളത്തിന്റെ രൂപീകരണം വിവരിക്കുന്നു; ഇന്നത്തെ GIS അതിർത്തി നിർവചിക്കുന്നില്ല.",
+        "en": "The 1956 Act describes Kerala's formation; it does not define a present GIS boundary."
+      },
+      "sources_inspected": [
+        {
+          "id": "S023",
+          "edition": "MHA PDF",
+          "locator": "URL returned HTTP 404 on 2026-10-18 (two encodings tried)",
+          "inspected_depth": "access_failed_this_pass"
+        },
+        {
+          "id": "NEW-SRC-06",
+          "edition": "Consolidated text from the India Code republication",
+          "locator": "Sections 4 and 5",
+          "inspected_depth": "relevant_passages_secondary_copy"
+        },
+        {
+          "id": "S023",
+          "edition": "Official India Code consolidated PDF, inspected 2026-10-19 UTC",
+          "locator": "Printed pp. 6–8: heading, sections 2(a), 2(r), 4 and 5; PDF text layer",
+          "inspected_depth": "relevant_passages_pdf_text"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "നിയമപരമായ പ്രദേശവിവരണം; ജ്യാമിതി അല്ല. geography/scope.json-ൽ ജ്യാമിതിയില്ല; spatial_filtering_enabled false. അത് അങ്ങനെ തന്നെ തുടരണം.",
+        "en": "A legal description of territory, not geometry. geography/scope.json has no geometry and spatial_filtering_enabled is false. It should stay that way."
+      },
+      "date_roles": [
+        {
+          "role": "enactment",
+          "value": "1956-08-31",
+          "attributed_to": "R015"
+        },
+        {
+          "role": "appointed_day",
+          "value": "1956-11-01",
+          "attributed_to": "Official India Code consolidated PDF, s. 2(a), printed p. 6, inspected 2026-10-19 UTC"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "വകുപ്പ് 4: അഗസ്തീശ്വരം, തോവാള, കൽക്കുളം, വിളവങ്കോട് താലൂക്കുകളും ചെങ്കോട്ട താലൂക്കും മദ്രാസിലേക്ക്. വകുപ്പ് 5: വകുപ്പ് 4 പ്രദേശങ്ങൾ ഒഴികെയുള്ള തിരുവിതാംകൂർ-കൊച്ചി, ലക്ഷദ്വീപ്-മിനിക്കോയ് ഒഴികെയുള്ള മലബാർ ജില്ല, ദക്ഷിണ കാനറയിലെ കാസർകോട് താലൂക്ക്.",
+          "en": "Section 4: Agastheeswaram, Thovala, Kalkulam and Vilavancode taluks and Shencottah taluk go to Madras. Section 5: Travancore-Cochin less the section 4 areas, Malabar district less the Laccadive and Minicoy Islands, and Kasaragod taluk of South Kanara. Section 2(r) anchors territorial divisions to 1 July 1956; later changes were not checked."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "ഏകീകൃതപാഠത്തിൽ 'Part A' എന്ന വാക്കുകൾ 1956-ലെ Adaptation of Laws (No. 1) Order വഴി ഒഴിവാക്കിയതായി കുറിപ്പുണ്ട്; അതിനാൽ ഇത് പാസാക്കിയ പാഠമല്ല. പിൽക്കാല നിയമങ്ങൾ അതിർത്തി മാറ്റിയോ എന്ന് പരിശോധിച്ചിട്ടില്ല.",
+          "en": "The consolidated text notes that the words 'Part A' were omitted by the Adaptation of Laws (No. 1) Order, 1956, so it is not the enacted text. Whether later statutes altered the boundary was not checked."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "2026-10-19-ന് ഔദ്യോഗിക India Code ഏകീകൃത PDF-ലെ ബന്ധപ്പെട്ട വകുപ്പുകൾ പരിശോധിച്ചു; ഗസറ്റ് ചിത്രങ്ങൾ പരിശോധിച്ചിട്ടില്ല.",
+        "en": "The official India Code consolidated PDF was inspected at the relevant sections on 2026-10-19. Gazette images remain unchecked."
+      },
+      "rights": {
+        "ml": "നിയമപാഠം; പുനഃപ്രസാധകന്റെ വ്യാഖ്യാനം ഉപയോഗിച്ചിട്ടില്ല. ലൈസൻസുള്ളതും പരിശോധിച്ചതുമായ അതിർത്തി ഡാറ്റാസെറ്റ് ഇല്ല.",
+        "en": "Statute text; the republisher's commentary was not used. No licensed, checked boundary dataset exists."
+      },
+      "finding": {
+        "ml": "ഔദ്യോഗിക ഏകീകൃത പാഠത്തിന്റെ കണ്ണിയും പരിശോധനയുടെ പരിധിയും രേഖപ്പെടുത്തുക. അതിർത്തി ജ്യാമിതി വേറെ സൂക്ഷിക്കുക.",
+        "en": "Add the official consolidated PDF and precise inspection scope. Distinguish it from original Gazette text. Keep spatial inclusion disabled."
+      },
+      "proposed_corrections": [
+        "PC-18"
+      ],
+      "unresolved": [
+        "U-12",
+        "U-13"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "Indian constitutional and statutory law",
+          "GIS licensing"
+        ]
+      }
+    },
+    {
+      "id": "EV-15",
+      "priority": 8,
+      "title": {
+        "ml": "S020: പദ്ധതിനിർദേശവും അന്തിമഫലങ്ങളും",
+        "en": "S020: project proposal versus final outcomes"
+      },
+      "stable_ids": {
+        "records": [
+          "R013"
+        ],
+        "audit": [
+          "A050"
+        ],
+        "sources": [
+          "S020"
+        ],
+        "periods": [
+          "E03"
+        ],
+        "proposed_sources": []
+      },
+      "claim_under_review": {
+        "ml": "കൊല്ലം ചെപ്പേടുകൾ ക്രി.വ. 849-ലെ ഒറ്റ രേഖ എന്ന് അന്തിമഫലങ്ങൾ (R013).",
+        "en": "The final outcomes describe the Kollam plates as a single 849 CE document (R013)."
+      },
+      "sources_inspected": [
+        {
+          "id": "S020",
+          "edition": "UKRI Gateway to Research record AH/I025948/1",
+          "locator": "Abstract (proposal), funded period, Key Findings",
+          "inspected_depth": "full_record"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "കൊല്ലം (core).",
+        "en": "Kollam (core)."
+      },
+      "date_roles": [
+        {
+          "role": "proposed_production_date",
+          "value": "'ca. 849 CE' (proposal abstract)",
+          "attributed_to": "S020 proposal"
+        },
+        {
+          "role": "proposed_production_date",
+          "value": "'the equivalent of 849 CE' (key findings)",
+          "attributed_to": "S020 final outcomes"
+        },
+        {
+          "role": "project_funded_period",
+          "value": "December 2011 to November 2013",
+          "attributed_to": "S020"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "അന്തിമഫലങ്ങൾ: ഒറ്റ രേഖ; പ്രധാനഭാഷ പഴയ മലയാളം; ലിപികൾ വട്ടെഴുത്തും ഗ്രന്ഥവും അറബി, പഹ്‌ലവി, ഹീബ്രു എന്നിവയും.",
+          "en": "Final outcomes: a single document; Old Malayalam as main language; scripts Vatteluttu with Grantha, Arabic, Pahlavi and Hebrew."
+        }
+      ],
+      "conflicting_evidence": [
+        {
+          "ml": "നിർദേശം: 'two copper plate grants in Tamil', തിരിച്ചറിയാത്ത ഒരു ഉത്തരേന്ത്യൻ ഭാഷ, ലിപികളിൽ ദേവനാഗരി. ഇവ അന്തിമഫലങ്ങളിൽ തിരുത്തപ്പെട്ടു.",
+          "en": "Proposal: 'two copper plate grants in Tamil', an unidentified north Indian language, and Devanagari among the scripts. These were revised in the final outcomes."
+        }
+      ],
+      "source_dependencies": {
+        "ml": "ഫലങ്ങൾ പദ്ധതിയുടെ സ്വന്തം റിപ്പോർട്ടാണ്; പുതുക്കിയ പതിപ്പ് പരിശോധിച്ചിട്ടില്ല. തീയതിപരിവർത്തനത്തിന്റെ അടിസ്ഥാനം കണ്ടില്ല.",
+        "en": "The outcomes are the project's own report; the revised edition was not inspected, and the basis of the date conversion was not seen."
+      },
+      "rights": {
+        "ml": "UKRI രേഖ; കണ്ണിയും ചെറു ഉദ്ധരണിയും. ചെപ്പേടുകളുടെ ചിത്രങ്ങൾ ഉപയോഗിച്ചിട്ടില്ല; സമുദായ സംവേദനക്ഷമത മാനിക്കണം.",
+        "en": "UKRI record; link and short quotation. No images of the plates used; community sensitivity should be respected."
+      },
+      "finding": {
+        "ml": "R013 നിലനിർത്തുക; ധനസഹായകാലം ചേർക്കുക. ചെപ്പേടുകളെ 'തരിസാപ്പള്ളി' എന്ന ഒറ്റപ്പേരിൽ വിളിക്കാതെ 'കൊല്ലം ചെപ്പേടുകൾ' എന്ന് തുടരുക.",
+        "en": "Keep R013 and add the funded period. Keep calling them the Kollam copper plates rather than a single 'Tharisapalli' label."
+      },
+      "proposed_corrections": [
+        "PC-19"
+      ],
+      "unresolved": [
+        "U-14"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "Old Malayalam epigraphy",
+          "Middle Persian",
+          "Judaeo-Arabic"
+        ]
+      }
+    },
+    {
+      "id": "EV-16",
+      "priority": 0,
+      "title": {
+        "ml": "പ്രസിദ്ധീകരണത്തിനു മുമ്പുള്ള കാലഹരണപ്പെട്ട വാക്യങ്ങൾ",
+        "en": "Obsolete pre-publication wording"
+      },
+      "stable_ids": {
+        "records": [],
+        "audit": [],
+        "sources": [],
+        "periods": [],
+        "proposed_sources": []
+      },
+      "claim_under_review": {
+        "ml": "'റിമോട്ട് റിപ്പോസിറ്ററി സൃഷ്ടിച്ചിട്ടില്ല' പോലുള്ള വാക്യങ്ങൾ ഇപ്പോഴും നിലവിലെ സ്ഥിതിയായി വായിക്കപ്പെടുന്നു.",
+        "en": "Sentences such as 'No remote repository has been created' still read as current status."
+      },
+      "sources_inspected": [
+        {
+          "id": "repository",
+          "edition": "GitHub repository metadata, read 2026-10-18",
+          "locator": "NOTICE.md:5; docs/ROADMAP.md:31; RELEASE_NOTES.md:17; LICENSE.md:13; docs/RIGHTS_AND_ETHICS.md:25; IMPORT_PROVENANCE.md:8 and :11",
+          "inspected_depth": "full_text"
+        }
+      ],
+      "geographical_relationship": {
+        "ml": "ബാധകമല്ല.",
+        "en": "Not applicable."
+      },
+      "date_roles": [
+        {
+          "role": "repository_created",
+          "value": "2026-10-18 17:31 America/Los_Angeles (2026-10-19T00:31:20Z)",
+          "attributed_to": "GitHub API"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "ml": "റിപ്പോസിറ്ററി പൊതുവാണ്; ഇഷ്യൂസ് സജീവമാണ്; ഇറക്കുമതി PR #1 ലയിപ്പിച്ചു.",
+          "en": "The repository is public, issues are enabled, and import PR #1 is merged."
+        }
+      ],
+      "conflicting_evidence": [],
+      "source_dependencies": {
+        "ml": "ബാധകമല്ല.",
+        "en": "Not applicable."
+      },
+      "rights": {
+        "ml": "ബാധകമല്ല.",
+        "en": "Not applicable."
+      },
+      "finding": {
+        "ml": "ചരിത്രപരമായ റിലീസ് രേഖകൾ മാറ്റരുത്. ഒരു പ്രത്യേക നിലവിലെ-സ്ഥിതി കുറിപ്പും ജീവനുള്ള രേഖകളിൽ ഇടുങ്ങിയ വാക്യമാറ്റങ്ങളും നിർദേശിക്കുന്നു (PC-20 കാണുക). ഈ PR ആ ഫയലുകൾ എഡിറ്റ് ചെയ്യുന്നില്ല.",
+        "en": "Leave the historical release documents unchanged. A separate current-status note and narrow sentence replacements in living documents are proposed (see PC-20). This PR does not edit those files."
+      },
+      "proposed_corrections": [
+        "PC-20"
+      ],
+      "unresolved": [
+        "U-15"
+      ],
+      "review_status": {
+        "model_review": "AI-assisted research and drafting on 2026-10-18 (America/Los_Angeles). Model review only, not human scholarly approval.",
+        "human_scholarly_review": "pending",
+        "human_malayalam_review": "pending",
+        "specialist_review_needed": [
+          "repository owner decision"
+        ]
+      }
+    }
+  ]
+}

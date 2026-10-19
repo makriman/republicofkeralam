@@ -1,6 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Territory history evidence record, starter subset",
+  "title": "Territory history evidence record",
+  "description": "Executed by scripts/validate.py through scripts/schema_check.py. Cross-references, cutoffs and year-link rules are checked in validate.py.",
   "type": "object",
   "required": [
     "id",
@@ -8,11 +9,20 @@
     "claim",
     "date",
     "scope_relation",
+    "places",
+    "evidence_type",
     "support",
     "caveat",
     "periods",
     "year_links",
-    "human_review"
+    "other_dates",
+    "tags",
+    "status",
+    "human_review",
+    "authoring",
+    "rights",
+    "created",
+    "updated"
   ],
   "properties": {
     "id": {
@@ -32,6 +42,131 @@
       "minLength": 1
     },
     "date": {
+      "$ref": "#/$defs/date"
+    },
+    "scope_relation": {
+      "enum": [
+        "core",
+        "regional_context",
+        "global_context",
+        "external_reference",
+        "external_action_affecting_core",
+        "external_custody_or_research"
+      ]
+    },
+    "places": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "evidence_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "support": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "locator"
+        ],
+        "properties": {
+          "source": {
+            "type": "string",
+            "pattern": "^S[0-9]{3,}$"
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "periods": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[EP][0-9]{2,}$"
+      }
+    },
+    "year_links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "year",
+          "role"
+        ],
+        "properties": {
+          "year": {
+            "type": "integer",
+            "not": {
+              "const": 0
+            },
+            "title": "nonzero BCE/CE year (negative = BCE, positive = CE, no year zero)"
+          },
+          "role": {
+            "enum": [
+              "exact_date",
+              "year_attested",
+              "conventional_date",
+              "proposed_date",
+              "research_history"
+            ]
+          }
+        }
+      }
+    },
+    "other_dates": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/other_date"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "human_review": {
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ]
+    },
+    "reviewers": {
+      "type": "array",
+      "description": "Review records. Shape and approval rules are checked by scripts/validate.py so that records, sources and translations share one rule."
+    },
+    "authoring": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rights": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "$defs": {
+    "date": {
       "type": "object",
       "required": [
         "kind",
@@ -50,68 +185,203 @@
           "type": "string"
         },
         "original_expression": {
+          "type": "string",
+          "minLength": 1
+        },
+        "datum": {
+          "type": "string"
+        },
+        "calendar": {
           "type": "string"
         }
-      }
-    },
-    "support": {
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "object",
-        "required": [
-          "source",
-          "locator"
-        ],
-        "properties": {
-          "source": {
-            "type": "string"
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "historical"
+              }
+            },
+            "required": [
+              "kind"
+            ]
           },
-          "locator": {
-            "type": "string",
-            "minLength": 1
-          }
-        }
-      }
-    },
-    "periods": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "year_links": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": [
-          "year",
-          "role"
-        ],
-        "properties": {
-          "year": {
-            "type": "integer",
-            "not": {
-              "const": 0
+          "then": {
+            "title": "historical date: inclusive BCE/CE start_year and end_year, no year zero, no Ma values",
+            "required": [
+              "start_year",
+              "end_year"
+            ],
+            "properties": {
+              "start_year": {
+                "type": "integer",
+                "not": {
+                  "const": 0
+                },
+                "title": "nonzero BCE/CE year (negative = BCE, positive = CE, no year zero)"
+              },
+              "end_year": {
+                "type": "integer",
+                "not": {
+                  "const": 0
+                },
+                "title": "nonzero BCE/CE year (negative = BCE, positive = CE, no year zero)"
+              },
+              "precision": {
+                "enum": [
+                  "day",
+                  "year",
+                  "conventional_year",
+                  "interval"
+                ]
+              },
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "older_ma": false,
+              "younger_ma": false
             }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "historical"
+              },
+              "precision": {
+                "const": "day"
+              }
+            },
+            "required": [
+              "kind",
+              "precision"
+            ]
           },
-          "role": {
-            "enum": [
-              "exact_date",
-              "year_attested",
-              "conventional_date",
-              "proposed_date",
-              "research_history"
+          "then": {
+            "title": "day precision needs a checked YYYY-MM-DD date",
+            "required": [
+              "date"
             ]
           }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "geological"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "title": "geological date: older_ma and younger_ma in millions of years, never BCE/CE years",
+            "required": [
+              "older_ma",
+              "younger_ma"
+            ],
+            "properties": {
+              "older_ma": {
+                "type": "number",
+                "minimum": 0
+              },
+              "younger_ma": {
+                "type": "number",
+                "minimum": 0
+              },
+              "precision": {
+                "enum": [
+                  "reported_estimate"
+                ]
+              },
+              "start_year": false,
+              "end_year": false,
+              "date": false
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "undated"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "title": "undated claim: no calendar year, day or Ma value",
+            "properties": {
+              "precision": {
+                "enum": [
+                  "undetermined",
+                  "relative_attribution"
+                ]
+              },
+              "start_year": false,
+              "end_year": false,
+              "date": false,
+              "older_ma": false,
+              "younger_ma": false
+            }
+          }
         }
-      }
+      ]
     },
-    "human_review": {
-      "enum": [
-        "pending",
-        "approved",
-        "rejected"
+    "other_date": {
+      "type": "object",
+      "title": "other_dates entry: a named non-event role with exactly one of year or date",
+      "required": [
+        "role"
+      ],
+      "properties": {
+        "role": {
+          "type": "string",
+          "pattern": "^[a-z][a-z_]*$",
+          "not": {
+            "enum": [
+              "event",
+              "event_date",
+              "date"
+            ]
+          },
+          "title": "role names a non-event date such as publication, discovery or digitization; the event date belongs in date"
+        },
+        "year": {
+          "type": "integer",
+          "not": {
+            "const": 0
+          },
+          "title": "nonzero BCE/CE year (negative = BCE, positive = CE, no year zero)"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "oneOf": [
+        {
+          "required": [
+            "year"
+          ],
+          "properties": {
+            "date": false
+          }
+        },
+        {
+          "required": [
+            "date"
+          ],
+          "properties": {
+            "year": false
+          }
+        }
       ]
     }
   }

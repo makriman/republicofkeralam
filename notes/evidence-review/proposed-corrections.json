@@ -1,0 +1,878 @@
+{
+  "schema": "rok-proposed-corrections/0.1",
+  "status": "proposal only; nothing here is applied to canonical data",
+  "base_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+  "base_blobs": {
+    "data/sources.json": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88",
+    "data/records.json": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac",
+    "data/audit.json": "6af689f425bf00842e6feef58eb3f01c583277ed"
+  },
+  "date": "2026-10-18",
+  "conflict_rule": "Apply only if the target file blob still matches base_blobs or the current_value still matches; otherwise re-review.",
+  "review": {
+    "model_review": "AI-assisted; not human scholarly approval",
+    "human_scholarly_review": "pending",
+    "human_malayalam_review": "pending"
+  },
+  "corrections": [
+    {
+      "id": "PC-01",
+      "basis": [
+        "EV-01"
+      ],
+      "category": "caveat",
+      "changes": [
+        {
+          "file": "data/records.json",
+          "target_id": "R008",
+          "field": "caveat",
+          "op": "replace",
+          "proposed_value": "This does not prove every proposed early date false, and figures may represent different episodes. The 6000 BCE figure appears only on tourism pages that share wording and cite no evidence. Inspected scholarship proposes relative dates: Gurukkal a tentative late first millennium BCE for the gallery; Ajit Kumar a megalithic or early historic date, using the earliest inscriptions as a later limit. Fawcett's 1901 trench found no habitation deposit. No absolute date for the engravings has been inspected.",
+          "current_value": "This does not prove every proposed early date false. Figures may represent different episodes; dating and meaning require panel-level evidence.",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        }
+      ],
+      "rationale": {
+        "ml": "പരിശോധിച്ച വിരുദ്ധവായനകൾ ചേർക്കുന്നു; രേഖ തീയതിയില്ലാതെ തുടരുന്നു.",
+        "en": "Adds the inspected contrary readings while keeping the record undated."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-02",
+      "basis": [
+        "EV-01"
+      ],
+      "category": "support",
+      "changes": [
+        {
+          "file": "data/records.json",
+          "target_id": "R008",
+          "field": "support",
+          "op": "append",
+          "proposed_value": [
+            {
+              "source": "NEW-SRC-02",
+              "locator": "'Date of the engravings', p. 340"
+            },
+            {
+              "source": "NEW-SRC-01",
+              "locator": "Indian Antiquary 30 (1901), p. 412 (OCR)"
+            },
+            {
+              "source": "NEW-SRC-03",
+              "locator": "Summary line; shares the S011 claim chain"
+            }
+          ],
+          "current_value": [
+            {
+              "source": "S011",
+              "locator": "Tourism description"
+            },
+            {
+              "source": "S012",
+              "locator": "Opening archaeological-context discussion"
+            }
+          ],
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        }
+      ],
+      "rationale": {
+        "ml": "പുതുതായി പരിശോധിച്ച സ്രോതസ്സുകൾ ബന്ധിപ്പിക്കുന്നു; താൽക്കാലിക കീകൾക്ക് പകരം സംയോജകൻ ഐഡി നൽകണം.",
+        "en": "Links the record to the newly inspected sources. Provisional keys must be replaced by integrator-assigned IDs."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-03",
+      "basis": [
+        "EV-01",
+        "EV-02",
+        "EV-11",
+        "EV-12",
+        "EV-14"
+      ],
+      "category": "new_source_cards",
+      "changes": [
+        {
+          "file": "data/sources.json",
+          "target_id": "NEW-SRC-01",
+          "field": null,
+          "op": "add_entry",
+          "proposed_value": "See proposed_sources in claim-reviews.json for title, creator, edition, URL, locator, depth and rights.",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "NEW-SRC-02",
+          "field": null,
+          "op": "add_entry",
+          "proposed_value": "See proposed_sources in claim-reviews.json for title, creator, edition, URL, locator, depth and rights.",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "NEW-SRC-03",
+          "field": null,
+          "op": "add_entry",
+          "proposed_value": "See proposed_sources in claim-reviews.json for title, creator, edition, URL, locator, depth and rights.",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "NEW-SRC-04",
+          "field": null,
+          "op": "add_entry",
+          "proposed_value": "See proposed_sources in claim-reviews.json for title, creator, edition, URL, locator, depth and rights.",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "NEW-SRC-05",
+          "field": null,
+          "op": "add_entry",
+          "proposed_value": "See proposed_sources in claim-reviews.json for title, creator, edition, URL, locator, depth and rights.",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "NEW-SRC-06",
+          "field": null,
+          "op": "add_entry",
+          "proposed_value": "See proposed_sources in claim-reviews.json for title, creator, edition, URL, locator, depth and rights.",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        }
+      ],
+      "rationale": {
+        "ml": "ആറ് പുതിയ സ്രോതസ്സ് കാർഡുകൾ; S-നമ്പർ സംയോജകൻ നൽകണം.",
+        "en": "Six source cards. Keys are provisional; the integrator assigns S-numbers and fills schema fields."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-04",
+      "basis": [
+        "EV-02"
+      ],
+      "category": "caveat",
+      "changes": [
+        {
+          "file": "data/records.json",
+          "target_id": "R019",
+          "field": "caveat",
+          "op": "replace",
+          "proposed_value": "Do not call this the first human discovery; local prior knowledge is not erased, and Fawcett wrote that residents had known the cave for at least 12 or 15 years. Sources disagree on the year: 1894 (S012; Ajit Kumar 2013), 1895 (S011 and the state tourism page), and about the beginning of 1896 (a report quoted in Fawcett 1901, p. 412). The 1894–1896 interval bounds the conflicting reports; it does not assert visits in every intervening year.",
+          "current_value": "Do not call this the first human discovery; local prior knowledge is not erased.",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        },
+        {
+          "file": "data/records.json",
+          "target_id": "R019",
+          "field": "title",
+          "op": "replace",
+          "proposed_value": "Edakkal scholarly documentation milestone, conflicting reports (1894–1896)",
+          "current_value": "Edakkal scholarly documentation milestone, 1894",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        },
+        {
+          "file": "data/records.json",
+          "target_id": "R019",
+          "field": "claim",
+          "op": "replace",
+          "proposed_value": "Sahapedia and Kumar attribute Fawcett’s encounter with Edakkal’s engravings to 1894; tourism accounts give 1895, while a report quoted in Fawcett 1901 gives about the beginning of 1896. The encounter year remains unsettled.",
+          "current_value": "The sources inspected place Fawcett’s encounter with Edakkal’s engravings in 1894 within the history of archaeological documentation.",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        },
+        {
+          "file": "data/records.json",
+          "target_id": "R019",
+          "field": "date",
+          "op": "replace",
+          "proposed_value": {
+            "kind": "historical",
+            "start_year": 1894,
+            "end_year": 1896,
+            "precision": "interval",
+            "original_expression": "1894 (S012; Kumar 2013), 1895 (S011; state tourism), about the beginning of 1896 (report quoted in Fawcett 1901, p. 412); conflicting reports",
+            "calendar": "BCE/CE indexing; original calendar retained where known"
+          },
+          "current_value": {
+            "kind": "historical",
+            "start_year": 1894,
+            "end_year": 1894,
+            "precision": "year",
+            "original_expression": "1894 CE",
+            "calendar": "BCE/CE indexing; original calendar retained where known"
+          },
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        },
+        {
+          "file": "data/records.json",
+          "target_id": "R019",
+          "field": "year_links",
+          "op": "replace",
+          "proposed_value": [],
+          "current_value": [
+            {
+              "year": 1894,
+              "role": "research_history"
+            }
+          ],
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        }
+      ],
+      "rationale": {
+        "ml": "വിരുദ്ധ വർഷങ്ങൾ ആരുടേതെന്ന് പറഞ്ഞ് ചേർക്കുന്നു.",
+        "en": "Surfaces the conflicting years with attribution."
+      },
+      "status": "pending_integration_and_human_review",
+      "integration_note": "Remove the single-year annual index link until attributed-year rendering is supported. Keep the research-history record and period links. Do not index every year in the interval as an event. The interval bounds reported alternatives, not a continuous activity."
+    },
+    {
+      "id": "PC-05",
+      "basis": [
+        "EV-03"
+      ],
+      "category": "inspection",
+      "changes": [
+        {
+          "file": "data/sources.json",
+          "target_id": "S009",
+          "field": "inspection",
+          "op": "replace",
+          "proposed_value": "full_text",
+          "current_value": "abstract_and_catalogue",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "S009",
+          "field": "inspected_locator",
+          "op": "replace",
+          "proposed_value": "Heritage 4 (2016), 627–636; full article PDF, finds pp. 628–631, conclusion p. 635",
+          "current_value": "Heritage 4 (2016), 627–636; NDLI abstract and journal volume index",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "S009",
+          "field": "inspection_note",
+          "op": "replace",
+          "proposed_value": "Full article read 2026-10-18. Lower Palaeolithic attribution rests on tool typology of surface finds from river terraces of the Vanimel and Chaithravahini. No excavation, stratigraphy or absolute dates are reported, and no coordinates are given. This does not establish a first-occupation calendar year.",
+          "current_value": "Abstract suggests Lower Palaeolithic occupation. Full article, stratigraphy and dating not obtained. This does not establish a first-occupation calendar year.",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "S009",
+          "field": "alternative_urls",
+          "op": "append",
+          "proposed_value": [
+            "https://heritageuniversityofkerala.com/JournalPDF/Volume4/39.pdf"
+          ],
+          "current_value": [
+            "https://heritageuniversityofkerala.com/VolumeDetails.aspx?VID=4"
+          ],
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        }
+      ],
+      "rationale": {
+        "ml": "പൂർണപാഠം ലഭിച്ചു.",
+        "en": "Full text was reached."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-06",
+      "basis": [
+        "EV-03"
+      ],
+      "category": "caveat",
+      "changes": [
+        {
+          "file": "data/records.json",
+          "target_id": "R006",
+          "field": "claim",
+          "op": "replace",
+          "proposed_value": "Ramesh N. K.'s 2016 article attributes surface-collected stone tools from river terraces in northern Kerala to the Lower Palaeolithic on typological grounds.",
+          "current_value": "The accessible abstract of Ramesh N. K.’s 2016 study suggests occupation of northern Kerala from the Lower Palaeolithic.",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        },
+        {
+          "file": "data/records.json",
+          "target_id": "R006",
+          "field": "caveat",
+          "op": "replace",
+          "proposed_value": "Surface finds without excavation, stratigraphy or absolute dating; terrace finds may have been moved by the river. Tool typology does not establish a species or an exact first-arrival year.",
+          "current_value": "Full report and dating context not inspected. Tool typology does not establish a species or exact first-arrival year.",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        },
+        {
+          "file": "data/records.json",
+          "target_id": "R006",
+          "field": "support",
+          "op": "replace",
+          "proposed_value": [
+            {
+              "source": "S009",
+              "locator": "pp. 628–631 and conclusion p. 635"
+            }
+          ],
+          "current_value": [
+            {
+              "source": "S009",
+              "locator": "NDLI abstract; Heritage 4, 627–636"
+            }
+          ],
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        }
+      ],
+      "rationale": {
+        "ml": "പൂർണപാഠത്തിന്റെ അടിസ്ഥാനത്തിൽ രേഖ പുതുക്കുന്നു.",
+        "en": "Restates the record from the full text."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-07",
+      "basis": [
+        "EV-04",
+        "EV-05",
+        "EV-06"
+      ],
+      "category": "inspection",
+      "changes": [
+        {
+          "file": "data/sources.json",
+          "target_id": "S015",
+          "field": "inspection",
+          "op": "replace",
+          "proposed_value": "relevant_passages_ocr_text",
+          "current_value": "metadata_only",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "S015",
+          "field": "inspected_locator",
+          "op": "replace",
+          "proposed_value": "Rock Edict II: Girnar l. 2 with p. 3 nn. 7–8; Kalsi l. 4 and note; Shahbazgarhi l. 4; Mansehra l. 6. Introduction pp. xxxv–xxxix.",
+          "current_value": "1925 edition catalogue",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "S015",
+          "field": "inspection_note",
+          "op": "replace",
+          "proposed_value": "OCR text of the archive.org copy read at these passages; plates not checked against the OCR.",
+          "current_value": "Located but the relevant plates and variant readings were not inspected.",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        }
+      ],
+      "rationale": {
+        "ml": "പ്രസക്ത ഭാഗങ്ങൾ വായിച്ചു.",
+        "en": "Relevant passages were read."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-08",
+      "basis": [
+        "EV-04"
+      ],
+      "category": "audit",
+      "changes": [
+        {
+          "file": "data/audit.json",
+          "target_id": "A011",
+          "field": "corrected_treatment",
+          "op": "replace",
+          "proposed_value": "Preserve witness-specific spellings and scripts. Hultzsch 1925 reads Girnar Ketalaputo, Kalsi Ke[lala]puto, Shahbazgarhi Keradaputro and Mansehra Keralaputra. The form Kedalaputo was not found in Hultzsch and needs its edition identified. Compare later critical editions before normalizing.",
+          "current_value": "Preserve witness-specific spellings and scripts. Compare critical editions before normalizing all forms.",
+          "file_blob_at_base": "6af689f425bf00842e6feef58eb3f01c583277ed"
+        }
+      ],
+      "rationale": {
+        "ml": "കണ്ടെത്തിയ രൂപങ്ങൾ ചേർക്കുന്നു.",
+        "en": "Adds the witness forms found."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-09",
+      "basis": [
+        "EV-05"
+      ],
+      "category": "caveat",
+      "changes": [
+        {
+          "file": "data/records.json",
+          "target_id": "R010",
+          "field": "caveat",
+          "op": "replace",
+          "proposed_value": "The edict is not an inscription found inside present Kerala and states no regnal year. Dhammika dates the Girnar text to 257 BCE; this is an attributed editorial date, not an adopted exact year. Hultzsch pp. xxxv–xxxvi does not establish a 252 BCE date for Edict II. Its claims do not independently prove local medical installations.",
+          "current_value": "The edict is not an inscription found inside present Kerala. Its claims do not independently prove local medical installations. Critical-edition comparison remains pending.",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        },
+        {
+          "file": "data/records.json",
+          "target_id": "R010",
+          "field": "support",
+          "op": "append",
+          "proposed_value": [
+            {
+              "source": "S015",
+              "locator": "Girnar II l. 2, p. 3 nn. 7–8; introduction pp. xxxv–xxxix"
+            }
+          ],
+          "current_value": [
+            {
+              "source": "S014",
+              "locator": "Major Rock Edict II; notes 2–3"
+            }
+          ],
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        }
+      ],
+      "rationale": {
+        "ml": "പിന്തുണയില്ലാത്ത ബദൽ തീയതി ഒഴിവാക്കുന്നു.",
+        "en": "Withdraws the unsupported alternative date while retaining the attributed editorial year."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-10",
+      "basis": [
+        "EV-06"
+      ],
+      "category": "audit",
+      "changes": [
+        {
+          "file": "data/audit.json",
+          "target_id": "A012",
+          "field": "corrected_treatment",
+          "op": "append_sentence",
+          "proposed_value": "Rock Edict XIII names Chodas, Pandyas and Tamraparni but not the Keralaputras (S014; S015 p. xxxix); record this absence without drawing an inference.",
+          "current_value": "Do not translate this conventional identification into proof of exact territory, dynasty chronology or modern identity. The full identification literature has not been audited.",
+          "file_blob_at_base": "6af689f425bf00842e6feef58eb3f01c583277ed"
+        },
+        {
+          "file": "data/audit.json",
+          "target_id": "A013",
+          "field": "sources",
+          "op": "append",
+          "proposed_value": [
+            "S015"
+          ],
+          "current_value": [
+            "S014"
+          ],
+          "file_blob_at_base": "6af689f425bf00842e6feef58eb3f01c583277ed"
+        }
+      ],
+      "rationale": {
+        "ml": "പതിമൂന്നാം ശാസനത്തിലെ പേരില്ലായ്മ കുറിക്കുന്നു.",
+        "en": "Notes the absence from Edict XIII."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-11",
+      "basis": [
+        "EV-07"
+      ],
+      "category": "inspection",
+      "changes": [
+        {
+          "file": "data/sources.json",
+          "target_id": "S002",
+          "field": "inspection",
+          "op": "replace",
+          "proposed_value": "abstract_and_preview",
+          "current_value": "abstract_and_catalogue",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "S002",
+          "field": "inspection_note",
+          "op": "replace",
+          "proposed_value": "Abstract and publisher preview read 2026-10-18; full text paywalled and not obtained. EPA HERO mirror timed out. Has an erratum, S003. Numerical findings remain correction-pending and are recorded only in notes/evidence-review.",
+          "current_value": "Publisher full text not inspected. Has an erratum, S003. Numerical findings remain correction-pending.",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        }
+      ],
+      "rationale": {
+        "ml": "പരിശോധനയുടെ ആഴം വ്യക്തമാക്കുന്നു.",
+        "en": "Clarifies depth and access."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-12",
+      "basis": [
+        "EV-08"
+      ],
+      "category": "bibliographic",
+      "changes": [
+        {
+          "file": "data/sources.json",
+          "target_id": "S003",
+          "field": "inspected_locator",
+          "op": "replace",
+          "proposed_value": "Gondwana Research 10(1–2), 203–204 (August 2006)",
+          "current_value": "Gondwana Research 10(1), 203–204",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        }
+      ],
+      "rationale": {
+        "ml": "Crossref പ്രകാരം ലക്കം.",
+        "en": "Issue number per Crossref; the DOI is already on the card."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-13",
+      "basis": [
+        "EV-09"
+      ],
+      "category": "caveat",
+      "changes": [
+        {
+          "file": "data/records.json",
+          "target_id": "R005",
+          "field": "caveat",
+          "op": "replace",
+          "proposed_value": "The preferred range is not presented here as a statistical confidence interval or an age for the whole coastline. Sampled sections, sample count, reference curve and uncertainty were not seen; the full text is closed access. S008 shares authors and is not independent confirmation.",
+          "current_value": "The preferred range is not presented here as a statistical confidence interval or an age for the whole coastline.",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        }
+      ],
+      "rationale": {
+        "ml": "കാണാത്തവ വ്യക്തമാക്കുന്നു.",
+        "en": "States what remains unseen."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-14",
+      "basis": [
+        "EV-10",
+        "EV-11"
+      ],
+      "category": "caveat",
+      "changes": [
+        {
+          "file": "data/records.json",
+          "target_id": "R011",
+          "field": "caveat",
+          "op": "append_sentence",
+          "proposed_value": "Pliny (Natural History 6.26) describes Muziris as not very rich in merchandise, which differs from the Periplus account; the difference is unresolved.",
+          "current_value": "Do not equate every ancient place name with a modern coordinate or infer the ethnicity of all residents from trade.",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        }
+      ],
+      "rationale": {
+        "ml": "ഗ്രന്ഥവ്യത്യാസം കുറിക്കുന്നു.",
+        "en": "Notes a textual contrast."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-15",
+      "basis": [
+        "EV-11"
+      ],
+      "category": "audit",
+      "changes": [
+        {
+          "file": "data/audit.json",
+          "target_id": "A017",
+          "field": "verdict",
+          "op": "replace",
+          "proposed_value": "primary_passage_inspected_in_translation",
+          "current_value": "primary_passage_pending",
+          "file_blob_at_base": "6af689f425bf00842e6feef58eb3f01c583277ed"
+        },
+        {
+          "file": "data/audit.json",
+          "target_id": "A017",
+          "field": "corrected_treatment",
+          "op": "replace",
+          "proposed_value": "Natural History 6.26 read in the 1855 Bostock and Riley translation: Muziris as the nearest mart of India, pirates near Nitrias, a distant anchorage, king Caelobothras. The Latin text and a modern translation remain to be checked. Muziris stays a textual name.",
+          "current_value": "A relevant Natural History VI.26 lead was located, but the primary passage was not inspected. Do not mark this subclaim fully verified.",
+          "file_blob_at_base": "6af689f425bf00842e6feef58eb3f01c583277ed"
+        },
+        {
+          "file": "data/audit.json",
+          "target_id": "A017",
+          "field": "sources",
+          "op": "replace",
+          "proposed_value": [
+            "NEW-SRC-04"
+          ],
+          "current_value": [],
+          "file_blob_at_base": "6af689f425bf00842e6feef58eb3f01c583277ed"
+        },
+        {
+          "file": "data/records.json",
+          "target_id": "NEW-RECORD-PLINY",
+          "field": null,
+          "op": "add_entry",
+          "proposed_value": "Optional external_reference record for Natural History 6.26 with composition about 77 CE once a source for that date is cited; Muziris as textual name only.",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        }
+      ],
+      "rationale": {
+        "ml": "പൂർണ സ്ഥിരീകരണം അവകാശപ്പെടാതെ A017 പുതുക്കുന്നു.",
+        "en": "Moves A017 forward without claiming full verification."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-16",
+      "basis": [
+        "EV-12"
+      ],
+      "category": "audit",
+      "changes": [
+        {
+          "file": "data/audit.json",
+          "target_id": "A018",
+          "field": "corrected_treatment",
+          "op": "replace",
+          "proposed_value": "The research institution supports the second-century date of the Geography. Geography 7.1.8 (Mouziris, an emporium) and 7.1.86 (Karoura, royal seat of Kerobothros) were inspected in OCR of McCrindle’s 1885 English translation and commentary. McCrindle, following Yule, identified Mouziris with Kodungallur and Karoura with Karur in Tamil Nadu. These remain attributed identifications; original Greek, scan images and a modern critical edition were not verified. Ptolemy’s coordinates are not modern positions.",
+          "current_value": "The research institution supports the second-century date of the Geography; local passages and geographical identifications remain unverified.",
+          "file_blob_at_base": "6af689f425bf00842e6feef58eb3f01c583277ed"
+        },
+        {
+          "file": "data/audit.json",
+          "target_id": "A018",
+          "field": "sources",
+          "op": "append",
+          "proposed_value": [
+            "NEW-SRC-05"
+          ],
+          "current_value": [
+            "S041"
+          ],
+          "file_blob_at_base": "6af689f425bf00842e6feef58eb3f01c583277ed"
+        }
+      ],
+      "rationale": {
+        "ml": "പ്രാദേശിക ഭാഗങ്ങളും മറ്റൊരു തിരിച്ചറിയലും ചേർക്കുന്നു.",
+        "en": "Adds the local passages and an attributed alternative identification."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-17",
+      "basis": [
+        "EV-13"
+      ],
+      "category": "inspection",
+      "changes": [
+        {
+          "file": "data/sources.json",
+          "target_id": "S017",
+          "field": "inspection",
+          "op": "replace",
+          "proposed_value": "metadata_only",
+          "current_value": "metadata_and_abstract",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "S017",
+          "field": "inspection_note",
+          "op": "append_sentence",
+          "proposed_value": "The publisher states that no abstract is available; only metadata was inspected. S018's reference list cites this article as pp. 351–9, which conflicts with the publisher and Crossref (312–320).",
+          "current_value": "Original volume is 2004; Cambridge online date is 16 February 2015. Identification is an argument, not a reason to silently merge site identifiers.",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "S018",
+          "field": "inspection",
+          "op": "replace",
+          "proposed_value": "full_text",
+          "current_value": "relevant_passages",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "S018",
+          "field": "inspected_locator",
+          "op": "replace",
+          "proposed_value": "Antiquity Project Gallery 82(315), March 2008, pp. 1–5; full HTML article",
+          "current_value": "Ceramic evidence and concluding discussion of Muziris identification",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        }
+      ],
+      "rationale": {
+        "ml": "വായിച്ചതിനനുസരിച്ച് ആഴം പുതുക്കുന്നു.",
+        "en": "Aligns depth labels with what was read."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-18",
+      "basis": [
+        "EV-14"
+      ],
+      "category": "access",
+      "changes": [
+        {
+          "file": "data/sources.json",
+          "target_id": "S023",
+          "field": "inspection_note",
+          "op": "replace",
+          "proposed_value": "Official India Code consolidated PDF inspected on 2026-10-19 at printed pp. 6–8: Act heading dated 31 August 1956, appointed day 1 November 1956 in s. 2(a), territorial reference date 1 July 1956 in s. 2(r), and ss. 4–5. Section 4 names Shencottah taluk. The consolidated text notes omission of Part A; original Gazette scan and later boundary alterations remain unchecked. This supports statutory formation, not a current GIS polygon. The earlier recorded MHA URL returned 404 on 2026-10-18.",
+          "current_value": "Dated 31 August 1956; appointed day 1 November 1956. This verifies the original statutory formation, not a current GIS polygon.",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "S023",
+          "field": "alternative_urls",
+          "op": "append",
+          "proposed_value": [
+            "https://www.indiacode.nic.in/handle/123456789/1680",
+            "https://www.indiacode.nic.in/bitstream/123456789/1680/1/a1956-37.pdf"
+          ],
+          "current_value": [],
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        }
+      ],
+      "rationale": {
+        "ml": "കണ്ണി തകരാറും പാഠവ്യത്യാസവും രേഖപ്പെടുത്തുന്നു.",
+        "en": "Records link rot and the text-version difference."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-19",
+      "basis": [
+        "EV-15"
+      ],
+      "category": "caveat",
+      "changes": [
+        {
+          "file": "data/records.json",
+          "target_id": "R013",
+          "field": "caveat",
+          "op": "append_sentence",
+          "proposed_value": "The project was funded from December 2011 to November 2013; the proposal described two Tamil grants and Devanagari among the scripts, which the final outcomes revise.",
+          "current_value": "The critical inscription edition and date conversion must still be reviewed. The same page’s proposal uses an earlier interpretation.",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        },
+        {
+          "file": "data/sources.json",
+          "target_id": "S020",
+          "field": "inspected_locator",
+          "op": "append_sentence",
+          "proposed_value": "Funded period December 2011 to November 2013 (AH/I025948/1).",
+          "current_value": "Abstract compared with final Key Findings / outcomes",
+          "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
+        }
+      ],
+      "rationale": {
+        "ml": "നിർദേശവും ഫലവും വേർതിരിക്കുന്നു.",
+        "en": "Separates proposal and outcome periods."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-20",
+      "basis": [
+        "EV-16"
+      ],
+      "category": "current_status",
+      "changes": [
+        {
+          "file": "docs/CURRENT_STATUS.md",
+          "target_id": null,
+          "field": null,
+          "op": "add_file",
+          "proposed_value": "A short dated note: the repository was published on GitHub on 2026-10-18 (America/Los_Angeles); the import pull request was merged; statements in RELEASE_NOTES.md, NOTICE.md, LICENSE.md and VALIDATION.md describe the package as it stood before publication and are kept as historical records."
+        },
+        {
+          "file": "docs/ROADMAP.md",
+          "target_id": "line 31",
+          "field": null,
+          "op": "replace_sentence",
+          "current_value": "No remote repository has been created by this package.",
+          "proposed_value": "The package itself created no remote repository; it was later published on GitHub (see docs/CURRENT_STATUS.md)."
+        },
+        {
+          "file": "docs/RIGHTS_AND_ETHICS.md",
+          "target_id": "line 25",
+          "field": null,
+          "op": "replace_phrase",
+          "current_value": "configure an appropriate reporting channel before public launch.",
+          "proposed_value": "use the repository's issue tracker as the reporting channel, with a private contact route to be decided by the owner."
+        },
+        {
+          "file": "IMPORT_PROVENANCE.md",
+          "target_id": "end of file",
+          "field": null,
+          "op": "append_paragraph",
+          "proposed_value": "Status note: the draft import pull request described above has since been merged. The sentences above describe the bootstrap commit as it was."
+        },
+        {
+          "file": "NOTICE.md, RELEASE_NOTES.md, LICENSE.md",
+          "target_id": null,
+          "field": null,
+          "op": "no_change",
+          "proposed_value": "Historical release documents; leave unchanged and point to docs/CURRENT_STATUS.md."
+        }
+      ],
+      "rationale": {
+        "ml": "ചരിത്രപരമായ റിലീസ് രേഖകൾ മാറ്റാതെയുള്ള ഇടുങ്ങിയ തിരുത്തൽ.",
+        "en": "Narrow current-status fix without rewriting historical release documents. Owner decides wording, especially the private reporting route."
+      },
+      "status": "pending_integration_and_human_review"
+    },
+    {
+      "id": "PC-21",
+      "basis": [
+        "EV-04",
+        "EV-05",
+        "EV-13",
+        "EV-03"
+      ],
+      "category": "integration_note",
+      "changes": [
+        {
+          "file": "schemas and scripts/validate.py",
+          "target_id": null,
+          "field": "inspection",
+          "op": "proposal",
+          "proposed_value": "Adopt a controlled inspection vocabulary (see inspection_depth_vocabulary in claim-reviews.json); validate.py currently accepts free text."
+        },
+        {
+          "file": "data/records.json",
+          "target_id": null,
+          "field": "date",
+          "op": "proposal",
+          "proposed_value": "Keep attributed editorial dates separate from adopted intervals (R010: 257 BCE per S014). Do not create an alternative date without a source argument specific to the record.",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        },
+        {
+          "file": "data/records.json",
+          "target_id": null,
+          "field": "places",
+          "op": "proposal",
+          "proposed_value": "Use separate place IDs for Pattanam (archaeological site) and Muziris (textual name), linked only through attributed identification records.",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        }
+      ],
+      "rationale": {
+        "ml": "PR #5 സംയോജകനുള്ള ഘടനാനിർദേശങ്ങൾ.",
+        "en": "Structural suggestions for the PR #5 integrator; no data change here."
+      },
+      "status": "pending_integration_and_human_review"
+    }
+  ]
+}
