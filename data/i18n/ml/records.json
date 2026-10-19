@@ -125,7 +125,7 @@
     },
     {
       "key": "data/records.json#R002.title",
-      "ml": "തെക്കൻ അടിസ്ഥാനശിലയെക്കുറിച്ചുള്ള പ്രാചീനപഠനത്തിന് അതിന്റെ erratum ആവശ്യമാണ്",
+      "ml": "തെക്കൻ പ്രദേശത്തെ പ്രാചീന അടിസ്ഥാനശിലയെക്കുറിച്ചുള്ള പഠനത്തിന് അതിന്റെ erratum ആവശ്യമാണ്",
       "en": "Ancient southern-basement study requires its erratum",
       "en_sha256": "a4e8f118f4536d3e",
       "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
@@ -215,7 +215,7 @@
     },
     {
       "key": "data/records.json#R004.claim",
-      "ml": "പടിഞ്ഞാറൻ തീരത്തെ ടെക്റ്റോണിക്-മാഗ്മാ പഠനവും കടലിലെ അവസാദനിക്ഷേപ പഠനവും അരികിന്റെ വികാസത്തിലെ വ്യത്യസ്ത പ്രക്രിയകളാണ് അന്വേഷിക്കുന്നത്; ഘട്ടങ്ങളുടെയോ തീരത്തിന്റെയോ ജനനത്തിനുള്ള ഒരൊറ്റ തീയതിയായി ഇവിടെ രണ്ടിനെയും ഉപയോഗിക്കുന്നില്ല.",
+      "ml": "പടിഞ്ഞാറൻ തീരത്തെ ടെക്റ്റോണിക്-മാഗ്മാ പഠനവും കടലിലെ അവസാദനിക്ഷേപ പഠനവും അരികിന്റെ വികാസത്തിലെ വ്യത്യസ്ത പ്രക്രിയകളാണ് അന്വേഷിക്കുന്നത്; പശ്ചിമഘട്ട പർവതനിരയുടെയോ തീരത്തിന്റെയോ രൂപീകരണത്തിനുള്ള ഒരൊറ്റ തീയതിയായി ഇവിടെ രണ്ടിനെയും ഉപയോഗിക്കുന്നില്ല.",
       "en": "The west-coast tectono-magmatic study and the offshore-sedimentation study investigate different processes in margin development; neither is used here as a single date for the birth of the Ghats or coast.",
       "en_sha256": "b326d18c0c4f95eb",
       "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
@@ -585,10 +585,10 @@
     },
     {
       "key": "data/records.json#R010.caveat",
-      "ml": "ഈ ശാസനം ഇന്നത്തെ കേരളത്തിനുള്ളിൽ കണ്ടെത്തിയ ലിഖിതമല്ല; അത് ഒരു ഭരണവർഷവും പറയുന്നില്ല. Dhammika ഗിർനാർ പാഠത്തിന് ക്രി.മു. 257 നൽകുന്നു; Hultzsch-ന്റെ കാലഗണന (കിരീടധാരണം ഏകദേശം ക്രി.മു. 264) പന്ത്രണ്ടാം ഭരണവർഷത്തിന് ഏകദേശം ക്രി.മു. 252 നൽകുന്നു. രണ്ടു വർഷവും സ്വീകരിച്ചിട്ടില്ല. പ്രാദേശിക ചികിത്സാസംവിധാനങ്ങൾ ഉണ്ടായിരുന്നുവെന്ന് അതിലെ അവകാശവാദങ്ങൾ സ്വതന്ത്രമായി തെളിയിക്കുന്നില്ല.",
-      "en": "The edict is not an inscription found inside present Kerala and states no regnal year. Dhammika dates the Girnar text to 257 BCE; Hultzsch's chronology (coronation about 264 BCE) gives about 252 BCE for the twelfth regnal year. Neither year is adopted. Its claims do not independently prove local medical installations.",
-      "en_sha256": "ad7e8db002fbf8ed",
-      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ml": "ഈ ശാസനം ഇന്നത്തെ കേരളത്തിനുള്ളിൽ കണ്ടെത്തിയ ലിഖിതമല്ല; അത് ഒരു ഭരണവർഷവും പറയുന്നില്ല. Dhammika ഗിർനാർ പാഠത്തിന് ക്രി.മു. 257 എന്ന തീയതി നൽകുന്നു; ഇത് ആ സമ്പാദകൻ നിർദേശിച്ച തീയതിയാണ്, ഇവിടെ സ്വീകരിച്ച കൃത്യവർഷമല്ല. Hultzsch-ന്റെ xxxv–xxxvi പേജുകൾ Edict II-ന് ക്രി.മു. 252 എന്ന തീയതി സ്ഥാപിക്കുന്നില്ല. പ്രാദേശിക ചികിത്സാസംവിധാനങ്ങൾ ഉണ്ടായിരുന്നുവെന്ന് അതിലെ അവകാശവാദങ്ങൾ സ്വതന്ത്രമായി തെളിയിക്കുന്നില്ല.",
+      "en": "The edict is not an inscription found inside present Kerala and states no regnal year. Dhammika dates the Girnar text to 257 BCE; this is an attributed editorial date, not an adopted exact year. Hultzsch pp. xxxv–xxxvi does not establish a 252 BCE date for Edict II. Its claims do not independently prove local medical installations.",
+      "en_sha256": "62172c2857504ce8",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
       "ai_assisted": true,
       "human_language_review": "pending",
       "specialist_review": "pending"
@@ -1215,20 +1215,20 @@
     },
     {
       "key": "data/records.json#R019.caveat",
-      "ml": "ഇതിനെ മനുഷ്യരുടെ ആദ്യ കണ്ടെത്തൽ എന്ന് വിളിക്കരുത്; മുൻപേയുള്ള പ്രാദേശിക അറിവ് മായ്ച്ചുകളയുന്നില്ല. ഗുഹ നാട്ടുകാർക്ക് കുറഞ്ഞത് 12 അല്ലെങ്കിൽ 15 വർഷമായി അറിയാമായിരുന്നുവെന്ന് Fawcett എഴുതി. വർഷത്തെക്കുറിച്ച് സ്രോതസ്സുകൾ വിയോജിക്കുന്നു: 1894 (S012; Ajit Kumar 2013), 1895 (S011-ഉം സംസ്ഥാന ടൂറിസം പേജും), ഏകദേശം 1896-ന്റെ തുടക്കം (Fawcett 1901, പേജ് 412-ൽ ഉദ്ധരിച്ച ഒരു റിപ്പോർട്ട്). 1894 ആരോപിത വർഷമായാണ് നിലനിർത്തുന്നത്; ഉറപ്പിച്ച വർഷമായല്ല.",
-      "en": "Do not call this the first human discovery; local prior knowledge is not erased, and Fawcett wrote that residents had known the cave for at least 12 or 15 years. Sources disagree on the year: 1894 (S012; Ajit Kumar 2013), 1895 (S011 and the state tourism page), and about the beginning of 1896 (a report quoted in Fawcett 1901, p. 412). 1894 is retained as an attributed year, not a settled one.",
-      "en_sha256": "ed0b55ff45b0cb96",
-      "source_revision": "f9fecfd4cb4862c9aefd35fb06a11c8aba4417f6",
+      "ml": "ഇതിനെ മനുഷ്യരുടെ ആദ്യ കണ്ടെത്തൽ എന്ന് വിളിക്കരുത്; മുൻപേയുള്ള പ്രാദേശിക അറിവ് മായ്ച്ചുകളയുന്നില്ല. ഗുഹ നാട്ടുകാർക്ക് കുറഞ്ഞത് 12 അല്ലെങ്കിൽ 15 വർഷമായി അറിയാമായിരുന്നുവെന്ന് Fawcett എഴുതി. വർഷത്തെക്കുറിച്ച് സ്രോതസ്സുകൾ വിയോജിക്കുന്നു: 1894 (S012; Ajit Kumar 2013), 1895 (S011-ഉം സംസ്ഥാന ടൂറിസം പേജും), ഏകദേശം 1896-ന്റെ തുടക്കം (Fawcett 1901, പേജ് 412-ൽ ഉദ്ധരിച്ച ഒരു റിപ്പോർട്ട്). 1894–1896 എന്ന ഇടവേള പരസ്പരവിരുദ്ധമായ റിപ്പോർട്ടുകൾ നൽകുന്ന വർഷങ്ങളുടെ പരിധിയാണ്; ഇടയ്ക്കുള്ള ഓരോ വർഷത്തിലും സന്ദർശനങ്ങൾ നടന്നുവെന്ന് അത് അവകാശപ്പെടുന്നില്ല.",
+      "en": "Do not call this the first human discovery; local prior knowledge is not erased, and Fawcett wrote that residents had known the cave for at least 12 or 15 years. Sources disagree on the year: 1894 (S012; Ajit Kumar 2013), 1895 (S011 and the state tourism page), and about the beginning of 1896 (a report quoted in Fawcett 1901, p. 412). The 1894–1896 interval bounds the conflicting reports; it does not assert visits in every intervening year.",
+      "en_sha256": "428a019df6741b1c",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
       "ai_assisted": true,
       "human_language_review": "pending",
       "specialist_review": "pending"
     },
     {
       "key": "data/records.json#R019.claim",
-      "ml": "പരിശോധിച്ച സ്രോതസ്സുകൾ എടക്കൽ കൊത്തുപണികളുമായുള്ള ഫോസെറ്റിന്റെ (Fawcett) സമ്പർക്കം 1894-ൽ, പുരാവസ്തു രേഖപ്പെടുത്തലിന്റെ ചരിത്രത്തിനുള്ളിൽ, സ്ഥാപിക്കുന്നു.",
-      "en": "The sources inspected place Fawcett’s encounter with Edakkal’s engravings in 1894 within the history of archaeological documentation.",
-      "en_sha256": "68b171ca9bc4e5a7",
-      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ml": "എടക്കൽ കൊത്തുപണികളുമായുള്ള Fawcett-ന്റെ സമ്പർക്കത്തിന് Sahapedia-യും Kumar-ഉം 1894 എന്ന വർഷം നൽകുന്നു; ടൂറിസം വിവരണങ്ങൾ 1895 നൽകുന്നു, അതേസമയം Fawcett-ന്റെ 1901-ലെ കൃതിയിൽ ഉദ്ധരിച്ച ഒരു റിപ്പോർട്ട് ഏകദേശം 1896-ന്റെ തുടക്കം എന്നാണ് നൽകുന്നത്. ഈ സമ്പർക്കം നടന്ന വർഷം ഇനിയും തീർപ്പായിട്ടില്ല.",
+      "en": "Sahapedia and Kumar attribute Fawcett’s encounter with Edakkal’s engravings to 1894; tourism accounts give 1895, while a report quoted in Fawcett 1901 gives about the beginning of 1896. The encounter year remains unsettled.",
+      "en_sha256": "b416f73027762731",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
       "ai_assisted": true,
       "human_language_review": "pending",
       "specialist_review": "pending"
@@ -1245,10 +1245,10 @@
     },
     {
       "key": "data/records.json#R019.date.original_expression",
-      "ml": "ക്രി.വ. 1894",
-      "en": "1894 CE",
-      "en_sha256": "2726a6d4d131cb71",
-      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ml": "1894 (S012; Kumar 2013), 1895 (S011; സംസ്ഥാന ടൂറിസം), ഏകദേശം 1896-ന്റെ തുടക്കം (Fawcett 1901, പേജ് 412-ൽ ഉദ്ധരിച്ച റിപ്പോർട്ട്); പരസ്പരവിരുദ്ധമായ റിപ്പോർട്ടുകൾ",
+      "en": "1894 (S012; Kumar 2013), 1895 (S011; state tourism), about the beginning of 1896 (report quoted in Fawcett 1901, p. 412); conflicting reports",
+      "en_sha256": "e6c9009970360741",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
       "ai_assisted": true,
       "human_language_review": "pending",
       "specialist_review": "pending"
@@ -1265,10 +1265,10 @@
     },
     {
       "key": "data/records.json#R019.title",
-      "ml": "എടക്കലിന്റെ പണ്ഡിതോചിത രേഖപ്പെടുത്തലിലെ ഒരു നാഴികക്കല്ല്, 1894",
-      "en": "Edakkal scholarly documentation milestone, 1894",
-      "en_sha256": "f381480ff9195eaf",
-      "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+      "ml": "എടക്കലിന്റെ പണ്ഡിതോചിത രേഖപ്പെടുത്തലിലെ ഒരു നാഴികക്കല്ല്, പരസ്പരവിരുദ്ധമായ റിപ്പോർട്ടുകൾ (1894–1896)",
+      "en": "Edakkal scholarly documentation milestone, conflicting reports (1894–1896)",
+      "en_sha256": "2e66b02efe8d1d97",
+      "source_revision": "a3fcfaa6791ffa15fe9857d71b814c4c9228f7f6",
       "ai_assisted": true,
       "human_language_review": "pending",
       "specialist_review": "pending"

@@ -62,3 +62,11 @@ python scripts/build.py --check
 python scripts/validate.py
 python -m unittest discover -s tests -v
 ```
+
+## Review hardening (19 October 2026)
+
+Required sources, periods, records and audit collections reject JSON null. Optional corpora, scope, crosswalk and translations retain their existing omitted-input API. Invalid IDs, reviewer types and malformed source URLs report errors rather than raising exceptions. JSON Schema enum/const comparisons distinguish booleans from numbers, including nested containers, while treating equivalent JSON numbers equally.
+
+Adversarial regressions cover translation rejection in both review channels, Python template syntax and unsafe-template rendering fallback, actual geometry presence/checksum and path containment. The current boundary remains unmaterialized and spatial filtering remains disabled. No historical or translation review gate is upgraded by these implementation checks.
+
+The release checksum manifest covers every Git-tracked file except MANIFEST.sha256 itself (a manifest cannot contain its own stable hash). It includes imported provenance and proposal/work-package documentation. Regenerate from the Git-tracked file inventory after staging newly added files; a successful checksum check alone cannot detect omitted files.

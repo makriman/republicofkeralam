@@ -22,12 +22,16 @@ Source revision `570f665e25480380e6be361627cf5cfb1285c093`. Batches 1 to 3 toget
 - 42 source titles in `data/sources.json` (original titles are never translated).
 - IDs, enum values, URLs, DOIs, locators, dates, tags, file paths, quotations.
 
-## 3. Generator support ആവശ്യമുള്ളവ / Needs generator support (Project B)
+## 3. Unstaged calendar prose
 
-All 2,428 generated files remain English. Malayalam for their inputs is staged: data prose (762 of 804 strings, the remainder being the 42 retained titles) and 125 generator labels. Rendering needs the bilingual generator described in [INTEGRATION_NOTES.md](INTEGRATION_NOTES.md) I2 and I3. Year pages (2,328 files) are built entirely from labels and staged titles, so no per-page translation is needed.
+The 23 nonempty `data/records.json#<ID>.date.calendar` descriptions are reader-facing prose, not structured date values or enum keys. None is translated in batches 1 to 3. They are included in the denominator in INVENTORY.md and inventory.json. Translate these descriptions during integration while retaining structured dates unchanged.
 
-Generator strings not yet staged: rare error or empty-state messages and any literal added after the pinned revision. The checker reports staged literals that disappear from `scripts/build.py`.
+## 4. Generator support ആവശ്യമുള്ളവ / Needs generator support (Project B)
 
-## 4. അവലോകനം / Review still required
+All 2,428 generated files remain English. Malayalam for their inputs is staged: data prose (762 of 827 strings; the 65 unstaged strings comprise 42 retained original source titles and 23 prose date.calendar descriptions) and 125 generator labels. Rendering needs the bilingual generator described in [INTEGRATION_NOTES.md](INTEGRATION_NOTES.md) I2 and I3. Year pages (2,328 files) are built entirely from labels and staged titles, so no per-page translation is needed.
+
+Generator strings not yet staged: rare error or empty-state messages and any literal added after the pinned revision. By default, the checker validates only each pinned source snapshot. It does not establish freshness against current HEAD. Run `python notes/translation-review/tools/check_staging.py --target-revision HEAD` to compare source files with an explicit target revision. This conservative check flags any source-file change for review, including removed generator literals; unchanged files do not establish human translation approval.
+
+## 5. അവലോകനം / Review still required
 
 Every Malayalam string in batches 1 to 3 is an AI-assisted draft. Human Malayalam review: pending for all. Specialist review needed for geology, archaeology, epigraphy, law and place names. Open terminology questions: Q1 to Q32 in [GLOSSARY.md](GLOSSARY.md).

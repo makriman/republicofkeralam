@@ -8,6 +8,10 @@ expected error is missing.
 """
 import copy
 import json
+import hashlib
+import tempfile
+import subprocess
+from unittest.mock import patch
 import sys
 import unittest
 from pathlib import Path
@@ -75,6 +79,85 @@ class InvalidFixtureTests(unittest.TestCase):
         errors = run(data)
         self.assertTrue(any('records: expected a JSON array' in e for e in errors))
         self.assertTrue(any('sources #0' in e for e in errors))
+
+    def test_required_collections_cannot_be_null(self):
+        for name in ('sources', 'periods', 'records', 'audit'):
+            with self.subTest(collection=name):
+                data = seed()
+                data[name] = None
+                self.assertTrue(any(f'{name}: expected a JSON array' in e for e in run(data)))
+
+    def test_malformed_ids_and_reviewers_report_errors(self):
+        for value in ([], {}, True, None):
+            with self.subTest(value=value):
+                data = seed()
+                data['sources'][0]['id'] = value
+                self.assertTrue(run(data))
+                data = seed()
+                data['records'][0]['reviewers'] = [{
+                    'reviewer': 'tester', 'reviewer_type': value,
+                    'checked': 'claim', 'date': '2026-10-11'}]
+                self.assertTrue(run(data))
+
+    def test_direct_review_checker_tolerates_bad_types(self):
+        import datetime as dt
+        from validate import review_record_errors
+        for value in ([], {}, None, 0):
+            errors = review_record_errors('test', {'human_review': [], 'reviewers': [{
+                'reviewer': 'tester', 'reviewer_type': value,
+                'checked': 'claim', 'date': '2026-10-11'}]}, dt.date(2026, 10, 11))
+            self.assertTrue(errors)
+
+    def test_malformed_urls_report_errors(self):
+        for url in ('https://[', 'https://', 'https://host:bad', 'https://host:99999'):
+            with self.subTest(url=url):
+                data = seed()
+                data['sources'][0]['url'] = url
+                self.assertTrue(any('bad source URL' in e for e in run(data)))
+
+    def test_geometry_requires_existing_matching_local_file(self):
+        data = seed()
+        scope = data['scope']
+        scope.update(spatial_filtering_enabled=True, geometry_file='missing.geojson',
+                     geometry_license='CC0', geometry_sha256='0' * 64, boundary_status='verified')
+        with tempfile.TemporaryDirectory() as directory, patch('validate.ROOT', Path(directory)):
+            self.assertTrue(any('existing regular file' in e for e in run(data)))
+            geometry = Path(directory) / 'boundary.geojson'
+            geometry.write_bytes(b'{"type":"FeatureCollection","features":[]}')
+            scope['geometry_file'] = geometry.name
+            self.assertTrue(any('does not match' in e for e in run(data)))
+            scope['geometry_sha256'] = hashlib.sha256(geometry.read_bytes()).hexdigest()
+            self.assertEqual(run(data), [])
+            geometry.write_bytes(b'changed')
+            self.assertTrue(any('does not match' in e for e in run(data)))
+            for path in ('../outside.geojson', str(geometry), '.'):
+                scope['geometry_file'] = path
+                self.assertTrue(run(data))
+            scope['geometry_file'] = 'escape.geojson'
+            (Path(directory) / 'escape.geojson').symlink_to(ROOT / 'project.json')
+            self.assertTrue(any('inside the repository' in e for e in run(data)))
+
+    def test_json_equality_does_not_conflate_booleans_and_numbers(self):
+        from schema_check import Validator
+        for keyword in ('const', 'enum'):
+            for expected, value in ((False, 0), (True, 1), ([False], [0]), ({'a': True}, {'a': 1})):
+                schema = {keyword: expected if keyword == 'const' else [expected]}
+                self.assertTrue(Validator(schema).errors(value))
+                self.assertEqual(Validator(schema).errors(expected), [])
+            schema = {keyword: 1 if keyword == 'const' else [1]}
+            self.assertEqual(Validator(schema).errors(1.0), [])
+        data = seed()
+        data['project']['year_zero'] = 0
+        self.assertTrue(any('year_zero' in e for e in run(data)))
+
+    def test_manifest_covers_tracked_files_except_itself(self):
+        result = subprocess.run(['git', 'ls-files', '-z'], cwd=ROOT, capture_output=True)
+        if result.returncode:
+            self.skipTest('Git inventory unavailable in exported release')
+        tracked = set(result.stdout.decode().rstrip('\0').split('\0')) - {'MANIFEST.sha256'}
+        entries = [line.split('  ', 1)[1] for line in (ROOT / 'MANIFEST.sha256').read_text().splitlines()]
+        self.assertEqual(len(entries), len(set(entries)), 'duplicate manifest entries')
+        self.assertEqual(set(entries), tracked)
 
     def test_original_five_argument_signature_still_works(self):
         d = seed()

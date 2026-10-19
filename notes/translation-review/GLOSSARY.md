@@ -121,7 +121,7 @@ Status: AI-assisted draft. Human Malayalam-language review pending. Specialist r
 | Q14 | (Major) Rock Edict II | രണ്ടാം ശിലാശാസനം / പ്രധാന ശിലാശാസനം II | ഏത് രൂപം സ്ഥിരപ്പെടുത്തണം? |
 | Q15 | hominin | hominin (ആദിമനുഷ്യവർഗം) | “മാനവവംശം” എന്നത് Homo sapiens എന്ന് തെറ്റിദ്ധരിപ്പിക്കും; വിദഗ്ധർ സ്ഥിരീകരിക്കണം. |
 | Q16 | Trivandrum Block, Quilon Formation | ഇംഗ്ലീഷ് ഔപചാരിക നാമം നിലനിർത്തി | ഭൂവിജ്ഞാനീയ ഔപചാരിക നാമങ്ങൾ ലിപ്യന്തരണം ചെയ്യണോ? |
-| Q17 | Ghats (E04) | ഘട്ടങ്ങൾ (Ghats) | “ഘട്ടം” = phase എന്ന അർത്ഥവുമായി കൂടിക്കുഴയും. “ഘട്ടമലനിരകൾ” / “പശ്ചിമഘട്ടം” ആണോ നല്ലത്? |
+| Q17 | Ghats (E04, R004) | പശ്ചിമഘട്ട പർവതനിര (Western Ghats) | Draft clarified as a mountain range, avoiding “ഘട്ടങ്ങൾ” (phases). Human language and specialist review remain pending. |
 | Q18 | appointed day | നിശ്ചിതദിനം (appointed day) | ഔദ്യോഗിക മലയാള നിയമപദാവലിയിലെ പദം പരിശോധിക്കണം. |
 | Q19 | Early Historic | ആദ്യകാല ചരിത്രഘട്ടം (Early Historic) | |
 | Q20 | Mesolithic / microlithic | Mesolithic (മധ്യ ശിലായുഗം) / microlithic (സൂക്ഷ്മശിലായുധ) | |
@@ -142,3 +142,5 @@ Status: AI-assisted draft. Human Malayalam-language review pending. Specialist r
 | Q30 | crosswalk | താരതമ്യപട്ടിക (crosswalk) | |
 | Q31 | offshore | കടൽമേഖല | നിയമപരമായ “territorial waters” (സമുദ്രാതിർത്തി) എന്നതുമായി വേർതിരിക്കണം. |
 | Q32 | Generator separator ` — ` | `ID: title` എന്ന് നിർദ്ദേശിച്ചു | INTEGRATION_NOTES I3 കാണുക. Project B തീരുമാനിക്കണം. |
+
+Stone-tool terminology such as ആയുധങ്ങൾ, ആയുധക്കൂട്ടം and ശിലായുധം remains pending qualified archaeological Malayalam review. These drafts do not assert that every such conventional term means a weapon, and no blanket substitution has been made.

@@ -42,10 +42,10 @@ This calculation inherits the unverified 6000 BCE premise; do not make it a date
 
 ## A004: തെറ്റിദ്ധരിപ്പിക്കുന്ന സ്ഥാനനിർണയം / misleading ranking
 
-**മുൻ അവകാശവാദമോ സൂചനയോ: / Earlier claim or implication:** ഏറ്റവും വ്യാപകമായി ഉദ്ധരിക്കപ്പെടുന്ന ഏറ്റവും പഴയ ചരിത്രാതീത തെളിവ് എടക്കലാണ് / മനുഷ്യചരിത്രം തുടങ്ങാൻ ഉചിതമായ ആദ്യബിന്ദുവാണ്.  
+**മുൻ അവകാശവാദമോ സൂചനയോ: / Earlier claim or implication:** വ്യാപകമായി ഉദ്ധരിക്കപ്പെടുന്ന ചരിത്രാതീത തെളിവുകളിൽ ഏറ്റവും പഴയത് എടക്കലാണ് / മനുഷ്യചരിത്രം തുടങ്ങാൻ ഉചിതമായ ആദ്യബിന്ദുവാണ്.  
 Edakkal is the oldest widely cited prehistoric evidence / an appropriate earliest-human start.
 
-**സമീപനം: / Treatment:** ഗ്രന്ഥസൂചികാമിതി (bibliometric) അടിസ്ഥാനത്തിൽ “ഏറ്റവും പഴയതും ഏറ്റവും ഉദ്ധരിക്കപ്പെട്ടതും” എന്ന സ്ഥാനനിർണയം സ്ഥാപിച്ചിട്ടില്ല. മുൻകാല ശിലായുധതെളിവുകൾ സ്വതന്ത്രമായി അന്വേഷിക്കുക.  
+**സമീപനം: / Treatment:** ഗ്രന്ഥസൂചികാമിതി (bibliometric) അടിസ്ഥാനത്തിൽ “വ്യാപകമായി ഉദ്ധരിക്കപ്പെടുന്നവയിൽ ഏറ്റവും പഴയത്” എന്ന സ്ഥാനനിർണയം സ്ഥാപിച്ചിട്ടില്ല. മുൻകാല ശിലായുധതെളിവുകൾ സ്വതന്ത്രമായി അന്വേഷിക്കുക.  
 No bibliometric oldest-widely-cited ranking was established. Investigate earlier stone-tool evidence independently.
 
 **തെളിവുവഴി: / Evidence route:** [S009](../sources/S009.md), [S012](../sources/S012.md)
@@ -175,7 +175,7 @@ The inspected edition supports the general period and port/trade content. No exa
 **മുൻ അവകാശവാദമോ സൂചനയോ: / Earlier claim or implication:** കേരളതീരത്തെക്കുറിച്ചുള്ള പ്രസക്തമായ തെളിവ് Pliny നൽകുന്നു.  
 Pliny gives relevant Kerala-coast evidence.
 
-**സമീപനം: / Treatment:** Natural History 6.26 എന്ന ഭാഗം 1855-ലെ Bostock, Riley പരിഭാഷയിൽ വായിച്ചു: ഇന്ത്യയിലെ ഏറ്റവും അടുത്ത വ്യാപാരകേന്ദ്രമായി Muziris, Nitrias-ന് സമീപം കടൽക്കൊള്ളക്കാർ, അകലെയുള്ള ഒരു നങ്കൂരസ്ഥലം, Caelobothras രാജാവ്. ലാറ്റിൻ പാഠവും ഒരു ആധുനിക പരിഭാഷയും ഇനിയും പരിശോധിക്കണം. Muziris ഒരു ഗ്രന്ഥനാമമായി തുടരുന്നു.  
+**സമീപനം: / Treatment:** Natural History 6.26 എന്ന ഭാഗം 1855-ലെ Bostock, Riley പരിഭാഷയിൽ വായിച്ചു: ഇന്ത്യയിലെ ഏറ്റവും അടുത്ത വ്യാപാരകേന്ദ്രമായി Muziris, Nitrias-ന് സമീപം കടൽക്കൊള്ളക്കാർ, അകലെയുള്ള ഒരു നങ്കൂരസ്ഥലം, Caelobothras രാജാവ്. ലാറ്റിൻ പാഠവും ഒരു ആധുനിക പരിഭാഷയും ഇനിയും പരിശോധിക്കണം. Muziris പാഠത്തിൽ പരാമർശിക്കുന്ന ഒരു സ്ഥലനാമമായി തുടരുന്നു.  
 Natural History 6.26 read in the 1855 Bostock and Riley translation: Muziris as the nearest mart of India, pirates near Nitrias, a distant anchorage, king Caelobothras. The Latin text and a modern translation remain to be checked. Muziris stays a textual name.
 
 **തെളിവുവഴി: / Evidence route:** [S046](../sources/S046.md)
@@ -185,8 +185,8 @@ Natural History 6.26 read in the 1855 Bostock and Riley translation: Muziris as 
 **മുൻ അവകാശവാദമോ സൂചനയോ: / Earlier claim or implication:** രണ്ടാം നൂറ്റാണ്ടിലെ രേഖയ്ക്ക് Ptolemy-യുടെ കൃതി പ്രസക്തമാണ്.  
 Ptolemy’s work is relevant to the second-century record.
 
-**സമീപനം: / Treatment:** Geography-യുടെ രണ്ടാം നൂറ്റാണ്ട് കാലനിർണയത്തെ ഗവേഷണസ്ഥാപനം പിന്തുണയ്ക്കുന്നു; പ്രാദേശിക ഭാഗങ്ങളും ഭൂമിശാസ്ത്ര സ്ഥലനിർണയങ്ങളും സ്ഥിരീകരിച്ചിട്ടില്ല. Geography 7.1.8 (Mouziris, ഒരു വ്യാപാരകേന്ദ്രം), 7.1.86 (Kerobothros-ന്റെ രാജധാനിയായ Karoura) എന്നിവ McCrindle-ന്റെ 1885-ലെ പരിഭാഷയിൽ വായിച്ചു. Yule-നെ പിന്തുടർന്ന് McCrindle, Mouziris-നെ കൊടുങ്ങല്ലൂരുമായും Karoura-യെ തമിഴ്നാട്ടിലെ കരൂരുമായും തിരിച്ചറിഞ്ഞു; ഇവ ആരോപിത തിരിച്ചറിയലുകളാണ്; Ptolemy-യുടെ നിർദേശാങ്കങ്ങൾ ആധുനിക സ്ഥാനങ്ങളല്ല.  
-The research institution supports the second-century date of the Geography; local passages and geographical identifications remain unverified. Geography 7.1.8 (Mouziris, an emporium) and 7.1.86 (Karoura, royal seat of Kerobothros) were read in McCrindle's 1885 translation. McCrindle, following Yule, identified Mouziris with Kodungallur and Karoura with Karur in Tamil Nadu; these are attributed identifications, and Ptolemy's coordinates are not modern positions.
+**സമീപനം: / Treatment:** Geography-യുടെ രണ്ടാം നൂറ്റാണ്ട് കാലനിർണയത്തെ ഗവേഷണസ്ഥാപനം പിന്തുണയ്ക്കുന്നു. Geography 7.1.8 (Mouziris, ഒരു വ്യാപാരകേന്ദ്രം), 7.1.86 (Kerobothros-ന്റെ രാജധാനിയായ Karoura) എന്നിവ McCrindle-ന്റെ 1885-ലെ ഇംഗ്ലീഷ് പരിഭാഷയുടെയും വ്യാഖ്യാനത്തിന്റെയും OCR പാഠത്തിൽ പരിശോധിച്ചു. Yule-നെ പിന്തുടർന്ന് McCrindle, Mouziris-നെ കൊടുങ്ങല്ലൂരുമായും Karoura-യെ തമിഴ്നാട്ടിലെ കരൂരുമായും തിരിച്ചറിഞ്ഞു. ഇവ ആ രചയിതാക്കൾ നിർദേശിച്ച തിരിച്ചറിയലുകളായി തുടരുന്നു; മൂല ഗ്രീക്ക് പാഠം, സ്കാൻ ചിത്രങ്ങൾ, ആധുനികമായ ഒരു വിമർശനാത്മക പതിപ്പ് എന്നിവ പരിശോധിച്ച് സ്ഥിരീകരിച്ചിട്ടില്ല. Ptolemy-യുടെ നിർദേശാങ്കങ്ങൾ ആധുനിക സ്ഥാനങ്ങളല്ല.  
+The research institution supports the second-century date of the Geography. Geography 7.1.8 (Mouziris, an emporium) and 7.1.86 (Karoura, royal seat of Kerobothros) were inspected in OCR of McCrindle’s 1885 English translation and commentary. McCrindle, following Yule, identified Mouziris with Kodungallur and Karoura with Karur in Tamil Nadu. These remain attributed identifications; original Greek, scan images and a modern critical edition were not verified. Ptolemy’s coordinates are not modern positions.
 
 **തെളിവുവഴി: / Evidence route:** [S041](../sources/S041.md), [S047](../sources/S047.md)
 

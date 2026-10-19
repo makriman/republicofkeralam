@@ -32,7 +32,7 @@ Inspection depth is not a quality score. A primary document can be biased; a cat
 - [S020: A Persian church in the land of pepper](S020.md) (`proposal_and_final_outcomes`)
 - [S021: Journal of the first voyage of Vasco da Gama to India, 1497–1499](S021.md) (`full_page`)
 - [S022: Vasco da Gama: Round Africa to India, 1497–1498](S022.md) (`selected_pages_and_images`)
-- [S023: The States Reorganisation Act, 1956](S023.md) (`selected_sections_and_images`)
+- [S023: The States Reorganisation Act, 1956](S023.md) (`relevant_passages`)
 - [S024: Demography / regional administration of Mahe](S024.md) (`institutional_page`)
 - [S025: Radiocarbon calibration](S025.md) (`relevant_passages`)
 - [S026: Extended Date/Time Format (EDTF) Specification](S026.md) (`relevant_passages`)

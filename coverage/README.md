@@ -6,15 +6,15 @@
 >
 > Malayalam first, English second. The Malayalam on this page is AI-assisted and human language review is pending. The English text remains the canonical data.
 
-2026-10-18 പ്രകാരം. ഇവ ശേഖരത്തിലെ എണ്ണങ്ങളാണ്; ആകെ ചരിത്രരേഖയുടെ കണക്കുകളല്ല.
+2026-10-19 പ്രകാരം. ഇവ ശേഖരത്തിലെ എണ്ണങ്ങളാണ്; ആകെ ചരിത്രരേഖയുടെ കണക്കുകളല്ല.
 
-As of 2026-10-18. These are repository counts, not estimates of the total historical record.
+As of 2026-10-19. These are repository counts, not estimates of the total historical record.
 
 | അളവ് / Measure | ഈ പതിപ്പ് / This release |
 |---|---:|
 | വാർഷിക Markdown ഫയലുകൾ / Annual Markdown files | 2,326 |
-| കുറഞ്ഞത് ഒരു വർഷനിർദിഷ്ട പ്രാരംഭക്കണ്ണിയുള്ള വാർഷിക പേജുകൾ / Annual pages with at least one year-specific seed link | 18 |
-| വർഷനിർദിഷ്ട പ്രാരംഭരേഖയില്ലാത്ത വാർഷിക പേജുകൾ / Annual pages without a year-specific seed | 2,308 |
+| കുറഞ്ഞത് ഒരു വർഷനിർദിഷ്ട പ്രാരംഭക്കണ്ണിയുള്ള വാർഷിക പേജുകൾ / Annual pages with at least one year-specific seed link | 17 |
+| വർഷനിർദിഷ്ട പ്രാരംഭരേഖയില്ലാത്ത വാർഷിക പേജുകൾ / Annual pages without a year-specific seed | 2,309 |
 | അടിസ്ഥാന തെളിവുരേഖകൾ / Canonical evidence records | 31 |
 | കാറ്റലോഗുകളും സൂചനകളും ഉൾപ്പെടെ സ്രോതസ്സ് കാർഡുകൾ / Source cards, including catalogues and leads | 48 |
 | ദീർഘ ഭൂകാല / ചരിത്രാതീത പഠനരേഖകൾ / Deep-time / prehistory dossiers | 12 |
@@ -36,10 +36,10 @@ No percentage for coverage of the entire internet is calculated. No source corpu
 
 | അളവ് / Measure | ഈ പതിപ്പ് / This release |
 |---|---:|
-| തെളിവുരേഖകളിൽനിന്നുള്ള വർഷക്കണ്ണികൾ / Year links from evidence records | 20 |
-| കുറഞ്ഞത് ഒരു വർഷക്കണ്ണിയുള്ള തെളിവുരേഖകൾ / Evidence records with at least one year link | 20 |
+| തെളിവുരേഖകളിൽനിന്നുള്ള വർഷക്കണ്ണികൾ / Year links from evidence records | 19 |
+| കുറഞ്ഞത് ഒരു വർഷക്കണ്ണിയുള്ള തെളിവുരേഖകൾ / Evidence records with at least one year link | 19 |
 | പഴയ സംഭവത്തിന്റെ തീയതിയിലേക്ക് കണ്ണിയുള്ള വാർഷിക പേജുകൾ / Annual pages that link a past-event date | 4 |
-| ഗവേഷണം, പ്രസിദ്ധീകരണം, ലഭ്യത എന്നിവയുടെ ചരിത്രത്തിലേക്ക് മാത്രം കണ്ണിയുള്ള വാർഷിക പേജുകൾ / Annual pages that link only research, publication or access history | 14 |
+| ഗവേഷണം, പ്രസിദ്ധീകരണം, ലഭ്യത എന്നിവയുടെ ചരിത്രത്തിലേക്ക് മാത്രം കണ്ണിയുള്ള വാർഷിക പേജുകൾ / Annual pages that link only research, publication or access history | 13 |
 | കുറഞ്ഞത് ഒരു തെളിവുരേഖയെങ്കിലും ഉദ്ധരിക്കുന്ന സ്രോതസ്സ് കാർഡുകൾ / Source cards cited by at least one evidence record | 28 |
 | പ്രസക്തഭാഗമോ പൂർണപാഠമോ പരിശോധിച്ച സ്രോതസ്സ് കാർഡുകൾ / Source cards inspected at passage or full-text depth | 25 |
 | മെറ്റാഡാറ്റ മാത്രം കണ്ടതോ ലഭ്യമാകാത്തതോ ആയ സ്രോതസ്സ് കാർഡുകൾ / Source cards seen only as metadata, or not accessed | 9 |

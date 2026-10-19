@@ -8,8 +8,13 @@ appears in the Malayalam section; no em dash in Malayalam sections or in
 staging prose; changed files limited to notes/translation-review/ (plus the
 existing assignment document).
 """
-import json, re, subprocess, sys
+import argparse, json, re, subprocess, sys
+from freshness import source_freshness_errors
 from pathlib import Path
+
+parser = argparse.ArgumentParser(description="Validate pinned staging snapshots; optionally compare whole source files against a target revision.")
+parser.add_argument("--target-revision", help="Explicit git revision to check for source-file changes (conservative; any change needs review).")
+args = parser.parse_args()
 
 STAGE = Path("notes/translation-review")
 ML = re.compile(r"[\u0D00-\u0D7F]")
@@ -17,7 +22,7 @@ fails = []
 def fail(m): fails.append(m)
 
 for f in sorted(STAGE.rglob("*")):
-    if not f.is_file(): continue
+    if not f.is_file() or "__pycache__" in f.parts: continue
     try:
         text = f.read_text(encoding="utf-8")
     except UnicodeDecodeError:
@@ -76,6 +81,9 @@ for f in sorted(STAGE.rglob("*.ml.json")):
         if cm: fail(f"{f}: {e['key']} citations missing: {sorted(cm)}")
 
 man = json.loads((STAGE / "manifest.json").read_text(encoding="utf-8"))
+if args.target_revision:
+    fails.extend(source_freshness_errors(man["entries"], args.target_revision))
+
 for e in man["entries"]:
     rev = e["source_revision"]
     if subprocess.run(["git", "cat-file", "-e", f"{rev}:{e['source_path']}"], capture_output=True).returncode:
@@ -98,5 +106,5 @@ allowed = ("notes/translation-review/", "docs/work-packages/translation.md")
 outside = sorted({c for c in changed if not c.startswith(allowed)})
 if outside: fail(f"changes outside ownership: {outside}")
 
-print("\n".join(fails) if fails else f"PASS: {len(man['entries'])} manifest entries; staging files UTF-8, links, revisions, Malayalam-first order, numbers/citations, ownership.")
+print("\n".join(fails) if fails else f"PASS: {len(man['entries'])} manifest entries; pinned snapshots checked" + (f"; whole-source freshness checked against {args.target_revision}" if args.target_revision else "; target freshness NOT checked") + "; staging files UTF-8, links, revisions, Malayalam-first order, numbers/citations, ownership.")
 sys.exit(1 if fails else 0)

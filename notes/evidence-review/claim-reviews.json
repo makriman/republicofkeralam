@@ -28,7 +28,8 @@
     "full_page": "Entire web page read.",
     "full_record": "Entire database record read.",
     "full_text": "Complete article or chapter read.",
-    "access_failed_this_pass": "The source could not be reached in this pass; not evidence that it does not exist."
+    "access_failed_this_pass": "The source could not be reached in this pass; not evidence that it does not exist.",
+    "relevant_passages_pdf_text": "Named passages read in a PDF text layer; no claim of image inspection."
   },
   "proposed_sources": [
     {
@@ -47,7 +48,7 @@
       "creator": "Ajit Kumar",
       "edition": "XXV Valcamonica Symposium 2013 papers, pp. 337–342 (PDF hosted by Centro Camuno di Studi Preistorici)",
       "url": "https://www.ccsp.it/web/SITOVCS2013/programma%20e%20pdf%20vari/PDF%20x%20sito%20web/Kumar.pdf",
-      "locator": "Section 'Date of the engravings' and closing paragraph, p. 340",
+      "locator": "The Edakkal rock shelter, first paragraph, p. 337 (1894 attribution, rechecked 2026-10-19 in PDF text layer); section Date of the engravings and closing paragraph, p. 340 (earlier pass)",
       "inspected_depth": "full_text",
       "rights": "Copyright not stated in the PDF; link and original summary only."
     },
@@ -284,6 +285,66 @@
       "for": "current-status check",
       "result": "public repository; created 2026-10-19T00:31:20Z (2026-10-18 17:31 America/Los_Angeles); issues enabled",
       "date": "2026-10-18"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1680/1/a1956-37.pdf",
+      "for": "S023",
+      "result": "PDF text layer: heading and ss. 2(a), 2(r), 4–5, printed pp. 6–8; official consolidated version, not original Gazette",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://heritageuniversityofkerala.com/JournalPDF/Volume4/39.pdf",
+      "for": "S009",
+      "result": "Text layer printed pp. 634–635: conclusion on 635; screenshot retrieval failed",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://archive.org/stream/InscriptionsOfAsoka.NewEditionByE.Hultzsch/HultzschCorpusAsokaSearchable_djvu.txt",
+      "for": "S015",
+      "result": "OCR introduction pp. xxxv–xxxvi: XIII calculation and twelve-year list inspected; no II-specific 252 BCE premise",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://archive.org/details/in.ernet.dli.2015.206685",
+      "for": "NEW-SRC-01",
+      "result": "Retrieval failed in web tool; no original page images inspected this pass",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1342937X06001547",
+      "for": "S003",
+      "result": "Retrieval failed; indexed publisher metadata only, no correction text inspected",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://en.wikisource.org/wiki/Page:Acts_of_the_Parliament_of_India_1956.djvu/681",
+      "for": "1956 original-text lead",
+      "result": "Transcription of Act heading and s.2(a) inspected; linked image fetch failed",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://en.wikisource.org/wiki/Page:Acts_of_the_Parliament_of_India_1956.djvu/683",
+      "for": "1956 original-text lead",
+      "result": "Transcription of s.4 inspected, agrees with official consolidated PDF; original image not checked",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://en.wikisource.org/wiki/Page:Acts_of_the_Parliament_of_India_1956.djvu/684",
+      "for": "1956 original-text lead",
+      "result": "Transcription of s.5 inspected, retains Part A; image not checked",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Indian_Antiquary_Vol_30.pdf",
+      "for": "NEW-SRC-01 alternate scan",
+      "result": "File metadata and index located; original PDF retrieval returned HTTP 429. Index points printed pp.409–412 to PDF pages 431, 432, 435, 436; text/image inspection not achieved",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://www.ccsp.it/web/SITOVCS2013/programma%20e%20pdf%20vari/PDF%20x%20sito%20web/Kumar.pdf",
+      "for": "NEW-SRC-02 / integrated S044",
+      "result": "PDF text layer printed p.337, section The Edakkal rock shelter, first paragraph: attributes discovery to Fawcett in 1894 and cites Fawcett 1901; page image not checked. Targeted locator verification only.",
+      "date": "2026-10-19"
     }
   ],
   "claims": [
@@ -592,7 +653,7 @@
         {
           "id": "S009",
           "edition": "Heritage: Journal of Multidisciplinary Studies in Archaeology 4 (2016), 627–636; PDF from the publisher's site",
-          "locator": "pp. 628–631 (Lower Palaeolithic finds), conclusion p. 634",
+          "locator": "pp. 628–631 (Lower Palaeolithic finds), conclusion p. 635",
           "inspected_depth": "full_text"
         }
       ],
@@ -755,8 +816,8 @@
       "id": "EV-05",
       "priority": 3,
       "title": {
-        "ml": "രണ്ടാം ശിലാശാസനത്തിന്റെ കാലം: ക്രി.മു. 257, ക്രി.മു. ഏകദേശം 252, ലിഖിതചരിത്രത്തിന്റെ 'തുടക്കവർഷം' എന്ന തെറ്റ്",
-        "en": "Date of Rock Edict II: 257 BCE, about 252 BCE, and the false idea of a start year for recorded history"
+        "ml": "രണ്ടാം ശിലാശാസനത്തിന്റെ കാലം: നിർദേശിത വർഷവും അനിശ്ചിതത്വവും",
+        "en": "Date of Rock Edict II: attributed year and chronological uncertainty"
       },
       "stable_ids": {
         "records": [
@@ -805,13 +866,8 @@
           "attributed_to": "S014 notes"
         },
         {
-          "role": "proposed_production_year",
-          "value": "about 252 BCE (12th regnal year counted from a coronation taken as about 264 BCE)",
-          "attributed_to": "S015 pp. xxxv–xxxvi, derived arithmetic; editor's own working chronology"
-        },
-        {
           "role": "stated_in_text",
-          "value": "Rock Edict II states no regnal year; the year comes from the series and the editors' chronology",
+          "value": "Rock Edict II states no regnal year.",
           "attributed_to": "S014; S015"
         }
       ],
@@ -823,21 +879,21 @@
       ],
       "conflicting_evidence": [
         {
-          "ml": "ധമ്മിക ക്രി.മു. 257 എന്നും ഹൂൾഷിന്റെ കാലഗണന ഏകദേശം ക്രി.മു. 252 എന്നും നൽകുന്നു. ശാസനം തന്നെ വർഷം പറയുന്നില്ല.",
-          "en": "Dhammika gives 257 BCE and Hultzsch's chronology yields about 252 BCE. The edict itself states no year."
+          "ml": "ധമ്മികയുടെ ക്രി.മു. 257 എന്ന തീയതി നിലനിർത്താം. ഹൂൾഷിന്റെ പേജ് xxxv–xxxvi രണ്ടാം ശിലാശാസനത്തിന് ക്രി.മു. 252 എന്ന തീയതി തെളിയിക്കുന്നില്ല.",
+          "en": "Dhammika gives 257 BCE. Hultzsch pp. xxxv–xxxvi does not establish 252 BCE for Edict II: the chronological calculation concerns XIII and the twelve-year list does not name II."
         }
       ],
       "source_dependencies": {
-        "ml": "രണ്ട് തീയതികളും പതിപ്പുകാരുടെ അശോകകാലഗണനയെ ആശ്രയിക്കുന്നു; ഗ്രീക്ക് രാജാക്കന്മാരുടെ സമന്വയം പോലുള്ള അടിസ്ഥാനങ്ങൾ ഇവിടെ പരിശോധിച്ചിട്ടില്ല.",
-        "en": "Both years depend on the editors' Ashokan chronology; its basis, such as the synchronism with Hellenistic kings, was not reviewed here."
+        "ml": "രണ്ടാം ശിലാശാസനത്തെ കൃത്യമായ വർഷവുമായി ബന്ധിപ്പിക്കുന്ന വിദഗ്ധസാഹിത്യം പരിശോധിക്കണം.",
+        "en": "An Edict-II-specific chronological argument is still needed; arithmetic from a coronation date alone does not establish its production year."
       },
       "rights": {
         "ml": "കണ്ണിയും സ്വന്തം സംഗ്രഹവും.",
         "en": "Links and original summary."
       },
       "finding": {
-        "ml": "ഇടവേള നിലനിർത്തുക; നിർദേശിത വർഷങ്ങൾ ആരുടേതെന്ന് പറഞ്ഞ് ചേർക്കുക. ഈ ശാസനത്തെയോ മറ്റേതെങ്കിലും രേഖയെയോ കേരളത്തിന്റെ ലിഖിതചരിത്രത്തിന്റെ ഒരു 'തുടക്കവർഷം' ആയി അവതരിപ്പിക്കരുത്; ഇത് പുറത്തുനിന്നുള്ള ഒരു പരാമർശം മാത്രമാണ്.",
-        "en": "Keep the interval and add both proposed years with attribution. Do not present this edict, or any other document, as a single start year for Kerala's recorded history; it is an external mention."
+        "ml": "ക്രി.മു. മൂന്നാം നൂറ്റാണ്ട് നിലനിർത്തുക; ധമ്മികയുടെ തീയതി അദ്ദേഹത്തിന്റേതായി മാത്രം രേഖപ്പെടുത്തുക. ക്രി.മു. 252 എന്ന പിന്തുണയില്ലാത്ത ബദൽ ഒഴിവാക്കുക.",
+        "en": "Keep the third-century BCE interval and Dhammika’s date as attributed. Withdraw the unsupported 252 BCE alternative. Do not treat an external mention as the start of Kerala’s recorded history."
       },
       "proposed_corrections": [
         "PC-09",
@@ -1655,6 +1711,12 @@
           "edition": "Consolidated text from the India Code republication",
           "locator": "Sections 4 and 5",
           "inspected_depth": "relevant_passages_secondary_copy"
+        },
+        {
+          "id": "S023",
+          "edition": "Official India Code consolidated PDF, inspected 2026-10-19 UTC",
+          "locator": "Printed pp. 6–8: heading, sections 2(a), 2(r), 4 and 5; PDF text layer",
+          "inspected_depth": "relevant_passages_pdf_text"
         }
       ],
       "geographical_relationship": {
@@ -1670,13 +1732,13 @@
         {
           "role": "appointed_day",
           "value": "1956-11-01",
-          "attributed_to": "R016; s. 2(a) not re-verified this pass"
+          "attributed_to": "Official India Code consolidated PDF, s. 2(a), printed p. 6, inspected 2026-10-19 UTC"
         }
       ],
       "supporting_evidence": [
         {
-          "ml": "വകുപ്പ് 4: അഗസ്തീശ്വരം, തോവാള, കൽക്കുളം, വിളവങ്കോട് താലൂക്കുകളും ചെങ്കോട്ട താലൂക്കിന്റെ ഭാഗവും മദ്രാസിലേക്ക്. വകുപ്പ് 5: വകുപ്പ് 4 പ്രദേശങ്ങൾ ഒഴികെയുള്ള തിരുവിതാംകൂർ-കൊച്ചി, ലക്ഷദ്വീപ്-മിനിക്കോയ് ഒഴികെയുള്ള മലബാർ ജില്ല, ദക്ഷിണ കാനറയിലെ കാസർകോട് താലൂക്ക്.",
-          "en": "Section 4: Agastheeswaram, Thovala, Kalkulam and Vilavancode taluks and part of Shencottah taluk go to Madras. Section 5: Travancore-Cochin less the section 4 areas, Malabar district less the Laccadive and Minicoy Islands, and Kasaragod taluk of South Kanara."
+          "ml": "വകുപ്പ് 4: അഗസ്തീശ്വരം, തോവാള, കൽക്കുളം, വിളവങ്കോട് താലൂക്കുകളും ചെങ്കോട്ട താലൂക്കും മദ്രാസിലേക്ക്. വകുപ്പ് 5: വകുപ്പ് 4 പ്രദേശങ്ങൾ ഒഴികെയുള്ള തിരുവിതാംകൂർ-കൊച്ചി, ലക്ഷദ്വീപ്-മിനിക്കോയ് ഒഴികെയുള്ള മലബാർ ജില്ല, ദക്ഷിണ കാനറയിലെ കാസർകോട് താലൂക്ക്.",
+          "en": "Section 4: Agastheeswaram, Thovala, Kalkulam and Vilavancode taluks and Shencottah taluk go to Madras. Section 5: Travancore-Cochin less the section 4 areas, Malabar district less the Laccadive and Minicoy Islands, and Kasaragod taluk of South Kanara. Section 2(r) anchors territorial divisions to 1 July 1956; later changes were not checked."
         }
       ],
       "conflicting_evidence": [
@@ -1686,16 +1748,16 @@
         }
       ],
       "source_dependencies": {
-        "ml": "NEW-SRC-06 India Code പാഠത്തിന്റെ പുനഃപ്രസിദ്ധീകരണമാണ്; ഔദ്യോഗിക India Code സമയപരിധി കടന്നു.",
-        "en": "NEW-SRC-06 republishes the India Code text; the official India Code site timed out."
+        "ml": "2026-10-19-ന് ഔദ്യോഗിക India Code ഏകീകൃത PDF-ലെ ബന്ധപ്പെട്ട വകുപ്പുകൾ പരിശോധിച്ചു; ഗസറ്റ് ചിത്രങ്ങൾ പരിശോധിച്ചിട്ടില്ല.",
+        "en": "The official India Code consolidated PDF was inspected at the relevant sections on 2026-10-19. Gazette images remain unchecked."
       },
       "rights": {
         "ml": "നിയമപാഠം; പുനഃപ്രസാധകന്റെ വ്യാഖ്യാനം ഉപയോഗിച്ചിട്ടില്ല. ലൈസൻസുള്ളതും പരിശോധിച്ചതുമായ അതിർത്തി ഡാറ്റാസെറ്റ് ഇല്ല.",
         "en": "Statute text; the republisher's commentary was not used. No licensed, checked boundary dataset exists."
       },
       "finding": {
-        "ml": "S023 കാർഡിൽ URL 404 എന്നും പാസാക്കിയ പാഠവും ഏകീകൃതപാഠവും തമ്മിലുള്ള വ്യത്യാസവും രേഖപ്പെടുത്തുക. നിയമവകുപ്പുകളും ഏതെങ്കിലും അതിർത്തി ഡാറ്റാസെറ്റും വേറെ സൂക്ഷിക്കുക; സ്ഥലപരമായ ഉൾപ്പെടുത്തൽ നിർജീവമായി തുടരണം.",
-        "en": "Record on S023 that the URL returns 404 and the difference between enacted and consolidated text. Keep the statutory provisions separate from any boundary dataset; spatial inclusion stays disabled."
+        "ml": "ഔദ്യോഗിക ഏകീകൃത പാഠത്തിന്റെ കണ്ണിയും പരിശോധനയുടെ പരിധിയും രേഖപ്പെടുത്തുക. അതിർത്തി ജ്യാമിതി വേറെ സൂക്ഷിക്കുക.",
+        "en": "Add the official consolidated PDF and precise inspection scope. Distinguish it from original Gazette text. Keep spatial inclusion disabled."
       },
       "proposed_corrections": [
         "PC-18"

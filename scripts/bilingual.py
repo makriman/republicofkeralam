@@ -21,6 +21,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+from string import Formatter
 from pathlib import Path
 
 from schema_check import check as schema_errors
@@ -50,7 +51,6 @@ TRANSLATABLE = {
 GLOSS_ONLY = {('sources', 'title')}
 MALAYALAM = re.compile('[\u0d00-\u0d7f]')
 NUMBER = re.compile(r'\d+(?:[.,]\d+)*')
-PLACEHOLDER = re.compile(r'\{[a-z_]+\}')
 LINK_TARGET = re.compile(r'\]\(([^)]*)\)')
 EM_DASH = '\u2014'
 
@@ -159,10 +159,27 @@ def english_for(key: str, data: dict, labels: dict):
     return v, None
 
 
+def _format_signature(text: str):
+    # Parse all replacement fields, including uppercase, positional, attribute,
+    # index, conversion and format-spec syntax. Exact signatures preserve the
+    # English contract; translated prose can reorder fields but not change them.
+    return sorted((field, spec, conversion or '')
+                  for _, field, spec, conversion in Formatter().parse(text)
+                  if field is not None)
+
+
+def _format_errors(en: str, ml: str) -> list[str]:
+    try:
+        expected, actual = _format_signature(en), _format_signature(ml)
+    except ValueError as exc:
+        return [f'invalid template format syntax: {exc}']
+    if expected != actual:
+        return [f'template placeholders differ (English {expected}, Malayalam {actual})']
+    return []
+
+
 def _label_form_errors(kind: str, en: str, ml: str) -> list[str]:
-    out = []
-    if sorted(PLACEHOLDER.findall(en)) != sorted(PLACEHOLDER.findall(ml)):
-        out.append(f'template placeholders differ (English {sorted(PLACEHOLDER.findall(en))}, Malayalam {sorted(PLACEHOLDER.findall(ml))})')
+    out = _format_errors(en, ml)
     if sorted(LINK_TARGET.findall(en)) != sorted(LINK_TARGET.findall(ml)):
         out.append('link targets differ from the English label')
     if kind == 'heading':
@@ -240,7 +257,9 @@ class Translations:
         e = self.entries.get(key)
         if not e or e.get('en_sha256') != en_hash(english) or ('en' in e and e['en'] != english):
             return None
-        if e.get('human_language_review') == 'rejected':
+        if e.get('human_language_review') == 'rejected' or e.get('specialist_review') == 'rejected':
+            return None
+        if key.startswith('scripts/build.py#') and _format_errors(english, e['ml']):
             return None
         return e
 
@@ -249,7 +268,7 @@ def _status(key: str, english: str, tr: Translations) -> str:
     e = tr.entries.get(key)
     if e is None:
         return 'missing'
-    if e.get('human_language_review') == 'rejected':
+    if e.get('human_language_review') == 'rejected' or e.get('specialist_review') == 'rejected':
         return 'rejected'
     if tr.get(key, english) is None:
         return 'stale'

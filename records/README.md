@@ -11,7 +11,7 @@
 These are attributed, limited seed records. A research publication is not the historical event it discusses.
 
 - [R001: ഗ്രഹത്തിന്റെ പ്രായം പശ്ചാത്തലമായി / Planetary age as context](R001.md)
-- [R002: തെക്കൻ അടിസ്ഥാനശിലയെക്കുറിച്ചുള്ള പ്രാചീനപഠനത്തിന് അതിന്റെ erratum ആവശ്യമാണ് / Ancient southern-basement study requires its erratum](R002.md)
+- [R002: തെക്കൻ പ്രദേശത്തെ പ്രാചീന അടിസ്ഥാനശിലയെക്കുറിച്ചുള്ള പഠനത്തിന് അതിന്റെ erratum ആവശ്യമാണ് / Ancient southern-basement study requires its erratum](R002.md)
 - [R003: ഉപദ്വീപീയ പ്രാചീന ഭൂവൽക്ക പ്രബന്ധം തീർപ്പാകാത്ത ഒരു കാലനിർണയസൂചനയാണ് / Peninsular ancient-crust paper is an unresolved dating lead](R003.md)
 - [R004: പടിഞ്ഞാറൻ അരികിനെക്കുറിച്ചുള്ള ബഹുഘട്ട ഗവേഷണമാതൃക / A multistage west-margin research model](R004.md)
 - [R005: Quilon Formation-ന്റെ നിക്ഷേപക്കണക്ക് / Quilon Formation depositional estimate](R005.md)
@@ -28,7 +28,7 @@ These are attributed, limited seed records. A research publication is not the hi
 - [R016: സംസ്ഥാനരൂപീകരണം 1956 നവംബർ 1-ന് പ്രാബല്യത്തിൽ / State formation takes effect on 1 November 1956](R016.md)
 - [R017: ബാബിങ്ടൺ ഉത്ഖനനം 1819-ൽ എന്ന് രേഖപ്പെടുത്തിയിരിക്കുന്നു / Babington excavation recorded for 1819](R017.md)
 - [R018: മലബാർ മാന്വൽ പ്രസിദ്ധീകരണം, 1887 / Malabar Manual publication, 1887](R018.md)
-- [R019: എടക്കലിന്റെ പണ്ഡിതോചിത രേഖപ്പെടുത്തലിലെ ഒരു നാഴികക്കല്ല്, 1894 / Edakkal scholarly documentation milestone, 1894](R019.md)
+- [R019: എടക്കലിന്റെ പണ്ഡിതോചിത രേഖപ്പെടുത്തലിലെ ഒരു നാഴികക്കല്ല്, പരസ്പരവിരുദ്ധമായ റിപ്പോർട്ടുകൾ (1894–1896) / Edakkal scholarly documentation milestone, conflicting reports (1894–1896)](R019.md)
 - [R020: എടക്കലിനെക്കുറിച്ചുള്ള ഫോസെറ്റിന്റെ ലേഖനം, 1901 / Fawcett’s Edakkal article, 1901](R020.md)
 - [R021: പട്ടണം–മുസിരിസ് സ്ഥലനിർണയം വാദിച്ച 2004-ലെ ലേഖനം / Pattanam–Muziris identification argued in a 2004 article](R021.md)
 - [R022: KCHR-ന്റെ ആദ്യ പട്ടണം ഉത്ഖനന സീസൺ, 2007 / KCHR first Pattanam excavation season, 2007](R022.md)

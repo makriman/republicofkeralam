@@ -1,3 +1,6 @@
+> 2026-10-19: താഴെയുള്ളത് ആദ്യ ബാച്ചിന്റെ ചരിത്രക്കുറിപ്പാണ്. നിലവിലെ തിരുത്തലുകളും പരിശോധനയുടെ പരിധിയും [അവലോകനക്കുറിപ്പിൽ](REVIEW_CORRECTIONS_2026-10-19.md) കാണാം.
+> 2026-10-19: This is the initial batch record. The [review correction note](REVIEW_CORRECTIONS_2026-10-19.md) supersedes its dates, coverage and merge gate.
+
 # Integration batch 1: തെളിവുതിരുത്തലുകളും മലയാള കാറ്റലോഗുകളും / Integration batch 1: evidence corrections and Malayalam catalogues
 
 > നില: AI സഹായത്തോടെ തയ്യാറാക്കിയ സംയോജനക്കരട്. മനുഷ്യ പണ്ഡിതപരിശോധനയും മലയാള ഭാഷാപരിശോധനയും ബാക്കി. മോഡൽ പരിശോധന അംഗീകാരമല്ല. / Status: AI-assisted integration draft. Human scholarly review and human Malayalam-language review are pending. Model checking is not approval.
