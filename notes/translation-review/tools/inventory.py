@@ -67,7 +67,7 @@ for f in files:
 # Canonical-data prose fields (translatable human-readable strings).
 FIELDS = {
     "data/periods.json": ["title", "display_window", "central_question", "established_in_this_pass", "limitations", "research_tasks"],
-    "data/records.json": ["title", "claim", "caveat", "date.original_expression", "date.datum", "authoring", "rights"],
+    "data/records.json": ["title", "claim", "caveat", "date.original_expression", "date.calendar", "date.datum", "authoring", "rights"],
     "data/sources.json": ["title(original: retain; explanatory gloss only)", "inspection_note", "rights"],
     "data/audit.json": ["earlier_claim", "corrected_treatment"],
     "data/corpora.json": ["name", "next_task"],
@@ -154,7 +154,7 @@ for k in sorted(groups):
         sts = ["data prose staged (batch 2)", "generator labels untranslated"]
     L.append(f"| `{k}` | {len(v)} | {sum(x['words'] for x in v)} | {sum(x['em_dashes'] for x in v)} | {SRC.get(k, '')} | {b} | {', '.join(sts)} |")
 L.append("\n## 3. Prose supplied by canonical data\n")
-L.append("Keys, IDs, enums, URLs, DOIs, locators and dates stay untranslated. Source titles stay in their original form.\n")
+L.append("Keys, IDs, enums, URLs, DOIs, locators and structured dates stay untranslated. Prose date.calendar descriptions are counted as translatable text. Source titles stay in their original form.\n")
 L.append("| File | Field | Records | Strings | Staged ML | Words | Batch |\n|---|---|---:|---:|---:|---:|---|")
 for i in out["data_prose_fields"]:
     L.append(f"| `{i['path']}` | `{i['field']}` | {i['records']} | {i['strings']} | {i.get('staged', 0)} | {i['words']} | {i['batch']} |")

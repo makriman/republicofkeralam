@@ -59,7 +59,7 @@ Generated pages must not be edited directly. Their prose comes from canonical da
 
 ## 3. Prose supplied by canonical data
 
-Keys, IDs, enums, URLs, DOIs, locators and dates stay untranslated. Source titles stay in their original form.
+Keys, IDs, enums, URLs, DOIs, locators and structured dates stay untranslated. Prose date.calendar descriptions are counted as translatable text. Source titles stay in their original form.
 
 | File | Field | Records | Strings | Staged ML | Words | Batch |
 |---|---|---:|---:|---:|---:|---|
@@ -73,6 +73,7 @@ Keys, IDs, enums, URLs, DOIs, locators and dates stay untranslated. Source title
 | `data/records.json` | `claim` | 31 | 31 | 31 | 583 | 2 |
 | `data/records.json` | `caveat` | 31 | 31 | 31 | 534 | 2 |
 | `data/records.json` | `date.original_expression` | 31 | 31 | 31 | 138 | 2 |
+| `data/records.json` | `date.calendar` | 31 | 23 | 0 | 151 | 2 |
 | `data/records.json` | `date.datum` | 31 | 2 | 2 | 14 | 2 |
 | `data/records.json` | `authoring` | 31 | 31 | 31 | 279 | 2 |
 | `data/records.json` | `rights` | 31 | 31 | 31 | 279 | 2 |
@@ -88,7 +89,7 @@ Keys, IDs, enums, URLs, DOIs, locators and dates stay untranslated. Source title
 | `geography/scope.json` | `inclusion_rule, offshore_rule, exclusions_and_context` | 1 | 5 | 0 | 66 | 3 |
 | `templates/record.json` | example placeholder strings | 1 | n/a | 0 | 106 (file) | 3 |
 
-Data prose strings staged: **443 of 804** (source titles counted as strings but intentionally retained, not translated).
+Data prose strings staged: **443 of 827** (source titles counted as strings but intentionally retained, not translated).
 
 ## 4. Generator-supplied labels
 
