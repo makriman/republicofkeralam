@@ -1,0 +1,20 @@
+{
+  "bug": "generic-id-pattern",
+  "description": "Corpus IDs were not validated at all.",
+  "collection": "corpora",
+  "target": "C001",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "id"
+      ],
+      "value": "S001"
+    }
+  ],
+  "expect": [
+    "corpora",
+    "S001",
+    "^C[0-9]{3,}$"
+  ]
+}

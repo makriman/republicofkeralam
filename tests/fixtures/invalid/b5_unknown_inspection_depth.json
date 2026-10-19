@@ -1,0 +1,20 @@
+{
+  "bug": "date-roles-and-counting",
+  "description": "An unrecognised inspection value silently entered the source counts.",
+  "collection": "sources",
+  "target": "S001",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "inspection"
+      ],
+      "value": "skimmed"
+    }
+  ],
+  "expect": [
+    "S001",
+    "inspection",
+    "skimmed"
+  ]
+}

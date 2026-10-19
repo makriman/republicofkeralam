@@ -1,0 +1,21 @@
+{
+  "bug": "missing-or-wrong-type-crashes",
+  "description": "A string older_ma raised TypeError in the geological interval check.",
+  "collection": "records",
+  "target": "R001",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "date",
+        "older_ma"
+      ],
+      "value": "4540"
+    }
+  ],
+  "expect": [
+    "R001",
+    "older_ma",
+    "number"
+  ]
+}

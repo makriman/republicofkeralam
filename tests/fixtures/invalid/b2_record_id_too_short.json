@@ -1,0 +1,20 @@
+{
+  "bug": "generic-id-pattern",
+  "description": "R01 passed the generic check although records use R plus three or more digits.",
+  "collection": "records",
+  "target": "R031",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "id"
+      ],
+      "value": "R31"
+    }
+  ],
+  "expect": [
+    "records",
+    "R31",
+    "^R[0-9]{3,}$"
+  ]
+}

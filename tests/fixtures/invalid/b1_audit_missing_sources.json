@@ -1,0 +1,19 @@
+{
+  "bug": "missing-or-wrong-type-crashes",
+  "description": "An audit item without sources raised KeyError.",
+  "collection": "audit",
+  "target": "A001",
+  "mutations": [
+    {
+      "op": "delete",
+      "path": [
+        "sources"
+      ]
+    }
+  ],
+  "expect": [
+    "A001",
+    "sources",
+    "required"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "bug": "generic-id-pattern",
+  "description": "A period ID with the source prefix passed the generic check.",
+  "collection": "periods",
+  "target": "E12",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "id"
+      ],
+      "value": "S12"
+    }
+  ],
+  "expect": [
+    "periods",
+    "S12",
+    "^[EP][0-9]{2,}$"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bug": "missing-or-wrong-type-crashes",
+  "description": "A string start_year raised TypeError when compared with a year link.",
+  "collection": "records",
+  "target": "R014",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "date",
+        "start_year"
+      ],
+      "value": "1498"
+    }
+  ],
+  "expect": [
+    "R014",
+    "start_year",
+    "integer"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "bug": "missing-or-wrong-type-crashes",
+  "description": "A period without annual_span raised KeyError.",
+  "collection": "periods",
+  "target": "E01",
+  "mutations": [
+    {
+      "op": "delete",
+      "path": [
+        "annual_span"
+      ]
+    }
+  ],
+  "expect": [
+    "E01",
+    "annual_span",
+    "required"
+  ]
+}

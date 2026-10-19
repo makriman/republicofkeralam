@@ -1,0 +1,19 @@
+{
+  "bug": "source-review-weaker-than-record-review",
+  "description": "A source marked approved without any review record passed.",
+  "collection": "sources",
+  "target": "S001",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "human_review"
+      ],
+      "value": "approved"
+    }
+  ],
+  "expect": [
+    "S001",
+    "approval without named review record"
+  ]
+}

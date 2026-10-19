@@ -1,0 +1,18 @@
+{
+  "bug": "date-roles-and-counting",
+  "description": "One 300 BCE to 500 CE phase could be linked to all 800 years as proposed dates.",
+  "collection": "records",
+  "target": "R012",
+  "mutations": [
+    {
+      "op": "fill_year_links",
+      "start": -300,
+      "end": 500,
+      "role": "proposed_date"
+    }
+  ],
+  "expect": [
+    "R012",
+    "one interval"
+  ]
+}

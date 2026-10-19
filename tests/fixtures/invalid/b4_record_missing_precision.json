@@ -1,0 +1,20 @@
+{
+  "bug": "json-schema-not-executed",
+  "description": "The schema requires date.precision; not enforced.",
+  "collection": "records",
+  "target": "R001",
+  "mutations": [
+    {
+      "op": "delete",
+      "path": [
+        "date",
+        "precision"
+      ]
+    }
+  ],
+  "expect": [
+    "R001",
+    "precision",
+    "required"
+  ]
+}

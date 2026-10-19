@@ -1,0 +1,29 @@
+{
+  "bug": "source-review-weaker-than-record-review",
+  "description": "A record approval with a bare string reviewer passed; no scope, date or reviewer type.",
+  "collection": "records",
+  "target": "R001",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "human_review"
+      ],
+      "value": "approved"
+    },
+    {
+      "op": "set",
+      "path": [
+        "reviewers"
+      ],
+      "value": [
+        "someone"
+      ]
+    }
+  ],
+  "expect": [
+    "R001",
+    "reviewers[0]",
+    "review record"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "bug": "generic-id-pattern",
+  "description": "An audit ID with the source prefix passed the generic check.",
+  "collection": "audit",
+  "target": "A080",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "id"
+      ],
+      "value": "S080"
+    }
+  ],
+  "expect": [
+    "audit",
+    "S080",
+    "^A[0-9]{3,}$"
+  ]
+}

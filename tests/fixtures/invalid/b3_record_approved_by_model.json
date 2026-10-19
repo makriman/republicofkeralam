@@ -1,0 +1,34 @@
+{
+  "bug": "source-review-weaker-than-record-review",
+  "description": "A model check could be recorded as approval.",
+  "collection": "records",
+  "target": "R001",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "human_review"
+      ],
+      "value": "approved"
+    },
+    {
+      "op": "set",
+      "path": [
+        "reviewers"
+      ],
+      "value": [
+        {
+          "reviewer": "model-check",
+          "reviewer_type": "model",
+          "checked": "wording",
+          "date": "2026-10-11"
+        }
+      ]
+    }
+  ],
+  "expect": [
+    "R001",
+    "model",
+    "cannot approve"
+  ]
+}

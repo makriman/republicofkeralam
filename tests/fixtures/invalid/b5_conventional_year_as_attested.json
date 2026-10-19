@@ -1,0 +1,22 @@
+{
+  "bug": "date-roles-and-counting",
+  "description": "A conventional or reconstructed year could be relabelled year_attested because start equals end.",
+  "collection": "records",
+  "target": "R013",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "year_links",
+        0,
+        "role"
+      ],
+      "value": "year_attested"
+    }
+  ],
+  "expect": [
+    "R013",
+    "year_attested",
+    "conventional_year"
+  ]
+}

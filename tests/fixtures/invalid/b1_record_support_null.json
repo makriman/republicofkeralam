@@ -1,0 +1,20 @@
+{
+  "bug": "missing-or-wrong-type-crashes",
+  "description": "support set to null raised TypeError while iterating.",
+  "collection": "records",
+  "target": "R001",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "support"
+      ],
+      "value": null
+    }
+  ],
+  "expect": [
+    "R001",
+    "support",
+    "array"
+  ]
+}

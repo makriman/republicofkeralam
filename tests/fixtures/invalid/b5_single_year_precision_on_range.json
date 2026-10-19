@@ -1,0 +1,27 @@
+{
+  "bug": "date-roles-and-counting",
+  "description": "precision year on a two-year range is neither exact nor an interval.",
+  "collection": "records",
+  "target": "R017",
+  "mutations": [
+    {
+      "op": "set",
+      "path": [
+        "date",
+        "end_year"
+      ],
+      "value": 1820
+    },
+    {
+      "op": "set",
+      "path": [
+        "year_links"
+      ],
+      "value": []
+    }
+  ],
+  "expect": [
+    "R017",
+    "single-year precision"
+  ]
+}

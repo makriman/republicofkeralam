@@ -1,0 +1,20 @@
+{
+  "bug": "json-schema-not-executed",
+  "description": "The schema requires date.original_expression but validate.py never executed the schema.",
+  "collection": "records",
+  "target": "R014",
+  "mutations": [
+    {
+      "op": "delete",
+      "path": [
+        "date",
+        "original_expression"
+      ]
+    }
+  ],
+  "expect": [
+    "R014",
+    "original_expression",
+    "required"
+  ]
+}
