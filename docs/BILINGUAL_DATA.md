@@ -36,11 +36,11 @@
 
 ### കവറേജ്
 
-`coverage/stats.json`-ലെ `translation.ml` ഭാഗം അടിസ്ഥാന ഡാറ്റയിലെ 827 പാഠഫീൽഡുകളും 139 generator ലേബലുകളും (103 സ്ഥിരം, audit verdict-കൾക്ക് 36) എണ്ണുന്നു. പരിഭാഷയുടെ വ്യാപ്തി സ്രോതസ്സുപരിശോധനയോ പണ്ഡിതപരിശോധനയോ അല്ല.
+`coverage/stats.json`-ലെ `translation.ml` ഭാഗം അടിസ്ഥാന ഡാറ്റയിലെ 845 പാഠഫീൽഡുകളും (integration batch 1-ലെ S043–S048 കാർഡുകൾക്ക് മുമ്പ് 827) 139 generator ലേബലുകളും (103 സ്ഥിരം, audit verdict-കൾക്ക് 36) എണ്ണുന്നു. പരിഭാഷയുടെ വ്യാപ്തി സ്രോതസ്സുപരിശോധനയോ പണ്ഡിതപരിശോധനയോ അല്ല.
 
-### Integration batch-ന് വേണ്ടത്
+### Integration batch 1
 
-`notes/translation-review/`-ൽ തയ്യാറാക്കിയ മലയാള കരടുകൾ ഇതേ keys-ഉം ഇതേ `en_sha256` രീതിയും ഉപയോഗിക്കുന്നു. പരിശോധിച്ച ഒരു ബാച്ച് ചേർക്കാൻ entries `data/i18n/ml/<collection>.json`-ലേക്ക് പകർത്തി ഓരോന്നിനും `source_revision`, `ai_assisted`, `human_language_review` ചേർക്കുക; തുടർന്ന് validate, build എന്നിവ പ്രവർത്തിപ്പിച്ച് മാറിയ പേജുകൾ വിശദീകരിക്കുക. Revision `457d8f6`-ലെ കരടുകൾ ഇങ്ങനെ യാന്ത്രികമായി മാറ്റി പരീക്ഷിച്ചപ്പോൾ എല്ലാ പരിശോധനയും വിജയിച്ചു: 827-ൽ 762 ഡാറ്റാഫീൽഡുകളും 139-ൽ 125 ലേബലുകളും നിലവിലുള്ളതാകും. 42 സ്രോതസ്സ് തലക്കെട്ടുകളുടെ വിശദീകരണ പരിഭാഷയും 23 `date.calendar` പാഠങ്ങളും ഇനിയും ഇല്ല.
+`notes/translation-review/`-ലെ കരടുകൾ `scripts/integration/import_ml_staging.py` വഴി `data/i18n/ml/`-ലേക്ക് മാറ്റി. ഇംഗ്ലീഷ് മാറാത്ത entries മാത്രം ചേർത്തു; PR #4 തിരുത്തലുകൾ ഇംഗ്ലീഷ് മാറ്റിയ 17 ഫീൽഡുകൾക്കും, 23 `date.calendar` പാഠങ്ങൾക്കും, പുതിയ S043–S048 കാർഡുകളുടെ കുറിപ്പുകൾക്കും അവകാശവരികൾക്കും പുതിയ മലയാളം എഴുതി (`scripts/integration/ml_supplement.json`). എല്ലാം AI സഹായത്തോടെ; മനുഷ്യ ഭാഷാപരിശോധന ബാക്കി. ഇപ്പോൾ 845-ൽ 797 ഡാറ്റാഫീൽഡുകളും 139-ൽ 139 ലേബലുകളും നിലവിലുള്ളതാണ്. ശേഷിക്കുന്ന 48 എണ്ണം സ്രോതസ്സ് തലക്കെട്ടുകളാണ്; പ്രസിദ്ധീകരിച്ച രൂപത്തിൽ തുടരുന്നു. തലക്കെട്ടുകളിലെ em dash വേർതിരിവ് `: ` ആക്കി. `project.json`-ൽ `primary_language: "en"` തുടരുന്നു: അടിസ്ഥാന ഡാറ്റ ഇംഗ്ലീഷിലാണ്, മലയാളം ഇതുവരെ മനുഷ്യർ പരിശോധിച്ചിട്ടില്ല; മാറ്റം ഉടമയുടെ തീരുമാനമാണ്. വിശദാംശങ്ങൾ: [INTEGRATION_BATCH_1.md](INTEGRATION_BATCH_1.md).
 
 ### Migration
 
@@ -125,17 +125,17 @@ A stale entry fails validation and is not rendered. A rejected entry is not rend
 
 A page that renders any Malayalam gets a notice after its first heading stating that the Malayalam is AI-assisted (or human-translated) and whether human language review is pending or recorded, plus a `translation_ml` front-matter value when the page has front matter. A published source title is never replaced; its Malayalam appears on a separate line marked "Explanatory translation, not the source title". Malayalam for date wording appears under the JSON date block, which stays unchanged.
 
-With no catalogues, every generated view other than the coverage files is byte-identical to the views before this change.
+With no catalogues the generated views are English only (checked by `tests/test_bilingual.py`). Before integration batch 1 they were byte-identical to the earlier views; that batch also changed the heading separator.
 
 ### Coverage measures
 
-`coverage/stats.json` keeps every earlier key and adds separate measures: year links, records with year links, annual pages with a past-event link versus only research, publication or access history, source cards cited by records, source cards by inspection-depth tier (`INSPECTION_DEPTH` in `scripts/build.py`), human-reviewed source cards, and `translation.ml`. The translation denominators are the 827 non-empty translatable strings in canonical data and the 139 generator labels (103 fixed labels and 36 audit verdicts). The translation staging inventory counts 804 data strings because it did not include the 23 `date.calendar` strings (3 distinct values). Translation coverage is not source inspection or scholarly review. No internet-wide percentage is calculated.
+`coverage/stats.json` keeps every earlier key and adds separate measures: year links, records with year links, annual pages with a past-event link versus only research, publication or access history, source cards cited by records, source cards by inspection-depth tier (`INSPECTION_DEPTH` in `scripts/build.py`), human-reviewed source cards, and `translation.ml`. The translation denominators are the 845 non-empty translatable strings in canonical data (827 before the six source cards S043–S048 added in integration batch 1) and the 139 generator labels (103 fixed labels and 36 audit verdicts). The translation staging inventory counts 804 data strings because it did not include the 23 `date.calendar` strings (3 distinct values). Translation coverage is not source inspection or scholarly review. No internet-wide percentage is calculated.
 
-### What the integration batch needs to do
+### Integration batch 1
 
-The Malayalam drafts staged under `notes/translation-review/` already use the same keys and the same `en_sha256` scheme. To integrate a reviewed batch, copy entries into `data/i18n/ml/<collection>.json`, add `source_revision`, `ai_assisted` and `human_language_review` to each entry, run `python scripts/validate.py`, rebuild, and explain the regenerated diff. A dry run of that mechanical conversion against revision `457d8f6` passed every check: 762 of 827 data fields and 125 of 139 labels would become current. Still missing: the 42 source-title explanatory translations and the 23 `date.calendar` strings. The 14 labels added with the coverage counts are already in `data/i18n/ml/labels.json`.
+`scripts/integration/import_ml_staging.py` converted the drafts staged under `notes/translation-review/` into `data/i18n/ml/`. Only entries whose English is unchanged were imported. New Malayalam was written for the 17 fields whose English the PR #4 corrections changed, the 23 `date.calendar` strings, and the inspection notes and rights of the new cards S043–S048 (`scripts/integration/ml_supplement.json`). All of it is AI-assisted with human language review pending. Current coverage: 797 of 845 data fields and 139 of 139 labels. The 48 missing strings are source titles, which stay as published.
 
-Changing the ` — ` separator in generated headings (translation note I3) rewrites nearly every generated page, so it is left for the integration batch. `project.json` keeps `primary_language: "en"` (note I5) until integrated content is actually Malayalam first.
+The em-dash separator in generated headings (translation note I3) is now `: `. `project.json` keeps `primary_language: "en"` (note I5): the canonical data is English and no Malayalam has had human review, so changing it is an owner decision. Details: [INTEGRATION_BATCH_1.md](INTEGRATION_BATCH_1.md).
 
 ### Migration
 
