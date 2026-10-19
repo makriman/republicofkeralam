@@ -26998,7 +26998,7 @@
    "em_dashes": 0,
    "batch": 2,
    "staging": [
-    "untranslated"
+    "draft_translation"
    ]
   },
   {
@@ -27020,7 +27020,7 @@
    "em_dashes": 0,
    "batch": 2,
    "staging": [
-    "untranslated"
+    "draft_translation"
    ]
   },
   {
@@ -27031,7 +27031,7 @@
    "em_dashes": 0,
    "batch": 2,
    "staging": [
-    "untranslated"
+    "draft_translation"
    ]
   },
   {
@@ -27147,7 +27147,8 @@
    "records": 19,
    "strings": 19,
    "words": 115,
-   "batch": 2
+   "batch": 2,
+   "staged": 19
   },
   {
    "path": "data/periods.json",
@@ -27155,7 +27156,8 @@
    "records": 19,
    "strings": 19,
    "words": 149,
-   "batch": 2
+   "batch": 2,
+   "staged": 19
   },
   {
    "path": "data/periods.json",
@@ -27163,7 +27165,8 @@
    "records": 19,
    "strings": 19,
    "words": 240,
-   "batch": 2
+   "batch": 2,
+   "staged": 19
   },
   {
    "path": "data/periods.json",
@@ -27171,7 +27174,8 @@
    "records": 19,
    "strings": 19,
    "words": 478,
-   "batch": 2
+   "batch": 2,
+   "staged": 19
   },
   {
    "path": "data/periods.json",
@@ -27179,7 +27183,8 @@
    "records": 19,
    "strings": 19,
    "words": 574,
-   "batch": 2
+   "batch": 2,
+   "staged": 19
   },
   {
    "path": "data/periods.json",
@@ -27187,7 +27192,8 @@
    "records": 19,
    "strings": 76,
    "words": 811,
-   "batch": 2
+   "batch": 2,
+   "staged": 76
   },
   {
    "path": "data/records.json",
@@ -27195,7 +27201,8 @@
    "records": 31,
    "strings": 31,
    "words": 185,
-   "batch": 2
+   "batch": 2,
+   "staged": 31
   },
   {
    "path": "data/records.json",
@@ -27203,7 +27210,8 @@
    "records": 31,
    "strings": 31,
    "words": 583,
-   "batch": 2
+   "batch": 2,
+   "staged": 31
   },
   {
    "path": "data/records.json",
@@ -27211,7 +27219,8 @@
    "records": 31,
    "strings": 31,
    "words": 534,
-   "batch": 2
+   "batch": 2,
+   "staged": 31
   },
   {
    "path": "data/records.json",
@@ -27219,7 +27228,8 @@
    "records": 31,
    "strings": 31,
    "words": 138,
-   "batch": 2
+   "batch": 2,
+   "staged": 31
   },
   {
    "path": "data/records.json",
@@ -27227,7 +27237,8 @@
    "records": 31,
    "strings": 2,
    "words": 14,
-   "batch": 2
+   "batch": 2,
+   "staged": 2
   },
   {
    "path": "data/records.json",
@@ -27235,7 +27246,8 @@
    "records": 31,
    "strings": 31,
    "words": 279,
-   "batch": 2
+   "batch": 2,
+   "staged": 31
   },
   {
    "path": "data/records.json",
@@ -27243,7 +27255,8 @@
    "records": 31,
    "strings": 31,
    "words": 279,
-   "batch": 2
+   "batch": 2,
+   "staged": 31
   },
   {
    "path": "data/sources.json",
@@ -27251,7 +27264,8 @@
    "records": 42,
    "strings": 42,
    "words": 312,
-   "batch": 2
+   "batch": 2,
+   "staged": 0
   },
   {
    "path": "data/sources.json",
@@ -27259,7 +27273,8 @@
    "records": 42,
    "strings": 42,
    "words": 809,
-   "batch": 2
+   "batch": 2,
+   "staged": 42
   },
   {
    "path": "data/sources.json",
@@ -27267,7 +27282,8 @@
    "records": 42,
    "strings": 42,
    "words": 390,
-   "batch": 2
+   "batch": 2,
+   "staged": 42
   },
   {
    "path": "data/audit.json",
@@ -27275,7 +27291,8 @@
    "records": 80,
    "strings": 80,
    "words": 741,
-   "batch": 3
+   "batch": 3,
+   "staged": 0
   },
   {
    "path": "data/audit.json",
@@ -27283,7 +27300,8 @@
    "records": 80,
    "strings": 80,
    "words": 1184,
-   "batch": 3
+   "batch": 3,
+   "staged": 0
   },
   {
    "path": "data/corpora.json",
@@ -27291,7 +27309,8 @@
    "records": 31,
    "strings": 31,
    "words": 137,
-   "batch": 3
+   "batch": 3,
+   "staged": 0
   },
   {
    "path": "data/corpora.json",
@@ -27299,7 +27318,8 @@
    "records": 31,
    "strings": 31,
    "words": 258,
-   "batch": 3
+   "batch": 3,
+   "staged": 0
   },
   {
    "path": "data/prior_chapter_crosswalk.json",
@@ -27307,7 +27327,8 @@
    "records": 46,
    "strings": 46,
    "words": 219,
-   "batch": 3
+   "batch": 3,
+   "staged": 0
   },
   {
    "path": "data/prior_chapter_crosswalk.json",
@@ -27315,13 +27336,15 @@
    "records": 46,
    "strings": 46,
    "words": 315,
-   "batch": 3
+   "batch": 3,
+   "staged": 0
   },
   {
    "path": "geography/scope.json",
    "field": "inclusion_rule, offshore_rule, exclusions_and_context",
    "records": 1,
    "strings": 5,
+   "staged": 0,
    "words": 66,
    "batch": 3
   }

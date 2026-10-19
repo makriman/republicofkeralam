@@ -41,9 +41,29 @@ E = [
 for mid, p in [("TR-B1-013", "NOTICE.md"), ("TR-B1-014", "RELEASE_NOTES.md"), ("TR-B1-015", "IMPORT_PROVENANCE.md"), ("TR-B1-016", "VALIDATION.md"), ("TR-B1-017", "LICENSE.md")]:
     E.append(entry(mid, p, "hand_maintained", None, "untranslated_reviewed_for_staleness", [], extra={"notes": "See batch-1/TOP_LEVEL_REVIEW.md; translation deferred to batch 3.", "model_review": {"by": "AI model", "checked": ["staleness", "em dashes"], "against_revision": REV}}))
 
+# Batch 2+: one entry per stable ID per staged data file.
+import glob, re as _re
+for f in sorted(glob.glob("notes/translation-review/batch-*/*.ml.json")):
+    doc = json.loads(Path(f).read_text(encoding="utf-8"))
+    batch = _re.search(r"batch-(\d+)", f).group(1)
+    ids = []
+    for e in doc["entries"]:
+        rid = e["key"].split("#")[1].split(".")[0]
+        if rid not in ids: ids.append(rid)
+    for rid in ids:
+        fields = [e["key"].split("#")[1].split(".", 1)[1] for e in doc["entries"] if e["key"].split("#")[1].split(".")[0] == rid]
+        e = entry(f"TR-B{batch}-{rid}", doc["source_path"], "data_prose", f.replace("notes/translation-review/", ""), doc["status"],
+                  doc.get("terminology_questions", {}).get(rid, []), rev=doc["source_revision"])
+        e["source_id"] = rid
+        e["fields"] = fields
+        e["malayalam"] = "staged_file entries whose key starts with " + doc["source_path"] + "#" + rid
+        e["retained_english"] = "same entries, field 'en' (verbatim source string)"
+        e["ai_assistance"] = doc["ai_assistance"]
+        E.append(e)
+
 out = Path("notes/translation-review/manifest.json")
 old = json.loads(out.read_text(encoding="utf-8")) if out.exists() else {"entries": []}
-keep = [e for e in old["entries"] if not e["id"].startswith("TR-B1-")]
+keep = [e for e in old["entries"] if not _re.match(r"TR-B\d", e["id"])]
 data = {"schema": "translation-staging-manifest/0.1",
         "note": "Staging only. Nothing here is integrated into canonical data or generated pages. Human Malayalam review: none performed.",
         "base_revision": REV, "entries": E + keep}

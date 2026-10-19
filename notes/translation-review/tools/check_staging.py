@@ -45,6 +45,23 @@ for f in sorted(STAGE.rglob("*")):
         en_cites = set(re.findall(r"S\d{3}", en_part)); ml_cites = set(re.findall(r"S\d{3}", ml_part))
         if en_cites - ml_cites: fail(f"{f}: citations missing in Malayalam: {sorted(en_cites - ml_cites)}")
 
+for f in sorted(STAGE.rglob("*.ml.json")):
+    doc = json.loads(f.read_text(encoding="utf-8"))
+    src = json.loads(subprocess.check_output(["git", "show", f"{doc['source_revision']}:{doc['source_path']}"], text=True))
+    byid = {r["id"]: r for r in src}
+    for e in doc["entries"]:
+        m = re.match(r"(.+?)#(\w+)\.([\w.]+?)(?:\[(\d+)\])?$", e["key"])
+        v = byid[m.group(2)]
+        for k in m.group(3).split("."): v = v[k]
+        if m.group(4) is not None: v = v[int(m.group(4))]
+        if v != e["en"]: fail(f"{f}: {e['key']} English differs from source (stale)")
+        if not ML.search(e["ml"]): fail(f"{f}: {e['key']} has no Malayalam")
+        if "\u2014" in e["ml"]: fail(f"{f}: {e['key']} em dash in Malayalam")
+        miss = set(re.findall(r"\d+(?:[.,]\d+)*", e["en"])) - set(re.findall(r"\d+(?:[.,]\d+)*", e["ml"]))
+        if miss: fail(f"{f}: {e['key']} numbers missing in Malayalam: {sorted(miss)}")
+        cm = set(re.findall(r"S\d{3}", e["en"])) - set(re.findall(r"S\d{3}", e["ml"]))
+        if cm: fail(f"{f}: {e['key']} citations missing: {sorted(cm)}")
+
 man = json.loads((STAGE / "manifest.json").read_text(encoding="utf-8"))
 for e in man["entries"]:
     rev = e["source_revision"]

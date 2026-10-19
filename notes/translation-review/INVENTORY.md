@@ -50,9 +50,9 @@ Generated pages must not be edited directly. Their prose comes from canonical da
 |---|---:|---:|---:|---|---|---|
 | `audit` | 1 | 3831 | 80 | data/audit.json, data/prior_chapter_crosswalk.json + labels | 3 | untranslated |
 | `coverage` | 3 | 18859 | 1 | data counts + generator labels | 3 | untranslated |
-| `periods` | 20 | 4477 | 80 | data/periods.json + generator labels | 2 | untranslated |
-| `records` | 32 | 4243 | 82 | data/records.json + generator labels | 2 | untranslated |
-| `sources` | 43 | 5780 | 126 | data/sources.json + generator labels | 2 | untranslated |
+| `periods` | 20 | 4477 | 80 | data/periods.json + generator labels | 2 | data prose staged (batch 2), generator labels untranslated |
+| `records` | 32 | 4243 | 82 | data/records.json + generator labels | 2 | data prose staged (batch 2), generator labels untranslated |
+| `sources` | 43 | 5780 | 126 | data/sources.json + generator labels | 2 | data prose staged (batch 2), generator labels untranslated |
 | `years/BCE` | 301 | 37148 | 700 | generator labels + record/period titles | 3 | untranslated |
 | `years/CE` | 2027 | 243094 | 4052 | generator labels + record/period titles | 3 | untranslated |
 | `years/README.md` | 1 | 70 | 0 | generator labels | 3 | untranslated |
@@ -61,32 +61,34 @@ Generated pages must not be edited directly. Their prose comes from canonical da
 
 Keys, IDs, enums, URLs, DOIs, locators and dates stay untranslated. Source titles stay in their original form.
 
-| File | Field | Records | Strings | Words | Batch |
-|---|---|---:|---:|---:|---|
-| `data/periods.json` | `title` | 19 | 19 | 115 | 2 |
-| `data/periods.json` | `display_window` | 19 | 19 | 149 | 2 |
-| `data/periods.json` | `central_question` | 19 | 19 | 240 | 2 |
-| `data/periods.json` | `established_in_this_pass` | 19 | 19 | 478 | 2 |
-| `data/periods.json` | `limitations` | 19 | 19 | 574 | 2 |
-| `data/periods.json` | `research_tasks` | 19 | 76 | 811 | 2 |
-| `data/records.json` | `title` | 31 | 31 | 185 | 2 |
-| `data/records.json` | `claim` | 31 | 31 | 583 | 2 |
-| `data/records.json` | `caveat` | 31 | 31 | 534 | 2 |
-| `data/records.json` | `date.original_expression` | 31 | 31 | 138 | 2 |
-| `data/records.json` | `date.datum` | 31 | 2 | 14 | 2 |
-| `data/records.json` | `authoring` | 31 | 31 | 279 | 2 |
-| `data/records.json` | `rights` | 31 | 31 | 279 | 2 |
-| `data/sources.json` | `title(original: retain; explanatory gloss only)` | 42 | 42 | 312 | 2 |
-| `data/sources.json` | `inspection_note` | 42 | 42 | 809 | 2 |
-| `data/sources.json` | `rights` | 42 | 42 | 390 | 2 |
-| `data/audit.json` | `earlier_claim` | 80 | 80 | 741 | 3 |
-| `data/audit.json` | `corrected_treatment` | 80 | 80 | 1184 | 3 |
-| `data/corpora.json` | `name` | 31 | 31 | 137 | 3 |
-| `data/corpora.json` | `next_task` | 31 | 31 | 258 | 3 |
-| `data/prior_chapter_crosswalk.json` | `title` | 46 | 46 | 219 | 3 |
-| `data/prior_chapter_crosswalk.json` | `assessment` | 46 | 46 | 315 | 3 |
-| `geography/scope.json` | `inclusion_rule, offshore_rule, exclusions_and_context` | 1 | 5 | 66 | 3 |
-| `templates/record.json` | example placeholder strings | 1 | n/a | 106 (file) | 3 |
+| File | Field | Records | Strings | Staged ML | Words | Batch |
+|---|---|---:|---:|---:|---:|---|
+| `data/periods.json` | `title` | 19 | 19 | 19 | 115 | 2 |
+| `data/periods.json` | `display_window` | 19 | 19 | 19 | 149 | 2 |
+| `data/periods.json` | `central_question` | 19 | 19 | 19 | 240 | 2 |
+| `data/periods.json` | `established_in_this_pass` | 19 | 19 | 19 | 478 | 2 |
+| `data/periods.json` | `limitations` | 19 | 19 | 19 | 574 | 2 |
+| `data/periods.json` | `research_tasks` | 19 | 76 | 76 | 811 | 2 |
+| `data/records.json` | `title` | 31 | 31 | 31 | 185 | 2 |
+| `data/records.json` | `claim` | 31 | 31 | 31 | 583 | 2 |
+| `data/records.json` | `caveat` | 31 | 31 | 31 | 534 | 2 |
+| `data/records.json` | `date.original_expression` | 31 | 31 | 31 | 138 | 2 |
+| `data/records.json` | `date.datum` | 31 | 2 | 2 | 14 | 2 |
+| `data/records.json` | `authoring` | 31 | 31 | 31 | 279 | 2 |
+| `data/records.json` | `rights` | 31 | 31 | 31 | 279 | 2 |
+| `data/sources.json` | `title(original: retain; explanatory gloss only)` | 42 | 42 | 0 | 312 | 2 |
+| `data/sources.json` | `inspection_note` | 42 | 42 | 42 | 809 | 2 |
+| `data/sources.json` | `rights` | 42 | 42 | 42 | 390 | 2 |
+| `data/audit.json` | `earlier_claim` | 80 | 80 | 0 | 741 | 3 |
+| `data/audit.json` | `corrected_treatment` | 80 | 80 | 0 | 1184 | 3 |
+| `data/corpora.json` | `name` | 31 | 31 | 0 | 137 | 3 |
+| `data/corpora.json` | `next_task` | 31 | 31 | 0 | 258 | 3 |
+| `data/prior_chapter_crosswalk.json` | `title` | 46 | 46 | 0 | 219 | 3 |
+| `data/prior_chapter_crosswalk.json` | `assessment` | 46 | 46 | 0 | 315 | 3 |
+| `geography/scope.json` | `inclusion_rule, offshore_rule, exclusions_and_context` | 1 | 5 | 0 | 66 | 3 |
+| `templates/record.json` | example placeholder strings | 1 | n/a | 0 | 106 (file) | 3 |
+
+Data prose strings staged: **443 of 804** (source titles counted as strings but intentionally retained, not translated).
 
 ## 4. Generator-supplied labels
 

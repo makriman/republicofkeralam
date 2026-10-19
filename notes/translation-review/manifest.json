@@ -490,6 +490,3209 @@
    "specialist_review": "pending",
    "reviewer": null,
    "notes": "See batch-1/TOP_LEVEL_REVIEW.md; translation deferred to batch 3."
+  },
+  {
+   "id": "TR-B2-E01",
+   "source_path": "data/periods.json",
+   "source_id": "E01",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#E01",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]"
+   ]
+  },
+  {
+   "id": "TR-B2-E02",
+   "source_path": "data/periods.json",
+   "source_id": "E02",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#E02",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-E03",
+   "source_path": "data/periods.json",
+   "source_id": "E03",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#E03",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-E04",
+   "source_path": "data/periods.json",
+   "source_id": "E04",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#E04",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-E05",
+   "source_path": "data/periods.json",
+   "source_id": "E05",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#E05",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-E06",
+   "source_path": "data/periods.json",
+   "source_id": "E06",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#E06",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-E07",
+   "source_path": "data/periods.json",
+   "source_id": "E07",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#E07",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]",
+    "research_tasks[4]"
+   ]
+  },
+  {
+   "id": "TR-B2-E08",
+   "source_path": "data/periods.json",
+   "source_id": "E08",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#E08",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-E09",
+   "source_path": "data/periods.json",
+   "source_id": "E09",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#E09",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-E10",
+   "source_path": "data/periods.json",
+   "source_id": "E10",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#E10",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-E11",
+   "source_path": "data/periods.json",
+   "source_id": "E11",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#E11",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-E12",
+   "source_path": "data/periods.json",
+   "source_id": "E12",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#E12",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-P01",
+   "source_path": "data/periods.json",
+   "source_id": "P01",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#P01",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-P02",
+   "source_path": "data/periods.json",
+   "source_id": "P02",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#P02",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-P03",
+   "source_path": "data/periods.json",
+   "source_id": "P03",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#P03",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-P04",
+   "source_path": "data/periods.json",
+   "source_id": "P04",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#P04",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-P05",
+   "source_path": "data/periods.json",
+   "source_id": "P05",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#P05",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-P06",
+   "source_path": "data/periods.json",
+   "source_id": "P06",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#P06",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-P07",
+   "source_path": "data/periods.json",
+   "source_id": "P07",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/periods.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/periods.json#P07",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "display_window",
+    "central_question",
+    "established_in_this_pass",
+    "limitations",
+    "research_tasks[0]",
+    "research_tasks[1]",
+    "research_tasks[2]",
+    "research_tasks[3]"
+   ]
+  },
+  {
+   "id": "TR-B2-R001",
+   "source_path": "data/records.json",
+   "source_id": "R001",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R001",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "date.datum",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R002",
+   "source_path": "data/records.json",
+   "source_id": "R002",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R002",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R003",
+   "source_path": "data/records.json",
+   "source_id": "R003",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R003",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R004",
+   "source_path": "data/records.json",
+   "source_id": "R004",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R004",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R005",
+   "source_path": "data/records.json",
+   "source_id": "R005",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R005",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "date.datum",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R006",
+   "source_path": "data/records.json",
+   "source_id": "R006",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R006",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R007",
+   "source_path": "data/records.json",
+   "source_id": "R007",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R007",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R008",
+   "source_path": "data/records.json",
+   "source_id": "R008",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R008",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R009",
+   "source_path": "data/records.json",
+   "source_id": "R009",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R009",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R010",
+   "source_path": "data/records.json",
+   "source_id": "R010",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R010",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R011",
+   "source_path": "data/records.json",
+   "source_id": "R011",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R011",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R012",
+   "source_path": "data/records.json",
+   "source_id": "R012",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R012",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R013",
+   "source_path": "data/records.json",
+   "source_id": "R013",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R013",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R014",
+   "source_path": "data/records.json",
+   "source_id": "R014",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R014",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R015",
+   "source_path": "data/records.json",
+   "source_id": "R015",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R015",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R016",
+   "source_path": "data/records.json",
+   "source_id": "R016",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R016",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R017",
+   "source_path": "data/records.json",
+   "source_id": "R017",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R017",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R018",
+   "source_path": "data/records.json",
+   "source_id": "R018",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R018",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R019",
+   "source_path": "data/records.json",
+   "source_id": "R019",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R019",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R020",
+   "source_path": "data/records.json",
+   "source_id": "R020",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R020",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R021",
+   "source_path": "data/records.json",
+   "source_id": "R021",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R021",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R022",
+   "source_path": "data/records.json",
+   "source_id": "R022",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R022",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R023",
+   "source_path": "data/records.json",
+   "source_id": "R023",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R023",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R024",
+   "source_path": "data/records.json",
+   "source_id": "R024",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R024",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R025",
+   "source_path": "data/records.json",
+   "source_id": "R025",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R025",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R026",
+   "source_path": "data/records.json",
+   "source_id": "R026",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R026",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R027",
+   "source_path": "data/records.json",
+   "source_id": "R027",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R027",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R028",
+   "source_path": "data/records.json",
+   "source_id": "R028",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R028",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R029",
+   "source_path": "data/records.json",
+   "source_id": "R029",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R029",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R030",
+   "source_path": "data/records.json",
+   "source_id": "R030",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R030",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-R031",
+   "source_path": "data/records.json",
+   "source_id": "R031",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/records.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/records.json#R031",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "title",
+    "claim",
+    "caveat",
+    "date.original_expression",
+    "authoring",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S001",
+   "source_path": "data/sources.json",
+   "source_id": "S001",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S001",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S002",
+   "source_path": "data/sources.json",
+   "source_id": "S002",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S002",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S003",
+   "source_path": "data/sources.json",
+   "source_id": "S003",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S003",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S004",
+   "source_path": "data/sources.json",
+   "source_id": "S004",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S004",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S005",
+   "source_path": "data/sources.json",
+   "source_id": "S005",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S005",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S006",
+   "source_path": "data/sources.json",
+   "source_id": "S006",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S006",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S007",
+   "source_path": "data/sources.json",
+   "source_id": "S007",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S007",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S008",
+   "source_path": "data/sources.json",
+   "source_id": "S008",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S008",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S009",
+   "source_path": "data/sources.json",
+   "source_id": "S009",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S009",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S010",
+   "source_path": "data/sources.json",
+   "source_id": "S010",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S010",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S011",
+   "source_path": "data/sources.json",
+   "source_id": "S011",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S011",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S012",
+   "source_path": "data/sources.json",
+   "source_id": "S012",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S012",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S013",
+   "source_path": "data/sources.json",
+   "source_id": "S013",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S013",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S014",
+   "source_path": "data/sources.json",
+   "source_id": "S014",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S014",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S015",
+   "source_path": "data/sources.json",
+   "source_id": "S015",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S015",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S016",
+   "source_path": "data/sources.json",
+   "source_id": "S016",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S016",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S017",
+   "source_path": "data/sources.json",
+   "source_id": "S017",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S017",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S018",
+   "source_path": "data/sources.json",
+   "source_id": "S018",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S018",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S019",
+   "source_path": "data/sources.json",
+   "source_id": "S019",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S019",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S020",
+   "source_path": "data/sources.json",
+   "source_id": "S020",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S020",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S021",
+   "source_path": "data/sources.json",
+   "source_id": "S021",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S021",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S022",
+   "source_path": "data/sources.json",
+   "source_id": "S022",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S022",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S023",
+   "source_path": "data/sources.json",
+   "source_id": "S023",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S023",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S024",
+   "source_path": "data/sources.json",
+   "source_id": "S024",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S024",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S025",
+   "source_path": "data/sources.json",
+   "source_id": "S025",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S025",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S026",
+   "source_path": "data/sources.json",
+   "source_id": "S026",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S026",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S027",
+   "source_path": "data/sources.json",
+   "source_id": "S027",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S027",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S028",
+   "source_path": "data/sources.json",
+   "source_id": "S028",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S028",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S029",
+   "source_path": "data/sources.json",
+   "source_id": "S029",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S029",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S030",
+   "source_path": "data/sources.json",
+   "source_id": "S030",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S030",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S031",
+   "source_path": "data/sources.json",
+   "source_id": "S031",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S031",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S032",
+   "source_path": "data/sources.json",
+   "source_id": "S032",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S032",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S033",
+   "source_path": "data/sources.json",
+   "source_id": "S033",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S033",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S034",
+   "source_path": "data/sources.json",
+   "source_id": "S034",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S034",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S035",
+   "source_path": "data/sources.json",
+   "source_id": "S035",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S035",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S036",
+   "source_path": "data/sources.json",
+   "source_id": "S036",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S036",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S037",
+   "source_path": "data/sources.json",
+   "source_id": "S037",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S037",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S038",
+   "source_path": "data/sources.json",
+   "source_id": "S038",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S038",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S039",
+   "source_path": "data/sources.json",
+   "source_id": "S039",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S039",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S040",
+   "source_path": "data/sources.json",
+   "source_id": "S040",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S040",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S041",
+   "source_path": "data/sources.json",
+   "source_id": "S041",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S041",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
+  },
+  {
+   "id": "TR-B2-S042",
+   "source_path": "data/sources.json",
+   "source_id": "S042",
+   "source_revision": "570f665e25480380e6be361627cf5cfb1285c093",
+   "kind": "data_prose",
+   "staged_file": "batch-2/sources.ml.json",
+   "malayalam": "staged_file entries whose key starts with data/sources.json#S042",
+   "retained_english": "same entries, field 'en' (verbatim source string)",
+   "ai_assistance": "Malayalam drafted with AI assistance (language model); no human translator.",
+   "status": "draft_translation",
+   "terminology_questions": [],
+   "model_review": {
+    "by": "AI model (self-check, not human approval)",
+    "checked": [
+     "UTF-8",
+     "relative links resolve",
+     "Malayalam-first order",
+     "digits and S### citations preserved",
+     "no em dash in Malayalam editorial text",
+     "qualifiers (approximately, proposed, not inspected, pending) retained"
+    ],
+    "against_revision": "570f665e25480380e6be361627cf5cfb1285c093"
+   },
+   "human_language_review": "pending",
+   "specialist_review": "pending",
+   "reviewer": null,
+   "fields": [
+    "inspection_note",
+    "rights"
+   ]
   }
  ]
 }

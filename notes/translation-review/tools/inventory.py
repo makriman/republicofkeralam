@@ -88,10 +88,19 @@ for path, names in FIELDS.items():
                 if isinstance(s, str) and s.strip():
                     n_items += 1; n_words += len(s.split())
         fields.append({"path": path, "field": name, "records": len(rows), "strings": n_items, "words": n_words, "batch": plan(path)})
+staged_keys = set()
+for f in STAGE.rglob("*.ml.json"):
+    for e in json.loads(f.read_text(encoding="utf-8"))["entries"]:
+        staged_keys.add(e["key"])
+def staged_count(path, name):
+    base = name.split("(")[0]
+    return sum(1 for k in staged_keys if k.startswith(path + "#") and re.sub(r"\[\d+\]$", "", k.split("#")[1].split(".", 1)[1]) == base)
+for fl in fields:
+    fl["staged"] = staged_count(fl["path"], fl["field"])
 out["data_prose_fields"] = fields
 scope = json.loads(show("geography/scope.json"))
 out["data_prose_fields"].append({"path": "geography/scope.json", "field": "inclusion_rule, offshore_rule, exclusions_and_context", "records": 1,
-    "strings": 2 + len(scope["exclusions_and_context"]), "words": sum(len(x.split()) for x in [scope["inclusion_rule"], scope["offshore_rule"], *scope["exclusions_and_context"]]), "batch": 3})
+    "strings": 2 + len(scope["exclusions_and_context"]), "staged": 0, "words": sum(len(x.split()) for x in [scope["inclusion_rule"], scope["offshore_rule"], *scope["exclusions_and_context"]]), "batch": 3})
 
 # Staging status join.
 for group in ("hand_maintained", "generated", "data_prose"):
@@ -141,13 +150,17 @@ for k in sorted(groups):
     v = groups[k]
     b = 2 if k in ("periods", "records", "sources") else 3
     sts = sorted({s for x in v for s in x["staging"]})
+    if k in ("periods", "records", "sources") and any(kk.startswith(f"data/{k}.json#") for kk in staged_keys):
+        sts = ["data prose staged (batch 2)", "generator labels untranslated"]
     L.append(f"| `{k}` | {len(v)} | {sum(x['words'] for x in v)} | {sum(x['em_dashes'] for x in v)} | {SRC.get(k, '')} | {b} | {', '.join(sts)} |")
 L.append("\n## 3. Prose supplied by canonical data\n")
 L.append("Keys, IDs, enums, URLs, DOIs, locators and dates stay untranslated. Source titles stay in their original form.\n")
-L.append("| File | Field | Records | Strings | Words | Batch |\n|---|---|---:|---:|---:|---|")
+L.append("| File | Field | Records | Strings | Staged ML | Words | Batch |\n|---|---|---:|---:|---:|---:|---|")
 for i in out["data_prose_fields"]:
-    L.append(f"| `{i['path']}` | `{i['field']}` | {i['records']} | {i['strings']} | {i['words']} | {i['batch']} |")
-L.append("| `templates/record.json` | example placeholder strings | 1 | n/a | 106 (file) | 3 |")
+    L.append(f"| `{i['path']}` | `{i['field']}` | {i['records']} | {i['strings']} | {i.get('staged', 0)} | {i['words']} | {i['batch']} |")
+L.append("| `templates/record.json` | example placeholder strings | 1 | n/a | 0 | 106 (file) | 3 |")
+tot = sum(i["strings"] for i in out["data_prose_fields"]); stg = sum(i.get("staged", 0) for i in out["data_prose_fields"])
+L.append(f"\nData prose strings staged: **{stg} of {tot}** (source titles counted as strings but intentionally retained, not translated).")
 L.append("\n## 4. Generator-supplied labels\n")
 gen_src = show("scripts/build.py")
 labels = sorted(set(re.findall(r"'(#+ [^'\\]{3,}|\*\*[A-Z][^'*]{3,}\*\*[^'\\]*)", gen_src)))
