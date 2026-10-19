@@ -161,17 +161,63 @@
           "target_id": "R019",
           "field": "caveat",
           "op": "replace",
-          "proposed_value": "Do not call this the first human discovery; local prior knowledge is not erased, and Fawcett wrote that residents had known the cave for at least 12 or 15 years. Sources disagree on the year: 1894 (S012; Ajit Kumar 2013), 1895 (S011 and the state tourism page), and about the beginning of 1896 (a report quoted in Fawcett 1901, p. 412). 1894 is retained as an attributed year, not a settled one.",
+          "proposed_value": "Do not call this the first human discovery; local prior knowledge is not erased, and Fawcett wrote that residents had known the cave for at least 12 or 15 years. Sources disagree on the year: 1894 (S012; Ajit Kumar 2013), 1895 (S011 and the state tourism page), and about the beginning of 1896 (a report quoted in Fawcett 1901, p. 412). The 1894–1896 interval bounds the conflicting reports; it does not assert visits in every intervening year.",
           "current_value": "Do not call this the first human discovery; local prior knowledge is not erased.",
           "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
         },
         {
           "file": "data/records.json",
           "target_id": "R019",
-          "field": "date.precision",
+          "field": "title",
           "op": "replace",
-          "proposed_value": "attributed_year_conflicting_sources",
-          "current_value": "year",
+          "proposed_value": "Edakkal scholarly documentation milestone, conflicting reports (1894–1896)",
+          "current_value": "Edakkal scholarly documentation milestone, 1894",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        },
+        {
+          "file": "data/records.json",
+          "target_id": "R019",
+          "field": "claim",
+          "op": "replace",
+          "proposed_value": "Sahapedia and Kumar attribute Fawcett’s encounter with Edakkal’s engravings to 1894; tourism accounts give 1895, while a report quoted in Fawcett 1901 gives about the beginning of 1896. The encounter year remains unsettled.",
+          "current_value": "The sources inspected place Fawcett’s encounter with Edakkal’s engravings in 1894 within the history of archaeological documentation.",
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        },
+        {
+          "file": "data/records.json",
+          "target_id": "R019",
+          "field": "date",
+          "op": "replace",
+          "proposed_value": {
+            "kind": "historical",
+            "start_year": 1894,
+            "end_year": 1896,
+            "precision": "interval",
+            "original_expression": "1894 (S012; Kumar 2013), 1895 (S011; state tourism), about the beginning of 1896 (report quoted in Fawcett 1901, p. 412); conflicting reports",
+            "calendar": "BCE/CE indexing; original calendar retained where known"
+          },
+          "current_value": {
+            "kind": "historical",
+            "start_year": 1894,
+            "end_year": 1894,
+            "precision": "year",
+            "original_expression": "1894 CE",
+            "calendar": "BCE/CE indexing; original calendar retained where known"
+          },
+          "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
+        },
+        {
+          "file": "data/records.json",
+          "target_id": "R019",
+          "field": "year_links",
+          "op": "replace",
+          "proposed_value": [],
+          "current_value": [
+            {
+              "year": 1894,
+              "role": "research_history"
+            }
+          ],
           "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
         }
       ],
@@ -179,7 +225,8 @@
         "ml": "വിരുദ്ധ വർഷങ്ങൾ ആരുടേതെന്ന് പറഞ്ഞ് ചേർക്കുന്നു.",
         "en": "Surfaces the conflicting years with attribution."
       },
-      "status": "pending_integration_and_human_review"
+      "status": "pending_integration_and_human_review",
+      "integration_note": "Remove the single-year annual index link until attributed-year rendering is supported. Keep the research-history record and period links. Do not index every year in the interval as an event. The interval bounds reported alternatives, not a continuous activity."
     },
     {
       "id": "PC-05",
@@ -202,7 +249,7 @@
           "target_id": "S009",
           "field": "inspected_locator",
           "op": "replace",
-          "proposed_value": "Heritage 4 (2016), 627–636; full article PDF, finds pp. 628–631, conclusion p. 634",
+          "proposed_value": "Heritage 4 (2016), 627–636; full article PDF, finds pp. 628–631, conclusion p. 635",
           "current_value": "Heritage 4 (2016), 627–636; NDLI abstract and journal volume index",
           "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
         },
@@ -268,7 +315,7 @@
           "proposed_value": [
             {
               "source": "S009",
-              "locator": "pp. 628–631 and conclusion p. 634"
+              "locator": "pp. 628–631 and conclusion p. 635"
             }
           ],
           "current_value": [
@@ -364,7 +411,7 @@
           "target_id": "R010",
           "field": "caveat",
           "op": "replace",
-          "proposed_value": "The edict is not an inscription found inside present Kerala and states no regnal year. Dhammika dates the Girnar text to 257 BCE; Hultzsch's chronology (coronation about 264 BCE) gives about 252 BCE for the twelfth regnal year. Neither year is adopted. Its claims do not independently prove local medical installations.",
+          "proposed_value": "The edict is not an inscription found inside present Kerala and states no regnal year. Dhammika dates the Girnar text to 257 BCE; this is an attributed editorial date, not an adopted exact year. Hultzsch pp. xxxv–xxxvi does not establish a 252 BCE date for Edict II. Its claims do not independently prove local medical installations.",
           "current_value": "The edict is not an inscription found inside present Kerala. Its claims do not independently prove local medical installations. Critical-edition comparison remains pending.",
           "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
         },
@@ -389,8 +436,8 @@
         }
       ],
       "rationale": {
-        "ml": "രണ്ട് വർഷങ്ങളും തിരഞ്ഞെടുക്കാതെ രേഖപ്പെടുത്തുന്നു.",
-        "en": "Records both editor years without choosing one."
+        "ml": "പിന്തുണയില്ലാത്ത ബദൽ തീയതി ഒഴിവാക്കുന്നു.",
+        "en": "Withdraws the unsupported alternative date while retaining the attributed editorial year."
       },
       "status": "pending_integration_and_human_review"
     },
@@ -594,8 +641,8 @@
           "file": "data/audit.json",
           "target_id": "A018",
           "field": "corrected_treatment",
-          "op": "append_sentence",
-          "proposed_value": "Geography 7.1.8 (Mouziris, an emporium) and 7.1.86 (Karoura, royal seat of Kerobothros) were read in McCrindle's 1885 translation. McCrindle, following Yule, identified Mouziris with Kodungallur and Karoura with Karur in Tamil Nadu; these are attributed identifications, and Ptolemy's coordinates are not modern positions.",
+          "op": "replace",
+          "proposed_value": "The research institution supports the second-century date of the Geography. Geography 7.1.8 (Mouziris, an emporium) and 7.1.86 (Karoura, royal seat of Kerobothros) were inspected in OCR of McCrindle’s 1885 English translation and commentary. McCrindle, following Yule, identified Mouziris with Kodungallur and Karoura with Karur in Tamil Nadu. These remain attributed identifications; original Greek, scan images and a modern critical edition were not verified. Ptolemy’s coordinates are not modern positions.",
           "current_value": "The research institution supports the second-century date of the Geography; local passages and geographical identifications remain unverified.",
           "file_blob_at_base": "6af689f425bf00842e6feef58eb3f01c583277ed"
         },
@@ -680,8 +727,8 @@
           "file": "data/sources.json",
           "target_id": "S023",
           "field": "inspection_note",
-          "op": "append_sentence",
-          "proposed_value": "On 2026-10-18 the recorded MHA PDF URL returned HTTP 404. Sections 4 and 5 were re-read in a consolidated republication of the India Code text, which notes that the words 'Part A' were omitted by the Adaptation of Laws (No. 1) Order, 1956; consolidated text is not the enacted text.",
+          "op": "replace",
+          "proposed_value": "Official India Code consolidated PDF inspected on 2026-10-19 at printed pp. 6–8: Act heading dated 31 August 1956, appointed day 1 November 1956 in s. 2(a), territorial reference date 1 July 1956 in s. 2(r), and ss. 4–5. Section 4 names Shencottah taluk. The consolidated text notes omission of Part A; original Gazette scan and later boundary alterations remain unchecked. This supports statutory formation, not a current GIS polygon. The earlier recorded MHA URL returned 404 on 2026-10-18.",
           "current_value": "Dated 31 August 1956; appointed day 1 November 1956. This verifies the original statutory formation, not a current GIS polygon.",
           "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
         },
@@ -691,7 +738,8 @@
           "field": "alternative_urls",
           "op": "append",
           "proposed_value": [
-            "https://www.indiacode.nic.in/handle/123456789/1680"
+            "https://www.indiacode.nic.in/handle/123456789/1680",
+            "https://www.indiacode.nic.in/bitstream/123456789/1680/1/a1956-37.pdf"
           ],
           "current_value": [],
           "file_blob_at_base": "3ffcfb2867d18ccb574ac84e2c7e4e2a601fba88"
@@ -808,7 +856,7 @@
           "target_id": null,
           "field": "date",
           "op": "proposal",
-          "proposed_value": "Allow attributed alternative proposed years alongside an adopted interval (for example R010: 257 BCE per S014, about 252 BCE per S015).",
+          "proposed_value": "Keep attributed editorial dates separate from adopted intervals (R010: 257 BCE per S014). Do not create an alternative date without a source argument specific to the record.",
           "file_blob_at_base": "3f579db68bfcc110df94e9d8f5b67d7bd73930ac"
         },
         {

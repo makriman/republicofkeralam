@@ -1,0 +1,201 @@
+{
+  "base_revision": "6648bc75edab8341b7ed3660b7ba6614bd72d2d9",
+  "accessed": "2026-10-19",
+  "scope": "Apply with exact old-value checks. Canonical English changes require translated fields to be updated or marked stale; no human approval. Do not automatically add annual links for R019.",
+  "changes": [
+    {
+      "file": "data/records.json",
+      "target_id": "R019",
+      "field": "caveat",
+      "old": "Do not call this the first human discovery; local prior knowledge is not erased, and Fawcett wrote that residents had known the cave for at least 12 or 15 years. Sources disagree on the year: 1894 (S012; Ajit Kumar 2013), 1895 (S011 and the state tourism page), and about the beginning of 1896 (a report quoted in Fawcett 1901, p. 412). 1894 is retained as an attributed year, not a settled one.",
+      "new": "Do not call this the first human discovery; local prior knowledge is not erased, and Fawcett wrote that residents had known the cave for at least 12 or 15 years. Sources disagree on the year: 1894 (S012; Ajit Kumar 2013), 1895 (S011 and the state tourism page), and about the beginning of 1896 (a report quoted in Fawcett 1901, p. 412). The 1894–1896 interval bounds the conflicting reports; it does not assert visits in every intervening year.",
+      "basis": "PC-04"
+    },
+    {
+      "file": "data/records.json",
+      "target_id": "R019",
+      "field": "title",
+      "old": "Edakkal scholarly documentation milestone, 1894",
+      "new": "Edakkal scholarly documentation milestone, conflicting reports (1894–1896)",
+      "basis": "PC-04"
+    },
+    {
+      "file": "data/records.json",
+      "target_id": "R019",
+      "field": "claim",
+      "old": "The sources inspected place Fawcett’s encounter with Edakkal’s engravings in 1894 within the history of archaeological documentation.",
+      "new": "Sahapedia and Kumar attribute Fawcett’s encounter with Edakkal’s engravings to 1894; tourism accounts give 1895, while a report quoted in Fawcett 1901 gives about the beginning of 1896. The encounter year remains unsettled.",
+      "basis": "PC-04"
+    },
+    {
+      "file": "data/records.json",
+      "target_id": "R019",
+      "field": "date",
+      "old": {
+        "kind": "historical",
+        "start_year": 1894,
+        "end_year": 1894,
+        "precision": "year",
+        "original_expression": "1894 CE",
+        "calendar": "BCE/CE indexing; original calendar retained where known"
+      },
+      "new": {
+        "kind": "historical",
+        "start_year": 1894,
+        "end_year": 1896,
+        "precision": "interval",
+        "original_expression": "1894 (S012; Kumar 2013), 1895 (S011; state tourism), about the beginning of 1896 (report quoted in Fawcett 1901, p. 412); conflicting reports",
+        "calendar": "BCE/CE indexing; original calendar retained where known"
+      },
+      "basis": "PC-04"
+    },
+    {
+      "file": "data/records.json",
+      "target_id": "R019",
+      "field": "year_links",
+      "old": [
+        {
+          "year": 1894,
+          "role": "research_history"
+        }
+      ],
+      "new": [],
+      "basis": "PC-04"
+    },
+    {
+      "file": "data/records.json",
+      "target_id": "R010",
+      "field": "caveat",
+      "old": "The edict is not an inscription found inside present Kerala and states no regnal year. Dhammika dates the Girnar text to 257 BCE; Hultzsch's chronology (coronation about 264 BCE) gives about 252 BCE for the twelfth regnal year. Neither year is adopted. Its claims do not independently prove local medical installations.",
+      "new": "The edict is not an inscription found inside present Kerala and states no regnal year. Dhammika dates the Girnar text to 257 BCE; this is an attributed editorial date, not an adopted exact year. Hultzsch pp. xxxv–xxxvi does not establish a 252 BCE date for Edict II. Its claims do not independently prove local medical installations.",
+      "basis": "PC-09"
+    },
+    {
+      "file": "data/audit.json",
+      "target_id": "A018",
+      "field": "corrected_treatment",
+      "old": "The research institution supports the second-century date of the Geography; local passages and geographical identifications remain unverified. Geography 7.1.8 (Mouziris, an emporium) and 7.1.86 (Karoura, royal seat of Kerobothros) were read in McCrindle's 1885 translation. McCrindle, following Yule, identified Mouziris with Kodungallur and Karoura with Karur in Tamil Nadu; these are attributed identifications, and Ptolemy's coordinates are not modern positions.",
+      "new": "The research institution supports the second-century date of the Geography. Geography 7.1.8 (Mouziris, an emporium) and 7.1.86 (Karoura, royal seat of Kerobothros) were inspected in OCR of McCrindle’s 1885 English translation and commentary. McCrindle, following Yule, identified Mouziris with Kodungallur and Karoura with Karur in Tamil Nadu. These remain attributed identifications; original Greek, scan images and a modern critical edition were not verified. Ptolemy’s coordinates are not modern positions.",
+      "basis": "PC-16"
+    },
+    {
+      "file": "data/sources.json",
+      "target_id": "S023",
+      "field": "inspection_note",
+      "old": "Dated 31 August 1956; appointed day 1 November 1956. This verifies the original statutory formation, not a current GIS polygon. On 2026-10-18 the recorded MHA PDF URL returned HTTP 404. Sections 4 and 5 were re-read in a consolidated republication of the India Code text, which notes that the words 'Part A' were omitted by the Adaptation of Laws (No. 1) Order, 1956; consolidated text is not the enacted text.",
+      "new": "Official India Code consolidated PDF inspected on 2026-10-19 at printed pp. 6–8: Act heading dated 31 August 1956, appointed day 1 November 1956 in s. 2(a), territorial reference date 1 July 1956 in s. 2(r), and ss. 4–5. Section 4 names Shencottah taluk. The consolidated text notes omission of Part A; original Gazette scan and later boundary alterations remain unchecked. This supports statutory formation, not a current GIS polygon. The earlier recorded MHA URL returned 404 on 2026-10-18.",
+      "basis": "PC-18"
+    },
+    {
+      "file": "data/records.json",
+      "target_id": "R006",
+      "field": "support",
+      "old": [
+        {
+          "source": "S009",
+          "locator": "pp. 628–631 and conclusion p. 634"
+        }
+      ],
+      "new": [
+        {
+          "source": "S009",
+          "locator": "pp. 628–631 and conclusion p. 635"
+        }
+      ],
+      "basis": "S009 PDF text layer p.635, 2026-10-19"
+    },
+    {
+      "file": "data/sources.json",
+      "target_id": "S009",
+      "field": "inspected_locator",
+      "old": "Heritage 4 (2016), 627–636; full article PDF, finds pp. 628–631, conclusion p. 634",
+      "new": "Heritage 4 (2016), 627–636; full article PDF, finds pp. 628–631, conclusion p. 635",
+      "basis": "S009 PDF text layer p.635, 2026-10-19"
+    },
+    {
+      "file": "data/sources.json",
+      "target_id": "S009",
+      "field": "inspection_note",
+      "old": "Full article read 2026-10-18. Lower Palaeolithic attribution rests on tool typology of surface finds from river terraces of the Vanimel and Chaithravahini. No excavation, stratigraphy or absolute dates are reported, and no coordinates are given. This does not establish a first-occupation calendar year.",
+      "new": "Full article read 2026-10-18. Lower Palaeolithic attribution rests on tool typology of surface finds from river terraces of the Vanimel and Chaithravahini. No excavation, stratigraphy or absolute dates are reported, and no coordinates are given. This does not establish a first-occupation calendar year. Conclusion locator rechecked in the publisher PDF text layer on 2026-10-19: printed p. 635; page-image retrieval failed.",
+      "basis": "Limited follow-up inspection"
+    },
+    {
+      "file": "data/sources.json",
+      "target_id": "S009",
+      "field": "accessed",
+      "old": "2026-10-18",
+      "new": "2026-10-19",
+      "basis": "Actual follow-up access date; does not imply whole source reinspection"
+    },
+    {
+      "file": "data/sources.json",
+      "target_id": "S015",
+      "field": "accessed",
+      "old": "2026-10-18",
+      "new": "2026-10-19",
+      "basis": "Actual follow-up access date; does not imply whole source reinspection"
+    },
+    {
+      "file": "data/sources.json",
+      "target_id": "S023",
+      "field": "accessed",
+      "old": "2026-10-11",
+      "new": "2026-10-19",
+      "basis": "Actual follow-up access date; does not imply whole source reinspection"
+    },
+    {
+      "file": "data/sources.json",
+      "target_id": "S015",
+      "field": "inspection_note",
+      "old": "OCR text of the archive.org copy read at these passages; plates not checked against the OCR.",
+      "new": "OCR text of the archive.org copy read at these passages; plates not checked against the OCR. On 2026-10-19 introduction pp. xxxv–xxxvi were rechecked in OCR: the calculation concerns XIII; the twelve-year list omits II. This passage does not establish 252 BCE for II.",
+      "basis": "Hultzsch OCR chronology review"
+    },
+    {
+      "file": "data/sources.json",
+      "target_id": "S023",
+      "field": "url",
+      "old": "https://www.mha.gov.in/sites/default/files/2022-08/The%2520State%2520Reorganisation%2520Act%25201956_270614%5B1%5D.pdf",
+      "new": "https://www.indiacode.nic.in/bitstream/123456789/1680/1/a1956-37.pdf",
+      "basis": "Accessible official consolidated PDF"
+    },
+    {
+      "file": "data/sources.json",
+      "target_id": "S023",
+      "field": "creator",
+      "old": "Parliament of India; official Ministry of Home Affairs copy",
+      "new": "Parliament of India; official India Code consolidated copy",
+      "basis": "Official source attribution"
+    },
+    {
+      "file": "data/sources.json",
+      "target_id": "S023",
+      "field": "alternative_urls",
+      "old": [
+        "https://www.indiacode.nic.in/handle/123456789/1680"
+      ],
+      "new": [
+        "https://www.indiacode.nic.in/handle/123456789/1680",
+        "https://www.mha.gov.in/sites/default/files/2022-08/The%2520State%2520Reorganisation%2520Act%25201956_270614%5B1%5D.pdf"
+      ],
+      "basis": "Preserve historical MHA location"
+    },
+    {
+      "file": "data/sources.json",
+      "target_id": "S023",
+      "field": "inspection",
+      "old": "selected_sections_and_images",
+      "new": "selected_sections",
+      "basis": "PDF text-layer inspection, no fresh image review claim"
+    },
+    {
+      "file": "data/sources.json",
+      "target_id": "S023",
+      "field": "inspected_locator",
+      "old": "Act 37 of 1956; heading; sections 2(a), 4, 5 and 6; PDF pages 7 and 10 visually checked",
+      "new": "Official India Code consolidated PDF, printed pp. 6–8: heading; sections 2(a), 2(r), 4 and 5; text layer checked 2026-10-19",
+      "basis": "Exact follow-up inspection scope"
+    }
+  ]
+}
