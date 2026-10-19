@@ -68,6 +68,37 @@ class InvalidFixtureTests(unittest.TestCase):
     def test_seed_data_valid_with_all_collections(self):
         self.assertEqual(run(seed()), [])
 
+    def test_garbage_collections_do_not_raise(self):
+        data = seed()
+        data['records'] = 'not a list'
+        data['sources'][0] = 5
+        errors = run(data)
+        self.assertTrue(any('records: expected a JSON array' in e for e in errors))
+        self.assertTrue(any('sources #0' in e for e in errors))
+
+    def test_original_five_argument_signature_still_works(self):
+        d = seed()
+        self.assertEqual(validate_data(d['project'], d['sources'], d['periods'], d['records'], d['audit']), [])
+
+    def test_schema_executor_refuses_unknown_keyword(self):
+        from schema_check import Validator, SchemaError
+        with self.assertRaises(SchemaError):
+            Validator({'type': 'object', 'dependentRequired': {}}).errors({})
+
+    def test_schemas_agree_with_reference_engine_if_installed(self):
+        try:
+            import jsonschema
+        except ImportError:
+            self.skipTest('jsonschema not installed; the standard-library executor is the operational check')
+        d = seed()
+        pairs = [('record', d['records']), ('source', d['sources']), ('period', d['periods']), ('audit', d['audit']),
+                 ('corpus', d['corpora']), ('crosswalk', d['crosswalk'])]
+        for name, items in pairs:
+            schema = json.loads((ROOT / 'schemas' / f'{name}.schema.json').read_text(encoding='utf-8'))
+            v = jsonschema.Draft202012Validator(schema)
+            for item in items:
+                self.assertEqual(list(v.iter_errors(item)), [], f'{name} {item.get("id")}')
+
     def test_fixture_set_is_not_empty(self):
         self.assertGreaterEqual(len(list(FIXTURES.glob('*.json'))), 30)
 

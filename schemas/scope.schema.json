@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Geographic scope frame",
+  "type": "object",
+  "required": [
+    "scope_id",
+    "reference_date",
+    "boundary_status",
+    "geometry_file",
+    "geometry_license",
+    "geometry_sha256",
+    "inclusion_rule",
+    "sources",
+    "spatial_filtering_enabled"
+  ],
+  "properties": {
+    "scope_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reference_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "boundary_status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "geometry_file": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "geometry_license": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "geometry_sha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "inclusion_rule": {
+      "type": "string",
+      "minLength": 1
+    },
+    "offshore_rule": {
+      "type": "string"
+    },
+    "exclusions_and_context": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^S[0-9]{3,}$"
+      }
+    },
+    "spatial_filtering_enabled": {
+      "type": "boolean"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "spatial_filtering_enabled": {
+            "const": true
+          }
+        },
+        "required": [
+          "spatial_filtering_enabled"
+        ]
+      },
+      "then": {
+        "title": "spatial_filtering_enabled needs a licensed, checksummed and cross-checked boundary geometry",
+        "properties": {
+          "geometry_file": {
+            "type": "string",
+            "minLength": 1
+          },
+          "geometry_license": {
+            "type": "string",
+            "minLength": 1
+          },
+          "geometry_sha256": {
+            "type": "string"
+          },
+          "boundary_status": {
+            "not": {
+              "const": "not_yet_materialized_or_legally_crosschecked"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

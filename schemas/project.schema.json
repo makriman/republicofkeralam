@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "project.json",
+  "type": "object",
+  "required": [
+    "title",
+    "version",
+    "as_of",
+    "annual_start",
+    "annual_end",
+    "year_zero",
+    "primary_language",
+    "human_review",
+    "all_web_completeness"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slug": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "annual_start": {
+      "type": "integer",
+      "not": {
+        "const": 0
+      },
+      "title": "nonzero BCE/CE year (negative = BCE, positive = CE, no year zero)"
+    },
+    "annual_end": {
+      "type": "integer",
+      "not": {
+        "const": 0
+      },
+      "title": "nonzero BCE/CE year (negative = BCE, positive = CE, no year zero)"
+    },
+    "year_zero": {
+      "const": false
+    },
+    "primary_language": {
+      "enum": [
+        "en",
+        "ml"
+      ]
+    },
+    "geographic_basis": {
+      "type": "string"
+    },
+    "geometry_status": {
+      "type": "string"
+    },
+    "human_review": {
+      "type": "string"
+    },
+    "all_web_completeness": {
+      "const": "not_claimed"
+    }
+  }
+}

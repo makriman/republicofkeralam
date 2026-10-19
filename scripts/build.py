@@ -24,6 +24,22 @@ ROLES = {
     'proposed_date': 'Proposed date, not an established exact-year event',
     'research_history': 'Research, publication, registration or digital-access history',
 }
+# Structural grouping of the free-text inspection labels used on source cards.
+# Metadata, abstract or description, passage and full-text inspection are
+# different statuses; a new label must be placed here deliberately (validate.py
+# rejects unmapped labels). This grouping is an editorial aid, not a quality score.
+INSPECTION_DEPTH = {
+    'access_failed': 'not_accessed',
+    'search_index_only': 'metadata', 'metadata_only': 'metadata',
+    'abstract_only': 'abstract_or_description', 'abstract_and_catalogue': 'abstract_or_description',
+    'abstract_and_metadata': 'abstract_or_description', 'metadata_and_abstract': 'abstract_or_description',
+    'institutional_description': 'abstract_or_description', 'institutional_page': 'abstract_or_description',
+    'full_landing_page': 'abstract_or_description', 'landing_and_volume_index': 'abstract_or_description',
+    'full_catalogue_page': 'abstract_or_description',
+    'relevant_passage': 'passage', 'relevant_passages': 'passage', 'selected_pages_and_images': 'passage',
+    'selected_sections_and_images': 'passage', 'proposal_and_final_outcomes': 'passage',
+    'full_page': 'full_text',
+}
 
 def load(name: str):
     return json.loads((ROOT/name).read_text(encoding='utf-8'))

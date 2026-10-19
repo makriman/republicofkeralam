@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source card",
+  "description": "Executed by scripts/validate.py. The inspection enum mirrors INSPECTION_DEPTH in scripts/build.py; add a value to both deliberately.",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "creator",
+    "url",
+    "source_kind",
+    "inspection",
+    "inspected_locator",
+    "inspection_note",
+    "publication_year",
+    "doi",
+    "alternative_urls",
+    "accessed",
+    "rights",
+    "local_copy",
+    "sha256",
+    "human_review"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^S[0-9]{3,}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "creator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https?://"
+    },
+    "source_kind": {
+      "type": "string",
+      "pattern": "^[a-z][a-z_]*$"
+    },
+    "inspection": {
+      "enum": [
+        "access_failed",
+        "search_index_only",
+        "metadata_only",
+        "abstract_only",
+        "abstract_and_catalogue",
+        "abstract_and_metadata",
+        "metadata_and_abstract",
+        "institutional_description",
+        "institutional_page",
+        "full_landing_page",
+        "landing_and_volume_index",
+        "full_catalogue_page",
+        "relevant_passage",
+        "relevant_passages",
+        "selected_pages_and_images",
+        "selected_sections_and_images",
+        "proposal_and_final_outcomes",
+        "full_page"
+      ]
+    },
+    "inspected_locator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "inspection_note": {
+      "type": "string"
+    },
+    "publication_year": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "not": {
+        "const": 0
+      },
+      "title": "nonzero CE/BCE year or null; there is no year zero"
+    },
+    "doi": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "alternative_urls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^https?://"
+      }
+    },
+    "accessed": {
+      "type": "string",
+      "format": "date"
+    },
+    "rights": {
+      "type": "string",
+      "minLength": 1
+    },
+    "local_copy": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "redistribution_basis": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "human_review": {
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ]
+    },
+    "reviewers": {
+      "type": "array",
+      "description": "Review records. Shape and approval rules are checked by scripts/validate.py so that records, sources and translations share one rule."
+    }
+  }
+}
