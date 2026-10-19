@@ -9,7 +9,9 @@ Order of checks:
    messages instead of KeyError or TypeError.
 2. Cross-references, review records, cutoffs and date/year-link rules run on
    the well-formed items.
-3. Generated views, annual filenames and local links.
+3. Optional Malayalam translation catalogues are checked for stale English,
+   invalid keys and review status (see docs/BILINGUAL_DATA.md).
+4. Generated views, orphaned generated files, annual filenames and local links.
 """
 from __future__ import annotations
 import argparse
@@ -19,8 +21,9 @@ import re
 import sys
 from pathlib import Path
 from urllib.parse import urlparse, unquote
-from build import ROOT, load, years, year_path, make_outputs, ROLES, INSPECTION_DEPTH
+from build import ROOT, load, years, year_path, make_outputs, orphaned_outputs, label_texts, ROLES, INSPECTION_DEPTH
 from schema_check import check as schema_errors
+import bilingual
 
 RELATIONS={'core','regional_context','global_context','external_reference','external_action_affecting_core','external_custody_or_research'}
 REVIEW_STATES={'pending','approved','rejected'}
@@ -78,11 +81,11 @@ def review_record_errors(tag,item,cutoff):
     return errors
 
 
-def validate_data(cfg,ss,pp,rr,aa,corpora=None,scope=None,crosswalk=None):
+def validate_data(cfg,ss,pp,rr,aa,corpora=None,scope=None,crosswalk=None,translations=None):
     """Return a list of error strings. Never raises for malformed data.
 
     The first five arguments keep the original signature. corpora, scope,
-    and crosswalk are optional so older callers keep working.
+    crosswalk and translations are optional so older callers keep working.
     """
     errors=[]
     def require(ok,msg):
@@ -201,6 +204,9 @@ def validate_data(cfg,ss,pp,rr,aa,corpora=None,scope=None,crosswalk=None):
     for c in good['crosswalk']:
         bad=[x.strip() for x in re.split(r'[;,]',c['dossiers']) if re.fullmatch(r'\s*[EP][0-9]{2,}\s*',x) and x.strip() not in pid]
         require(not bad,f'crosswalk {c["chapter"]}: unknown dossier {", ".join(bad)}')
+    if translations is not None:
+        data={'project':cfg,'sources':ss,'periods':pp,'records':rr,'audit':aa,'corpora':corpora or [],'crosswalk':crosswalk or [],'scope':scope or {}}
+        errors.extend(bilingual.catalogue_errors(translations,data,label_texts(data),cutoff,review_record_errors))
     return errors
 
 
@@ -226,28 +232,40 @@ def _load_all():
             data[k]=load(f)
         except (OSError,json.JSONDecodeError) as e:
             errors.append(f'{f}: cannot be read as UTF-8 JSON ({e})')
+    try:
+        data['translations']=bilingual.load_catalogues()
+    except (OSError,json.JSONDecodeError,ValueError) as e:
+        errors.append(f'translation catalogues: {e}'); data['translations']=[]
     return data,errors
 
 
 def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__,formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument('--require-translation',metavar='LANG',choices=['ml'],
+                        help='Also fail when any translatable field lacks a current translation in LANG.')
     args=parser.parse_args(argv)
     data,errors=_load_all()
     if errors:
         print('\n'.join(errors)); return 1
     errors=validate_data(data['project'],data['sources'],data['periods'],data['records'],data['audit'],
-                         corpora=data['corpora'],scope=data['scope'],crosswalk=data['crosswalk'])
+                         corpora=data['corpora'],scope=data['scope'],crosswalk=data['crosswalk'],translations=data['translations'])
     if errors:
         print('\n'.join(errors)); return 1  # views cannot be compared reliably from malformed data
     out,stats=make_outputs()
     errors.extend(f'Stale/missing view: {p}' for p,t in out.items() if not (ROOT/p).exists() or (ROOT/p).read_text(encoding='utf-8')!=t)
+    errors.extend(f'Orphaned generated view (no canonical source; remove it): {p}' for p in orphaned_outputs(out))
     cfg=data['project']; expected={year_path(y).as_posix() for y in years(cfg['annual_start'],cfg['annual_end'])}
     actual={p.relative_to(ROOT).as_posix() for p in (ROOT/'years').rglob('*.md') if p.stem.isdigit()}
     if expected!=actual: errors.append('Annual filenames do not exactly match configured nonzero range')
     errors.extend(local_link_errors())
+    if args.require_translation:
+        missing=bilingual.missing_fields(data,data['translations'],label_texts(data))
+        errors.extend(f'Missing current {args.require_translation} translation: {k}' for k in missing)
     if errors:
         print('\n'.join(errors)); return 1
-    print('PASS: schemas, IDs, provenance, review records, dates, year-zero exclusion, annual coverage, generated views and local links.')
+    t=stats['translation']['ml']
+    print('PASS: schemas, IDs, provenance, review records, dates, year-zero exclusion, annual coverage, translation freshness, generated views and local links.')
+    print(f'Malayalam: {t["data_fields_current"]} of {t["data_fields_total"]} canonical-data fields and {t["generator_labels_current"]} of {t["generator_labels_total"]} generator labels have a current translation. Missing translations are reported, not treated as complete.')
     print('This is structural validation only; all seed records still require independent human review.')
     return 0
 if __name__=='__main__': raise SystemExit(main())

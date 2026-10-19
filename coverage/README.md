@@ -22,4 +22,22 @@ The seed entries include research and publication milestones. They must not be r
 
 No percentage for coverage of the entire internet is calculated. No source corpus has been completely inventoried. [Collection plan](../docs/CORPUS_PLAN.md) defines what an auditable completeness claim would require.
 
+## Separate measures
+
+| Measure | This release |
+|---|---:|
+| Year links from evidence records | 20 |
+| Evidence records with at least one year link | 20 |
+| Annual pages that link a past-event date | 4 |
+| Annual pages that link only research, publication or access history | 14 |
+| Source cards cited by at least one evidence record | 24 |
+| Source cards inspected at passage or full-text depth | 17 |
+| Source cards seen only as metadata, or not accessed | 9 |
+| Source cards with independent human review | 0 |
+| Canonical-data text fields with a current Malayalam translation | 0 of 827 |
+| Generator labels with a current Malayalam translation | 0 of 139 |
+| Malayalam translations with a recorded human language review | 0 |
+
+Year links, records, source cards and inspected sources are counted separately. Translation coverage, source inspection and scholarly review are different measures: a Malayalam translation does not mean a claim was checked, and an inspected source card does not mean the full text was read.
+
 [Machine-readable statistics](stats.json) · [Year-by-year status](year-status.csv)

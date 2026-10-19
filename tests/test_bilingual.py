@@ -66,7 +66,8 @@ class BilingualRenderingTests(unittest.TestCase):
         self.assertIn('translation_ml: "ai_assisted_human_review_pending"', page)
         self.assertIn('AI', page)
         self.assertIn('human language review is pending', page)
-        self.assertNotIn('translation_ml', out['records/R001.md'])
+        self.assertNotIn('translation_ml', out['sources/S002.md'])
+        self.assertNotIn('Malayalam first', out['sources/S002.md'])
 
     def test_year_page_labels_and_templates(self):
         out, _ = make_outputs(catalogues=fixture_catalogues())
@@ -188,9 +189,14 @@ class FreshnessAndContractTests(unittest.TestCase):
         self.assertIn('data/records.json#R001.title', missing)
         self.assertNotIn('data/records.json#R014.title', missing)
 
-    def test_translatable_denominator_matches_staging_inventory(self):
-        # notes/translation-review inventories 804 human-readable strings in data/ and geography/scope.json.
-        self.assertEqual(bilingual.coverage(load_data(), [], label_texts(load_data()))['data_fields_total'], 804)
+    def test_translatable_denominator(self):
+        # The translation staging inventory lists 804 strings; it did not count the 23
+        # human-readable date.calendar strings (3 distinct values), which are translatable here.
+        data = load_data()
+        keys = [k for k, _ in bilingual.iter_translatable(data)]
+        self.assertEqual(len(keys), 827)
+        self.assertEqual(len(set(keys)), 827)
+        self.assertEqual(sum('.date.calendar' in k for k in keys), 23)
 
     def test_english_hash_scheme(self):
         self.assertEqual(bilingual.en_hash('Planetary age as context'), '2b5b911668171420')
