@@ -110,7 +110,7 @@ LABELS.update({
     'year.coverage_seed': ('inline', 'A small number of source-linked seeds; not a completed year history.'),
     'year.coverage_none': ('inline', 'No year-specific seed has been entered. This year has not been exhaustively researched.'),
     'year.partial': ('block', '**Partial year:** this release stops at {as_of}. No later event is implied.'),
-    'year.h_wider': ('heading', '## Wider-period evidence — not an event assigned to this year'),
+    'year.h_wider': ('heading', '## Wider-period evidence: not an event assigned to this year'),
     'year.period_index': ('inline', 'Consult the [period index](../../periods/README.md).'),
     'year.h_interp': ('heading', '## Interpretation'),
     'year.interp1': ('block', 'An empty section is not proof that nothing happened or that no records survive. Century-dated and undated material stays in its period dossier; publication and discovery dates are separate from the events studied.'),
@@ -129,7 +129,7 @@ LABELS.update({
     'audit.route': ('bold', '**Evidence route:**'),
     'audit.h_crosswalk': ('heading', '## Crosswalk of every chapter in the earlier 46-chapter proposal'),
     'audit.table_head': ('table_row', '| Chapter | Proposed subject | Dossier(s) | Audit status |'),
-    'coverage.title': ('heading', '# Coverage — version {version}'),
+    'coverage.title': ('heading', '# Coverage: version {version}'),
     'coverage.asof': ('block', 'As of {as_of}. These are repository counts, not estimates of the total historical record.'),
     'coverage.th': ('table_row', '| Measure | This release |'),
     'coverage.r1': ('inline', 'Annual Markdown files'),
@@ -317,7 +317,7 @@ def make_outputs(data: dict | None = None, catalogues: list | None = None) -> tu
 
     for s in ss:
         p=f'sources/{s["id"]}.md'; pg=Page(tr,labels); S=lambda f: K('data/sources.json',s['id'],f)
-        body=f'# {s["id"]} — {s["title"]}\n\n'
+        body=f'# {s["id"]}: {s["title"]}\n\n'
         gloss=pg.ml(S('title'),s['title'])
         if gloss: body+=f'{GLOSS_LABEL} {gloss}\n\n'
         body+=f'{pg.L("source.creator")} {s["creator"]}  \n{pg.L("source.type")} `{s["source_kind"]}`  \n{pg.L("source.inspection")} `{s["inspection"]}`  \n{pg.L("source.accessed")} {s["accessed"]}\n\n'
@@ -332,10 +332,10 @@ def make_outputs(data: dict | None = None, catalogues: list | None = None) -> tu
         body+=pg.L('source.h_linked')+'\n\n'+ ('\n'.join(f'- [{r["id"]}: {rt(pg,r)}](../records/{r["id"]}.md)' for r in uses) if uses else pg.L('source.no_linked'))
         out[p]=pg.render(body,{'id':s['id'],'human_review':s['human_review']})
     pg=Page(tr,labels)
-    out['sources/README.md']=pg.render(pg.L('sources_readme.title')+'\n\n'+pg.L('sources_readme.intro')+'\n\n'+'\n'.join(f'- [{s["id"]} — {s["title"]}]({s["id"]}.md) — `{s["inspection"]}`' for s in ss))
+    out['sources/README.md']=pg.render(pg.L('sources_readme.title')+'\n\n'+pg.L('sources_readme.intro')+'\n\n'+'\n'.join(f'- [{s["id"]}: {s["title"]}]({s["id"]}.md) (`{s["inspection"]}`)' for s in ss))
     for r in rr:
         p=f'records/{r["id"]}.md'; pg=Page(tr,labels); R=lambda f: K('data/records.json',r['id'],f)
-        body=f'# {r["id"]} — {rt(pg,r)}\n\n{pg.T(R("claim"),r["claim"],"block")}\n\n'
+        body=f'# {r["id"]}: {rt(pg,r)}\n\n{pg.T(R("claim"),r["claim"],"block")}\n\n'
         body+=f'{pg.L("record.evidence_type")} `{r["evidence_type"]}`  \n{pg.L("record.geo_relation")} `{r["scope_relation"]}`  \n{pg.L("record.places")} {"; ".join(r["places"]) or pg.L("record.global")}\n\n'
         body+=f'{pg.L("record.h_date")}\n\n```json\n{json.dumps(r["date"],ensure_ascii=False,indent=2)}\n```\n\n'
         dml=[(f,pg.ml(R(f'date.{f}'),r['date'][f])) for f in ('original_expression','datum','calendar') if isinstance(r['date'].get(f),str)]
@@ -348,25 +348,25 @@ def make_outputs(data: dict | None = None, catalogues: list | None = None) -> tu
         body+=pg.L('record.h_evidence')+'\n\n'+'\n'.join(f'- [{c["source"]}](../sources/{c["source"]}.md), {c["locator"]}. {pg.L("record.inspection")} `{sd[c["source"]]["inspection"]}`.' for c in r['support'])+'\n\n'
         body+=pg.L('record.h_nav')+'\n\n'+'; '.join(f'[{x}](../periods/{x}.md)' for x in r['periods'])+'\n\n'
         if r['year_links']:
-            body+='; '.join(f'[{label(x["year"])}]({rel(year_path(x["year"]),p)}) — {pg.L("roles."+x["role"])}' for x in r['year_links'])+'\n\n'
+            body+='; '.join(f'[{label(x["year"])}]({rel(year_path(x["year"]),p)}): {pg.L("roles."+x["role"])}' for x in r['year_links'])+'\n\n'
         body+=f'{pg.L("record.h_review")}\n\n{pg.T(R("authoring"),r["authoring"],"block")}\n\n{pg.L("record.human_review")} {r["human_review"]}. {pg.L("record.created_updated")} {r["created"]} / {r["updated"]}.\n\n{pg.T(R("rights"),r["rights"],"block")}'
         out[p]=pg.render(body,{'id':r['id'],'status':r['status'],'human_review':r['human_review']})
     pg=Page(tr,labels)
-    out['records/README.md']=pg.render(pg.L('records_readme.title')+'\n\n'+pg.L('records_readme.intro')+'\n\n'+'\n'.join(f'- [{r["id"]} — {rt(pg,r)}]({r["id"]}.md)' for r in rr))
+    out['records/README.md']=pg.render(pg.L('records_readme.title')+'\n\n'+pg.L('records_readme.intro')+'\n\n'+'\n'.join(f'- [{r["id"]}: {rt(pg,r)}]({r["id"]}.md)' for r in rr))
     for p in pp:
         path=f'periods/{p["id"]}.md'; pg=Page(tr,labels); P=lambda f: K('data/periods.json',p['id'],f)
-        body=f'# {p["id"]} — {pt(pg,p)}\n\n{pg.L("period.window")} {pg.T(P("display_window"),p["display_window"],"line")}.\n\n{pg.L("period.question")} {pg.T(P("central_question"),p["central_question"],"line")}\n\n'
+        body=f'# {p["id"]}: {pt(pg,p)}\n\n{pg.L("period.window")} {pg.T(P("display_window"),p["display_window"],"line")}.\n\n{pg.L("period.question")} {pg.T(P("central_question"),p["central_question"],"line")}\n\n'
         body+=pg.L('period.h_evidence')+'\n\n'+pg.T(P('established_in_this_pass'),p['established_in_this_pass'],'block')+'\n\n'
         body+=pg.L('period.source_routes')+' '+source_refs(pg,p['sources'],path)+'.\n\n'
         body+=pg.L('period.h_not')+'\n\n'+pg.T(P('limitations'),p['limitations'],'block')+'\n\n'
         body+=pg.L('period.h_tasks')+'\n\n'+'\n'.join(f'- [ ] {pg.T(P(f"research_tasks[{i}]"),t,"list")}' for i,t in enumerate(p['research_tasks']))+'\n\n'
         body+=pg.L('period.h_records')+'\n\n'
         ps=[r for r in rr if p['id'] in r['periods']]
-        body+=('\n'.join(f'- [{r["id"]} — {rt(pg,r)}](../records/{r["id"]}.md)' for r in ps) if ps else pg.L('period.no_records'))+'\n\n'
+        body+=('\n'.join(f'- [{r["id"]}: {rt(pg,r)}](../records/{r["id"]}.md)' for r in ps) if ps else pg.L('period.no_records'))+'\n\n'
         body+=pg.L('period.h_coverage')+'\n\n'+pg.L('period.coverage')
         out[path]=pg.render(body,{'id':p['id'],'kind':p['kind'],'coverage':'seed_or_open_dossier'})
     pg=Page(tr,labels)
-    out['periods/README.md']=pg.render(pg.L('periods_readme.title')+'\n\n'+pg.L('periods_readme.intro')+'\n\n'+'\n'.join(f'- [{p["id"]} — {pt(pg,p)}]({p["id"]}.md)' for p in pp))
+    out['periods/README.md']=pg.render(pg.L('periods_readme.title')+'\n\n'+pg.L('periods_readme.intro')+'\n\n'+'\n'.join(f'- [{p["id"]}: {pt(pg,p)}]({p["id"]}.md)' for p in pp))
     for i,y in enumerate(yy):
         p=year_path(y).as_posix(); entries=by_year[y]; pg=Page(tr,labels)
         status='seed_index' if entries else 'unresearched'
@@ -388,7 +388,7 @@ def make_outputs(data: dict | None = None, catalogues: list | None = None) -> tu
                 body+='\n'
         body+=pg.L('year.h_wider')+'\n\n'
         ps=[x for x in pp if x['annual_span'] and x['annual_span'][0] <= y <= x['annual_span'][1]]
-        body+=('\n'.join(f'- [{x["id"]} — {pt(pg,x)}](../../periods/{x["id"]}.md)' for x in ps) if ps else pg.L('year.period_index'))+'\n\n'
+        body+=('\n'.join(f'- [{x["id"]}: {pt(pg,x)}](../../periods/{x["id"]}.md)' for x in ps) if ps else pg.L('year.period_index'))+'\n\n'
         body+=pg.L('year.h_interp')+'\n\n'+pg.L('year.interp1')+'\n\n'+pg.L('year.interp2')
         out[p]=pg.render(body,{'year':abs(y),'era':'BCE' if y<0 else 'CE','status':status,'as_of':cfg['as_of']})
     # Era-specific navigation lists keep the root year index readable.
@@ -405,7 +405,7 @@ def make_outputs(data: dict | None = None, catalogues: list | None = None) -> tu
     auditbody=pg.L('audit.title')+'\n\n'+pg.L('audit.intro')+'\n\n'
     for a in aa:
         A=lambda f: K('data/audit.json',a['id'],f)
-        auditbody+=f'## {a["id"]} — {pg.L("verdict."+a["verdict"])}\n\n{pg.L("audit.earlier")} {pg.T(A("earlier_claim"),a["earlier_claim"],"line")}\n\n{pg.L("audit.treatment")} {pg.T(A("corrected_treatment"),a["corrected_treatment"],"line")}\n\n{pg.L("audit.route")} {source_refs(pg,a["sources"],"audit/CHAT_AUDIT.md")}\n\n'
+        auditbody+=f'## {a["id"]}: {pg.L("verdict."+a["verdict"])}\n\n{pg.L("audit.earlier")} {pg.T(A("earlier_claim"),a["earlier_claim"],"line")}\n\n{pg.L("audit.treatment")} {pg.T(A("corrected_treatment"),a["corrected_treatment"],"line")}\n\n{pg.L("audit.route")} {source_refs(pg,a["sources"],"audit/CHAT_AUDIT.md")}\n\n'
     auditbody+=pg.L('audit.h_crosswalk')+'\n\n'+pg.L('audit.table_head')+'\n|---|---|---|---|\n'
     for c in cc:
         C=lambda f: K('data/prior_chapter_crosswalk.json',c['chapter'],f)

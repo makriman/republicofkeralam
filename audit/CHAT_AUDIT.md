@@ -4,7 +4,7 @@
 
 This register separates factual claims, misleading implications, omissions, and proposed research topics. It is not a declaration that every topic is now fully verified. Repeated claims are consolidated; the 46-chapter crosswalk below preserves the full outline. "Pending" means the necessary primary evidence has not been inspected.
 
-## A001 — supported
+## A001: supported
 
 **Earlier claim or implication:** The region has a history far older than the state formed in 1956.
 
@@ -12,7 +12,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S001](../sources/S001.md), [S023](../sources/S023.md)
 
-## A002 — overprecise withdraw
+## A002: overprecise withdraw
 
 **Earlier claim or implication:** Edakkal engravings date to around 6000 BCE.
 
@@ -20,7 +20,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S011](../sources/S011.md), [S012](../sources/S012.md)
 
-## A003 — not established
+## A003: not established
 
 **Earlier claim or implication:** Edakkal establishes people living there about 8000 years ago.
 
@@ -28,7 +28,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S011](../sources/S011.md), [S012](../sources/S012.md)
 
-## A004 — misleading ranking
+## A004: misleading ranking
 
 **Earlier claim or implication:** Edakkal is the oldest widely cited prehistoric evidence / an appropriate earliest-human start.
 
@@ -36,7 +36,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S009](../sources/S009.md), [S012](../sources/S012.md)
 
-## A005 — qualify
+## A005: qualify
 
 **Earlier claim or implication:** Edakkal is a cave in Wayanad.
 
@@ -44,7 +44,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S012](../sources/S012.md)
 
-## A006 — partly supported
+## A006: partly supported
 
 **Earlier claim or implication:** Its pictures depict humans, animals, symbols and everyday activities.
 
@@ -52,7 +52,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S012](../sources/S012.md)
 
-## A007 — qualify
+## A007: qualify
 
 **Earlier claim or implication:** The engravings belong to different periods.
 
@@ -60,7 +60,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S012](../sources/S012.md)
 
-## A008 — supported as research direction
+## A008: supported as research direction
 
 **Earlier claim or implication:** Earlier human activity than Edakkal is possible.
 
@@ -68,7 +68,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S009](../sources/S009.md)
 
-## A009 — supported with scope limit
+## A009: supported with scope limit
 
 **Earlier claim or implication:** Ashoka’s inscriptions provide a third-century BCE documentary anchor.
 
@@ -76,7 +76,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S014](../sources/S014.md)
 
-## A010 — overprecise withdraw
+## A010: overprecise withdraw
 
 **Earlier claim or implication:** Approximately 250 BCE is a firm starting point.
 
@@ -84,7 +84,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S014](../sources/S014.md)
 
-## A011 — critical edition pending
+## A011: critical edition pending
 
 **Earlier claim or implication:** Keralaputra / Kedalaputo are interchangeable exact transcriptions.
 
@@ -92,7 +92,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S014](../sources/S014.md), [S015](../sources/S015.md)
 
-## A012 — further epigraphic review
+## A012: further epigraphic review
 
 **Earlier claim or implication:** Keralaputras are generally associated with Cheras.
 
@@ -100,7 +100,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S014](../sources/S014.md), [S015](../sources/S015.md)
 
-## A013 — not claimed but guardrail
+## A013: not claimed but guardrail
 
 **Earlier claim or implication:** The Ashokan reference establishes Mauryan control of Kerala.
 
@@ -108,7 +108,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S014](../sources/S014.md), [S015](../sources/S015.md)
 
-## A014 — research agenda valid
+## A014: research agenda valid
 
 **Earlier claim or implication:** Sangam literature can be used to reconstruct early Chera history.
 
@@ -116,7 +116,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A015 — not established
+## A015: not established
 
 **Earlier claim or implication:** Sangam poems provide exact event dates or a single compositional date.
 
@@ -124,7 +124,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A016 — supported
+## A016: supported
 
 **Earlier claim or implication:** The Periplus is a first-century CE Greek-language trade account.
 
@@ -132,7 +132,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S016](../sources/S016.md)
 
-## A017 — primary passage inspected in translation
+## A017: primary passage inspected in translation
 
 **Earlier claim or implication:** Pliny gives relevant Kerala-coast evidence.
 
@@ -140,7 +140,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S046](../sources/S046.md)
 
-## A018 — partly verified
+## A018: partly verified
 
 **Earlier claim or implication:** Ptolemy’s work is relevant to the second-century record.
 
@@ -148,7 +148,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S041](../sources/S041.md), [S047](../sources/S047.md)
 
-## A019 — supported with limits
+## A019: supported with limits
 
 **Earlier claim or implication:** Greek/Roman trade evidence shows early maritime connections.
 
@@ -156,7 +156,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S016](../sources/S016.md), [S018](../sources/S018.md)
 
-## A020 — supported primary
+## A020: supported primary
 
 **Earlier claim or implication:** Kerala was formed on 1 November 1956.
 
@@ -164,7 +164,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S023](../sources/S023.md)
 
-## A021 — supported broadly
+## A021: supported broadly
 
 **Earlier claim or implication:** The modern physical landscape has developed over geological time.
 
@@ -172,7 +172,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S004](../sources/S004.md), [S005](../sources/S005.md), [S023](../sources/S023.md)
 
-## A022 — supported
+## A022: supported
 
 **Earlier claim or implication:** Earth formed approximately 4.54 billion years ago.
 
@@ -180,7 +180,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S001](../sources/S001.md)
 
-## A023 — supported but dates qualified
+## A023: supported but dates qualified
 
 **Earlier claim or implication:** Southern Kerala includes an ancient crystalline geological foundation.
 
@@ -188,7 +188,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S002](../sources/S002.md), [S003](../sources/S003.md)
 
-## A024 — not established
+## A024: not established
 
 **Earlier claim or implication:** The oldest rock beneath Kerala has a single already-established age.
 
@@ -196,7 +196,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S002](../sources/S002.md), [S003](../sources/S003.md), [S006](../sources/S006.md)
 
-## A025 — editorial only
+## A025: editorial only
 
 **Earlier claim or implication:** Part I can end and Part II begin at 250 million years ago.
 
@@ -204,7 +204,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A026 — supported at abstract level
+## A026: supported at abstract level
 
 **Earlier claim or implication:** Trivandrum Block research is relevant to Gondwana assembly.
 
@@ -212,7 +212,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S002](../sources/S002.md), [S003](../sources/S003.md)
 
-## A027 — not claimed but guardrail
+## A027: not claimed but guardrail
 
 **Earlier claim or implication:** Gondwana assembly and India’s later separations are the same episode.
 
@@ -220,7 +220,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S002](../sources/S002.md), [S004](../sources/S004.md)
 
-## A028 — supported at abstract level
+## A028: supported at abstract level
 
 **Earlier claim or implication:** The western margin is related to continental breakup and tectono-magmatic processes.
 
@@ -228,7 +228,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S004](../sources/S004.md)
 
-## A029 — not established
+## A029: not established
 
 **Earlier claim or implication:** India–Madagascar separation has been precisely dated in this chat.
 
@@ -236,7 +236,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A030 — supported methodological qualification
+## A030: supported methodological qualification
 
 **Earlier claim or implication:** The Western Ghats were not made in one instantaneous event.
 
@@ -244,7 +244,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S004](../sources/S004.md), [S005](../sources/S005.md)
 
-## A031 — supported at abstract level
+## A031: supported at abstract level
 
 **Earlier claim or implication:** Offshore basin sedimentation informs Western Ghats evolution.
 
@@ -252,7 +252,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S005](../sources/S005.md)
 
-## A032 — not established
+## A032: not established
 
 **Earlier claim or implication:** Present backwaters, estuaries and river mouths have a single known formation date.
 
@@ -260,7 +260,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A033 — plausible but local sequence pending
+## A033: plausible but local sequence pending
 
 **Earlier claim or implication:** Sea-level changes and sedimentation affected the coast.
 
@@ -268,7 +268,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A034 — research agenda only
+## A034: research agenda only
 
 **Earlier claim or implication:** Monsoon, biodiversity and forests can be narrated continuously from the geological start.
 
@@ -276,7 +276,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A035 — omission to repair
+## A035: omission to repair
 
 **Earlier claim or implication:** Palaeontology can be omitted from a complete land history.
 
@@ -284,7 +284,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S007](../sources/S007.md), [S008](../sources/S008.md)
 
-## A036 — qualify reported claim
+## A036: qualify reported claim
 
 **Earlier claim or implication:** Northern Kerala has been occupied since the Lower Palaeolithic.
 
@@ -292,7 +292,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S009](../sources/S009.md)
 
-## A037 — not established
+## A037: not established
 
 **Earlier claim or implication:** Early tool evidence dates the arrival of Homo sapiens specifically.
 
@@ -300,7 +300,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A038 — supported as source leads
+## A038: supported as source leads
 
 **Earlier claim or implication:** Thenmala and Ankode are relevant Mesolithic sites.
 
@@ -308,7 +308,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S010](../sources/S010.md)
 
-## A039 — not established
+## A039: not established
 
 **Earlier claim or implication:** The Mesolithic of Kerala is uniformly microlithic.
 
@@ -316,7 +316,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S010](../sources/S010.md)
 
-## A040 — incorrect method
+## A040: incorrect method
 
 **Earlier claim or implication:** A charcoal age of 5210 years ago can be converted directly to a BCE year.
 
@@ -324,7 +324,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S010](../sources/S010.md), [S025](../sources/S025.md)
 
-## A041 — not established
+## A041: not established
 
 **Earlier claim or implication:** Kerala’s Neolithic and farming transitions followed one fixed sequence.
 
@@ -332,7 +332,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A042 — not established
+## A042: not established
 
 **Earlier claim or implication:** A polished celt near Edakkal directly dates all the engravings.
 
@@ -340,7 +340,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S012](../sources/S012.md)
 
-## A043 — not established
+## A043: not established
 
 **Earlier claim or implication:** All megaliths belong to one ethnic people or one synchronous culture.
 
@@ -348,7 +348,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A044 — research agenda only
+## A044: research agenda only
 
 **Earlier claim or implication:** Iron, agriculture and social differentiation can be placed on one territory-wide timeline.
 
@@ -356,7 +356,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A045 — incorrect generalization
+## A045: incorrect generalization
 
 **Earlier claim or implication:** Pattanam’s chronology can stand in for all of Kerala.
 
@@ -364,7 +364,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S019](../sources/S019.md)
 
-## A046 — not established
+## A046: not established
 
 **Earlier claim or implication:** Pattanam is conclusively Muziris.
 
@@ -372,7 +372,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S017](../sources/S017.md), [S018](../sources/S018.md)
 
-## A047 — not established
+## A047: not established
 
 **Earlier claim or implication:** The earliest Cheras, later Cheras and Chera Perumals are one continuous proven chronology.
 
@@ -380,7 +380,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A048 — research agenda only
+## A048: research agenda only
 
 **Earlier claim or implication:** The post-early-Chera transition can be filled with a neat continuous political narrative.
 
@@ -388,7 +388,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A049 — not established
+## A049: not established
 
 **Earlier claim or implication:** Malayalam has an exact birth year.
 
@@ -396,7 +396,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A050 — not established
+## A050: not established
 
 **Earlier claim or implication:** The earliest Malayalam inscription or its date was established here.
 
@@ -404,7 +404,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S020](../sources/S020.md)
 
-## A051 — not established
+## A051: not established
 
 **Earlier claim or implication:** Religious-community founding narratives directly date historical arrivals.
 
@@ -412,7 +412,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A052 — not established
+## A052: not established
 
 **Earlier claim or implication:** Later caste and land relations existed unchanged in prehistory.
 
@@ -420,7 +420,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A053 — not established
+## A053: not established
 
 **Earlier claim or implication:** Medieval Kerala was a single unified kingdom.
 
@@ -428,7 +428,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A054 — not established
+## A054: not established
 
 **Earlier claim or implication:** Arab and Chinese connections have been exhaustively documented in this chat.
 
@@ -436,7 +436,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A055 — supported primary translation
+## A055: supported primary translation
 
 **Earlier claim or implication:** Vasco da Gama reached Calicut in 1498.
 
@@ -444,7 +444,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S022](../sources/S022.md), [S021](../sources/S021.md)
 
-## A056 — misleading framing
+## A056: misleading framing
 
 **Earlier claim or implication:** Portuguese arrival discovered a previously unknown trading coast.
 
@@ -452,7 +452,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S016](../sources/S016.md), [S022](../sources/S022.md)
 
-## A057 — not established
+## A057: not established
 
 **Earlier claim or implication:** The detailed chronology of Dutch, Mysorean and British involvement was verified.
 
@@ -460,7 +460,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A058 — not established
+## A058: not established
 
 **Earlier claim or implication:** British-administered Malabar and the princely states had identical arrangements.
 
@@ -468,7 +468,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A059 — not established
+## A059: not established
 
 **Earlier claim or implication:** Mappila uprisings, Vaikom, temple entry, labour and independence developments were all verified.
 
@@ -476,7 +476,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A060 — editorial only
+## A060: editorial only
 
 **Earlier claim or implication:** 1947–1956 describes every integration event sufficiently.
 
@@ -484,7 +484,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S023](../sources/S023.md)
 
-## A061 — incorrect if unqualified
+## A061: incorrect if unqualified
 
 **Earlier claim or implication:** All Travancore-Cochin entered the new state in 1956.
 
@@ -492,7 +492,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S023](../sources/S023.md)
 
-## A062 — incorrect if unqualified
+## A062: incorrect if unqualified
 
 **Earlier claim or implication:** All Malabar district entered the new state in 1956.
 
@@ -500,7 +500,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S023](../sources/S023.md)
 
-## A063 — omission to repair
+## A063: omission to repair
 
 **Earlier claim or implication:** Kasaragod’s inclusion can be ignored in the 1956 summary.
 
@@ -508,7 +508,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S023](../sources/S023.md)
 
-## A064 — incorrect
+## A064: incorrect
 
 **Earlier claim or implication:** Historical Travancore, Malabar and modern Kerala are interchangeable areas.
 
@@ -516,7 +516,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S023](../sources/S023.md), [S024](../sources/S024.md)
 
-## A065 — incorrect
+## A065: incorrect
 
 **Earlier claim or implication:** Mahe is part of the modern Kerala administrative scope.
 
@@ -524,7 +524,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S024](../sources/S024.md)
 
-## A066 — not established
+## A066: not established
 
 **Earlier claim or implication:** The 1956 Act fully defines a GIS boundary for today.
 
@@ -532,7 +532,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S023](../sources/S023.md)
 
-## A067 — not established
+## A067: not established
 
 **Earlier claim or implication:** Post-1956 politics, land reforms, health, migration and economic transformation are already fully verified.
 
@@ -540,7 +540,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A068 — not established
+## A068: not established
 
 **Earlier claim or implication:** Parasurama tradition is a dated physical explanation of coastal formation.
 
@@ -548,7 +548,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A069 — editorial correction
+## A069: editorial correction
 
 **Earlier claim or implication:** Ordinary people and environmental history should be separate optional add-ons.
 
@@ -556,7 +556,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A070 — incorrect impression
+## A070: incorrect impression
 
 **Earlier claim or implication:** The five previously linked resources were all full-text-verified.
 
@@ -564,7 +564,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S002](../sources/S002.md), [S004](../sources/S004.md), [S005](../sources/S005.md), [S009](../sources/S009.md), [S010](../sources/S010.md)
 
-## A071 — correction required
+## A071: correction required
 
 **Earlier claim or implication:** The earlier Trivandrum reference needs no corrections check.
 
@@ -572,7 +572,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S002](../sources/S002.md), [S003](../sources/S003.md)
 
-## A072 — incorrect
+## A072: incorrect
 
 **Earlier claim or implication:** A year embedded in a DOI is always the publication year.
 
@@ -580,7 +580,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S004](../sources/S004.md), [S005](../sources/S005.md)
 
-## A073 — incorrect
+## A073: incorrect
 
 **Earlier claim or implication:** Publisher online-hosting dates always date the original study.
 
@@ -588,7 +588,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S017](../sources/S017.md)
 
-## A074 — incorrect
+## A074: incorrect
 
 **Earlier claim or implication:** Abstracts, catalogues and full articles provide the same level of verification.
 
@@ -596,7 +596,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A075 — incorrect
+## A075: incorrect
 
 **Earlier claim or implication:** Every year after writing begins necessarily has a surviving year-specific record.
 
@@ -604,7 +604,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A076 — incorrect
+## A076: incorrect
 
 **Earlier claim or implication:** No entry in a year file means nothing happened that year.
 
@@ -612,7 +612,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A077 — incorrect
+## A077: incorrect
 
 **Earlier claim or implication:** All online public material is free to republish under the repo license.
 
@@ -620,7 +620,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S027](../sources/S027.md)
 
-## A078 — coverage claim not supported
+## A078: coverage claim not supported
 
 **Earlier claim or implication:** A finite search can establish exhaustive coverage of the whole changing web.
 
@@ -628,7 +628,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** No historical source claim; research task only.
 
-## A079 — incorrect
+## A079: incorrect
 
 **Earlier claim or implication:** Starting annual files at 300 BCE proves recorded history began in that year.
 
@@ -636,7 +636,7 @@ This register separates factual claims, misleading implications, omissions, and 
 
 **Evidence route:** [S014](../sources/S014.md)
 
-## A080 — not established
+## A080: not established
 
 **Earlier claim or implication:** The full project has been checked by independent historians or field specialists.
 
