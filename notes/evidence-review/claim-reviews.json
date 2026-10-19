@@ -48,7 +48,7 @@
       "creator": "Ajit Kumar",
       "edition": "XXV Valcamonica Symposium 2013 papers, pp. 337–342 (PDF hosted by Centro Camuno di Studi Preistorici)",
       "url": "https://www.ccsp.it/web/SITOVCS2013/programma%20e%20pdf%20vari/PDF%20x%20sito%20web/Kumar.pdf",
-      "locator": "Section 'Date of the engravings' and closing paragraph, p. 340",
+      "locator": "The Edakkal rock shelter, first paragraph, p. 337 (1894 attribution, rechecked 2026-10-19 in PDF text layer); section Date of the engravings and closing paragraph, p. 340 (earlier pass)",
       "inspected_depth": "full_text",
       "rights": "Copyright not stated in the PDF; link and original summary only."
     },
@@ -338,6 +338,12 @@
       "url": "https://commons.wikimedia.org/wiki/File:The_Indian_Antiquary_Vol_30.pdf",
       "for": "NEW-SRC-01 alternate scan",
       "result": "File metadata and index located; original PDF retrieval returned HTTP 429. Index points printed pp.409–412 to PDF pages 431, 432, 435, 436; text/image inspection not achieved",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://www.ccsp.it/web/SITOVCS2013/programma%20e%20pdf%20vari/PDF%20x%20sito%20web/Kumar.pdf",
+      "for": "NEW-SRC-02 / integrated S044",
+      "result": "PDF text layer printed p.337, section The Edakkal rock shelter, first paragraph: attributes discovery to Fawcett in 1894 and cites Fawcett 1901; page image not checked. Targeted locator verification only.",
       "date": "2026-10-19"
     }
   ],

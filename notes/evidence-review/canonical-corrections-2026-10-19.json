@@ -186,7 +186,7 @@
       "target_id": "S023",
       "field": "inspection",
       "old": "selected_sections_and_images",
-      "new": "selected_sections",
+      "new": "relevant_passages",
       "basis": "PDF text-layer inspection, no fresh image review claim"
     },
     {
