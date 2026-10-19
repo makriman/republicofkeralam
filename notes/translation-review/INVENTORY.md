@@ -59,7 +59,7 @@ Generated pages must not be edited directly. Their prose comes from canonical da
 
 ## 3. Prose supplied by canonical data
 
-Keys, IDs, enums, URLs, DOIs, locators and dates stay untranslated. Source titles stay in their original form.
+Keys, IDs, enums, URLs, DOIs, locators and structured dates stay untranslated. Prose date.calendar descriptions are counted as translatable text. Source titles stay in their original form.
 
 | File | Field | Records | Strings | Words | Batch |
 |---|---|---:|---:|---:|---|
@@ -73,6 +73,7 @@ Keys, IDs, enums, URLs, DOIs, locators and dates stay untranslated. Source title
 | `data/records.json` | `claim` | 31 | 31 | 583 | 2 |
 | `data/records.json` | `caveat` | 31 | 31 | 534 | 2 |
 | `data/records.json` | `date.original_expression` | 31 | 31 | 138 | 2 |
+| `data/records.json` | `date.calendar` | 31 | 23 | 151 | 2 |
 | `data/records.json` | `date.datum` | 31 | 2 | 14 | 2 |
 | `data/records.json` | `authoring` | 31 | 31 | 279 | 2 |
 | `data/records.json` | `rights` | 31 | 31 | 279 | 2 |

@@ -27223,6 +27223,14 @@
   },
   {
    "path": "data/records.json",
+   "field": "date.calendar",
+   "records": 31,
+   "strings": 23,
+   "words": 151,
+   "batch": 2
+  },
+  {
+   "path": "data/records.json",
    "field": "date.datum",
    "records": 31,
    "strings": 2,
